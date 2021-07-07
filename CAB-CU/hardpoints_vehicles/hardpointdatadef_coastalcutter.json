@@ -1,0 +1,64 @@
+{
+  "ID": "hardpointdatadef_coastalcutter",
+  "IsVehicleStyleLocations": false,
+  "CustomHardpoints": {
+    "prefabs": [
+      {"prefab": "costalcutter_flack_barrel_left", "attachType": "Turret", "attachOverride":"LeftTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "costalcutter_flack_barrel_right", "attachType": "Turret", "attachOverride":"RightTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      { "name": "coastalcutter_turret_ac20_1_head", "prefab": "coastalcutter_turret_ac20_1", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      { "name": "coastalcutter_turret_ac20_2_head", "prefab": "coastalcutter_turret_ac20_2", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      { "name": "coastalcutter_turret_ac20_1_rt", "prefab": "coastalcutter_turret_ac20_1", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      { "name": "coastalcutter_turret_ac20_1_lt","prefab": "coastalcutter_turret_ac20_2", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] }
+    ],
+    "aliases": {
+      "chrPrfWeap_coastalcutter_leftleg_ac2_bh1": { "location": "leftleg", "prefab": "costalcutter_flack_barrel_left" },
+      "chrPrfWeap_coastalcutter_rightleg_ac2_bh1": { "location": "rightleg", "prefab": "costalcutter_flack_barrel_right" },
+      "chrPrfWeap_coastalcutter_head_ac20_bh1": { "location": "head", "prefab": "coastalcutter_turret_ac20_1_head" },
+      "chrPrfWeap_coastalcutter_head_ac20_bh2": { "location": "head", "prefab": "coastalcutter_turret_ac20_2_head" },
+      "chrPrfWeap_coastalcutter_rightarm_ppc_eh1": { "location": "rightarm", "prefab": "coastalcutter_turret_ac20_1_rt" },
+      "chrPrfWeap_coastalcutter_leftarm_ppc_eh1": { "location": "leftarm", "prefab": "coastalcutter_turret_ac20_2_lt" }
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "head",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftleg",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightleg",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

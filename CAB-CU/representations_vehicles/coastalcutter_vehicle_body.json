@@ -1,0 +1,62 @@
+{
+  "Id": "coastalcutter_vehicle_body",
+  "PrefabBase":"coastalcutter",
+  "SourcePrefabIdentifier":"chrPrfMech_battlemasterBase-001",
+  "SourcePrefabBase":"battlemaster",
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+  "BlipSource":"chrPrfVhcl_striker",
+  "ApplyType": "MoveBone",
+  "SupressAllMeshes": true,
+  "Animators": [ "sensors", "j_Body" ],
+  "TwistAnimators": [ "coastal_cutter_flak_turret_right","coastal_cutter_flak_turret_left","coastal_cutter_main_turret" ],
+  "CustomDestruction": {
+    "SuppressCombinedMesh":true,
+    "SuppressWeaponRepresentations":true,
+    "SetupCustomDestructables":[
+      {
+        "Name": "destroyed_parts",
+        "wholeObj":"",
+        "destroyedObj":"destroyed_parts"
+      }
+    ],
+    "DestroyCollapseDestructables":[ "destroyed_parts" ]
+  },
+  "vfxCenterTorsoTransform":"vfxCenterTorsoTransform",
+  "vfxLeftTorsoTransform":"vfxLeftTorsoTransform",
+  "vfxRightTorsoTransform":"vfxRightTorsoTransform",
+  "vfxHeadTransform":"vfxHeadTransform",
+  "vfxLeftArmTransform":"vfxLeftArmTransform",
+  "vfxRightArmTransform":"vfxRightArmTransform",
+  "vfxLeftLegTransform":"vfxLeftLegTransform",
+  "vfxRightLegTransform":"vfxRightLegTransform",
+  "vfxLeftShoulderTransform":"vfxLeftShoulderTransform",
+  "vfxRightShoulderTransform":"vfxRightShoulderTransform",
+  "TorsoAttach":"main_turret_attach",
+  "HeadLights": [ "headlight1","headlight2","headlight3","headlight4" ],
+  "WeaponAttachPoints": [ 
+    {
+      "Name":"MainTurret",
+      "visuals": "coastalcutter_main_turret",
+      "attach": "main_turret_attach",
+      "hideIfEmpty": true,
+      "type": "Turret",
+      "Animators": { "cutter_main_turret_barrels":1 }
+    },
+    {
+      "Name":"LeftTurret",
+      "visuals": "coastalcutter_flak_turret_l",
+      "attach": "flack_turret_left_attach",
+      "hideIfEmpty": true,
+      "type": "Turret",
+      "Animators": { "cutter_flak_turret_left":1 }
+    },
+    {
+      "Name":"RightTurret",
+      "visuals": "coastalcutter_flak_turret_r",
+      "attach": "flack_turret_right_attach",
+      "type": "Turret",
+      "hideIfEmpty": true,
+      "Animators": { "cutter_flak_turret_right":1 }
+    }
+  ]
+}

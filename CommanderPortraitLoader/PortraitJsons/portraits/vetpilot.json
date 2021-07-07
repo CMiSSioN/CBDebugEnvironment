@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "vetpilot",
+        "Name" : "vetpilot",
+        "Details" : "Random",
+        "Icon" : "vetpilot"
+    },
+    "ID" : "vetpilot",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 3,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 4,
+    "complexionTex" : 0,
+    "eyebrowTex" : 0,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        24.20189,
+        48.37321,
+        25.83074,
+        1.486869,
+        0.06435744,
+        0.04292405
+    ],
+    "browOffsetY" : -0.006065601,
+    "browOffsetZ" : 0.0005925127,
+    "noseBridgeScale" : -0.03314641,
+    "noseTipScale" : -0.1835022,
+    "chinScale" : -0.02124074,
+    "cheekOffsetY" : 0.004396657,
+    "eyeWidth" : -0.01673442,
+    "jawWidth" : -0.01448702,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_09",
+    "hairTipId" : "Hair_09",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

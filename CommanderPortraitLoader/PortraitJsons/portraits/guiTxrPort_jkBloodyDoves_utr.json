@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_jkBloodyDoves_utr",
+        "Name" : "guiTxrPort_jkBloodyDoves_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_jkBloodyDoves_utr"
+    },
+    "ID" : "guiTxrPort_jkBloodyDoves_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 14,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 2,
+    "lightRig" : 4,
+    "cameraPosition" : 3,
+    "complexionTex" : 0,
+    "eyebrowTex" : 4,
+    "tattooTex" : 1,
+    "actualTattooTex" : 0,
+    "weights" : [
+        27.16726,
+        1.178607,
+        46.16024,
+        0.7980631,
+        24.28008,
+        0.4157531
+    ],
+    "browOffsetY" : 0.004514603,
+    "browOffsetZ" : -0.006455887,
+    "noseBridgeScale" : 0.1630666,
+    "noseTipScale" : 0.1395514,
+    "chinScale" : -0.1728142,
+    "cheekOffsetY" : -0.004931834,
+    "eyeWidth" : -0.0123439,
+    "jawWidth" : 0.01779078,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

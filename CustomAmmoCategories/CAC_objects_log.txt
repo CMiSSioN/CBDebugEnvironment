@@ -1,0 +1,238 @@
+object:WeaponEffect-Weapon_AC2_Ultra(Clone)
+components(2)
+ WeaponEffect-Weapon_AC2_Ultra(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC2_Ultra(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_LaserER_Small(Clone)
+components(2)
+ WeaponEffect-Weapon_LaserER_Small(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_LaserER_Small(Clone):LaserEffect
+childs(0)
+object:WeaponEffect-Weapon_LaserER_Small(Clone)
+components(2)
+ WeaponEffect-Weapon_LaserER_Small(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_LaserER_Small(Clone):LaserEffect
+childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_AC20_Single(Clone)
+components(2)
+ WeaponEffect-Weapon_AC20_Single(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC20_Single(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_PPC(Clone)
+components(2)
+ WeaponEffect-Weapon_PPC(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_PPC(Clone):PPCEffect
+childs(0)
+object:WeaponEffect-Weapon_AC2(Clone)
+components(2)
+ WeaponEffect-Weapon_AC2(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC2(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_AC20_Single(Clone)
+components(2)
+ WeaponEffect-Weapon_AC20_Single(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC20_Single(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_PPC(Clone)
+components(2)
+ WeaponEffect-Weapon_PPC(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_PPC(Clone):PPCEffect
+childs(0)
+object:WeaponEffect-Weapon_AC2(Clone)
+components(2)
+ WeaponEffect-Weapon_AC2(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC2(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_AC2_Ultra(Clone)
+components(2)
+ WeaponEffect-Weapon_AC2_Ultra(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC2_Ultra(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_LaserER_Small(Clone)
+components(2)
+ WeaponEffect-Weapon_LaserER_Small(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_LaserER_Small(Clone):LaserEffect
+childs(0)
+object:WeaponEffect-Weapon_LaserER_Small(Clone)
+components(2)
+ WeaponEffect-Weapon_LaserER_Small(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_LaserER_Small(Clone):LaserEffect
+childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_AC20_Single(Clone)
+components(2)
+ WeaponEffect-Weapon_AC20_Single(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC20_Single(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_PPC(Clone)
+components(2)
+ WeaponEffect-Weapon_PPC(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_PPC(Clone):PPCEffect
+childs(0)
+object:WeaponEffect-Weapon_AC2(Clone)
+components(2)
+ WeaponEffect-Weapon_AC2(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC2(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_AC20_Single(Clone)
+components(2)
+ WeaponEffect-Weapon_AC20_Single(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC20_Single(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_PPC(Clone)
+components(2)
+ WeaponEffect-Weapon_PPC(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_PPC(Clone):PPCEffect
+childs(0)
+object:WeaponEffect-Weapon_AC2(Clone)
+components(2)
+ WeaponEffect-Weapon_AC2(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_AC2(Clone):BallisticEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)
+object:WeaponEffect-Weapon_MeleeAttack(Clone)
+components(2)
+ WeaponEffect-Weapon_MeleeAttack(Clone):UnityEngine.Transform
+ WeaponEffect-Weapon_MeleeAttack(Clone):MeleeEffect
+childs(1)
+ object:DummyProjectile
+ components(1)
+  DummyProjectile:UnityEngine.Transform
+ childs(0)

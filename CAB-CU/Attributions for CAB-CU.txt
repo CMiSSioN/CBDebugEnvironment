@@ -1,0 +1,25 @@
+Attributions for CAB-CU
+
+This document will detail the various contributors to this collection of community assets for BattleTech by Harebrained Schemes. Each asset will have its listed author (the person or organization that made the model) and the license under which that author releases their model.
+
+JuodasVarnas
+License: 
+Creative Commons, Non-commercial
+
+Models:
+Goliath Body
+
+Ion Raptor
+License: 
+Creative Commons, Non-commercial
+
+Models:
+Barghest Body
+
+KMISSION
+License
+Creative Commons, Non-commercial
+
+Models:
+Quad Turret
+Quad Misc

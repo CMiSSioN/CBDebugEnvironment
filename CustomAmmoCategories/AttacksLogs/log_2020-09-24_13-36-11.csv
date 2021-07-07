@@ -1,0 +1,18 @@
+attacker;weapon;ammo;mode;target;hit index;is applied;location;called shot location;hit roll;corrected roll;hit chance;damage;ap damage;heat;stability;is intecepted;intecepted by;is AoE;is frag separated;is frag pallet;frags pallets count;
+Centurion;AC/10;Norm.;B;Panther;0;False;(65536)Ground;(0)None;0.9386854;0.9154629;0.7;60;0;0;20;False;none;False;False;False;0;
+Centurion;M Laser;;B;Panther;0;False;(65536)Ground;(0)None;0.7745552;0.7271093;0.7;25;0;0;0;False;none;False;False;False;0;
+Centurion;M Laser;;B;Panther;0;True;(16)RightTorso;(0)None;0.411784;0.433135;0.7;20;0;0;0;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;0;False;(65536)Ground;(0)None;0.5765395;0.5578638;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;1;False;(65536)Ground;(0)None;0.3322588;0.3693611;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;2;False;(65536)Ground;(0)None;0.8428881;0.7984477;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;3;False;(65536)Ground;(0)None;0.5201443;0.5151166;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;4;False;(65536)Ground;(0)None;0.9393899;0.9164085;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;5;False;(65536)Ground;(0)None;0.4364252;0.4520558;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;6;True;(8)CenterTorso;(0)None;0.005103832;0.004707742;0.275;3.2;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;7;False;(65536)Ground;(0)None;0.6237202;0.5947294;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;8;False;(65536)Ground;(0)None;0.8224078;0.7761234;0.275;4;0;0;2;False;none;False;False;False;0;
+Centurion;LRM10;LRM;B;Panther;9;False;(65536)Ground;(0)None;0.8655771;0.8242136;0.275;4;0;0;2;False;none;False;False;False;0;
+CRITICALS
+attacker;weapon;ammo;mode;target;location id;location;struct id;struct;armor on hitstructure in hitcrit chance;component;
+Centurion;M Laser;;B;Panther;16;RightTorso;0;none;5;40;0.1;none;
+Centurion;LRM10;LRM;B;Panther;8;CenterTorso;0;none;0;43.6;0.56;none;

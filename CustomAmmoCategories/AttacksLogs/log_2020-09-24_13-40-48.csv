@@ -1,0 +1,13 @@
+attacker;weapon;ammo;mode;target;hit index;is applied;location;called shot location;hit roll;corrected roll;hit chance;damage;ap damage;heat;stability;is intecepted;intecepted by;is AoE;is frag separated;is frag pallet;frags pallets count;
+Striker;LRM10;LRM;B;Jenner;0;True;(64)LeftLeg;(0)None;0.03082403;0.04236148;0.07499999;9.8;0;0;1;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;1;False;(65536)Ground;(0)None;0.4697568;0.4772893;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;2;False;(65536)Ground;(0)None;0.6577798;0.622357;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;3;False;(65536)Ground;(0)None;0.08582304;0.1166131;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;4;False;(65536)Ground;(0)None;0.8559514;0.8131455;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;5;False;(65536)Ground;(0)None;0.6735817;0.6355419;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;6;False;(65536)Ground;(0)None;0.7128744;0.6695338;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;7;False;(65536)Ground;(0)None;0.3132728;0.3532877;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;8;False;(65536)Ground;(0)None;0.571308;0.5538523;0.07499999;7;0;0;2;False;none;False;False;False;0;
+Striker;LRM10;LRM;B;Jenner;9;False;(65536)Ground;(0)None;0.6066771;0.581251;0.07499999;7;0;0;2;False;none;False;False;False;0;
+CRITICALS
+attacker;weapon;ammo;mode;target;location id;location;struct id;struct;armor on hitstructure in hitcrit chance;component;

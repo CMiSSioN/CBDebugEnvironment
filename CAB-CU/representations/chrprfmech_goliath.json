@@ -1,0 +1,106 @@
+{
+  "Id": "chrprfmech_goliath",
+  "PrefabBase":"goliath",
+  "SourcePrefabIdentifier":"chrPrfMech_atlasBase-001",
+  "SourcePrefabBase":"atlas",
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+  "ApplyType": "None",
+  "SupressAllMeshes": false,
+	"quadVisualInfo": {
+		"UseQuadVisuals": true,
+		"FLegsPrefab": "chrPrfMech_atlasBase-001",
+		"BodyLength": 5.2,
+		"FLegsPrefabBase": "atlas",
+		"BodyPrefab": "jgoliathbody",
+		"BodyShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+		"NotSuppressRenderers": [ "_left_leg_", "_right_leg_" ],
+		"Destructables": {
+			"Head": {
+				"Name": "head_destructable",
+				"wholeObj": "head",
+				"destroyedObj": "head_damaged"
+			},
+			"LeftTorso": {
+				"Name": "left_torso_destructable",
+				"wholeObj": "left_torso",
+				"destroyedObj": "left_torso_damaged"
+			},
+			"RightTorso": {
+				"Name": "right_torso_destructable",
+				"wholeObj": "",
+				"destroyedObj": "destroyed_parts"
+			},
+			"CenterTorso": {
+				"Name": "centre_torso_destructable",
+				"wholeObj": "centre_torso",
+				"destroyedObj": "centre_torso_damaged"
+			}
+		},
+		"JumpJets": [ "jumpjet_rear", "jumpjet_front", "jumpjet_left", "jumpjet_right" ],
+		"HeadLights": [ "headlight_left", "headlight_right" ],
+		"WeaponsAttachPoints": [
+			{
+				"Name": "TAPMainCenter",
+				"visuals": "AttachPointVisualsC",
+				"Animators": { "WeaponMountC": 1 },
+				"attach": "WeaponAttachC",
+				"location": "CenterTorso",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name": "TAPMainLeft",
+				"visuals": "AttachPointVisualsL",
+				"Animators": { "WeaponMountL": 1 },
+				"attach": "WeaponAttachL",
+				"location": "LeftTorso",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name": "TAPMainRight",
+				"visuals": "AttachPointVisualsR",
+				"Animators": { "WeaponMountR": 1 },
+				"attach": "WeaponAttachR",
+				"location": "RightTorso",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name": "TAPTurretHead",
+				"visuals": "AttachPointVisualsH",
+				"Animators": { "WeaponMountH": 1 },
+				"attach": "WeaponAttachH",
+				"location": "Head",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name": "TAPLeftCenter",
+				"visuals": "AttachPointVisualsCL",
+				"Animators": { "WeaponMountCL": 1 },
+				"attach": "WeaponAttachCL",
+				"location": "LeftArm",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name": "TAPRightCenter",
+				"visuals": "AttachPointVisualsCR",
+				"Animators": { "WeaponMountCR": 1 },
+				"attach": "WeaponAttachCR",
+				"location": "RightArm",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			}
+		],
+		"Animators": [],
+		"TwistAnimators": [ "turret_anim" ]
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"Id": "chrprfmech_strix_vtol",
+	"PrefabBase": "strix",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "j_Body","LB","LF","RB","RF" ],
+	"TwistAnimators": [ "j_Body" ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "strix_destructable",
+			"wholeObj": "strix_whole",
+			"destroyedObj": "strix_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "turret_hardpoint",
+		"Left": "bodyAttach",
+		"Right": "bodyAttach",
+		"Front": "front_hardpoint",
+		"Rear": "front_hardpoint"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+		"light1",
+		"light2"
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "MainRails",
+			"visuals": "rail_visuals",
+			"attach": "front_hardpoint",
+			"hideIfEmpty": false,
+			"type": "Turret",
+			"Animators": { "normal_h": 1 }
+		},
+		{
+			"Name": "LightTurret",
+			"visuals": "front_turret_visuals",
+			"attach": "turret_hardpoint",
+			"hideIfEmpty": true,
+			"type": "Turret",
+			"Animators": { "normal_h": 1 }
+		},
+		{
+			"Name": "BodyAttach",
+			"visuals": "strix_whole",
+			"attach": "bodyAttach",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": { }
+		}
+	],
+	"Particles":[
+		{ "object_name":"jet stream_LB1", "location": "None" },
+		{ "object_name":"jet stream_LB2", "location": "None" },
+		{ "object_name":"jet stream_RB1", "location": "None" },
+		{ "object_name":"jet stream_RB2", "location": "None" },
+		{ "object_name":"jet stream_LF", "location": "None" },
+		{ "object_name":"jet stream_RF", "location": "None" }
+	]
+}

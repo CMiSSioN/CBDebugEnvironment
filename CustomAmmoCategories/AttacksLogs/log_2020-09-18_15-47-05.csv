@@ -1,0 +1,23 @@
+attacker;weapon;ammo;mode;target;hit index;is applied;location;called shot location;hit roll;corrected roll;hit chance;damage;ap damage;heat;stability;is intecepted;intecepted by;is AoE;is frag separated;is frag pallet;frags pallets count;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;0;False;(65536)Ground;(0)None;0.5468303;0.5352279;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;1;False;(65536)Ground;(0)None;0.009299884;0.0109852;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;2;False;(65536)Ground;(0)None;0.6068135;0.5813581;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;3;False;(65536)Ground;(0)None;0.7634902;0.71635;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;4;False;(65536)Ground;(0)None;0.1453122;0.1882923;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;5;False;(65536)Ground;(0)None;0.2750683;0.3196478;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;6;False;(65536)Ground;(0)None;0.2941386;0.3366704;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;7;False;(65536)Ground;(0)None;0.823582;0.7773804;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;8;False;(65536)Ground;(0)None;0.9741116;0.9647131;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;9;False;(65536)Ground;(0)None;0.6047672;0.5797529;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;10;False;(65536)Ground;(0)None;0.1160758;0.1541092;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;11;False;(65536)Ground;(0)None;0.6186189;0.5906733;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;12;False;(65536)Ground;(0)None;0.8032227;0.7559657;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;13;False;(65536)Ground;(0)None;0.6491151;0.6152316;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;14;False;(65536)Ground;(0)None;0.2556133;0.3017637;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;15;False;(65536)Ground;(0)None;0.8194785;0.7729995;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;16;False;(65536)Ground;(0)None;0.2684669;0.3136403;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;17;False;(65536)Ground;(0)None;0.1624129;0.2074131;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;18;False;(65536)Ground;(0)None;0.2427165;0.2895978;0.2;4;0;0;2;False;none;False;False;False;0;
+KingCrab-A - Copy;LRM20;Thunder;B;KingCrab-A - Copy;19;False;(65536)Ground;(0)None;0.758639;0.711696;0.2;4;0;0;2;False;none;False;False;False;0;
+CRITICALS
+attacker;weapon;ammo;mode;target;location id;location;struct id;struct;armor on hitstructure in hitcrit chance;component;

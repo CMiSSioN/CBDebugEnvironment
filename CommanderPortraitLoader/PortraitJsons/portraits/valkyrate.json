@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "valkyrate",
+        "Name" : "valkyrate",
+        "Details" : "Random",
+        "Icon" : "valkyrate"
+    },
+    "ID" : "valkyrate",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 6,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 1,
+    "complexionTex" : 2,
+    "eyebrowTex" : 5,
+    "tattooTex" : 0,
+    "actualTattooTex" : 0,
+    "weights" : [
+        60.20067,
+        6.693294,
+        8.260365,
+        0.8427283,
+        0.2146944,
+        23.78826
+    ],
+    "browOffsetY" : 0.004628836,
+    "browOffsetZ" : -0.0009727117,
+    "noseBridgeScale" : -0.01247752,
+    "noseTipScale" : 0.2388211,
+    "chinScale" : 0.1535731,
+    "cheekOffsetY" : -0.004085852,
+    "eyeWidth" : 0.01189904,
+    "jawWidth" : -0.08407938,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

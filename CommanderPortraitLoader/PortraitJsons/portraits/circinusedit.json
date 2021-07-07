@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "circinusedit",
+        "Name" : "circinusedit",
+        "Details" : "Random",
+        "Icon" : "circinusedit"
+    },
+    "ID" : "circinusedit",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 4,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 4,
+    "actualTattooTex" : 16,
+    "weights" : [
+        31.71729,
+        35.29707,
+        2.83499,
+        1.484447,
+        28.50212,
+        0.1640778
+    ],
+    "browOffsetY" : -0.002684799,
+    "browOffsetZ" : -0.005208846,
+    "noseBridgeScale" : 0.05951003,
+    "noseTipScale" : -0.1101996,
+    "chinScale" : -0.03334477,
+    "cheekOffsetY" : 0.003412933,
+    "eyeWidth" : -0.004836351,
+    "jawWidth" : 0.06399477,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

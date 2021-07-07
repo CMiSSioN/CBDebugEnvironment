@@ -1,0 +1,86 @@
+{
+    "Name": "LowVisibility",
+    "Enabled": true,
+    "Hidden": true,
+    "Version": "0.7.5",
+    "Description": "Implements double-blind semantics and more complex electronic warfare",
+    "Author": "IceRaptor",
+    "Website": "https://github.com/IceRaptor/LowVisibility",
+    "Contact": "",
+    "DLL": "LowVisibility.dll",
+    "DLLEntryPoint": "LowVisibility.Mod.Init",
+    "DependsOn": [
+        "IRBTModUtils",
+        "CustomActivatableEquipment"
+    ],
+    "CustomResourceTypes": [],
+    "Manifest": [],
+    "Settings": {
+        "Debug": true,
+        "Trace": true,
+        "Icons": {
+            "ElectronicWarfare": "ECMGear",
+            "SensorsDisabled": "lv_sight-disabled",
+            "VisionAndSensors": "lv_cyber-eye",
+            "TargetSensorsMark": "lv_radar-sweep",
+            "TargetVisualsMark": "lv_brass-eye",
+            "TargetTaggedMark": "lv_target-laser",
+            "TargetNarcedMark": "lv_radio-tower",
+            "TargetStealthMark": "lv_robber-mask",
+            "TargetMimeticMark": "lv_static",
+            "TargetECMShieldedMark": "lv_eye-shield",
+            "TargetActiveProbePingedMark": "lv_eye-target",
+            "MarkColorPlayerPositive": [
+                1.0,
+                0.0,
+                0.062,
+                1.0
+            ],
+            "MarkColorPlayerNegative": [
+                0.0,
+                0.901,
+                0.098,
+                1.0
+            ]
+        },
+        "Toggles": {
+            "LogEffectsOnMove": false,
+            "ShowNightVision": true,
+            "MimeticUsesGhost": true
+        },
+        "Sensors": {
+            "MechTypeRange": 16,
+            "VehicleTypeRange": 14,
+            "TurretTypeRange": 20,
+            "UnknownTypeRange": 12,
+            "MinimumRangeHexes": 5,
+            "SensorsOfflineAtSpawn": true,
+            "MaxECMDetailsPenalty": -11
+        },
+        "Vision": {
+            "BaseRangeBright": 40,
+            "BaseRangeDim": 20,
+            "BaseRangeDark": 7,
+            "RangeMultiRainSnow": 0.7,
+            "RangeMultiLightFog": 0.8,
+            "RangeMultiHeavyFog": 0.6,
+            "MinimumRangeHexes": 3,
+            "ScanRangeHexes": 3
+        },
+        "FogOfWar": {
+            "RedrawFogOfWarOnActivation": true,
+            "ShowTerrainThroughFogOfWar": true
+        },
+        "Probability": {
+            "Sigma": 3,
+            "Mu": 0
+        },
+        "Attack": {
+            "NoSensorsPenalty": 5,
+            "NoVisualsPenalty": 5,
+            "FiringBlindPenalty": 12,
+            "ShieldedMulti": 0.6,
+            "JammedMulti": 0.8
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+	"Id": "chrprfmech_yellowjacket_vtol",
+	"PrefabBase": "yellowjacket",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "helicopter_start",
+	"persistentAudioStop": "helicopter_end",
+	"Animators": [
+		"rotor",
+		"j_Body"
+	],
+	"TwistAnimators": [
+		"j_Body"
+	],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "body_destructable",
+			"wholeObj": "yellowjacket_body_whole",
+			"destroyedObj": "yellowjacket_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [
+		"normal_h"
+	],
+	"Attaches": {
+		"Turret": "turret_hardpoint",
+		"Left": "bodyAttach",
+		"Right": "bodyAttach",
+		"Front": "front_hardpoint",
+		"Rear": "front_hardpoint"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+		"light1",
+		"light2"
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "MainRails",
+			"visuals": "rail_visuals",
+			"attach": "front_hardpoint",
+			"hideIfEmpty": true,
+			"type": "Turret",
+			"Animators": {
+				"front_rails": 1
+			}
+		},
+		{
+			"Name": "LightTurret",
+			"visuals": "turret_visuals",
+			"attach": "turret_hardpoint",
+			"hideIfEmpty": true,
+			"type": "Turret",
+			"Animators": {
+				"front_turret_stationary": 1
+			}
+		},
+		{
+			"Name": "BodyAttach",
+			"visuals": "body_whole",
+			"attach": "bodyAttach",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": {}
+		},
+		{
+			"Name": "LeftAttach",
+			"visuals": "left_turret_visuals",
+			"attach": "left_side_hardpoint",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": {
+				"left_stationary": 1
+			}
+		},
+		{
+			"Name": "RightAttach",
+			"visuals": "right_turret_visuals",
+			"attach": "right_side_hardpoint",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": {
+				"right_stationary": 1
+			}
+		}
+	]
+}

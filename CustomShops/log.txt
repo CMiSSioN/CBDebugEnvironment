@@ -1,0 +1,72 @@
+CustomShops [LOG] =========================================================
+CustomShops [LOG] Loaded CustomShops v0.3.1 for bt 1.9
+CustomShops [LOG] =========================================================
+CustomShops [DEBUG] done
+CustomShops [DEBUG] {
+    "LogLevel" : "Debug",
+    "AddLogPrefix" : false,
+    "DebugType" : "ShopInterface, SaveLoad, RefreshShop, TabSwitch, ShopActions",
+    "DEBUG_FactionShopAlwaysAvaliable" : false,
+    "DEBUG_BlackMarketAlwaysAvaliable" : false,
+    "SystemShop" : false,
+    "FactionShop" : false,
+    "BlackMarketShop" : false,
+    "BuyBackShop" : true,
+    "AllowMultiSell" : true,
+    "AllowMultiBuy" : true,
+    "SystemShopPriority" : 100,
+    "FactionShopPriority" : 400,
+    "BlackMarketPriority" : 700,
+    "BuyBackShopPriority" : 999,
+    "ShowConfirm" : true,
+    "ConfirmLowLimit" : 100000,
+    "FactionShopAdjustment" : -0.25,
+    "CheckFakeVehicle" : true,
+    "FakeVehicleTag" : "fake_vehicle_chassis"
+}
+CustomShops [LOG] Shop [BuyBack] registred
+CustomShops [DEBUG] Loading Shops
+CustomShops [DEBUG] - BuyBack
+CustomShops [ERROR] Error finding ShopBuyBack Create new
+CustomShops [DEBUG] -- total 0 items
+CustomShops [DEBUG] Enter Shop Screen
+CustomShops [DEBUG] - First Time enter. Start to setup
+CustomShops [DEBUG] -- Create buttons
+CustomShops [DEBUG] --- BuyBack
+CustomShops [DEBUG] -- Hide original buttons
+CustomShops [DEBUG] -- Setup radio set
+CustomShops [DEBUG] -- Replace Buy/Sell buttons
+CustomShops [DEBUG] -- done!
+CustomShops [DEBUG] - SetupButtons
+CustomShops [DEBUG] -- [BuyBack]
+CustomShops [DEBUG] --- Exists:True CanUse:True
+CustomShops [DEBUG] --- txt image - customshops_cbill - request
+CustomShops [DEBUG] Pressed BuyBack
+CustomShops [DEBUG] - fill shop
+CustomShops [DEBUG] -- IDefaultShop
+CustomShops [DEBUG] - fill data
+CustomShops [DEBUG] -- FillInWidget
+CustomShops [DEBUG] --- request panel image id:uixTxrSpot_Store
+CustomShops [DEBUG] Pressed BuyBack
+CustomShops [DEBUG] - fill shop
+CustomShops [DEBUG] -- IDefaultShop
+CustomShops [DEBUG] - fill data
+CustomShops [DEBUG] -- FillInWidget
+CustomShops [DEBUG] --- request panel image id:uixTxrSpot_Store
+CustomShops [DEBUG] Received panel image
+CustomShops [DEBUG] - set
+CustomShops [DEBUG] Received panel image
+CustomShops [DEBUG] - set
+CustomShops [DEBUG] --- button image customshops_cbill received 
+CustomShops [DEBUG] --- set icon color to  r0.00 g1.00 b0.00
+CustomShops [DEBUG] --- set
+CustomShops [DEBUG] Switch To Sell
+CustomShops [DEBUG] Switch To Buy
+CustomShops [DEBUG] Pressed BuyBack
+CustomShops [DEBUG] - fill shop
+CustomShops [DEBUG] -- IDefaultShop
+CustomShops [DEBUG] - fill data
+CustomShops [DEBUG] -- FillInWidget
+CustomShops [DEBUG] --- request panel image id:uixTxrSpot_Store
+CustomShops [DEBUG] Received panel image
+CustomShops [DEBUG] - set

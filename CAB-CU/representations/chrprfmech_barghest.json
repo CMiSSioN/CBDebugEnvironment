@@ -1,0 +1,66 @@
+{
+  "Id": "chrprfmech_barghest",
+  "PrefabBase":"barghest",
+  "SourcePrefabIdentifier":"chrPrfMech_kingcrabBase-001",
+  "SourcePrefabBase":"kingcrab",
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+  "ApplyType": "None",
+  "SupressAllMeshes": false,
+	"quadVisualInfo":{
+		"UseQuadVisuals": true,
+		"FLegsPrefab": "chrPrfMech_kingcrabBase-001",
+		"BodyLength":7.0,
+		"BodyPrefab": "barghest_body",
+		"BodyShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+		"FLegsPrefabBase": "kingcrab",
+		"NotSuppressRenderers":["_left_leg_","_right_leg_"],
+		"Destructables":{
+			"Head":{
+				"Name": "head_destructable",
+				"wholeObj":"head",
+				"destroyedObj":"head_damaged"
+			},
+			"LeftTorso":{
+				"Name": "left_torso_destructable",
+				"wholeObj":"left_torso",
+				"destroyedObj":"left_torso_damaged"
+			},
+			"RightTorso":{
+				"Name": "right_torso_destructable",
+				"wholeObj":"",
+				"destroyedObj":"destroyed_parts"
+			},
+			"CenterTorso":{
+				"Name": "centre_torso_destructable",
+				"wholeObj":"centre_torso",
+				"destroyedObj":"centre_torso_damaged"
+			}
+		},
+		"JumpJets":["jumpjet_rear","jumpjet_front", "jumpjet_left", "jumpjet_right"],
+		"HeadLights":[ "headlight_left", "headlight_right" ],
+		"WeaponsAttachPoints":[
+			{
+				"Name":"WeaponMountRight",
+				"visuals":"ac10baseR",
+				"Animators":{"WeaponMountR":1},
+				"attach":"WeaponAttachR",
+				"location":"RightTorso",
+				"type":"Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name":"WeaponMountLeft",
+				"visuals":"ac10baseL",
+				"Animators":{"WeaponMountL":1},
+				"attach":"WeaponAttachL",
+				"location":"LeftTorso",
+				"type":"Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			}
+		],
+		"Animators": [ ],
+		"TwistAnimators": [ "base" ]
+	}
+}

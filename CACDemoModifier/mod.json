@@ -1,0 +1,15 @@
+{
+  "Name": "CACModDemo",
+  "Description": "CACModDemo",
+  "Version": "0.0.1",
+  "Enabled": true,
+  "Hidden": false,
+  "Locked": false,
+  "DependsOn": [],
+  "ConflictsWith": [],
+  "OptionallyDependsOn": [],
+  "IgnoreLoadFailure": false,
+  "DLL": "CACAccModDemo.dll",
+  "DLLEntryPoint": "CACAccModDemo.Core.Init",
+  "Settings": {}
+}

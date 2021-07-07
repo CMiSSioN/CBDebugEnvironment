@@ -1,0 +1,23 @@
+attacker;weapon;ammo;mode;target;hit index;is applied;location;called shot location;hit roll;corrected roll;hit chance;damage;ap damage;heat;stability;is intecepted;intecepted by;is AoE;is frag separated;is frag pallet;frags pallets count;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;0;False;(0)Air;(0)None;0.5114669;0.5086017;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;1;False;(0)Air;(0)None;0.8833643;0.8452178;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;2;False;(0)Air;(0)None;0.1541084;0.1982053;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;3;False;(0)Air;(0)None;0.5255899;0.5192096;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;4;False;(0)Air;(0)None;0.9440448;0.9226897;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;5;False;(0)Air;(0)None;0.4918547;0.4938905;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;6;False;(0)Air;(0)None;0.9664123;0.9537079;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;7;False;(0)Air;(0)None;0.1663942;0.2117766;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;8;False;(0)Air;(0)None;0.9478884;0.9279209;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;9;False;(0)Air;(0)None;0.1758007;0.2219577;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;10;False;(0)Air;(0)None;0.8644876;0.8229504;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;11;False;(0)Air;(0)None;0.9531239;0.9351117;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;12;False;(0)Air;(0)None;0.5260954;0.5195898;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;13;False;(0)Air;(0)None;0.2807882;0.3248043;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;14;False;(0)Air;(0)None;0.997071;0.998567;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;15;False;(0)Air;(0)None;0.0486145;0.06728432;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;16;False;(0)Air;(0)None;0.2319316;0.2792228;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;17;False;(0)Air;(0)None;0.154088;0.1981825;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;18;False;(0)Air;(0)None;0.4852386;0.4889256;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+Atlas;LRM20(LRM);LRM;B;KingCrab-A;19;False;(0)Air;(0)None;0.3307349;0.3680852;0.5;4;0;0;2;True;AMS(Norm.)(ams);False;False;False;0;
+CRITICALS
+attacker;weapon;ammo;mode;target;location id;location;struct id;struct;armor on hitstructure in hitcrit chance;component;

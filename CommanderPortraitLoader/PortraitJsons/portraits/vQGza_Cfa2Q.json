@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "vQGza_Cfa2Q",
+        "Name" : "vQGza_Cfa2Q",
+        "Details" : "Random",
+        "Icon" : "vQGza_Cfa2Q"
+    },
+    "ID" : "vQGza_Cfa2Q",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 14,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 14,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 4,
+    "eyebrowTex" : 0,
+    "tattooTex" : 0,
+    "actualTattooTex" : 6,
+    "weights" : [
+        24.06949,
+        0.001038872,
+        24.21119,
+        27.7914,
+        23.42819,
+        0.4986998
+    ],
+    "browOffsetY" : 0.0028734,
+    "browOffsetZ" : -0.002992746,
+    "noseBridgeScale" : -0.1754393,
+    "noseTipScale" : -0.1501921,
+    "chinScale" : 0.06398158,
+    "cheekOffsetY" : -0.003478018,
+    "eyeWidth" : 0.02910244,
+    "jawWidth" : 0.07439399,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_01",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

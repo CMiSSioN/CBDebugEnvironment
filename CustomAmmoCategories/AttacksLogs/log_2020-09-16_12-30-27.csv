@@ -1,0 +1,11 @@
+attacker;weapon;ammo;mode;target;hit index;is applied;location;called shot location;hit roll;corrected roll;hit chance;damage;ap damage;heat;stability;is intecepted;intecepted by;is AoE;is frag separated;is frag pallet;frags pallets count;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;0;False;(65536)Ground;(0)None;0.825184;0.7790998;0.99;61;0;0;100;False;none;False;False;False;0;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;1;False;(65536)Ground;(0)None;0.2895653;0.3326317;0.99;61;0;0;100;False;none;False;False;False;0;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;0;False;(65536)Ground;(0)None;0.9468594;0.9265164;0.99;61;0;0;100;False;none;False;False;False;0;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;1;False;(65536)Ground;(0)None;0.292154;0.3349211;0.99;61;0;0;100;False;none;False;False;False;0;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;0;False;(65536)Ground;(0)None;0.8657321;0.8243935;0.99;61;0;0;100;False;none;False;False;False;0;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;1;False;(65536)Ground;(0)None;0.5535567;0.5403248;0.99;61;0;0;100;False;none;False;False;False;0;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;0;False;(65536)Ground;(0)None;0.6946717;0.6535583;0.99;61;0;0;100;False;none;False;False;False;0;
+KingCrab-A;Ion Cannon(purple);;purple;KingCrab-A;1;False;(65536)Ground;(0)None;0.2320624;0.2793498;0.99;61;0;0;100;False;none;False;False;False;0;
+CRITICALS
+attacker;weapon;ammo;mode;target;location id;location;struct id;struct;armor on hitstructure in hitcrit chance;component;

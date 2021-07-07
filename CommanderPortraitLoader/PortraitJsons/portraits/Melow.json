@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Melow",
+        "Name" : "Melow",
+        "Details" : "Random",
+        "Icon" : "Melow"
+    },
+    "ID" : "Melow",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 10,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 10,
+    "lightRig" : 4,
+    "cameraPosition" : 3,
+    "complexionTex" : 4,
+    "eyebrowTex" : 1,
+    "tattooTex" : 9,
+    "actualTattooTex" : 0,
+    "weights" : [
+        51.87639,
+        16.09616,
+        0.03158479,
+        0.7466187,
+        31.19266,
+        0.05659153
+    ],
+    "browOffsetY" : -0.003838244,
+    "browOffsetZ" : 0.003759774,
+    "noseBridgeScale" : -0.1806904,
+    "noseTipScale" : -0.05569865,
+    "chinScale" : 0.1116553,
+    "cheekOffsetY" : -0.003900372,
+    "eyeWidth" : -0.04288254,
+    "jawWidth" : 0.09092686,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

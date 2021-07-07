@@ -1,0 +1,33 @@
+{
+	"Custom": {
+		"BonusDescriptions": {
+			"Bonuses": [
+				"LightGaussAmmo: 38",
+				"InertAmmo"
+			]
+		}
+	},
+  "Description": {
+    "Id": "Ammo_FGAUSS",
+    "Name": "Railgun ammo",
+    "UIName": "buck",
+    "Details": "Railgun ammunition",
+    "Icon": "uixSvgIcon_ammoBox_Ballistic",
+    "Cost": 100,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Type": "Normal",
+  "Category": "HGAUSS",
+  "HeatGenerated": 0,
+  "HeatGeneratedModifier": 1,
+  "ArmorDamageModifier": 1,
+  "ISDamageModifier": 1,
+  "ProjectilesPerShot": 5,
+  "BallisticDamagePerPallet": true,
+  "CriticalDamageModifier": 1,
+  "AutoRefill": "Manual",
+  "statusEffects": [
+    {}
+  ]
+}

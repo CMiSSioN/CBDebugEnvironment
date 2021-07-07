@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Adder2_utr",
+        "Name" : "guiTxrPort_Adder2_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Adder2_utr"
+    },
+    "ID" : "guiTxrPort_Adder2_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 9,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 13,
+    "lightRig" : 0,
+    "cameraPosition" : 1,
+    "complexionTex" : 0,
+    "eyebrowTex" : 1,
+    "tattooTex" : 11,
+    "actualTattooTex" : 1,
+    "weights" : [
+        0.2295524,
+        29.96544,
+        18.83139,
+        12.90529,
+        3.762905,
+        34.30542
+    ],
+    "browOffsetY" : 0.0002591907,
+    "browOffsetZ" : 0.003978843,
+    "noseBridgeScale" : -0.1549977,
+    "noseTipScale" : 0.09892065,
+    "chinScale" : 0.1931991,
+    "cheekOffsetY" : -0.004081119,
+    "eyeWidth" : -0.03577048,
+    "jawWidth" : -0.01372894,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_02",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

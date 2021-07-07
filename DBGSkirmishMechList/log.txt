@@ -1,0 +1,246 @@
+Initing... C:\Games\steamapps\common\BATTLETECH\Mods\DBGSkirmishMechList version: 1.0.0.1
+settings:{
+  "debugLog": true,
+  "skirmishMeches": [
+    "mechdef_sigrun_VLK-II-SIG"
+  ],
+  "skirmishMechesMods": [
+    "LTS-ValkyrieII",
+    "Custom Ammo Categories"
+  ],
+  "fallbackMech": "mechdef_cicada_CDA-2A"
+}
+[12:24:04.632]FinishedLoading
+ searching mods:2
+ searching mod:LTS-ValkyrieII
+  not exists
+ searching mod:Custom Ammo Categories
+  entry:circle_saw
+   not mech
+  entry:Ammunition_AC10
+   not mech
+  entry:Ammunition_AC2
+   not mech
+  entry:Ammunition_AC20
+   not mech
+  entry:Ammunition_AC20AOE
+   not mech
+  entry:Ammunition_AC20IAOE
+   not mech
+  entry:Ammunition_AC20SMOKE
+   not mech
+  entry:Ammunition_AC5
+   not mech
+  entry:Ammunition_AMS
+   not mech
+  entry:Ammunition_ECOSRM
+   not mech
+  entry:Ammunition_FGAUSS
+   not mech
+  entry:Ammunition_Flamer
+   not mech
+  entry:Ammunition_GAUSS
+   not mech
+  entry:Ammunition_HGAUSS
+   not mech
+  entry:Ammunition_ILRM
+   not mech
+  entry:Ammunition_ISRM
+   not mech
+  entry:Ammunition_LaserAmmo
+   not mech
+  entry:Ammunition_LaserAmmo2
+   not mech
+  entry:Ammunition_LB2X
+   not mech
+  entry:Ammunition_LBX10
+   not mech
+  entry:Ammunition_LBX10Buck
+   not mech
+  entry:Ammunition_LBX10ECM
+   not mech
+  entry:Ammunition_LBX2Buck
+   not mech
+  entry:Ammunition_LBX2Slug
+   not mech
+  entry:Ammunition_LGAUSS
+   not mech
+  entry:Ammunition_LRM
+   not mech
+  entry:Ammunition_LRMAOE
+   not mech
+  entry:Ammunition_LRSRM
+   not mech
+  entry:Ammunition_MG
+   not mech
+  entry:Ammunition_MORTAR
+   not mech
+  entry:Ammunition_SRM
+   not mech
+  entry:Ammunition_SSRM
+   not mech
+  entry:Ammunition_Thunder
+   not mech
+  entry:Ammunition_WIRLWIND
+   not mech
+  entry:Ammunition_WIRLWIND_E
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_AC20AOE
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_AC20IAOE
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_AC20SMOKE
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_ECOSRM
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_FGAUSS
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_HGAUSS
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_ILRM
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_ISRM
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_Laser
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_Laser2
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LBX10
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LBX10Buck
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LBX10ECM
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LBX2
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LBX2Buck
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LGAUSS
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LRMAOE
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_LRSRM
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_MORTAR
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_SRM
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_SSRM
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_Thunder
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_Wirlwind
+   not mech
+  entry:Ammo_AmmunitionBox_Generic_Wirlwind_E
+   not mech
+  entry:Weapon_Autocannon_AC10_0-STOCK
+   not mech
+  entry:Weapon_Autocannon_IAC10_0-STOCK
+   not mech
+  entry:Weapon_Autocannon_LBX10_0-STOCK
+   not mech
+  entry:Weapon_Autocannon_LBX2_0-STOCK
+   not mech
+  entry:Weapon_Autocannon_RAC10_0-STOCK
+   not mech
+  entry:Weapon_Ballistic_AMS_0-STOCK
+   not mech
+  entry:Weapon_Flamer_Flamer_0-STOCK
+   not mech
+  entry:Weapon_Gauss_DGauss
+   not mech
+  entry:Weapon_Gauss_Gauss_0-STOCK
+   not mech
+  entry:Weapon_Gauss_Gauss_2-M9
+   not mech
+  entry:Weapon_Gauss_IGauss
+   not mech
+  entry:Weapon_Gauss_LGauss
+   not mech
+  entry:Weapon_Laser_AMS
+   not mech
+  entry:Weapon_Laser_AMS_0-STOCK
+   not mech
+  entry:Weapon_Laser_ChemicalLaser_0-STOCK
+   not mech
+  entry:Weapon_Laser_MediumLaserPulse_0-STOCK
+   not mech
+  entry:Weapon_Laser_MediumLaser_0-STOCK
+   not mech
+  entry:Weapon_Laser_MediumLaser_1-STOCK
+   not mech
+  entry:Weapon_LRM_LRM10_0-STOCK
+   not mech
+  entry:Weapon_LRM_LRM10_3-Zeus
+   not mech
+  entry:Weapon_LRM_LRM20_0-STOCK
+   not mech
+  entry:Weapon_LRM_LRM20_3-Zeus
+   not mech
+  entry:Weapon_LRM_LRM20_SPREAD-STOCK
+   not mech
+  entry:Weapon_LRM_LRM5_3-Zeus
+   not mech
+  entry:Weapon_MachineGun_AMS_0-STOCK
+   not mech
+  entry:Weapon_MachineGun_AMS_3-Hydra
+   not mech
+  entry:Weapon_Missile_AMS_3-Hydra
+   not mech
+  entry:Weapon_MORTAIR_0-STOCK
+   not mech
+  entry:Weapon_MORTAR_0-STOCK
+   not mech
+  entry:Weapon_MORTAR_3-Hellhammer
+   not mech
+  entry:Weapon_MRM_MRM6_0-STOCK
+   not mech
+  entry:Weapon_PPC_LPPCER_3
+   not mech
+  entry:Weapon_SRM_SRM4_0-UNG
+   not mech
+  entry:Weapon_SRM_SRM6_3-Wirlwind
+   not mech
+  entry:Weapon_SSRM_SRM6_0-STOCK
+   not mech
+  entry:DesignMaskBurnedForest
+   not mech
+  entry:DesignMaskBurningForest
+   not mech
+  entry:DesignMaskBurningTerrain
+   not mech
+  entry:DesignMaskSmoke
+   not mech
+  entry:AbilityDefCAC_AttackGround
+   not mech
+  entry:Gear_Cockpit_Majesty_M_M_MagestrixAlpha
+   not mech
+  entry:Gear_Cockpit_StarCorps_Dalban
+   not mech
+  entry:Gear_TargetingTrackingSystem_Kallon_Omni
+   not mech
+  entry:chassisdef_kingcrab_KGC-A
+   not mech
+  entry:chassisdef_shadowhawk_SHD-KM
+   not mech
+  entry:chassisdef_urbanmech_UM-KM
+   not mech
+  entry:pilot_ronin_Zombie
+   not mech
+  entry:faction_Test
+   not mech
+  entry:Gear_HeatSink_Generic_Double
+   not mech
+  entry:Gear_HeatSink_Generic_Thermal-Exchanger-III
+   not mech
+  entry:hardpointdatadef_kingcrab_a
+   not mech
+  entry:circle_saw_gringer
+   not mech
+  entry:ApplicationConstants - Copy
+   not mech
+  entry:ApplicationConstants
+   not mech
+flush
+flush
+flush

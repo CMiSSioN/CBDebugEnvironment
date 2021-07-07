@@ -1,0 +1,17 @@
+MissionControl [LOG] Loading MissionControl settings
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Assault_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Heavy_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Light_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Damaged_Medium_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Assault_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Battle_Lance_Elite'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Heavy_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Light_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Generic_Medium_Battle_Lance'
+MissionControl [LOG] [DataManager] Loaded lance override 'Reference_Example_Lance'
+MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+MissionControl [DEBUG] [InjectMessageScopes] Injecting custom message MissionControl.Messages.MessageTypes[] into 'MessageCenter.MessageScope.CombatGame'
+MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for pilot_default
+MissionControl [DEBUG] [RequestResourcesAndProcess] Finished load request for vehicledef_DEMOLISHER
