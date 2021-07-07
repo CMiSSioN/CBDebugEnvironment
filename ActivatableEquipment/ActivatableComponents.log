@@ -1,4 +1,4 @@
-[10:16:37.516]Initing... D:\Games\BATTLETECH\Mods\ActivatableEquipment version: 0.0.0.96
+[11:29:21.452]Initing... D:\Games\BATTLETECH\Mods\ActivatableEquipment version: 0.0.0.96
 Settings = [{
   "debug": true,
   "AIComponentUsefullModifyer": 0.3,
@@ -197,13 +197,13 @@ ForceMouseEvents(28);;;;;;;;;;;;;;;;;;;;;;X;X;X;
 (29);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (30);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
 (31);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;
-[10:16:37.841]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
+[11:29:21.765]WPState:BattleTech.UI.CombatHUDWeaponPanel+WPState
  None
  Off
  Loading
  Loaded
  Unloading
-[10:16:38.876]FinishedLoading
+[11:29:22.797]FinishedLoading
 Auras WeaponDef:Weapon_MachineGun_AMS_3-Hydra
 Error:Newtonsoft.Json.JsonReaderException: After parsing a value an unexpected character was encountered: ". Path 'CriticalComponent', line 46, position 4.
   at Newtonsoft.Json.JsonTextReader.ParsePostValue (System.Boolean ignoreComments) [0x00182] in <bcfe3779d9974effb214d2a48329f488>:0 
@@ -475,192 +475,266 @@ IN:{
 }
 
 DamageHelper Reset - new Mission
-UnitSpawnPointGameLogic.initializeActor Strix VTOL:PlayerLanceSpawnPoint1
-AbstractActor.InitEffectStats Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+UnitSpawnPointGameLogic.initializeActor Dragon:PlayerLanceSpawnPoint1
+AbstractActor.InitEffectStats Dragon:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
  StoodUpRollMod 0
  ArmAbsenceStoodUpMod -0,1
-MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Autocannon_UAC2_0-STOCK)
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_LifeSupportA_Standard)
  not activatable
-MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Laser_SmallLaserER_0-STOCK)
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_armorslots_standard)
  not activatable
-MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Laser_SmallLaserER_0-STOCK)
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_hip)
  not activatable
-MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Ammo_AmmunitionBox_Generic_AC2)
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_hip)
  not activatable
-MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Ammo_AmmunitionBox_Generic_AC2)
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_shoulder)
  not activatable
-MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_DestroyCurrentLocation)
- StatusEffectsCollections 0
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_structureslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Gear_Cockpit_LifeSupportB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:emod_engine_300)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Laser_MediumLaser_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Ammo_AmmunitionBox_Generic_LRM)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Ammo_AmmunitionBox_Generic_LRM)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_LRM_LRM10_0-STOCK)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Ammo_AmmunitionBox_Generic_AC5)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Ammo_AmmunitionBox_Generic_AC5)
+ not activatable
+MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_Autocannon_AC5_0-STOCK)
+ not activatable
 MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_MeleeAttack)
  not activatable
 MechComponent.InitExplosionStats(ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0:Weapon_DFAAttack)
  not activatable
-UnitSpawnPointGameLogic.initializeActor Urbiecopter:PlayerLanceSpawnPoint2
-AbstractActor.InitEffectStats Urbiecopter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
+UnitSpawnPointGameLogic.initializeActor Catapult:PlayerLanceSpawnPoint1
+AbstractActor.InitEffectStats Catapult:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
  StoodUpRollMod 0
  ArmAbsenceStoodUpMod -0,1
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_MORTAR_3-Hellhammer)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_LifeSupportA_Standard)
  not activatable
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_PPC_PPC_0-STOCK)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_armorslots_standard)
  not activatable
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_Autocannon_AC2_0-STOCK)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_hip)
  not activatable
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Ammo_AmmunitionBox_Generic_MORTAR)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_hip)
  not activatable
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Ammo_AmmunitionBox_Generic_AC2)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_shoulder)
  not activatable
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Gear_DestroyCurrentLocation)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_shoulder)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_SensorsA_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_structureslots_standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_upper)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_kit_shs)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_lower)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_lower)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_SensorsB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Gyro_Generic_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_leg_foot)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_hand)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_arm_part_hand)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_Cockpit_LifeSupportB_Standard)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_engineslots_std_center)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_engine_cooling)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:emod_engine_260)
+ not activatable
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_LRM_LRM20_0-STOCK)
  StatusEffectsCollections 0
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_MeleeAttack)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Ammo_AmmunitionBox_Generic_LRM)
  not activatable
-MechComponent.InitExplosionStats(ebc06b6a-c5a8-4165-95ce-480bcf335570.0:Weapon_DFAAttack)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Ammo_AmmunitionBox_Generic_LRM)
  not activatable
-UnitSpawnPointGameLogic.initializeActor Yellowjacket AC:PlayerLanceSpawnPoint3
-AbstractActor.InitEffectStats Yellowjacket AC:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
- StoodUpRollMod 0
- ArmAbsenceStoodUpMod -0,1
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_MORTAR_3-Hellhammer)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Heavy)
  not activatable
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_PPC_PPC_0-STOCK)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Heavy)
  not activatable
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_Autocannon_AC2_0-STOCK)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_SmallLaser_0-STOCK)
  not activatable
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Ammo_AmmunitionBox_Generic_MORTAR)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_SmallLaser_0-STOCK)
  not activatable
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Ammo_AmmunitionBox_Generic_AC2)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Ammo_AmmunitionBox_Generic_LRM)
  not activatable
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Gear_DestroyCurrentLocation)
- StatusEffectsCollections 0
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_MeleeAttack)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Ammo_AmmunitionBox_Generic_LRM)
  not activatable
-MechComponent.InitExplosionStats(d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0:Weapon_DFAAttack)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Heavy)
  not activatable
-UnitSpawnPointGameLogic.initializeActor Strix VTOL:PlayerLanceSpawnPoint1
-AbstractActor.InitEffectStats Strix VTOL:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
- StoodUpRollMod 0
- ArmAbsenceStoodUpMod -0,1
-MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Autocannon_UAC2_0-STOCK)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_JumpJet_Generic_Heavy)
  not activatable
-MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_SmallLaserER_0-STOCK)
- not activatable
-MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_Laser_SmallLaserER_0-STOCK)
- not activatable
-MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Ammo_AmmunitionBox_Generic_AC2)
- not activatable
-MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Ammo_AmmunitionBox_Generic_AC2)
- not activatable
-MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Gear_DestroyCurrentLocation)
+MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_LRM_LRM20_0-STOCK)
  StatusEffectsCollections 0
 MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_MeleeAttack)
  not activatable
 MechComponent.InitExplosionStats(bfdd72f9-395c-4cde-9f2b-dd28505242a1.0:Weapon_DFAAttack)
  not activatable
-UnitSpawnPointGameLogic.initializeActor Urbiecopter:PlayerLanceSpawnPoint2
-AbstractActor.InitEffectStats Urbiecopter:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
- StoodUpRollMod 0
- ArmAbsenceStoodUpMod -0,1
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_MORTAR_3-Hellhammer)
- not activatable
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_PPC_PPC_0-STOCK)
- not activatable
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_Autocannon_AC2_0-STOCK)
- not activatable
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Ammo_AmmunitionBox_Generic_MORTAR)
- not activatable
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Ammo_AmmunitionBox_Generic_AC2)
- not activatable
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Gear_DestroyCurrentLocation)
- StatusEffectsCollections 0
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_MeleeAttack)
- not activatable
-MechComponent.InitExplosionStats(226faa53-e63d-4d02-acd7-ff2fd68598f4.0:Weapon_DFAAttack)
- not activatable
-UnitSpawnPointGameLogic.initializeActor Yellowjacket AC:PlayerLanceSpawnPoint3
-AbstractActor.InitEffectStats Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
- StoodUpRollMod 0
- ArmAbsenceStoodUpMod -0,1
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_MORTAR_3-Hellhammer)
- not activatable
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_PPC_PPC_0-STOCK)
- not activatable
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_Autocannon_AC2_0-STOCK)
- not activatable
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Ammo_AmmunitionBox_Generic_MORTAR)
- not activatable
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Ammo_AmmunitionBox_Generic_AC2)
- not activatable
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Gear_DestroyCurrentLocation)
- StatusEffectsCollections 0
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_MeleeAttack)
- not activatable
-MechComponent.InitExplosionStats(358c5692-25ee-433b-b9ce-bab9ae35528e.0:Weapon_DFAAttack)
- not activatable
-AddInWorldActorElements Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
-Aura collider awake Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
- component: Weapon_Autocannon_UAC2_0-STOCK functional:True
- component: Weapon_Laser_SmallLaserER_0-STOCK functional:True
- component: Weapon_Laser_SmallLaserER_0-STOCK functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Gear_DestroyCurrentLocation functional:True
-AddInWorldActorElements Urbiecopter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
-Aura collider awake Urbiecopter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
- component: Weapon_MORTAR_3-Hellhammer functional:True
- component: Weapon_PPC_PPC_0-STOCK functional:True
- component: Weapon_Autocannon_AC2_0-STOCK functional:True
- component: Ammo_AmmunitionBox_Generic_MORTAR functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Gear_DestroyCurrentLocation functional:True
-AddInWorldActorElements Yellowjacket AC:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
-Aura collider awake Yellowjacket AC:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
- component: Weapon_MORTAR_3-Hellhammer functional:True
- component: Weapon_PPC_PPC_0-STOCK functional:True
- component: Weapon_Autocannon_AC2_0-STOCK functional:True
- component: Ammo_AmmunitionBox_Generic_MORTAR functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Gear_DestroyCurrentLocation functional:True
-AddInWorldActorElements Strix VTOL:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
-Aura collider awake Strix VTOL:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
- component: Weapon_Autocannon_UAC2_0-STOCK functional:True
- component: Weapon_Laser_SmallLaserER_0-STOCK functional:True
- component: Weapon_Laser_SmallLaserER_0-STOCK functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Gear_DestroyCurrentLocation functional:True
-AddInWorldActorElements Urbiecopter:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
-Aura collider awake Urbiecopter:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
- component: Weapon_MORTAR_3-Hellhammer functional:True
- component: Weapon_PPC_PPC_0-STOCK functional:True
- component: Weapon_Autocannon_AC2_0-STOCK functional:True
- component: Ammo_AmmunitionBox_Generic_MORTAR functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Gear_DestroyCurrentLocation functional:True
-AddInWorldActorElements Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
-Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
- component: Weapon_MORTAR_3-Hellhammer functional:True
- component: Weapon_PPC_PPC_0-STOCK functional:True
- component: Weapon_Autocannon_AC2_0-STOCK functional:True
- component: Ammo_AmmunitionBox_Generic_MORTAR functional:True
- component: Ammo_AmmunitionBox_Generic_AC2 functional:True
- component: Gear_DestroyCurrentLocation functional:True
+AddInWorldActorElements Dragon:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+Aura collider awake Dragon:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+ component: Gear_Cockpit_LifeSupportA_Standard functional:True
+ component: emod_armorslots_standard functional:True
+ component: emod_leg_hip functional:True
+ component: emod_leg_hip functional:True
+ component: emod_arm_part_shoulder functional:True
+ component: emod_arm_part_shoulder functional:True
+ component: Gear_Cockpit_SensorsA_Standard functional:True
+ component: emod_structureslots_standard functional:True
+ component: emod_leg_upper functional:True
+ component: emod_leg_upper functional:True
+ component: emod_arm_part_upper functional:True
+ component: emod_arm_part_upper functional:True
+ component: Gear_Cockpit_Generic_Standard functional:True
+ component: emod_kit_shs functional:True
+ component: emod_leg_lower functional:True
+ component: emod_leg_lower functional:True
+ component: emod_arm_part_lower functional:True
+ component: emod_arm_part_lower functional:True
+ component: Gear_Cockpit_SensorsB_Standard functional:True
+ component: Gear_Gyro_Generic_Standard functional:True
+ component: emod_leg_foot functional:True
+ component: emod_leg_foot functional:True
+ component: Gear_Cockpit_LifeSupportB_Standard functional:True
+ component: emod_engineslots_std_center functional:True
+ component: emod_engine_cooling functional:True
+ component: emod_engine_300 functional:True
+ component: Weapon_Laser_MediumLaser_0-STOCK functional:True
+ component: Weapon_Laser_MediumLaser_0-STOCK functional:True
+ component: Ammo_AmmunitionBox_Generic_LRM functional:True
+ component: Ammo_AmmunitionBox_Generic_LRM functional:True
+ component: Weapon_LRM_LRM10_0-STOCK functional:True
+ component: Ammo_AmmunitionBox_Generic_AC5 functional:True
+ component: Ammo_AmmunitionBox_Generic_AC5 functional:True
+ component: Weapon_Autocannon_AC5_0-STOCK functional:True
+AddInWorldActorElements Catapult:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+Aura collider awake Catapult:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+ component: Gear_Cockpit_LifeSupportA_Standard functional:True
+ component: emod_armorslots_standard functional:True
+ component: emod_leg_hip functional:True
+ component: emod_leg_hip functional:True
+ component: emod_arm_part_shoulder functional:True
+ component: emod_arm_part_shoulder functional:True
+ component: Gear_Cockpit_SensorsA_Standard functional:True
+ component: emod_structureslots_standard functional:True
+ component: emod_leg_upper functional:True
+ component: emod_leg_upper functional:True
+ component: emod_arm_part_upper functional:True
+ component: emod_arm_part_upper functional:True
+ component: Gear_Cockpit_Generic_Standard functional:True
+ component: emod_kit_shs functional:True
+ component: emod_leg_lower functional:True
+ component: emod_leg_lower functional:True
+ component: emod_arm_part_lower functional:True
+ component: emod_arm_part_lower functional:True
+ component: Gear_Cockpit_SensorsB_Standard functional:True
+ component: Gear_Gyro_Generic_Standard functional:True
+ component: emod_leg_foot functional:True
+ component: emod_leg_foot functional:True
+ component: emod_arm_part_hand functional:True
+ component: emod_arm_part_hand functional:True
+ component: Gear_Cockpit_LifeSupportB_Standard functional:True
+ component: emod_engineslots_std_center functional:True
+ component: emod_engine_cooling functional:True
+ component: emod_engine_260 functional:True
+ component: Weapon_LRM_LRM20_0-STOCK functional:True
+ component: Ammo_AmmunitionBox_Generic_LRM functional:True
+ component: Ammo_AmmunitionBox_Generic_LRM functional:True
+ component: Gear_JumpJet_Generic_Heavy functional:True
+ component: Gear_JumpJet_Generic_Heavy functional:True
+ component: Weapon_Laser_SmallLaser_0-STOCK functional:True
+ component: Weapon_Laser_SmallLaser_0-STOCK functional:True
+ component: Ammo_AmmunitionBox_Generic_LRM functional:True
+ component: Ammo_AmmunitionBox_Generic_LRM functional:True
+ component: Gear_JumpJet_Generic_Heavy functional:True
+ component: Gear_JumpJet_Generic_Heavy functional:True
+ component: Weapon_LRM_LRM20_0-STOCK functional:True
  offline effects count: 0
- sprint:189
- walk:126
-[10:17:38.339]Strix VTOL statistic
+ sprint:144
+ walk:96
+[11:31:51.504]Catapult statistic
  ArmorMultiplier:1
  StructureMultiplier:1
- BaseInitiative:2
- TurnRadius:25
- MaxJumpjets:8
+ BaseInitiative:4
+ TurnRadius:90
+ MaxJumpjets:6
  SpotterDistanceMultiplier:1
  SpotterDistanceAbsolute:0
- SpottingVisibilityMultiplier:0.85
+ SpottingVisibilityMultiplier:1
  SpottingVisibilityAbsolute:0
  SensorDistanceMultiplier:1
  SensorDistanceAbsolute:0
  SensorSignatureModifier:0
  MinStability:0
- MaxStability:100
+ MaxStability:160
  UnsteadyThreshold:61
  MaxHeat:150
  OverheatLevel:42
@@ -669,10 +743,10 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  IgnoreHeatToHitPenalties:False
  IgnoreHeatMovementPenalties:False
  EndMoveHeat:0
- WalkSpeed:420
- RunSpeed:540
+ WalkSpeed:96
+ RunSpeed:144
  EngageRangeModifier:0
- DFASelfDamage:0
+ DFASelfDamage:80
  DFACausesSelfUnsteady:True
  EvasivePipsGainedAdditional:1
  MeleeHitPushBackPhases:0
@@ -687,35 +761,35 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  StabilityDefense.MeleeWeapon:0
  StabilityDefense.RangedWeapon:0
  ReceivedInstabilityMultiplier:1
- Head.Armor:22
- Head.Structure:4
+ Head.Armor:45
+ Head.Structure:16
  Head.DamageLevel:Functional
- CenterTorso.Armor:0
- CenterTorso.RearArmor:0
- CenterTorso.Structure:1
+ CenterTorso.Armor:110
+ CenterTorso.RearArmor:35
+ CenterTorso.Structure:105
  CenterTorso.DamageLevel:Functional
- LeftTorso.Armor:0
- LeftTorso.RearArmor:0
- LeftTorso.Structure:1
+ LeftTorso.Armor:85
+ LeftTorso.RearArmor:30
+ LeftTorso.Structure:75
  LeftTorso.DamageLevel:Functional
- RightTorso.Armor:0
- RightTorso.RearArmor:0
- RightTorso.Structure:1
+ RightTorso.Armor:85
+ RightTorso.RearArmor:30
+ RightTorso.Structure:75
  RightTorso.DamageLevel:Functional
- LeftArm.Armor:45
- LeftArm.Structure:4
+ LeftArm.Armor:75
+ LeftArm.Structure:50
  LeftArm.DamageLevel:Functional
- RightArm.Armor:38
- RightArm.Structure:4
+ RightArm.Armor:75
+ RightArm.Structure:50
  RightArm.DamageLevel:Functional
- LeftLeg.Armor:38
- LeftLeg.Structure:4
+ LeftLeg.Armor:115
+ LeftLeg.Structure:75
  LeftLeg.DamageLevel:Functional
- RightLeg.Armor:38
- RightLeg.Structure:4
+ RightLeg.Armor:115
+ RightLeg.Structure:75
  RightLeg.DamageLevel:Functional
- JumpCapacity:0
- JumpHeat:0
+ JumpCapacity:4
+ JumpHeat:12
  MoveMultiplier:1
  CenterTorso.Accuracy:0
  Head.Accuracy:0
@@ -723,8 +797,8 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  LeftLeg.Accuracy:0
  RightTorso.Accuracy:0
  RightLeg.Accuracy:0
- LeftArm.Accuracy:0
- RightArm.Accuracy:0
+ LeftArm.Accuracy:-1
+ RightArm.Accuracy:-1
  ReceiveShutdownInjury:False
  ReceiveHeatDamageInjury:False
  ToHitIndirectModifier:-1
@@ -781,27 +855,12 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  CACFlatJammingChance:0
  MinefieldDetection:1
  MinefieldIFF:0
- CUDesignMasksUnaffected:True
  CUAllowPartialMovement:True
  CUAllowPartialSprint:False
  CUAllowRotateWhileJump:True
- CUPathingUnaffected:True
- CUFireActorStatUnaffected:True
- CULandminesUnaffected:True
- CUAOEHeight:55
- CUMoveCost:
- CUNoMoveAnimation:False
- CUFiringArc:60
- CUMoveCostBiomeUnaffected:False
- CUArmsCountedAsLegs:False
- CUNoHeat:False
- CUBlockComponentsActivation:False
- CUNoStability:False
- CUNoCritTransfer:False
- CUHasNoLegs:False
- CUFakeVehicle:True
- CUTrooperSquad:False
+ CUFakeVehicle:False
  CUNavalUnit:False
+ CUPathingUnaffected:False
  CAEStoodUpRollMod:0
  CAEArmAbsenceStoodUpMod:-0.1
  NoHeadDamage:False
@@ -882,26 +941,26 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  CBTBE_Physical_Weapon_Target_Damage_Reduction_Multi:1
  CBTBE_Physical_Weapon_Target_Instability_Reduction_Multi:1
  CUPartialMovementSpent:0
- sprint:189
- walk:126
+ sprint:144
+ walk:96
  offline effects count: 0
- sprint:189
- walk:126
-[10:17:38.390]Urbiecopter statistic
+ sprint:144
+ walk:96
+[11:31:51.506]Catapult statistic
  ArmorMultiplier:1
  StructureMultiplier:1
- BaseInitiative:2
- TurnRadius:25
- MaxJumpjets:8
+ BaseInitiative:4
+ TurnRadius:90
+ MaxJumpjets:6
  SpotterDistanceMultiplier:1
  SpotterDistanceAbsolute:0
- SpottingVisibilityMultiplier:0.85
+ SpottingVisibilityMultiplier:1
  SpottingVisibilityAbsolute:0
  SensorDistanceMultiplier:1
  SensorDistanceAbsolute:0
  SensorSignatureModifier:0
  MinStability:0
- MaxStability:100
+ MaxStability:160
  UnsteadyThreshold:61
  MaxHeat:150
  OverheatLevel:42
@@ -910,10 +969,10 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  IgnoreHeatToHitPenalties:False
  IgnoreHeatMovementPenalties:False
  EndMoveHeat:0
- WalkSpeed:420
- RunSpeed:540
+ WalkSpeed:96
+ RunSpeed:144
  EngageRangeModifier:0
- DFASelfDamage:0
+ DFASelfDamage:80
  DFACausesSelfUnsteady:True
  EvasivePipsGainedAdditional:1
  MeleeHitPushBackPhases:0
@@ -928,35 +987,35 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  StabilityDefense.MeleeWeapon:0
  StabilityDefense.RangedWeapon:0
  ReceivedInstabilityMultiplier:1
- Head.Armor:22
- Head.Structure:4
+ Head.Armor:45
+ Head.Structure:16
  Head.DamageLevel:Functional
- CenterTorso.Armor:0
- CenterTorso.RearArmor:0
- CenterTorso.Structure:1
+ CenterTorso.Armor:110
+ CenterTorso.RearArmor:35
+ CenterTorso.Structure:105
  CenterTorso.DamageLevel:Functional
- LeftTorso.Armor:0
- LeftTorso.RearArmor:0
- LeftTorso.Structure:1
+ LeftTorso.Armor:85
+ LeftTorso.RearArmor:30
+ LeftTorso.Structure:75
  LeftTorso.DamageLevel:Functional
- RightTorso.Armor:0
- RightTorso.RearArmor:0
- RightTorso.Structure:1
+ RightTorso.Armor:85
+ RightTorso.RearArmor:30
+ RightTorso.Structure:75
  RightTorso.DamageLevel:Functional
- LeftArm.Armor:45
- LeftArm.Structure:4
+ LeftArm.Armor:75
+ LeftArm.Structure:50
  LeftArm.DamageLevel:Functional
- RightArm.Armor:38
- RightArm.Structure:4
+ RightArm.Armor:75
+ RightArm.Structure:50
  RightArm.DamageLevel:Functional
- LeftLeg.Armor:38
- LeftLeg.Structure:4
+ LeftLeg.Armor:115
+ LeftLeg.Structure:75
  LeftLeg.DamageLevel:Functional
- RightLeg.Armor:38
- RightLeg.Structure:4
+ RightLeg.Armor:115
+ RightLeg.Structure:75
  RightLeg.DamageLevel:Functional
- JumpCapacity:0
- JumpHeat:0
+ JumpCapacity:4
+ JumpHeat:12
  MoveMultiplier:1
  CenterTorso.Accuracy:0
  Head.Accuracy:0
@@ -964,249 +1023,8 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  LeftLeg.Accuracy:0
  RightTorso.Accuracy:0
  RightLeg.Accuracy:0
- LeftArm.Accuracy:0
- RightArm.Accuracy:0
- ReceiveShutdownInjury:False
- ReceiveHeatDamageInjury:False
- ToHitIndirectModifier:-1
- AccuracyModifier:0
- CriticalHitImmunity:False
- CriticalHitChanceReceivedMultiplier:1
- KnockdownImmunity:False
- CalledShotBonusMultiplier:1
- CanShootAfterSprinting:True
- CanMoveAfterShooting:True
- WeaponHeatMultiplier:1
- DamageReductionMultiplierAll:1
- DamageReductionMultiplierMelee:1
- DamageReductionMultiplierEnergy:1
- DamageReductionMultiplierBallistic:1
- DamageReductionMultiplierMissile:1
- DamageReductionMultiplierAntipersonnel:1
- IgnorePilotInjuries:False
- JumpDistanceMultiplier:1
- ToHitThisActor:0
- ToHitThisActorBallistic:0
- ToHitThisActorEnergy:0
- ToHitThisActorMissile:0
- ToHitThisActorSmall:0
- ToHitThisActorMelee:0
- ToHitThisActorDirectFire:0
- IsTargetingDummy:False
- GuaranteeNextBackHit:False
- GuaranteeUnhittable:False
- IsIndirectImmune:False
- HasActiveProbe:False
- GhostEffectStacks:0
- HasGhostSpotter:False
- MoraleBonusGain:0
- PrecisionStrike:False
- MaxEvasivePips:6
- DeferResetsInstability:False
- GuardedIsUpgraded:False
- EvasiveSafeFromSensorLock:False
- GainEntrenchedOnNormalMove:True
- IsCoolantVenting:False
- PhaseModifier:0
- PhaseModifierSelf:0
- CACAPProtection:False
- CACAoEDamageMult:1
- CACAPDamageMult:1
- CACIncomingHeatMult:1
- CACIncomingStabilityMult:1
- CACMinRangeAccuracyMod:0
- CACShortRangeAccuracyMod:0
- CACMediumRangeAccuracyMod:0
- CACLongRangeAccuracyMod:0
- CACExtraLongRangeAccuracyMod:0
- CACFlatJammingChance:0
- MinefieldDetection:1
- MinefieldIFF:0
- CUDesignMasksUnaffected:True
- CUAllowPartialMovement:True
- CUAllowPartialSprint:False
- CUAllowRotateWhileJump:True
- CUPathingUnaffected:True
- CUFireActorStatUnaffected:True
- CULandminesUnaffected:True
- CUAOEHeight:55
- CUMoveCost:
- CUNoMoveAnimation:False
- CUFiringArc:60
- CUMoveCostBiomeUnaffected:False
- CUArmsCountedAsLegs:False
- CUNoHeat:False
- CUBlockComponentsActivation:False
- CUNoStability:False
- CUNoCritTransfer:False
- CUHasNoLegs:False
- CUFakeVehicle:True
- CUTrooperSquad:False
- CUNavalUnit:False
- CAEStoodUpRollMod:0
- CAEArmAbsenceStoodUpMod:-0.1
- NoHeadDamage:False
- CAE_SENSORS_RANGE:90
- LV_TACTICS_MOD:2
- LV_CURRENT_ROUND_EW_CHECK:0
- LV_ECM_SHIELD:0
- LV_ECM_JAMMED:0
- LV_ADVANCED_SENSORS:0
- LV_PROBE_CARRIER:0
- LV_PROBE_PING:0
- LV_STEALTH:
- LV_MIMETIC:
- LV_MIMETIC_CURRENT_STEPS:0
- LV_HEAT_VISION:
- LV_ZOOM_VISION:
- LV_NARC:
- LV_TAG:
- LV_SHARES_VISION:False
- LV_NIGHT_VISION:False
- LV_DISABLE_SENSORS:2
- CBTBE_MovePenalty:0
- CBTBE_FirePenalty:0
- CBTBE_ActuatorDamage_Malus:0
- CBTBE_RunMultiMod:0
- CBTBE_HullBreachImmunity:True
- CBTBE_Charge_Attack_Mod:0
- CBTBE_Charge_Attacker_Damage_Mod:0
- CBTBE_Charge_Attacker_Damage_Multi:1
- CBTBE_Charge_Attacker_Instability_Mod:0
- CBTBE_Charge_Attacker_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Mod:0
- CBTBE_Charge_Target_Damage_Multi:1
- CBTBE_Charge_Target_Instability_Mod:0
- CBTBE_Charge_Target_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Reduction_Multi:1
- CBTBE_Charge_Target_Instability_Reduction_Multi:1
- CBTBE_DFA_Attack_Mod:0
- CBTBE_DFA_Attacker_Damage_Mod:0
- CBTBE_DFA_Attacker_Damage_Multi:1
- CBTBE_DFA_Attacker_Instability_Mod:0
- CBTBE_DFA_Attacker_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Mod:0
- CBTBE_DFA_Target_Damage_Multi:1
- CBTBE_DFA_Target_Instability_Mod:0
- CBTBE_DFA_Target_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Reduction_Multi:1
- CBTBE_DFA_Target_Instability_Reduction_Multi:1
- CBTBE_Kick_Attack_Mod:0
- CBTBE_Kick_Extra_Hits_Count:0
- CBTBE_Kick_Target_Damage_Mod:0
- CBTBE_Kick_Target_Damage_Multi:1
- CBTBE_Kick_Target_Instability_Mod:0
- CBTBE_Kick_Target_Instability_Multi:1
- CBTBE_Kick_Target_Damage_Reduction_Multi:1
- CBTBE_Kick_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Attack_Mod:0
- CBTBE_Punch_Extra_Hits_Count:0
- CBTBE_Punch_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Damage_Mod:0
- CBTBE_Punch_Target_Damage_Multi:1
- CBTBE_Punch_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Instability_Mod:0
- CBTBE_Punch_Target_Instability_Multi:1
- CBTBE_Punch_Target_Damage_Reduction_Multi:1
- CBTBE_Punch_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Is_Physical_Weapon:False
- CBTBE_Physical_Weapon_Ignore_Actuators:False
- CBTBE_Physical_Weapon_Location_Table:
- CBTBE_Physical_Weapon_Attack_Mod:0
- CBTBE_Physical_Weapon_Extra_Hits_Count:0
- CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Damage_Mod:0
- CBTBE_Physical_Weapon_Target_Damage_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Instability_Mod:0
- CBTBE_Physical_Weapon_Target_Instability_Multi:1
- CBTBE_Physical_Weapon_Target_Damage_Reduction_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Reduction_Multi:1
- CUPartialMovementSpent:0
- sprint:189
- walk:126
- offline effects count: 0
- sprint:189
- walk:126
-[10:17:38.456]Yellowjacket AC statistic
- ArmorMultiplier:1
- StructureMultiplier:1
- BaseInitiative:2
- TurnRadius:25
- MaxJumpjets:8
- SpotterDistanceMultiplier:1
- SpotterDistanceAbsolute:0
- SpottingVisibilityMultiplier:0.85
- SpottingVisibilityAbsolute:0
- SensorDistanceMultiplier:1
- SensorDistanceAbsolute:0
- SensorSignatureModifier:0
- MinStability:0
- MaxStability:100
- UnsteadyThreshold:61
- MaxHeat:150
- OverheatLevel:42
- MinHeatNextActivation:-1
- HeatSinkCapacity:0
- IgnoreHeatToHitPenalties:False
- IgnoreHeatMovementPenalties:False
- EndMoveHeat:0
- WalkSpeed:420
- RunSpeed:540
- EngageRangeModifier:0
- DFASelfDamage:0
- DFACausesSelfUnsteady:True
- EvasivePipsGainedAdditional:1
- MeleeHitPushBackPhases:0
- HeadShotImmunity:False
- CurrentHeat:0
- Stability:0
- IsProne:False
- StabilityDefense.Terrain:0
- StabilityDefense.JumpingFalling:0
- StabilityDefense.TurningSprinting:0
- StabilityDefense.Collisions:0
- StabilityDefense.MeleeWeapon:0
- StabilityDefense.RangedWeapon:0
- ReceivedInstabilityMultiplier:1
- Head.Armor:22
- Head.Structure:4
- Head.DamageLevel:Functional
- CenterTorso.Armor:0
- CenterTorso.RearArmor:0
- CenterTorso.Structure:1
- CenterTorso.DamageLevel:Functional
- LeftTorso.Armor:0
- LeftTorso.RearArmor:0
- LeftTorso.Structure:1
- LeftTorso.DamageLevel:Functional
- RightTorso.Armor:0
- RightTorso.RearArmor:0
- RightTorso.Structure:1
- RightTorso.DamageLevel:Functional
- LeftArm.Armor:45
- LeftArm.Structure:4
- LeftArm.DamageLevel:Functional
- RightArm.Armor:38
- RightArm.Structure:4
- RightArm.DamageLevel:Functional
- LeftLeg.Armor:38
- LeftLeg.Structure:4
- LeftLeg.DamageLevel:Functional
- RightLeg.Armor:38
- RightLeg.Structure:4
- RightLeg.DamageLevel:Functional
- JumpCapacity:0
- JumpHeat:0
- MoveMultiplier:1
- CenterTorso.Accuracy:0
- Head.Accuracy:0
- LeftTorso.Accuracy:0
- LeftLeg.Accuracy:0
- RightTorso.Accuracy:0
- RightLeg.Accuracy:0
- LeftArm.Accuracy:0
- RightArm.Accuracy:0
+ LeftArm.Accuracy:-1
+ RightArm.Accuracy:-1
  ReceiveShutdownInjury:False
  ReceiveHeatDamageInjury:False
  ToHitIndirectModifier:-1
@@ -1263,27 +1081,12 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  CACFlatJammingChance:0
  MinefieldDetection:1
  MinefieldIFF:0
- CUDesignMasksUnaffected:True
  CUAllowPartialMovement:True
  CUAllowPartialSprint:False
  CUAllowRotateWhileJump:True
- CUPathingUnaffected:True
- CUFireActorStatUnaffected:True
- CULandminesUnaffected:True
- CUAOEHeight:55
- CUMoveCost:
- CUNoMoveAnimation:False
- CUFiringArc:60
- CUMoveCostBiomeUnaffected:False
- CUArmsCountedAsLegs:False
- CUNoHeat:False
- CUBlockComponentsActivation:False
- CUNoStability:False
- CUNoCritTransfer:False
- CUHasNoLegs:False
- CUFakeVehicle:True
- CUTrooperSquad:False
+ CUFakeVehicle:False
  CUNavalUnit:False
+ CUPathingUnaffected:False
  CAEStoodUpRollMod:0
  CAEArmAbsenceStoodUpMod:-0.1
  NoHeadDamage:False
@@ -1364,760 +1167,18 @@ Aura collider awake Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
  CBTBE_Physical_Weapon_Target_Damage_Reduction_Multi:1
  CBTBE_Physical_Weapon_Target_Instability_Reduction_Multi:1
  CUPartialMovementSpent:0
- sprint:189
- walk:126
- offline effects count: 0
- sprint:189
- walk:126
-[10:17:38.468]Strix VTOL statistic
- ArmorMultiplier:1
- StructureMultiplier:1
- BaseInitiative:2
- TurnRadius:25
- MaxJumpjets:8
- SpotterDistanceMultiplier:1
- SpotterDistanceAbsolute:0
- SpottingVisibilityMultiplier:0.85
- SpottingVisibilityAbsolute:0
- SensorDistanceMultiplier:1
- SensorDistanceAbsolute:0
- SensorSignatureModifier:0
- MinStability:0
- MaxStability:100
- UnsteadyThreshold:61
- MaxHeat:150
- OverheatLevel:42
- MinHeatNextActivation:-1
- HeatSinkCapacity:0
- IgnoreHeatToHitPenalties:False
- IgnoreHeatMovementPenalties:False
- EndMoveHeat:0
- WalkSpeed:420
- RunSpeed:540
- EngageRangeModifier:0
- DFASelfDamage:0
- DFACausesSelfUnsteady:True
- EvasivePipsGainedAdditional:1
- MeleeHitPushBackPhases:0
- HeadShotImmunity:False
- CurrentHeat:0
- Stability:0
- IsProne:False
- StabilityDefense.Terrain:0
- StabilityDefense.JumpingFalling:0
- StabilityDefense.TurningSprinting:0
- StabilityDefense.Collisions:0
- StabilityDefense.MeleeWeapon:0
- StabilityDefense.RangedWeapon:0
- ReceivedInstabilityMultiplier:1
- Head.Armor:22
- Head.Structure:4
- Head.DamageLevel:Functional
- CenterTorso.Armor:0
- CenterTorso.RearArmor:0
- CenterTorso.Structure:1
- CenterTorso.DamageLevel:Functional
- LeftTorso.Armor:0
- LeftTorso.RearArmor:0
- LeftTorso.Structure:1
- LeftTorso.DamageLevel:Functional
- RightTorso.Armor:0
- RightTorso.RearArmor:0
- RightTorso.Structure:1
- RightTorso.DamageLevel:Functional
- LeftArm.Armor:45
- LeftArm.Structure:4
- LeftArm.DamageLevel:Functional
- RightArm.Armor:38
- RightArm.Structure:4
- RightArm.DamageLevel:Functional
- LeftLeg.Armor:38
- LeftLeg.Structure:4
- LeftLeg.DamageLevel:Functional
- RightLeg.Armor:38
- RightLeg.Structure:4
- RightLeg.DamageLevel:Functional
- JumpCapacity:0
- JumpHeat:0
- MoveMultiplier:1
- CenterTorso.Accuracy:0
- Head.Accuracy:0
- LeftTorso.Accuracy:0
- LeftLeg.Accuracy:0
- RightTorso.Accuracy:0
- RightLeg.Accuracy:0
- LeftArm.Accuracy:0
- RightArm.Accuracy:0
- ReceiveShutdownInjury:False
- ReceiveHeatDamageInjury:False
- ToHitIndirectModifier:-1
- AccuracyModifier:0
- CriticalHitImmunity:False
- CriticalHitChanceReceivedMultiplier:1
- KnockdownImmunity:False
- CalledShotBonusMultiplier:1
- CanShootAfterSprinting:True
- CanMoveAfterShooting:False
- WeaponHeatMultiplier:1
- DamageReductionMultiplierAll:1
- DamageReductionMultiplierMelee:1
- DamageReductionMultiplierEnergy:1
- DamageReductionMultiplierBallistic:1
- DamageReductionMultiplierMissile:1
- DamageReductionMultiplierAntipersonnel:1
- IgnorePilotInjuries:False
- JumpDistanceMultiplier:1
- ToHitThisActor:0
- ToHitThisActorBallistic:0
- ToHitThisActorEnergy:0
- ToHitThisActorMissile:0
- ToHitThisActorSmall:0
- ToHitThisActorMelee:0
- ToHitThisActorDirectFire:0
- IsTargetingDummy:False
- GuaranteeNextBackHit:False
- GuaranteeUnhittable:False
- IsIndirectImmune:False
- HasActiveProbe:False
- GhostEffectStacks:0
- HasGhostSpotter:False
- MoraleBonusGain:0
- PrecisionStrike:False
- MaxEvasivePips:6
- DeferResetsInstability:False
- GuardedIsUpgraded:False
- EvasiveSafeFromSensorLock:False
- GainEntrenchedOnNormalMove:True
- IsCoolantVenting:False
- PhaseModifier:0
- PhaseModifierSelf:0
- CACAPProtection:False
- CACAoEDamageMult:1
- CACAPDamageMult:1
- CACIncomingHeatMult:1
- CACIncomingStabilityMult:1
- CACMinRangeAccuracyMod:0
- CACShortRangeAccuracyMod:0
- CACMediumRangeAccuracyMod:0
- CACLongRangeAccuracyMod:0
- CACExtraLongRangeAccuracyMod:0
- CACFlatJammingChance:0
- MinefieldDetection:1
- MinefieldIFF:0
- CUDesignMasksUnaffected:True
- CUAllowPartialMovement:True
- CUAllowPartialSprint:False
- CUAllowRotateWhileJump:True
- CUPathingUnaffected:True
- CUFireActorStatUnaffected:True
- CULandminesUnaffected:True
- CUAOEHeight:55
- CUMoveCost:
- CUNoMoveAnimation:False
- CUFiringArc:60
- CUMoveCostBiomeUnaffected:False
- CUArmsCountedAsLegs:False
- CUNoHeat:False
- CUBlockComponentsActivation:False
- CUNoStability:False
- CUNoCritTransfer:False
- CUHasNoLegs:False
- CUFakeVehicle:True
- CUTrooperSquad:False
- CUNavalUnit:False
- CAEStoodUpRollMod:0
- CAEArmAbsenceStoodUpMod:-0.1
- NoHeadDamage:False
- CAE_SENSORS_RANGE:90
- LV_TACTICS_MOD:2
- LV_CURRENT_ROUND_EW_CHECK:0
- LV_ECM_SHIELD:0
- LV_ECM_JAMMED:0
- LV_ADVANCED_SENSORS:0
- LV_PROBE_CARRIER:0
- LV_PROBE_PING:0
- LV_STEALTH:
- LV_MIMETIC:
- LV_MIMETIC_CURRENT_STEPS:0
- LV_HEAT_VISION:
- LV_ZOOM_VISION:
- LV_NARC:
- LV_TAG:
- LV_SHARES_VISION:False
- LV_NIGHT_VISION:False
- LV_DISABLE_SENSORS:2
- CBTBE_MovePenalty:0
- CBTBE_FirePenalty:0
- CBTBE_ActuatorDamage_Malus:0
- CBTBE_RunMultiMod:0
- CBTBE_HullBreachImmunity:True
- CBTBE_Charge_Attack_Mod:0
- CBTBE_Charge_Attacker_Damage_Mod:0
- CBTBE_Charge_Attacker_Damage_Multi:1
- CBTBE_Charge_Attacker_Instability_Mod:0
- CBTBE_Charge_Attacker_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Mod:0
- CBTBE_Charge_Target_Damage_Multi:1
- CBTBE_Charge_Target_Instability_Mod:0
- CBTBE_Charge_Target_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Reduction_Multi:1
- CBTBE_Charge_Target_Instability_Reduction_Multi:1
- CBTBE_DFA_Attack_Mod:0
- CBTBE_DFA_Attacker_Damage_Mod:0
- CBTBE_DFA_Attacker_Damage_Multi:1
- CBTBE_DFA_Attacker_Instability_Mod:0
- CBTBE_DFA_Attacker_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Mod:0
- CBTBE_DFA_Target_Damage_Multi:1
- CBTBE_DFA_Target_Instability_Mod:0
- CBTBE_DFA_Target_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Reduction_Multi:1
- CBTBE_DFA_Target_Instability_Reduction_Multi:1
- CBTBE_Kick_Attack_Mod:0
- CBTBE_Kick_Extra_Hits_Count:0
- CBTBE_Kick_Target_Damage_Mod:0
- CBTBE_Kick_Target_Damage_Multi:1
- CBTBE_Kick_Target_Instability_Mod:0
- CBTBE_Kick_Target_Instability_Multi:1
- CBTBE_Kick_Target_Damage_Reduction_Multi:1
- CBTBE_Kick_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Attack_Mod:0
- CBTBE_Punch_Extra_Hits_Count:0
- CBTBE_Punch_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Damage_Mod:0
- CBTBE_Punch_Target_Damage_Multi:1
- CBTBE_Punch_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Instability_Mod:0
- CBTBE_Punch_Target_Instability_Multi:1
- CBTBE_Punch_Target_Damage_Reduction_Multi:1
- CBTBE_Punch_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Is_Physical_Weapon:False
- CBTBE_Physical_Weapon_Ignore_Actuators:False
- CBTBE_Physical_Weapon_Location_Table:
- CBTBE_Physical_Weapon_Attack_Mod:0
- CBTBE_Physical_Weapon_Extra_Hits_Count:0
- CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Damage_Mod:0
- CBTBE_Physical_Weapon_Target_Damage_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Instability_Mod:0
- CBTBE_Physical_Weapon_Target_Instability_Multi:1
- CBTBE_Physical_Weapon_Target_Damage_Reduction_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Reduction_Multi:1
- CUPartialMovementSpent:0
- sprint:189
- walk:126
- offline effects count: 0
- sprint:189
- walk:126
-[10:17:38.491]Urbiecopter statistic
- ArmorMultiplier:1
- StructureMultiplier:1
- BaseInitiative:2
- TurnRadius:25
- MaxJumpjets:8
- SpotterDistanceMultiplier:1
- SpotterDistanceAbsolute:0
- SpottingVisibilityMultiplier:0.85
- SpottingVisibilityAbsolute:0
- SensorDistanceMultiplier:1
- SensorDistanceAbsolute:0
- SensorSignatureModifier:0
- MinStability:0
- MaxStability:100
- UnsteadyThreshold:61
- MaxHeat:150
- OverheatLevel:42
- MinHeatNextActivation:-1
- HeatSinkCapacity:0
- IgnoreHeatToHitPenalties:False
- IgnoreHeatMovementPenalties:False
- EndMoveHeat:0
- WalkSpeed:420
- RunSpeed:540
- EngageRangeModifier:0
- DFASelfDamage:0
- DFACausesSelfUnsteady:True
- EvasivePipsGainedAdditional:1
- MeleeHitPushBackPhases:0
- HeadShotImmunity:False
- CurrentHeat:0
- Stability:0
- IsProne:False
- StabilityDefense.Terrain:0
- StabilityDefense.JumpingFalling:0
- StabilityDefense.TurningSprinting:0
- StabilityDefense.Collisions:0
- StabilityDefense.MeleeWeapon:0
- StabilityDefense.RangedWeapon:0
- ReceivedInstabilityMultiplier:1
- Head.Armor:22
- Head.Structure:4
- Head.DamageLevel:Functional
- CenterTorso.Armor:0
- CenterTorso.RearArmor:0
- CenterTorso.Structure:1
- CenterTorso.DamageLevel:Functional
- LeftTorso.Armor:0
- LeftTorso.RearArmor:0
- LeftTorso.Structure:1
- LeftTorso.DamageLevel:Functional
- RightTorso.Armor:0
- RightTorso.RearArmor:0
- RightTorso.Structure:1
- RightTorso.DamageLevel:Functional
- LeftArm.Armor:45
- LeftArm.Structure:4
- LeftArm.DamageLevel:Functional
- RightArm.Armor:38
- RightArm.Structure:4
- RightArm.DamageLevel:Functional
- LeftLeg.Armor:38
- LeftLeg.Structure:4
- LeftLeg.DamageLevel:Functional
- RightLeg.Armor:38
- RightLeg.Structure:4
- RightLeg.DamageLevel:Functional
- JumpCapacity:0
- JumpHeat:0
- MoveMultiplier:1
- CenterTorso.Accuracy:0
- Head.Accuracy:0
- LeftTorso.Accuracy:0
- LeftLeg.Accuracy:0
- RightTorso.Accuracy:0
- RightLeg.Accuracy:0
- LeftArm.Accuracy:0
- RightArm.Accuracy:0
- ReceiveShutdownInjury:False
- ReceiveHeatDamageInjury:False
- ToHitIndirectModifier:-1
- AccuracyModifier:0
- CriticalHitImmunity:False
- CriticalHitChanceReceivedMultiplier:1
- KnockdownImmunity:False
- CalledShotBonusMultiplier:1
- CanShootAfterSprinting:True
- CanMoveAfterShooting:True
- WeaponHeatMultiplier:1
- DamageReductionMultiplierAll:1
- DamageReductionMultiplierMelee:1
- DamageReductionMultiplierEnergy:1
- DamageReductionMultiplierBallistic:1
- DamageReductionMultiplierMissile:1
- DamageReductionMultiplierAntipersonnel:1
- IgnorePilotInjuries:False
- JumpDistanceMultiplier:1
- ToHitThisActor:0
- ToHitThisActorBallistic:0
- ToHitThisActorEnergy:0
- ToHitThisActorMissile:0
- ToHitThisActorSmall:0
- ToHitThisActorMelee:0
- ToHitThisActorDirectFire:0
- IsTargetingDummy:False
- GuaranteeNextBackHit:False
- GuaranteeUnhittable:False
- IsIndirectImmune:False
- HasActiveProbe:False
- GhostEffectStacks:0
- HasGhostSpotter:False
- MoraleBonusGain:0
- PrecisionStrike:False
- MaxEvasivePips:6
- DeferResetsInstability:False
- GuardedIsUpgraded:False
- EvasiveSafeFromSensorLock:False
- GainEntrenchedOnNormalMove:True
- IsCoolantVenting:False
- PhaseModifier:0
- PhaseModifierSelf:0
- CACAPProtection:False
- CACAoEDamageMult:1
- CACAPDamageMult:1
- CACIncomingHeatMult:1
- CACIncomingStabilityMult:1
- CACMinRangeAccuracyMod:0
- CACShortRangeAccuracyMod:0
- CACMediumRangeAccuracyMod:0
- CACLongRangeAccuracyMod:0
- CACExtraLongRangeAccuracyMod:0
- CACFlatJammingChance:0
- MinefieldDetection:1
- MinefieldIFF:0
- CUDesignMasksUnaffected:True
- CUAllowPartialMovement:True
- CUAllowPartialSprint:False
- CUAllowRotateWhileJump:True
- CUPathingUnaffected:True
- CUFireActorStatUnaffected:True
- CULandminesUnaffected:True
- CUAOEHeight:55
- CUMoveCost:
- CUNoMoveAnimation:False
- CUFiringArc:60
- CUMoveCostBiomeUnaffected:False
- CUArmsCountedAsLegs:False
- CUNoHeat:False
- CUBlockComponentsActivation:False
- CUNoStability:False
- CUNoCritTransfer:False
- CUHasNoLegs:False
- CUFakeVehicle:True
- CUTrooperSquad:False
- CUNavalUnit:False
- CAEStoodUpRollMod:0
- CAEArmAbsenceStoodUpMod:-0.1
- NoHeadDamage:False
- CAE_SENSORS_RANGE:90
- LV_TACTICS_MOD:2
- LV_CURRENT_ROUND_EW_CHECK:0
- LV_ECM_SHIELD:0
- LV_ECM_JAMMED:0
- LV_ADVANCED_SENSORS:0
- LV_PROBE_CARRIER:0
- LV_PROBE_PING:0
- LV_STEALTH:
- LV_MIMETIC:
- LV_MIMETIC_CURRENT_STEPS:0
- LV_HEAT_VISION:
- LV_ZOOM_VISION:
- LV_NARC:
- LV_TAG:
- LV_SHARES_VISION:False
- LV_NIGHT_VISION:False
- LV_DISABLE_SENSORS:2
- CBTBE_MovePenalty:0
- CBTBE_FirePenalty:0
- CBTBE_ActuatorDamage_Malus:0
- CBTBE_RunMultiMod:0
- CBTBE_HullBreachImmunity:True
- CBTBE_Charge_Attack_Mod:0
- CBTBE_Charge_Attacker_Damage_Mod:0
- CBTBE_Charge_Attacker_Damage_Multi:1
- CBTBE_Charge_Attacker_Instability_Mod:0
- CBTBE_Charge_Attacker_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Mod:0
- CBTBE_Charge_Target_Damage_Multi:1
- CBTBE_Charge_Target_Instability_Mod:0
- CBTBE_Charge_Target_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Reduction_Multi:1
- CBTBE_Charge_Target_Instability_Reduction_Multi:1
- CBTBE_DFA_Attack_Mod:0
- CBTBE_DFA_Attacker_Damage_Mod:0
- CBTBE_DFA_Attacker_Damage_Multi:1
- CBTBE_DFA_Attacker_Instability_Mod:0
- CBTBE_DFA_Attacker_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Mod:0
- CBTBE_DFA_Target_Damage_Multi:1
- CBTBE_DFA_Target_Instability_Mod:0
- CBTBE_DFA_Target_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Reduction_Multi:1
- CBTBE_DFA_Target_Instability_Reduction_Multi:1
- CBTBE_Kick_Attack_Mod:0
- CBTBE_Kick_Extra_Hits_Count:0
- CBTBE_Kick_Target_Damage_Mod:0
- CBTBE_Kick_Target_Damage_Multi:1
- CBTBE_Kick_Target_Instability_Mod:0
- CBTBE_Kick_Target_Instability_Multi:1
- CBTBE_Kick_Target_Damage_Reduction_Multi:1
- CBTBE_Kick_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Attack_Mod:0
- CBTBE_Punch_Extra_Hits_Count:0
- CBTBE_Punch_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Damage_Mod:0
- CBTBE_Punch_Target_Damage_Multi:1
- CBTBE_Punch_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Instability_Mod:0
- CBTBE_Punch_Target_Instability_Multi:1
- CBTBE_Punch_Target_Damage_Reduction_Multi:1
- CBTBE_Punch_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Is_Physical_Weapon:False
- CBTBE_Physical_Weapon_Ignore_Actuators:False
- CBTBE_Physical_Weapon_Location_Table:
- CBTBE_Physical_Weapon_Attack_Mod:0
- CBTBE_Physical_Weapon_Extra_Hits_Count:0
- CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Damage_Mod:0
- CBTBE_Physical_Weapon_Target_Damage_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Instability_Mod:0
- CBTBE_Physical_Weapon_Target_Instability_Multi:1
- CBTBE_Physical_Weapon_Target_Damage_Reduction_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Reduction_Multi:1
- CUPartialMovementSpent:0
- sprint:189
- walk:126
- offline effects count: 0
- sprint:189
- walk:126
-[10:17:38.530]Yellowjacket AC statistic
- ArmorMultiplier:1
- StructureMultiplier:1
- BaseInitiative:2
- TurnRadius:25
- MaxJumpjets:8
- SpotterDistanceMultiplier:1
- SpotterDistanceAbsolute:0
- SpottingVisibilityMultiplier:0.85
- SpottingVisibilityAbsolute:0
- SensorDistanceMultiplier:1
- SensorDistanceAbsolute:0
- SensorSignatureModifier:0
- MinStability:0
- MaxStability:100
- UnsteadyThreshold:61
- MaxHeat:150
- OverheatLevel:42
- MinHeatNextActivation:-1
- HeatSinkCapacity:0
- IgnoreHeatToHitPenalties:False
- IgnoreHeatMovementPenalties:False
- EndMoveHeat:0
- WalkSpeed:420
- RunSpeed:540
- EngageRangeModifier:0
- DFASelfDamage:0
- DFACausesSelfUnsteady:True
- EvasivePipsGainedAdditional:1
- MeleeHitPushBackPhases:0
- HeadShotImmunity:False
- CurrentHeat:0
- Stability:0
- IsProne:False
- StabilityDefense.Terrain:0
- StabilityDefense.JumpingFalling:0
- StabilityDefense.TurningSprinting:0
- StabilityDefense.Collisions:0
- StabilityDefense.MeleeWeapon:0
- StabilityDefense.RangedWeapon:0
- ReceivedInstabilityMultiplier:1
- Head.Armor:22
- Head.Structure:4
- Head.DamageLevel:Functional
- CenterTorso.Armor:0
- CenterTorso.RearArmor:0
- CenterTorso.Structure:1
- CenterTorso.DamageLevel:Functional
- LeftTorso.Armor:0
- LeftTorso.RearArmor:0
- LeftTorso.Structure:1
- LeftTorso.DamageLevel:Functional
- RightTorso.Armor:0
- RightTorso.RearArmor:0
- RightTorso.Structure:1
- RightTorso.DamageLevel:Functional
- LeftArm.Armor:45
- LeftArm.Structure:4
- LeftArm.DamageLevel:Functional
- RightArm.Armor:38
- RightArm.Structure:4
- RightArm.DamageLevel:Functional
- LeftLeg.Armor:38
- LeftLeg.Structure:4
- LeftLeg.DamageLevel:Functional
- RightLeg.Armor:38
- RightLeg.Structure:4
- RightLeg.DamageLevel:Functional
- JumpCapacity:0
- JumpHeat:0
- MoveMultiplier:1
- CenterTorso.Accuracy:0
- Head.Accuracy:0
- LeftTorso.Accuracy:0
- LeftLeg.Accuracy:0
- RightTorso.Accuracy:0
- RightLeg.Accuracy:0
- LeftArm.Accuracy:0
- RightArm.Accuracy:0
- ReceiveShutdownInjury:False
- ReceiveHeatDamageInjury:False
- ToHitIndirectModifier:-1
- AccuracyModifier:0
- CriticalHitImmunity:False
- CriticalHitChanceReceivedMultiplier:1
- KnockdownImmunity:False
- CalledShotBonusMultiplier:1
- CanShootAfterSprinting:True
- CanMoveAfterShooting:False
- WeaponHeatMultiplier:1
- DamageReductionMultiplierAll:1
- DamageReductionMultiplierMelee:1
- DamageReductionMultiplierEnergy:1
- DamageReductionMultiplierBallistic:1
- DamageReductionMultiplierMissile:1
- DamageReductionMultiplierAntipersonnel:1
- IgnorePilotInjuries:False
- JumpDistanceMultiplier:1
- ToHitThisActor:0
- ToHitThisActorBallistic:0
- ToHitThisActorEnergy:0
- ToHitThisActorMissile:0
- ToHitThisActorSmall:0
- ToHitThisActorMelee:0
- ToHitThisActorDirectFire:0
- IsTargetingDummy:False
- GuaranteeNextBackHit:False
- GuaranteeUnhittable:False
- IsIndirectImmune:False
- HasActiveProbe:False
- GhostEffectStacks:0
- HasGhostSpotter:False
- MoraleBonusGain:0
- PrecisionStrike:False
- MaxEvasivePips:6
- DeferResetsInstability:False
- GuardedIsUpgraded:False
- EvasiveSafeFromSensorLock:False
- GainEntrenchedOnNormalMove:True
- IsCoolantVenting:False
- PhaseModifier:0
- PhaseModifierSelf:0
- CACAPProtection:False
- CACAoEDamageMult:1
- CACAPDamageMult:1
- CACIncomingHeatMult:1
- CACIncomingStabilityMult:1
- CACMinRangeAccuracyMod:0
- CACShortRangeAccuracyMod:0
- CACMediumRangeAccuracyMod:0
- CACLongRangeAccuracyMod:0
- CACExtraLongRangeAccuracyMod:0
- CACFlatJammingChance:0
- MinefieldDetection:1
- MinefieldIFF:0
- CUDesignMasksUnaffected:True
- CUAllowPartialMovement:True
- CUAllowPartialSprint:False
- CUAllowRotateWhileJump:True
- CUPathingUnaffected:True
- CUFireActorStatUnaffected:True
- CULandminesUnaffected:True
- CUAOEHeight:55
- CUMoveCost:
- CUNoMoveAnimation:False
- CUFiringArc:60
- CUMoveCostBiomeUnaffected:False
- CUArmsCountedAsLegs:False
- CUNoHeat:False
- CUBlockComponentsActivation:False
- CUNoStability:False
- CUNoCritTransfer:False
- CUHasNoLegs:False
- CUFakeVehicle:True
- CUTrooperSquad:False
- CUNavalUnit:False
- CAEStoodUpRollMod:0
- CAEArmAbsenceStoodUpMod:-0.1
- NoHeadDamage:False
- CAE_SENSORS_RANGE:90
- LV_TACTICS_MOD:2
- LV_CURRENT_ROUND_EW_CHECK:0
- LV_ECM_SHIELD:0
- LV_ECM_JAMMED:0
- LV_ADVANCED_SENSORS:0
- LV_PROBE_CARRIER:0
- LV_PROBE_PING:0
- LV_STEALTH:
- LV_MIMETIC:
- LV_MIMETIC_CURRENT_STEPS:0
- LV_HEAT_VISION:
- LV_ZOOM_VISION:
- LV_NARC:
- LV_TAG:
- LV_SHARES_VISION:False
- LV_NIGHT_VISION:False
- LV_DISABLE_SENSORS:2
- CBTBE_MovePenalty:0
- CBTBE_FirePenalty:0
- CBTBE_ActuatorDamage_Malus:0
- CBTBE_RunMultiMod:0
- CBTBE_HullBreachImmunity:True
- CBTBE_Charge_Attack_Mod:0
- CBTBE_Charge_Attacker_Damage_Mod:0
- CBTBE_Charge_Attacker_Damage_Multi:1
- CBTBE_Charge_Attacker_Instability_Mod:0
- CBTBE_Charge_Attacker_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Mod:0
- CBTBE_Charge_Target_Damage_Multi:1
- CBTBE_Charge_Target_Instability_Mod:0
- CBTBE_Charge_Target_Instability_Multi:1
- CBTBE_Charge_Target_Damage_Reduction_Multi:1
- CBTBE_Charge_Target_Instability_Reduction_Multi:1
- CBTBE_DFA_Attack_Mod:0
- CBTBE_DFA_Attacker_Damage_Mod:0
- CBTBE_DFA_Attacker_Damage_Multi:1
- CBTBE_DFA_Attacker_Instability_Mod:0
- CBTBE_DFA_Attacker_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Mod:0
- CBTBE_DFA_Target_Damage_Multi:1
- CBTBE_DFA_Target_Instability_Mod:0
- CBTBE_DFA_Target_Instability_Multi:1
- CBTBE_DFA_Target_Damage_Reduction_Multi:1
- CBTBE_DFA_Target_Instability_Reduction_Multi:1
- CBTBE_Kick_Attack_Mod:0
- CBTBE_Kick_Extra_Hits_Count:0
- CBTBE_Kick_Target_Damage_Mod:0
- CBTBE_Kick_Target_Damage_Multi:1
- CBTBE_Kick_Target_Instability_Mod:0
- CBTBE_Kick_Target_Instability_Multi:1
- CBTBE_Kick_Target_Damage_Reduction_Multi:1
- CBTBE_Kick_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Attack_Mod:0
- CBTBE_Punch_Extra_Hits_Count:0
- CBTBE_Punch_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Damage_Mod:0
- CBTBE_Punch_Target_Damage_Multi:1
- CBTBE_Punch_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Punch_Target_Instability_Mod:0
- CBTBE_Punch_Target_Instability_Multi:1
- CBTBE_Punch_Target_Damage_Reduction_Multi:1
- CBTBE_Punch_Target_Instability_Reduction_Multi:1
- CBTBE_Punch_Is_Physical_Weapon:False
- CBTBE_Physical_Weapon_Ignore_Actuators:False
- CBTBE_Physical_Weapon_Location_Table:
- CBTBE_Physical_Weapon_Attack_Mod:0
- CBTBE_Physical_Weapon_Extra_Hits_Count:0
- CBTBE_Physical_Weapon_Target_Damage_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Damage_Mod:0
- CBTBE_Physical_Weapon_Target_Damage_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Per_Attacker_Ton:0
- CBTBE_Physical_Weapon_Target_Instability_Mod:0
- CBTBE_Physical_Weapon_Target_Instability_Multi:1
- CBTBE_Physical_Weapon_Target_Damage_Reduction_Multi:1
- CBTBE_Physical_Weapon_Target_Instability_Reduction_Multi:1
- CUPartialMovementSpent:0
- sprint:189
- walk:126
-Aura:Strix VTOL:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Urbiecopter:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Yellowjacket AC:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Strix VTOL:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Urbiecopter:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Yellowjacket AC:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Strix VTOL:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Urbiecopter:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Yellowjacket AC:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Strix VTOL:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Urbiecopter:Sensors src:null state:Persistent 90->150 speed:12
-Aura:Yellowjacket AC:Sensors src:null state:Persistent 90->150 speed:12
-AbstractActor.OnNewRound(Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0)
+ sprint:144
+ walk:96
+Aura:Dragon:Sensors src:null state:Persistent 90->150 speed:12
+Aura:Catapult:Sensors src:null state:Persistent 90->150 speed:12
+Aura:Dragon:Sensors src:null state:Persistent 90->150 speed:12
+Aura:Catapult:Sensors src:null state:Persistent 90->150 speed:12
+AbstractActor.OnNewRound(Dragon:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0)
  not AI
-CommitDamageData Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
+CommitDamageData Dragon:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0
  DamagedLocations:
-  Gear_DestroyCurrentLocation:CustomActivatableEquipment.RepairTrigger:1
-AbstractActor.OnNewRound(Urbiecopter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0)
- not AI
-CommitDamageData Urbiecopter:ebc06b6a-c5a8-4165-95ce-480bcf335570.0
- DamagedLocations:
-  Gear_DestroyCurrentLocation:CustomActivatableEquipment.RepairTrigger:1
-AbstractActor.OnNewRound(Yellowjacket AC:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0)
- not AI
-CommitDamageData Yellowjacket AC:d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1.0
- DamagedLocations:
-  Gear_DestroyCurrentLocation:CustomActivatableEquipment.RepairTrigger:1
-AbstractActor.OnNewRound(Strix VTOL:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0)
-AI activatable coeffs:Strix VTOL:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+AbstractActor.OnNewRound(Catapult:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0)
+AI activatable coeffs:Catapult:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
  visible targets:0
  offenceCoeff:0
  deffenceCoeff:0
@@ -2125,181 +1186,252 @@ AI activatable coeffs:Strix VTOL:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
  overheatCoeff:0
  isAnyLocationExposed:False
 Components:
- Weapon_Autocannon_UAC2_0-STOCK
+ Gear_Cockpit_LifeSupportA_Standard
   can't be activated
- Weapon_Laser_SmallLaserER_0-STOCK
+ emod_armorslots_standard
   can't be activated
- Weapon_Laser_SmallLaserER_0-STOCK
+ emod_leg_hip
   can't be activated
- Ammo_AmmunitionBox_Generic_AC2
+ emod_leg_hip
   can't be activated
- Ammo_AmmunitionBox_Generic_AC2
+ emod_arm_part_shoulder
   can't be activated
- Gear_DestroyCurrentLocation
+ emod_arm_part_shoulder
+  can't be activated
+ Gear_Cockpit_SensorsA_Standard
+  can't be activated
+ emod_structureslots_standard
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_leg_upper
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ emod_arm_part_upper
+  can't be activated
+ Gear_Cockpit_Generic_Standard
+  can't be activated
+ emod_kit_shs
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_leg_lower
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ emod_arm_part_lower
+  can't be activated
+ Gear_Cockpit_SensorsB_Standard
+  can't be activated
+ Gear_Gyro_Generic_Standard
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ emod_leg_foot
+  can't be activated
+ emod_arm_part_hand
+  can't be activated
+ emod_arm_part_hand
+  can't be activated
+ Gear_Cockpit_LifeSupportB_Standard
+  can't be activated
+ emod_engineslots_std_center
+  can't be activated
+ emod_engine_cooling
+  can't be activated
+ emod_engine_260
+  can't be activated
+ Weapon_LRM_LRM20_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ Gear_JumpJet_Generic_Heavy
+  can't be activated
+ Gear_JumpJet_Generic_Heavy
+  can't be activated
+ Weapon_Laser_SmallLaser_0-STOCK
+  can't be activated
+ Weapon_Laser_SmallLaser_0-STOCK
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ Ammo_AmmunitionBox_Generic_LRM
+  can't be activated
+ Gear_JumpJet_Generic_Heavy
+  can't be activated
+ Gear_JumpJet_Generic_Heavy
+  can't be activated
+ Weapon_LRM_LRM20_0-STOCK
+  can't be activated
 Activation:
- Weapon_Autocannon_UAC2_0-STOCK
+ Gear_Cockpit_LifeSupportA_Standard
   not active
- Weapon_Laser_SmallLaserER_0-STOCK
+ emod_armorslots_standard
   not active
- Weapon_Laser_SmallLaserER_0-STOCK
+ emod_leg_hip
   not active
- Ammo_AmmunitionBox_Generic_AC2
+ emod_leg_hip
   not active
- Ammo_AmmunitionBox_Generic_AC2
+ emod_arm_part_shoulder
   not active
- Gear_DestroyCurrentLocation
+ emod_arm_part_shoulder
+  not active
+ Gear_Cockpit_SensorsA_Standard
+  not active
+ emod_structureslots_standard
+  not active
+ emod_leg_upper
+  not active
+ emod_leg_upper
+  not active
+ emod_arm_part_upper
+  not active
+ emod_arm_part_upper
+  not active
+ Gear_Cockpit_Generic_Standard
+  not active
+ emod_kit_shs
+  not active
+ emod_leg_lower
+  not active
+ emod_leg_lower
+  not active
+ emod_arm_part_lower
+  not active
+ emod_arm_part_lower
+  not active
+ Gear_Cockpit_SensorsB_Standard
+  not active
+ Gear_Gyro_Generic_Standard
+  not active
+ emod_leg_foot
+  not active
+ emod_leg_foot
+  not active
+ emod_arm_part_hand
+  not active
+ emod_arm_part_hand
+  not active
+ Gear_Cockpit_LifeSupportB_Standard
+  not active
+ emod_engineslots_std_center
+  not active
+ emod_engine_cooling
+  not active
+ emod_engine_260
+  not active
+ Weapon_LRM_LRM20_0-STOCK
+  deactivating
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ Gear_JumpJet_Generic_Heavy
+  not active
+ Gear_JumpJet_Generic_Heavy
+  not active
+ Weapon_Laser_SmallLaser_0-STOCK
+  not active
+ Weapon_Laser_SmallLaser_0-STOCK
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ Ammo_AmmunitionBox_Generic_LRM
+  not active
+ Gear_JumpJet_Generic_Heavy
+  not active
+ Gear_JumpJet_Generic_Heavy
+  not active
+ Weapon_LRM_LRM20_0-STOCK
   deactivating
 AI activatable time:2 msec
-CommitDamageData Strix VTOL:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
+CommitDamageData Catapult:bfdd72f9-395c-4cde-9f2b-dd28505242a1.0
  DamagedLocations:
-  Gear_DestroyCurrentLocation:CustomActivatableEquipment.RepairTrigger:1
-AbstractActor.OnNewRound(Urbiecopter:226faa53-e63d-4d02-acd7-ff2fd68598f4.0)
-AI activatable coeffs:Urbiecopter:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
- visible targets:0
- offenceCoeff:0
- deffenceCoeff:0
- heatCoeff:0
- overheatCoeff:0
- isAnyLocationExposed:False
-Components:
- Weapon_MORTAR_3-Hellhammer
-  can't be activated
- Weapon_PPC_PPC_0-STOCK
-  can't be activated
- Weapon_Autocannon_AC2_0-STOCK
-  can't be activated
- Ammo_AmmunitionBox_Generic_MORTAR
-  can't be activated
- Ammo_AmmunitionBox_Generic_AC2
-  can't be activated
- Gear_DestroyCurrentLocation
-Activation:
- Weapon_MORTAR_3-Hellhammer
-  not active
- Weapon_PPC_PPC_0-STOCK
-  not active
- Weapon_Autocannon_AC2_0-STOCK
-  not active
- Ammo_AmmunitionBox_Generic_MORTAR
-  not active
- Ammo_AmmunitionBox_Generic_AC2
-  not active
- Gear_DestroyCurrentLocation
-  deactivating
-AI activatable time:0 msec
-CommitDamageData Urbiecopter:226faa53-e63d-4d02-acd7-ff2fd68598f4.0
- DamagedLocations:
-  Gear_DestroyCurrentLocation:CustomActivatableEquipment.RepairTrigger:1
-AbstractActor.OnNewRound(Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0)
-AI activatable coeffs:Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
- visible targets:0
- offenceCoeff:0
- deffenceCoeff:0
- heatCoeff:0
- overheatCoeff:0
- isAnyLocationExposed:False
-Components:
- Weapon_MORTAR_3-Hellhammer
-  can't be activated
- Weapon_PPC_PPC_0-STOCK
-  can't be activated
- Weapon_Autocannon_AC2_0-STOCK
-  can't be activated
- Ammo_AmmunitionBox_Generic_MORTAR
-  can't be activated
- Ammo_AmmunitionBox_Generic_AC2
-  can't be activated
- Gear_DestroyCurrentLocation
-Activation:
- Weapon_MORTAR_3-Hellhammer
-  not active
- Weapon_PPC_PPC_0-STOCK
-  not active
- Weapon_Autocannon_AC2_0-STOCK
-  not active
- Ammo_AmmunitionBox_Generic_MORTAR
-  not active
- Ammo_AmmunitionBox_Generic_AC2
-  not active
- Gear_DestroyCurrentLocation
-  deactivating
-AI activatable time:0 msec
-CommitDamageData Yellowjacket AC:358c5692-25ee-433b-b9ce-bab9ae35528e.0
- DamagedLocations:
-  Gear_DestroyCurrentLocation:CustomActivatableEquipment.RepairTrigger:1
-[10:17:46.441]CombatHUDEquipmentPanel.InitDisplayedEquipment unit:Strix VTOL pilot:pilot_tank_crew2
- component:Weapon_Autocannon_UAC2_0-STOCK
+  Weapon_LRM_LRM20_0-STOCK:CustomActivatableEquipment.RepairTrigger:2
+  Weapon_LRM_LRM20_0-STOCK:CustomActivatableEquipment.RepairTrigger:32
+[11:31:59.429]CombatHUDEquipmentPanel.InitDisplayedEquipment unit:Dragon pilot:pilot_kbeta_paradise
+ component:Gear_Cockpit_LifeSupportA_Standard
   not activatable
- component:Weapon_Laser_SmallLaserER_0-STOCK
+ component:emod_armorslots_standard
   not activatable
- component:Weapon_Laser_SmallLaserER_0-STOCK
+ component:emod_leg_hip
   not activatable
- component:Ammo_AmmunitionBox_Generic_AC2
+ component:emod_leg_hip
   not activatable
- component:Ammo_AmmunitionBox_Generic_AC2
+ component:emod_arm_part_shoulder
   not activatable
- component:Gear_DestroyCurrentLocation
-  can be activated manualy
-[10:17:46.441]CombatHUDEquipmentSlotEx.static Init
- wp_Slot1 found
-[10:17:46.444]found wp_Slot1 parent:WeaponPanel
-[10:17:46.446]check_Image:RGBA(1,000, 1,000, 1,000, 1,000)
-[10:17:46.448]CombatHUDEquipmentSlotEx.Init Gear_DestroyCurrentLocation
- no extended description:Destroy location
-[10:17:46.448]CombatHUDEquipmentSlotEx.Init Gear_DestroyCurrentLocation abilities:0
-[10:17:46.727]ComponentsPanelHeaderAligner.Update ui init
- text_WeaponText x:1487,028
- text_State x:1744,806
- text_Charges x:1807,102
- text_FailChance x:1889,398
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
-WARNING!Strix VTOL:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
+ component:emod_arm_part_shoulder
+  not activatable
+ component:Gear_Cockpit_SensorsA_Standard
+  not activatable
+ component:emod_structureslots_standard
+  not activatable
+ component:emod_leg_upper
+  not activatable
+ component:emod_leg_upper
+  not activatable
+ component:emod_arm_part_upper
+  not activatable
+ component:emod_arm_part_upper
+  not activatable
+ component:Gear_Cockpit_Generic_Standard
+  not activatable
+ component:emod_kit_shs
+  not activatable
+ component:emod_leg_lower
+  not activatable
+ component:emod_leg_lower
+  not activatable
+ component:emod_arm_part_lower
+  not activatable
+ component:emod_arm_part_lower
+  not activatable
+ component:Gear_Cockpit_SensorsB_Standard
+  not activatable
+ component:Gear_Gyro_Generic_Standard
+  not activatable
+ component:emod_leg_foot
+  not activatable
+ component:emod_leg_foot
+  not activatable
+ component:Gear_Cockpit_LifeSupportB_Standard
+  not activatable
+ component:emod_engineslots_std_center
+  not activatable
+ component:emod_engine_cooling
+  not activatable
+ component:emod_engine_300
+  not activatable
+ component:Weapon_Laser_MediumLaser_0-STOCK
+  not activatable
+ component:Weapon_Laser_MediumLaser_0-STOCK
+  not activatable
+ component:Ammo_AmmunitionBox_Generic_LRM
+  not activatable
+ component:Ammo_AmmunitionBox_Generic_LRM
+  not activatable
+ component:Weapon_LRM_LRM10_0-STOCK
+  not activatable
+ component:Ammo_AmmunitionBox_Generic_AC5
+  not activatable
+ component:Ammo_AmmunitionBox_Generic_AC5
+  not activatable
+ component:Weapon_Autocannon_AC5_0-STOCK
+  not activatable
+WARNING!Dragon:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
+WARNING!Dragon:ec9d2280-ca9a-4d90-8a20-963d8a4c0a39.0 has no body to apply auras
+CombatHUDActionButton.ExecuteClick 'ID_ATTACKGROUND'/'BTN_Move' False
+[11:32:01.807]CombatHUDSidePanelHoverElement.OnPointerClick ATTACK GROUND
+[11:32:02.391]CombatHUDAttackModeSelector.ShowFireButton mode:Confirm
+  at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomActivatableEquipment.CombatHUDAttackModeSelector_ShowFireButton.Postfix (BattleTech.UI.CombatHUDAttackModeSelector __instance, BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails, System.Boolean showHeatWarnings) [0x00000] in <ca3a9838cd234c98a3140187e12eb74a>:0 
+  at BattleTech.UI.CombatHUDAttackModeSelector.ShowFireButton_Patch3 (System.Object , BattleTech.UI.CombatHUDFireButton+FireMode , System.String , System.Boolean ) [0x00000] in <029bfe22d2d74c8e8c8ded1619022103>:0 
+  at BattleTech.UI.CombatHUD.ShowFireButton (BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails, System.Boolean showHeatWarnings) [0x00000] in <029bfe22d2d74c8e8c8ded1619022103>:0 
+  at BattleTech.UI.SelectionState.ShowFireButton (BattleTech.UI.CombatHUDFireButton+FireMode mode, System.String additionalDetails) [0x00000] in <029bfe22d2d74c8e8c8ded1619022103>:0 
+  at CustAmmoCategories.SelectionStateCommandAttackGround.ProcessLeftClick (UnityEngine.Vector3 worldPos) [0x00000] in <ecc0b83c75b74e4a82ae061e99c224be>:0 
+  at BattleTech.UI.CombatSelectionHandler.ProcessLeftClick (UnityEngine.Vector3 worldPos) [0x00000] in <029bfe22d2d74c8e8c8ded1619022103>:0 
+  at BattleTech.UI.CombatSelectionHandler.ProcessInput_Patch1 (System.Object ) [0x00000] in <029bfe22d2d74c8e8c8ded1619022103>:0 
+  at BattleTech.UI.CombatSelectionHandler.Update () [0x00000] in <029bfe22d2d74c8e8c8ded1619022103>:0 
