@@ -1,5 +1,0 @@
-Initing... C:\Users\Konstantin\Documents\My Games\BattleTech\mods\KMiSSioN\CustomProfiler version: 1.0.0.0
-[21:38:38.137]profiler flush thread started
-Log flushing
-Log flushing
-Log flushing
