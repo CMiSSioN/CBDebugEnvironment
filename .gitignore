@@ -16,3 +16,7 @@ LowVisibility/low_visibility.log
 MechEngineer/log.txt
 MechEditorMod/MechEditor_main_log.txt
 CommanderPortraitLoader/PortraitJsons/
+CustomAmmoCategories/CAC_criticals_log.txt
+CustomAmmoCategories/CAC_minefields_log.txt
+CustomAmmoCategories/CAC_profiling_log.txt
+CustomComponents/log.txt
