@@ -9,7 +9,7 @@
       "unit_role_brawler",
       "unit_speed_low",
       "unit_armor_high",
-      "BLACKLISTED"
+			"noautofix"
     ],
     "tagSetSourceFile": ""
   },

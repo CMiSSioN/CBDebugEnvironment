@@ -31,7 +31,7 @@
     "FakeVehicle": false,
     "FakeVehicleMovementType": "Tracked",
     "Naval": true,
-    "FlyingHeight": 1.4
+    "FlyingHeight": 0.9
   },
   "MovementCapDefID": "movedef_battlemaster_BLR-1G",
   "PathingCapDefID": "pathingdef_light_wheeled",
@@ -208,7 +208,7 @@
   ],
   "VariantName": "CC SQUAD",
   "ChassisTags": {
-    "items": [],
+    "items": [ "noautofix" ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler & Close Assault",
