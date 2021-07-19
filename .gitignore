@@ -20,3 +20,5 @@ CustomAmmoCategories/CAC_criticals_log.txt
 CustomAmmoCategories/CAC_minefields_log.txt
 CustomAmmoCategories/CAC_profiling_log.txt
 CustomComponents/log.txt
+output_log.txt
+cleaned_output_log.txt
