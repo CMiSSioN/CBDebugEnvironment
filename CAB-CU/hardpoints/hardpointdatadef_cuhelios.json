@@ -1,0 +1,53 @@
+{
+  "ID": "hardpointdatadef_cuhelios",
+  "CustomHardpoints": {
+    "prefabs": [
+      {"prefab": "chrprfweap_cuhelios_la_laser1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_cuhelios_la_laser2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_cuhelios_lt_srm6", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1","fire2","fire3","fire4","fire5","fire6" ] },
+      {"prefab": "chrprfweap_cuhelios_rt_srm6", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1","fire2","fire3","fire4","fire5","fire6" ] },
+      {"prefab": "chrprfweap_cuhelios_ra_gauss", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] }
+    ],
+    "aliases": {
+      "chrPrfWeap_cuhelios_lefttorso_srm6_mh1": { "location": "lefttorso", "prefab": "chrprfweap_cuhelios_lt_srm6" },
+      "chrPrfWeap_cuhelios_righttorso_srm6_mh1": { "location": "righttorso", "prefab": "chrprfweap_cuhelios_rt_srm6" },
+      "chrPrfWeap_cuhelios_leftarm_laser_eh1": { "location": "leftarm", "prefab": "chrprfweap_cuhelios_la_laser1" },
+      "chrPrfWeap_cuhelios_leftarm_laser_eh2": { "location": "leftarm", "prefab": "chrprfweap_cuhelios_la_laser2" },
+      "chrPrfWeap_cuhelios_rightarm_gauss_bh1": { "location": "rightarm", "prefab": "chrprfweap_cuhelios_ra_gauss" }           
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "lefttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

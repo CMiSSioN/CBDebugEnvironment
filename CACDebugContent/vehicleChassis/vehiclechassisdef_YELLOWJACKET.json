@@ -18,15 +18,13 @@
       "Landmines": "true",
       "MoveClamp": 0.3
     },
-    "NullifyBodyMesh": true,
-    "FakeVehicleCrewLocation": "Front",
-    "TieToGroundOnDeath": "true"
+    "FakeVehicleCrewLocation": "Front"
   },
   "MovementCapDefID": "movedef_warriorvtol",
   "PathingCapDefID": "pathingdef_light_wheeled",
-  "HardpointDataDefID": "hardpointdatadef_yellowjacket",
+  "HardpointDataDefID": "hardpointdatadef_cuyellowjacket",
   "PrefabIdentifier": "chrprfmech_yellowjacket_vtol",
-  "PrefabBase": "yellowjacket",
+  "PrefabBase": "cuyellowjacket",
   "Tonnage": 30,
   "weightClass": "LIGHT",
   "BattleValue": 564,

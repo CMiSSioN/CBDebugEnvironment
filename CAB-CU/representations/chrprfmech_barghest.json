@@ -1,18 +1,20 @@
 {
   "Id": "chrprfmech_barghest",
   "PrefabBase":"barghest",
-  "SourcePrefabIdentifier":"chrPrfMech_kingcrabBase-001",
-  "SourcePrefabBase":"kingcrab",
+  "SourcePrefabIdentifier":"chrPrfMech_cataphractBase-001",
+  "SourcePrefabBase":"cataphract",
   "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
   "ApplyType": "None",
-  "SupressAllMeshes": false,
+  "SupressAllMeshes": true,
 	"quadVisualInfo":{
 		"UseQuadVisuals": true,
-		"FLegsPrefab": "chrPrfMech_kingcrabBase-001",
+		"FLegsPrefab": "chrprfmech_barghest_front",
+		"FLegsPrefabBase": "barghest_front",
+		"RLegsPrefab": "chrprfmech_barghest_rear",
+		"RLegsPrefabBase": "barghest_rear",
 		"BodyLength":7.0,
 		"BodyPrefab": "barghest_body",
 		"BodyShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
-		"FLegsPrefabBase": "kingcrab",
 		"NotSuppressRenderers":["_left_leg_","_right_leg_"],
 		"Destructables":{
 			"Head":{

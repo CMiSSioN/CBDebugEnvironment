@@ -1,0 +1,173 @@
+{
+  "Description": {
+    "Id": "vehiclechassisdef_RAKIROV",
+    "Name": "Kirov VTOL",
+    "Details": "",
+    "Icon": "STRIKER",
+    "Cost": 564,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "CustomParts": {
+    "AOEHeight": 55,
+    "FiringArc": 60,
+    "Unaffected": {
+      "DesignMasks": "true",
+      "Pathing": "true",
+      "Fire": "true",
+      "Landmines": "true",
+      "MoveClamp": 0.3
+    },
+    "NullifyBodyMesh": true,
+    "FakeVehicleCrewLocation": "Front",
+    "TieToGroundOnDeath": "true"
+  },
+  "MovementCapDefID": "movedef_warriorvtol",
+  "PathingCapDefID": "pathingdef_light_wheeled",
+  "HardpointDataDefID": "hardpointdatadef_curakirov",
+  "PrefabIdentifier": "chrprfmech_rakirov_vtol",
+  "PrefabBase": "curakirov",
+  "Tonnage": 30,
+  "weightClass": "LIGHT",
+  "BattleValue": 564,
+  "TopSpeed": 25,
+  "TurnRadius": 90,
+  "movementType": "Tracked",
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.85,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 40,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 38.5,
+      "z": 4
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 40,
+      "z": -2
+    },
+    {
+      "x": 0,
+      "y": 38.5,
+      "z": 4
+    },
+    {
+      "x": -1.5,
+      "y": 40.5,
+      "z": 0
+    },
+    {
+      "x": 1.5,
+      "y": 38.5,
+      "z": 0
+    },
+    {
+      "x": 0.0,
+      "y": 40.5,
+      "z": -4
+    }
+  ],
+  "Locations": [
+    {
+      "Location": "Front",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 60,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 50,
+      "InternalStructure": 5
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 30,
+      "InternalStructure": 5
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "Id": "chrprfmech_urbiecopter_vtol",
-  "PrefabBase":"urbiecopter",
+  "PrefabBase":"cuurbiecopter",
   "SourcePrefabIdentifier":"chrPrfMech_battlemasterBase-001",
   "SourcePrefabBase":"battlemaster",
   "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
@@ -50,7 +50,7 @@
     },
     {
       "Name":"LightTurret",
-      "visuals": "turret_visuals",
+      "visuals": "front_turret_visuals",
       "attach": "front_turret_hardpoint",
       "hideIfEmpty": true,
       "type": "Turret",

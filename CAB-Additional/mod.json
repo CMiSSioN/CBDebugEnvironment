@@ -7,6 +7,9 @@
 		{ "Type": "AssetBundle", "Path": "assetbundles" },	
 		{ "Type": "HardpointDataDef", "Path": "hardpoints" },
 
+		{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_left_leg.prefab", "AssetBundleName": "vf11lam_jets" },
+		{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_right_leg.prefab", "AssetBundleName": "vf11lam_jets" },
+		{ "Type": "Prefab", "Path": "assets/characters/prefabs/vf11lam_vjets_torso.prefab", "AssetBundleName": "vf11lam_jets" },
 		{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/components/vf11lam/chrPrfComp_vf11lam_simgame.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },
 		{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/chrprfmech_vf11lambase-001.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },		
 		{ "Type": "Prefab", "Path": "assets/character/mechs/prefabs/components/vf11lam/chrPrfComp_vf11lam_centertorso_jumpjet.prefab", "AssetBundleName": "chrprfmech_vf11lambase-001" },

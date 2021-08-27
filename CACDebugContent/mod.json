@@ -31,7 +31,7 @@
   "Manifest": [
     {
       "Type": "AbilityDef",
-      "Path": "abilities\\"
+      "Path": "abilities"
     },
     {
       "Type": "AssetBundle",
@@ -39,39 +39,39 @@
     },
     {
       "Type": "AmmunitionDef",
-      "Path": "ammunition\\"
+      "Path": "ammunition"
     },
     {
       "Type": "AmmunitionBoxDef",
-      "Path": "ammunitionBox\\"
+      "Path": "ammunitionBox"
     },
     {
       "Type": "WeaponDef",
-      "Path": "weapon\\"
+      "Path": "weapon"
     },
     {
       "Type": "WeaponDef",
-      "Path": "weapons\\"
+      "Path": "weapons"
     },
     {
       "Type": "UpgradeDef",
-      "Path": "upgrades\\"
+      "Path": "upgrades"
     },
     {
       "Type": "ChassisDef",
-      "Path": "chassis\\"
+      "Path": "chassis"
     },
     {
       "Type": "MechDef",
-      "Path": "mech\\"
+      "Path": "mech"
     },
     {
       "Type": "VehicleDef",
-      "Path": "vehicle\\"
+      "Path": "vehicle"
     },
     {
       "Type": "VehicleChassisDef",
-      "Path": "vehicleChassis\\"
+      "Path": "vehicleChassis"
     },
     {
       "Type": "MovementCapabilitiesDef",
@@ -87,15 +87,15 @@
     },
     {
       "Type": "HeatSinkDef",
-      "Path": "heatsinks\\"
+      "Path": "heatsinks"
     },
     {
       "Type": "HardpointDataDef",
-      "Path": "hardpoints\\"
+      "Path": "hardpoints"
     },
     {
       "Type": "SVGAsset",
-      "Path": "icons\\"
+      "Path": "icons"
     },
     {
       "Type": "VoicePackDef",

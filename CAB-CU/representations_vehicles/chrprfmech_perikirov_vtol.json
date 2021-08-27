@@ -1,0 +1,99 @@
+{
+	"Id": "chrprfmech_perikirov_vtol",
+	"PrefabBase": "cuperikirov",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"Animators": [
+		"j_Body"
+	],
+	"TwistAnimators": [
+		"j_Body"
+	],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "kirov_destructable",
+			"wholeObj": "kirov_whole",
+			"destroyedObj": "kirov_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [
+		"normal_h"
+	],
+	"Attaches": {
+		"Turret": "front_turret_hardpoint",
+		"Left": "bodyAttach",
+		"Right": "bodyAttach",
+		"Front": "front_rail_hardpoint",
+		"Rear": "front_rail_hardpoint"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+		"light1",
+		"light2"
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "MainRails",
+			"visuals": "rail_visuals",
+			"attach": "front_rail_hardpoint",
+			"hideIfEmpty": true,
+			"type": "Turret",
+			"Animators": {
+				"front_rails": 1
+			}
+		},
+		{
+			"Name": "LightTurret",
+			"visuals": "front_turret_visuals",
+			"attach": "front_turret_hardpoint",
+			"hideIfEmpty": true,
+			"type": "Turret",
+			"Animators": {
+				"front_turret_stationary": 1
+			}
+		},
+		{
+			"Name": "BodyAttach",
+			"visuals": "body_whole",
+			"attach": "bodyAttach",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": {}
+		},
+		{
+			"Name": "LeftAttach",
+			"visuals": "left_turret_visuals",
+			"attach": "left_side_hardpoint",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": {
+				"left_stationary": 1
+			}
+		},
+		{
+			"Name": "RightAttach",
+			"visuals": "right_turret_visuals",
+			"attach": "right_side_hardpoint",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": {
+				"right_stationary": 1
+			}
+		}
+	]
+}

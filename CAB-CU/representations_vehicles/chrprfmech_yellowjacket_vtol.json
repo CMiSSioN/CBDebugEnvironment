@@ -1,6 +1,6 @@
 {
 	"Id": "chrprfmech_yellowjacket_vtol",
-	"PrefabBase": "yellowjacket",
+	"PrefabBase": "cuyellowjacket",
 	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
 	"SourcePrefabBase": "battlemaster",
 	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",

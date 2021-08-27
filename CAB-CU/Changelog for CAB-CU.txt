@@ -1,6 +1,9 @@
 Changelog for CAB-CU
 
 -----------------------------------------------------
+1.01
+
+Update for new CU API
 
 1.0
 
