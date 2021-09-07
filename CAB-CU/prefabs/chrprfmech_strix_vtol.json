@@ -1,0 +1,6 @@
+{
+	"Id":"chrprfmech_strix_vtol",
+	"MaterialReplacement":{
+		"ParticleAfterburner": { "direct": "Default-Particle" }
+	}
+}

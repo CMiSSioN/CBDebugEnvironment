@@ -1,0 +1,6 @@
+{
+	"Id":"vf11lam_vjets_torso",
+	"MaterialReplacement":{
+		"ParticleAfterburner": { "direct": "Default-Particle" }
+	}
+}

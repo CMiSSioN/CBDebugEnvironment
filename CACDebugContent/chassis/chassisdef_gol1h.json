@@ -40,7 +40,7 @@
   "YangsThoughts": "GOL-1H",
   "MovementCapDefID": "movedef_locust_LCT-1V",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_goliath",
+  "HardpointDataDefID": "hardpointdatadef_cugoliath",
   "PrefabIdentifier": "chrprfmech_goliath",
   "PrefabBase": "goliath",
   "Tonnage": 80,

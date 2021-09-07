@@ -735,7 +735,7 @@
       }
     ]
   },
-  "CustomResourceTypes": ["CustomMechRepresentationDef"],
+  "CustomResourceTypes": ["CustomMechRepresentationDef","CustomPrefabDef"],
 	"Manifest": [
     { "Type": "AssetBundle", "Path": "assetbundles" },	
     { "Type": "SVGAsset", "Path": "icons" },

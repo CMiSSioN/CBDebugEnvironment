@@ -1,0 +1,6 @@
+{
+	"Id":"vf11lam_vjets_right_leg",
+	"MaterialReplacement":{
+		"ParticleAfterburner": { "direct": "Default-Particle" }
+	}
+}

@@ -25,7 +25,7 @@
   },
   "MovementCapDefID": "movedef_urbanmech_UM-R90",
   "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_warriorvtol",
+  "HardpointDataDefID": "hardpointdatadef_cuwarriorvtol",
   "PrefabIdentifier": "chrPrfMech_warrior_vtol-001",
   "PrefabBase": "warriorvtol",
   "VariantName": "WS-A",

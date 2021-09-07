@@ -12,7 +12,7 @@
   "ChassisID": "vehiclechassisdef_DEMOLISHER",
   "VehicleTags": {
     "items": [
-      "mr-resize-1.50",
+      "MR-Resize-3.00",
       "unit_vehicle",
       "unit_assault",
       "unit_tracks"
@@ -89,6 +89,34 @@
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+		{
+			"ComponentDefID": "Gear_DestroyCurrentLocation",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Turret",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+    {
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "MountedLocation": "Rear",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "MountedLocation": "Left",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+      "ComponentDefType": "JumpJet",
+      "MountedLocation": "Right",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
