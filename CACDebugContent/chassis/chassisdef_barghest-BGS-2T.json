@@ -46,6 +46,7 @@
   "InitialTonnage": 8,
   "weightClass": "ASSAULT",
   "BattleValue": 7718000,
+  "movementType": "Tracked",	
   "Heatsinks": 0,
   "TopSpeed": 105,
   "TurnRadius": 90,

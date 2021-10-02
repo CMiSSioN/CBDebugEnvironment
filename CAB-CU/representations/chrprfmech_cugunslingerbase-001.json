@@ -1,6 +1,6 @@
 {
-  "Id": "chrprfmech_gunslingerbase-001",
-  "PrefabBase":"gunslinger",
+  "Id": "chrprfmech_cugunslingerbase-001",
+  "PrefabBase":"cugunslinger",
   "SourcePrefabIdentifier":"chrPrfMech_battlemasterBase-001",
   "SourcePrefabBase":"battlemaster",
   "ApplyType": "MoveBone",

@@ -4,7 +4,7 @@
     "Name": "v.crew",
     "FirstName": "v.crew",
     "LastName": "v.crew",
-    "Callsign": "v.crew",
+    "Callsign": "v.crew1",
     "Gender": "INVALID_UNSET",
     "factionID": "INVALID_UNSET",
     "Age": 0,
@@ -42,6 +42,8 @@
     "AbilityDefG5",
     "AbilityDefP5",
     "AbilityDefP8",
+    "AbilityDefGu5",
+    "AbilityDefG8",
     "TraitDefUnsteadySet60",
     "TraitDefHealthAddOne",
     "TraitDefIndirectReduceOne"

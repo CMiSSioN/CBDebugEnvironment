@@ -735,7 +735,7 @@
       }
     ]
   },
-  "CustomResourceTypes": ["CustomMechRepresentationDef","CustomPrefabDef"],
+  "CustomResourceTypes": ["CustomMechRepresentationDef","CustomPrefabDef","DropSlotsDef","DropLanceDef","DropSlotDef","DropSlotDecorationDef","PilotingClassDef","DropClassDef","CustomHangarDef"],
 	"Manifest": [
     { "Type": "AssetBundle", "Path": "assetbundles" },	
     { "Type": "SVGAsset", "Path": "icons" },
@@ -745,6 +745,13 @@
 		{ "Type": "MovementCapabilitiesDef", "Path": "movedef" },
 		{ "Type": "PathingCapabilitiesDef", "Path": "pathingdef" },
 		{ "Type": "PilotDef", "Path": "pilot" },
+		{ "Type": "DropSlotDef", "Path": "drop_slots" },
+		{ "Type": "DropLanceDef", "Path": "drop_lances" },
+		{ "Type": "DropSlotsDef", "Path": "drop_layouts" },
+		{ "Type": "DropSlotDecorationDef", "Path": "drop_decorations" },
+		{ "Type": "DropClassDef", "Path": "drop_classes" },
+		{ "Type": "CustomHangarDef", "Path": "hangardefs" },
+		{ "Type": "PilotingClassDef", "Path": "piloting_classes" },
 		{ "Type": "AbilityDef", "Path": "ability" },
     { "Id": "fake_weapon_prefab", "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/fake_weapon_prefab.prefab", "AssetBundleName": "fake_weapon_prefab" },
     { "Id": "battletechstandartshader", "Type": "Prefab", "Path": "assets/shaderscarriers/battletechstandartshader.prefab", "AssetBundleName": "standart_shader" }

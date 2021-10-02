@@ -1,6 +1,6 @@
 {
-  "Id": "chrprfmech_heliosbase-001",
-  "PrefabBase":"helios",
+  "Id": "chrprfmech_cuheliosbase-001",
+  "PrefabBase":"cuhelios",
   "SourcePrefabIdentifier":"chrPrfMech_battlemasterBase-001",
   "SourcePrefabBase":"battlemaster",
   "camoTextures": []

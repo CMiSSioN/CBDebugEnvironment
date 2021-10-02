@@ -24,3 +24,9 @@ output_log.txt
 cleaned_output_log.txt
 LowVisibility/modstate.json
 LowVisibility/modstate.json
+BiggerDrops/ELog.txt
+BiggerDrops/modstate.json
+CustomPilotDecorator.zip
+MissionControl/modstate.json
+*.json
+CAB-Maps/assetbundles/terrain

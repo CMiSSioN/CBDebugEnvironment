@@ -1,0 +1,66 @@
+[14:42:24.480]Initing... D:\Games\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.1
+[14:42:25.775]FinishedLoading
+[14:42:25.776]customResource:PilotDecorationDef
+ D:\Games\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_mech.json
+ id:pilotdecorationdef_can_drive_mech
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_mech",
+    "Name": "CAN DRIVE MECHS",
+    "Details": "This pilot can drive mechs of all types",
+    "Icon": "can_drive_mech"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [],
+  "shouldNotHaveTags": [
+    "pilot_nomech_crew"
+  ]
+}
+ D:\Games\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_vehicle.json
+ id:pilotdecorationdef_can_drive_vehicle
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_can_drive_vehicle",
+    "Name": "CAN DRIVE VEHICLES",
+    "Details": "This pilot can drive vehicles of all types",
+    "Icon": "can_drive_vehicle"
+  },
+  "Type": 1,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "pilot_vehicle_crew"
+  ],
+  "shouldNotHaveTags": []
+}
+ D:\Games\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_test.json
+ id:pilotdecorationdef_test
+ {
+  "Description": {
+    "Id": "pilotdecorationdef_test",
+    "Name": "SOME RANDOM ICON",
+    "Details": "Some random description",
+    "Icon": "test_icon"
+  },
+  "Type": 0,
+  "IconColorOverride": false,
+  "ShevronDecorationSource": 0,
+  "shouldHaveTags": [
+    "pilot_vehicle_crew"
+  ],
+  "shouldNotHaveTags": []
+}
+flush
+flush
+[14:42:54.597]PilotDef.GatherDependencies pilot_default
+flush
+[14:42:54.598]PilotDecorationDefHelper.getDecorations pilot_default:
+ pilotdecorationdef_can_drive_mech
+flush
+flush
+flush
+flush
+flush
+flush
