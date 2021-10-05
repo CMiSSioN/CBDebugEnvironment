@@ -64,7 +64,7 @@
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Left",
 			"HardpointSlot": 0,
-			"prefabName": "strix_front_body_ac5_2",
+			"prefabName": null,
 			"hasPrefabName": true,
 			"DamageLevel": "Functional"
 		},
@@ -73,7 +73,7 @@
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 0,
-			"prefabName": "yj_front_turret_laser_1",
+			"prefabName": null,
 			"hasPrefabName": true,
 			"DamageLevel": "Functional"
 		},
@@ -82,7 +82,7 @@
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 0,
-			"prefabName": "yj_front_turret_laser_2",
+			"prefabName": null,
 			"hasPrefabName": true,
 			"DamageLevel": "Functional"
 		},
