@@ -1,0 +1,6 @@
+{
+    "CameraConstants": {
+        "MinAngle": 5.0,
+        "MaxAngle": 85.0
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "CAB_maps",
+	"Enabled": true,
+	"Version": "2",
+	"Author": "Transient74",	
+	"OptionallyDependsOn": [ "CustomUnits" ],
+	"Manifest": [
+		{ "Type": "AssetBundle", "Path": "assetbundles" },	
+
+		{ "Type": "Prefab", "Path": "assets/character/prefabs/customterrain.prefab", "AssetBundleName": "terrain" }
+	
+  ]
+}

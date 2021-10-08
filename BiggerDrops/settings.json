@@ -1,0 +1,8 @@
+{
+  "experimentalPlayerLance": true,
+  "debugLog": true,
+  "additionalLanceName": "EXTRA LANCE",
+  "additinalMechSlots": 2,
+  "additinalPlayerMechSlots": 1,
+  "defaultMaxTonnage": 800
+}
