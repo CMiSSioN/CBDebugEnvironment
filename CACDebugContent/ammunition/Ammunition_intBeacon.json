@@ -1,9 +1,9 @@
 {
   "Description": {
     "Id": "Ammunition_intBeacon",
-    "Name": "beacon",
-    "UIName": "beacon",
-    "Details": "beacon",
+    "Name": "LOIC",
+    "UIName": "LOIC",
+    "Details": "LOIC beacon",
     "Icon": null,
     "Cost": 0,
     "Rarity": 0,

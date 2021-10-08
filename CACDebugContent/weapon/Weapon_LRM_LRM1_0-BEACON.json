@@ -10,7 +10,8 @@
     630
   ],
   "ammoCategoryID": "intBeacon",
-  "StartingAmmoCapacity": 2,
+  "StartingAmmoCapacity": 0,
+	"InternalAmmo": { "Ammunition_hotdropBeacon": 4, "Ammunition_intBeacon": 2 },
   "HeatGenerated": 0,
   "Damage": 0,
   "OverheatedDamageMultiplier": 0,
@@ -28,8 +29,8 @@
   "Instability": 0,
   "AlwaysIndirectVisuals": true,
   "ImprovedBallistic": true,
-  "EjectWeapon": true,
-  "blockWeaponsInInstalledLocation": true,
+  "EjectWeapon": false,
+  "blockWeaponsInInstalledLocation": false,
   "CanBeBlocked": false,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM10",
   "Description": {
@@ -38,20 +39,45 @@
     "Purchasable": true,
     "Manufacturer": "KMiSSioN",
     "Model": "Long-Range Missile Launcher",
-    "UIName": "LOIC Beacon",
+    "UIName": "Beacon Launcher",
     "Id": "Weapon_LRM_LRM1_0-BEACON",
-    "Name": "LOIC Beacon",
-    "Details": "LOIC Beacon",
+    "Name": "Beacon Launcher",
+    "Details": "Beacon Launcher",
     "Icon": "uixSvgIcon_weapon_Missile"
   },
+	"Modes": [
+    {
+      "Id": "b",
+      "UIName": "x1",
+      "isBaseMode": true
+    },
+    {
+      "Id": "x2",
+      "UIName": "x2",
+      "isBaseMode": false,
+      "ShotsWhenFired": 1
+    },
+    {
+      "Id": "x3",
+      "UIName": "x3",
+      "isBaseMode": false,
+      "ShotsWhenFired": 2
+    },
+    {
+      "Id": "x4",
+      "UIName": "x4",
+      "isBaseMode": false,
+      "ShotsWhenFired": 3
+    }
+  ],
   "BonusValueA": "",
   "BonusValueB": "",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
-  "PrefabIdentifier": "lrm10",
+  "PrefabIdentifier": "lrm5",
   "BattleValue": 0,
-  "InventorySize": 2,
-  "Tonnage": 5,
+  "InventorySize": 1,
+  "Tonnage": 2,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,

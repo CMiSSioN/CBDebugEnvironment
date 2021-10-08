@@ -1,6 +1,6 @@
-[18:39:21.250]Initing... D:\Games\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.1
-[18:39:26.015]FinishedLoading
-[18:39:26.015]customResource:PilotDecorationDef
+[16:17:10.064]Initing... D:\Games\BATTLETECH\Mods\CustomPilotDecorator version: 0.0.0.1
+[16:17:14.918]FinishedLoading
+[16:17:14.918]customResource:PilotDecorationDef
  D:\Games\BATTLETECH\Mods\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_mech.json
  id:pilotdecorationdef_can_drive_mech
  {
@@ -54,389 +54,484 @@
 }
 flush
 flush
-[18:39:48.498]PilotDef.GatherDependencies PilotGen_SGRef_25
-[18:39:48.499]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_25:Revere
+flush
+flush
+[16:17:52.824]PilotDef.GatherDependencies PilotGen_SGRef_25
+[16:17:52.824]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_25:Revere
  pilotdecorationdef_can_drive_mech
-[18:39:48.499]PilotDef.GatherDependencies PilotGen_SGRef_26
-[18:39:48.499]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_26:Krampus
+[16:17:52.825]PilotDef.GatherDependencies PilotGen_SGRef_26
+[16:17:52.825]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_26:Krampus
  pilotdecorationdef_can_drive_mech
-[18:39:48.499]PilotDef.GatherDependencies PilotGen_SGRef_27
-[18:39:48.499]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_27:Nitro
+[16:17:52.825]PilotDef.GatherDependencies PilotGen_SGRef_27
+[16:17:52.825]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_27:Nitro
  pilotdecorationdef_can_drive_mech
-[18:39:48.499]PilotDef.GatherDependencies PilotGen_SGRef_28
-[18:39:48.499]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_28:Cheetah
+[16:17:52.825]PilotDef.GatherDependencies PilotGen_SGRef_28
+[16:17:52.825]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_28:Cheetah
  pilotdecorationdef_can_drive_mech
-[18:39:48.500]PilotDef.GatherDependencies PilotGen_SGRef_29
-[18:39:48.500]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_29:Shiver
+[16:17:52.825]PilotDef.GatherDependencies PilotGen_SGRef_29
+[16:17:52.825]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_29:Shiver
  pilotdecorationdef_can_drive_mech
-[18:39:48.500]PilotDef.GatherDependencies PilotGen_SGRef_30
-[18:39:48.500]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_30:Shamrock
+[16:17:52.825]PilotDef.GatherDependencies PilotGen_SGRef_30
+[16:17:52.825]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_30:Shamrock
  pilotdecorationdef_can_drive_vehicle
-[18:39:50.398]PilotDef.GatherDependencies pilot_sim_starter_glitch
-[18:39:50.398]PilotDecorationDefHelper.getDecorations pilot_sim_starter_glitch:Glitch
+[16:17:54.711]PilotDef.GatherDependencies pilot_sim_starter_glitch
+[16:17:54.711]PilotDecorationDefHelper.getDecorations pilot_sim_starter_glitch:Glitch
  pilotdecorationdef_can_drive_mech
-[18:39:50.398]PilotDef.GatherDependencies pilot_sim_starter_behemoth
-[18:39:50.398]PilotDecorationDefHelper.getDecorations pilot_sim_starter_behemoth:Behemoth
+[16:17:54.711]PilotDef.GatherDependencies pilot_sim_starter_behemoth
+[16:17:54.711]PilotDecorationDefHelper.getDecorations pilot_sim_starter_behemoth:Behemoth
  pilotdecorationdef_can_drive_mech
-[18:39:50.399]PilotDef.GatherDependencies pilot_sim_starter_dekker
-[18:39:50.399]PilotDecorationDefHelper.getDecorations pilot_sim_starter_dekker:Dekker
+[16:17:54.711]PilotDef.GatherDependencies pilot_sim_starter_dekker
+[16:17:54.711]PilotDecorationDefHelper.getDecorations pilot_sim_starter_dekker:Dekker
  pilotdecorationdef_can_drive_mech
-[18:39:50.400]PilotDef.GatherDependencies pilot_sim_starter_medusa
-[18:39:50.400]PilotDecorationDefHelper.getDecorations pilot_sim_starter_medusa:Medusa
+[16:17:54.712]PilotDef.GatherDependencies pilot_sim_starter_medusa
+[16:17:54.712]PilotDecorationDefHelper.getDecorations pilot_sim_starter_medusa:Medusa
  pilotdecorationdef_can_drive_mech
-[18:39:50.402]PilotDef.GatherDependencies pilot_commander_temp
-[18:39:50.402]PilotDecorationDefHelper.getDecorations pilot_commander_temp:Arclight
+[16:17:54.714]PilotDef.GatherDependencies pilot_commander_temp
+[16:17:54.714]PilotDecorationDefHelper.getDecorations pilot_commander_temp:Arclight
  pilotdecorationdef_can_drive_mech
-flush
-[18:39:51.571]PilotDef.GatherDependencies pilot_backer_Alaniz
-[18:39:51.571]PilotDecorationDefHelper.getDecorations pilot_backer_Alaniz:Dragon 66
+[16:17:55.864]PilotDef.GatherDependencies pilot_backer_Alaniz
+[16:17:55.864]PilotDecorationDefHelper.getDecorations pilot_backer_Alaniz:Dragon 66
  pilotdecorationdef_can_drive_mech
-[18:39:51.572]PilotDef.GatherDependencies pilot_backer_Archangel
-[18:39:51.572]PilotDecorationDefHelper.getDecorations pilot_backer_Archangel:Archangel
+[16:17:55.864]PilotDef.GatherDependencies pilot_backer_Archangel
+[16:17:55.864]PilotDecorationDefHelper.getDecorations pilot_backer_Archangel:Archangel
  pilotdecorationdef_can_drive_mech
-[18:39:51.573]PilotDef.GatherDependencies pilot_backer_Bemis
-[18:39:51.573]PilotDecorationDefHelper.getDecorations pilot_backer_Bemis:VonKobra
+[16:17:55.865]PilotDef.GatherDependencies pilot_backer_Bemis
+[16:17:55.865]PilotDecorationDefHelper.getDecorations pilot_backer_Bemis:VonKobra
  pilotdecorationdef_can_drive_mech
-[18:39:51.573]PilotDef.GatherDependencies pilot_backer_Bixby
-[18:39:51.573]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter
+[16:17:55.865]PilotDef.GatherDependencies pilot_backer_Bixby
+[16:17:55.865]PilotDecorationDefHelper.getDecorations pilot_backer_Bixby:Arbiter
  pilotdecorationdef_can_drive_mech
-[18:39:51.574]PilotDef.GatherDependencies pilot_backer_Bono
-[18:39:51.574]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone
+[16:17:55.866]PilotDef.GatherDependencies pilot_backer_Bono
+[16:17:55.866]PilotDecorationDefHelper.getDecorations pilot_backer_Bono:T-Bone
  pilotdecorationdef_can_drive_mech
-[18:39:51.574]PilotDef.GatherDependencies pilot_backer_Bozeman
-[18:39:51.574]PilotDecorationDefHelper.getDecorations pilot_backer_Bozeman:Finn
+[16:17:55.866]PilotDef.GatherDependencies pilot_backer_Bozeman
+[16:17:55.866]PilotDecorationDefHelper.getDecorations pilot_backer_Bozeman:Finn
  pilotdecorationdef_can_drive_mech
-[18:39:51.575]PilotDef.GatherDependencies pilot_backer_Brewer
-[18:39:51.575]PilotDecorationDefHelper.getDecorations pilot_backer_Brewer:Bronzite
+[16:17:55.867]PilotDef.GatherDependencies pilot_backer_Brewer
+[16:17:55.867]PilotDecorationDefHelper.getDecorations pilot_backer_Brewer:Bronzite
  pilotdecorationdef_can_drive_mech
-[18:39:51.575]PilotDef.GatherDependencies pilot_backer_Brown
-[18:39:51.575]PilotDecorationDefHelper.getDecorations pilot_backer_Brown:Bootcamp
+[16:17:55.867]PilotDef.GatherDependencies pilot_backer_Brown
+[16:17:55.867]PilotDecorationDefHelper.getDecorations pilot_backer_Brown:Bootcamp
  pilotdecorationdef_can_drive_mech
-[18:39:51.576]PilotDef.GatherDependencies pilot_backer_Chang
-[18:39:51.576]PilotDecorationDefHelper.getDecorations pilot_backer_Chang:Falcon
+[16:17:55.868]PilotDef.GatherDependencies pilot_backer_Chang
+[16:17:55.868]PilotDecorationDefHelper.getDecorations pilot_backer_Chang:Falcon
  pilotdecorationdef_can_drive_mech
-[18:39:51.576]PilotDef.GatherDependencies pilot_backer_Chik
-[18:39:51.576]PilotDecorationDefHelper.getDecorations pilot_backer_Chik:Paradox
+[16:17:55.869]PilotDef.GatherDependencies pilot_backer_Chik
+[16:17:55.869]PilotDecorationDefHelper.getDecorations pilot_backer_Chik:Paradox
  pilotdecorationdef_can_drive_mech
-[18:39:51.577]PilotDef.GatherDependencies pilot_backer_Chung
-[18:39:51.577]PilotDecorationDefHelper.getDecorations pilot_backer_Chung:Scrub
+[16:17:55.869]PilotDef.GatherDependencies pilot_backer_Chung
+[16:17:55.869]PilotDecorationDefHelper.getDecorations pilot_backer_Chung:Scrub
  pilotdecorationdef_can_drive_mech
-[18:39:51.578]PilotDef.GatherDependencies pilot_backer_Cleary
-[18:39:51.578]PilotDecorationDefHelper.getDecorations pilot_backer_Cleary:Exodus
+[16:17:55.870]PilotDef.GatherDependencies pilot_backer_Cleary
+[16:17:55.870]PilotDecorationDefHelper.getDecorations pilot_backer_Cleary:Exodus
  pilotdecorationdef_can_drive_mech
-[18:39:51.578]PilotDef.GatherDependencies pilot_backer_Cochran
-[18:39:51.578]PilotDecorationDefHelper.getDecorations pilot_backer_Cochran:Gridlock
+[16:17:55.870]PilotDef.GatherDependencies pilot_backer_Cochran
+[16:17:55.870]PilotDecorationDefHelper.getDecorations pilot_backer_Cochran:Gridlock
  pilotdecorationdef_can_drive_mech
-[18:39:51.579]PilotDef.GatherDependencies pilot_backer_Coldfire
-[18:39:51.579]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire
+[16:17:55.871]PilotDef.GatherDependencies pilot_backer_Coldfire
+[16:17:55.871]PilotDecorationDefHelper.getDecorations pilot_backer_Coldfire:Coldfire
  pilotdecorationdef_can_drive_mech
-[18:39:51.579]PilotDef.GatherDependencies pilot_backer_Doochin
-[18:39:51.579]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce
+[16:17:55.871]PilotDef.GatherDependencies pilot_backer_Doochin
+[16:17:55.871]PilotDecorationDefHelper.getDecorations pilot_backer_Doochin:El Duce
  pilotdecorationdef_can_drive_mech
-[18:39:51.580]PilotDef.GatherDependencies pilot_backer_Doukas
-[18:39:51.580]PilotDecorationDefHelper.getDecorations pilot_backer_Doukas:Popo
+[16:17:55.872]PilotDef.GatherDependencies pilot_backer_Doukas
+[16:17:55.872]PilotDecorationDefHelper.getDecorations pilot_backer_Doukas:Popo
  pilotdecorationdef_can_drive_mech
-[18:39:51.580]PilotDef.GatherDependencies pilot_backer_Durand
-[18:39:51.580]PilotDecorationDefHelper.getDecorations pilot_backer_Durand:Bullet Trap
+[16:17:55.872]PilotDef.GatherDependencies pilot_backer_Durand
+[16:17:55.872]PilotDecorationDefHelper.getDecorations pilot_backer_Durand:Bullet Trap
  pilotdecorationdef_can_drive_mech
-[18:39:51.581]PilotDef.GatherDependencies pilot_backer_Eck
-[18:39:51.581]PilotDecorationDefHelper.getDecorations pilot_backer_Eck:Eck
+[16:17:55.873]PilotDef.GatherDependencies pilot_backer_Eck
+[16:17:55.873]PilotDecorationDefHelper.getDecorations pilot_backer_Eck:Eck
  pilotdecorationdef_can_drive_mech
-[18:39:51.581]PilotDef.GatherDependencies pilot_backer_Eckett
-[18:39:51.581]PilotDecorationDefHelper.getDecorations pilot_backer_Eckett:Mummy Bear
+[16:17:55.873]PilotDef.GatherDependencies pilot_backer_Eckett
+[16:17:55.873]PilotDecorationDefHelper.getDecorations pilot_backer_Eckett:Mummy Bear
  pilotdecorationdef_can_drive_mech
-[18:39:51.582]PilotDef.GatherDependencies pilot_backer_Endorf
-[18:39:51.582]PilotDecorationDefHelper.getDecorations pilot_backer_Endorf:Hammer
+[16:17:55.874]PilotDef.GatherDependencies pilot_backer_Endorf
+[16:17:55.874]PilotDecorationDefHelper.getDecorations pilot_backer_Endorf:Hammer
  pilotdecorationdef_can_drive_mech
-[18:39:51.582]PilotDef.GatherDependencies pilot_backer_FalkA
-[18:39:51.582]PilotDecorationDefHelper.getDecorations pilot_backer_FalkA:Phantom
+[16:17:55.875]PilotDef.GatherDependencies pilot_backer_FalkA
+[16:17:55.875]PilotDecorationDefHelper.getDecorations pilot_backer_FalkA:Phantom
  pilotdecorationdef_can_drive_mech
-[18:39:51.583]PilotDef.GatherDependencies pilot_backer_FalkM
-[18:39:51.583]PilotDecorationDefHelper.getDecorations pilot_backer_FalkM:Gearhead
+[16:17:55.875]PilotDef.GatherDependencies pilot_backer_FalkM
+[16:17:55.875]PilotDecorationDefHelper.getDecorations pilot_backer_FalkM:Gearhead
  pilotdecorationdef_can_drive_mech
-[18:39:51.584]PilotDef.GatherDependencies pilot_backer_Fielding
-[18:39:51.584]PilotDecorationDefHelper.getDecorations pilot_backer_Fielding:WeaselCakes
+[16:17:55.876]PilotDef.GatherDependencies pilot_backer_Fielding
+[16:17:55.876]PilotDecorationDefHelper.getDecorations pilot_backer_Fielding:WeaselCakes
  pilotdecorationdef_can_drive_mech
-[18:39:51.584]PilotDef.GatherDependencies pilot_backer_Gibbs
-[18:39:51.584]PilotDecorationDefHelper.getDecorations pilot_backer_Gibbs:Whisper
+[16:17:55.876]PilotDef.GatherDependencies pilot_backer_Gibbs
+[16:17:55.876]PilotDecorationDefHelper.getDecorations pilot_backer_Gibbs:Whisper
  pilotdecorationdef_can_drive_mech
-[18:39:51.585]PilotDef.GatherDependencies pilot_backer_Godfrey
-[18:39:51.585]PilotDecorationDefHelper.getDecorations pilot_backer_Godfrey:God
+[16:17:55.877]PilotDef.GatherDependencies pilot_backer_Godfrey
+[16:17:55.877]PilotDecorationDefHelper.getDecorations pilot_backer_Godfrey:God
  pilotdecorationdef_can_drive_mech
-[18:39:51.585]PilotDef.GatherDependencies pilot_backer_Hardie
-[18:39:51.585]PilotDecorationDefHelper.getDecorations pilot_backer_Hardie:Jester
+[16:17:55.877]PilotDef.GatherDependencies pilot_backer_Hardie
+[16:17:55.877]PilotDecorationDefHelper.getDecorations pilot_backer_Hardie:Jester
  pilotdecorationdef_can_drive_mech
-[18:39:51.586]PilotDef.GatherDependencies pilot_backer_Helterbran
-[18:39:51.586]PilotDecorationDefHelper.getDecorations pilot_backer_Helterbran:Pathfinder
+[16:17:55.878]PilotDef.GatherDependencies pilot_backer_Helterbran
+[16:17:55.878]PilotDecorationDefHelper.getDecorations pilot_backer_Helterbran:Pathfinder
  pilotdecorationdef_can_drive_mech
-[18:39:51.586]PilotDef.GatherDependencies pilot_backer_Heysek
-[18:39:51.586]PilotDecorationDefHelper.getDecorations pilot_backer_Heysek:Sabercat
+[16:17:55.878]PilotDef.GatherDependencies pilot_backer_Heysek
+[16:17:55.878]PilotDecorationDefHelper.getDecorations pilot_backer_Heysek:Sabercat
  pilotdecorationdef_can_drive_mech
-[18:39:51.587]PilotDef.GatherDependencies pilot_backer_Hill
-[18:39:51.587]PilotDecorationDefHelper.getDecorations pilot_backer_Hill:Dust Raker
+[16:17:55.879]PilotDef.GatherDependencies pilot_backer_Hill
+[16:17:55.879]PilotDecorationDefHelper.getDecorations pilot_backer_Hill:Dust Raker
  pilotdecorationdef_can_drive_mech
-[18:39:51.587]PilotDef.GatherDependencies pilot_backer_Hollabaugh
-[18:39:51.587]PilotDecorationDefHelper.getDecorations pilot_backer_Hollabaugh:Deedah
+[16:17:55.880]PilotDef.GatherDependencies pilot_backer_Hollabaugh
+[16:17:55.880]PilotDecorationDefHelper.getDecorations pilot_backer_Hollabaugh:Deedah
  pilotdecorationdef_can_drive_mech
-[18:39:51.587]PilotDef.GatherDependencies pilot_backer_Hording
-[18:39:51.587]PilotDecorationDefHelper.getDecorations pilot_backer_Hording:Paladin
+[16:17:55.880]PilotDef.GatherDependencies pilot_backer_Hording
+[16:17:55.880]PilotDecorationDefHelper.getDecorations pilot_backer_Hording:Paladin
  pilotdecorationdef_can_drive_mech
-[18:39:51.588]PilotDef.GatherDependencies pilot_backer_Hurtado
-[18:39:51.588]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother
+[16:17:55.881]PilotDef.GatherDependencies pilot_backer_Hurtado
+[16:17:55.881]PilotDecorationDefHelper.getDecorations pilot_backer_Hurtado:Brother
  pilotdecorationdef_can_drive_mech
-[18:39:51.588]PilotDef.GatherDependencies pilot_backer_Huxley
-[18:39:51.588]PilotDecorationDefHelper.getDecorations pilot_backer_Huxley:Strider
+[16:17:55.881]PilotDef.GatherDependencies pilot_backer_Huxley
+[16:17:55.881]PilotDecorationDefHelper.getDecorations pilot_backer_Huxley:Strider
  pilotdecorationdef_can_drive_mech
-[18:39:51.589]PilotDef.GatherDependencies pilot_backer_Jakes
-[18:39:51.589]PilotDecorationDefHelper.getDecorations pilot_backer_Jakes:McWraith
+[16:17:55.882]PilotDef.GatherDependencies pilot_backer_Jakes
+[16:17:55.882]PilotDecorationDefHelper.getDecorations pilot_backer_Jakes:McWraith
  pilotdecorationdef_can_drive_mech
-[18:39:51.589]PilotDef.GatherDependencies pilot_backer_Kaufman
-[18:39:51.589]PilotDecorationDefHelper.getDecorations pilot_backer_Kaufman:War Boar
+[16:17:55.882]PilotDef.GatherDependencies pilot_backer_Kaufman
+[16:17:55.882]PilotDecorationDefHelper.getDecorations pilot_backer_Kaufman:War Boar
  pilotdecorationdef_can_drive_mech
-[18:39:51.590]PilotDef.GatherDependencies pilot_backer_Keane
-[18:39:51.590]PilotDecorationDefHelper.getDecorations pilot_backer_Keane:Munin
+[16:17:55.883]PilotDef.GatherDependencies pilot_backer_Keane
+[16:17:55.883]PilotDecorationDefHelper.getDecorations pilot_backer_Keane:Munin
  pilotdecorationdef_can_drive_mech
-[18:39:51.590]PilotDef.GatherDependencies pilot_backer_Korwes
-[18:39:51.590]PilotDecorationDefHelper.getDecorations pilot_backer_Korwes:Omega
+[16:17:55.883]PilotDef.GatherDependencies pilot_backer_Korwes
+[16:17:55.883]PilotDecorationDefHelper.getDecorations pilot_backer_Korwes:Omega
  pilotdecorationdef_can_drive_mech
-[18:39:51.591]PilotDef.GatherDependencies pilot_backer_Lemos
-[18:39:51.591]PilotDecorationDefHelper.getDecorations pilot_backer_Lemos:Sabrewolf
+[16:17:55.884]PilotDef.GatherDependencies pilot_backer_Lemos
+[16:17:55.884]PilotDecorationDefHelper.getDecorations pilot_backer_Lemos:Sabrewolf
  pilotdecorationdef_can_drive_mech
-[18:39:51.592]PilotDef.GatherDependencies pilot_backer_Leone
-[18:39:51.592]PilotDecorationDefHelper.getDecorations pilot_backer_Leone:Succubus
+[16:17:55.884]PilotDef.GatherDependencies pilot_backer_Leone
+[16:17:55.884]PilotDecorationDefHelper.getDecorations pilot_backer_Leone:Succubus
  pilotdecorationdef_can_drive_mech
-[18:39:51.592]PilotDef.GatherDependencies pilot_backer_Liebenow
-[18:39:51.592]PilotDecorationDefHelper.getDecorations pilot_backer_Liebenow:Kingwolf
+[16:17:55.885]PilotDef.GatherDependencies pilot_backer_Liebenow
+[16:17:55.885]PilotDecorationDefHelper.getDecorations pilot_backer_Liebenow:Kingwolf
  pilotdecorationdef_can_drive_mech
-[18:39:51.593]PilotDef.GatherDependencies pilot_backer_Loving
-[18:39:51.593]PilotDecorationDefHelper.getDecorations pilot_backer_Loving:M4J35T1C
+[16:17:55.886]PilotDef.GatherDependencies pilot_backer_Loving
+[16:17:55.886]PilotDecorationDefHelper.getDecorations pilot_backer_Loving:M4J35T1C
  pilotdecorationdef_can_drive_mech
-[18:39:51.593]PilotDef.GatherDependencies pilot_backer_Metke
-[18:39:51.593]PilotDecorationDefHelper.getDecorations pilot_backer_Metke:Tinker
+[16:17:55.886]PilotDef.GatherDependencies pilot_backer_Metke
+[16:17:55.886]PilotDecorationDefHelper.getDecorations pilot_backer_Metke:Tinker
  pilotdecorationdef_can_drive_mech
-[18:39:51.594]PilotDef.GatherDependencies pilot_backer_Miller
-[18:39:51.594]PilotDecorationDefHelper.getDecorations pilot_backer_Miller:Deadeye
+[16:17:55.887]PilotDef.GatherDependencies pilot_backer_Miller
+[16:17:55.887]PilotDecorationDefHelper.getDecorations pilot_backer_Miller:Deadeye
  pilotdecorationdef_can_drive_mech
-[18:39:51.594]PilotDef.GatherDependencies pilot_backer_Mzik
-[18:39:51.594]PilotDecorationDefHelper.getDecorations pilot_backer_Mzik:Big Sly
+[16:17:55.887]PilotDef.GatherDependencies pilot_backer_Mzik
+[16:17:55.887]PilotDecorationDefHelper.getDecorations pilot_backer_Mzik:Big Sly
  pilotdecorationdef_can_drive_mech
-[18:39:51.595]PilotDef.GatherDependencies pilot_backer_Nick
-[18:39:51.595]PilotDecorationDefHelper.getDecorations pilot_backer_Nick:Corsair
+[16:17:55.888]PilotDef.GatherDependencies pilot_backer_Nick
+[16:17:55.888]PilotDecorationDefHelper.getDecorations pilot_backer_Nick:Corsair
  pilotdecorationdef_can_drive_mech
-[18:39:51.595]PilotDef.GatherDependencies pilot_backer_Oliver
-[18:39:51.595]PilotDecorationDefHelper.getDecorations pilot_backer_Oliver:Skyros
+[16:17:55.888]PilotDef.GatherDependencies pilot_backer_Oliver
+[16:17:55.888]PilotDecorationDefHelper.getDecorations pilot_backer_Oliver:Skyros
  pilotdecorationdef_can_drive_mech
-[18:39:51.596]PilotDef.GatherDependencies pilot_backer_Piazza
-[18:39:51.596]PilotDecorationDefHelper.getDecorations pilot_backer_Piazza:Rook
+[16:17:55.889]PilotDef.GatherDependencies pilot_backer_Piazza
+[16:17:55.889]PilotDecorationDefHelper.getDecorations pilot_backer_Piazza:Rook
  pilotdecorationdef_can_drive_mech
-[18:39:51.596]PilotDef.GatherDependencies pilot_backer_Reichenbach
-[18:39:51.596]PilotDecorationDefHelper.getDecorations pilot_backer_Reichenbach:Flatline
+[16:17:55.889]PilotDef.GatherDependencies pilot_backer_Reichenbach
+[16:17:55.889]PilotDecorationDefHelper.getDecorations pilot_backer_Reichenbach:Flatline
  pilotdecorationdef_can_drive_mech
-[18:39:51.597]PilotDef.GatherDependencies pilot_backer_Reidinger
-[18:39:51.597]PilotDecorationDefHelper.getDecorations pilot_backer_Reidinger:Ariamaki
+[16:17:55.890]PilotDef.GatherDependencies pilot_backer_Reidinger
+[16:17:55.890]PilotDecorationDefHelper.getDecorations pilot_backer_Reidinger:Ariamaki
  pilotdecorationdef_can_drive_mech
-[18:39:51.598]PilotDef.GatherDependencies pilot_backer_Reinke
-[18:39:51.598]PilotDecorationDefHelper.getDecorations pilot_backer_Reinke:Ronin
+[16:17:55.891]PilotDef.GatherDependencies pilot_backer_Reinke
+[16:17:55.891]PilotDecorationDefHelper.getDecorations pilot_backer_Reinke:Ronin
  pilotdecorationdef_can_drive_mech
-[18:39:51.598]PilotDef.GatherDependencies pilot_backer_Ryia
-[18:39:51.598]PilotDecorationDefHelper.getDecorations pilot_backer_Ryia:Death Krusade
+[16:17:55.891]PilotDef.GatherDependencies pilot_backer_Ryia
+[16:17:55.891]PilotDecorationDefHelper.getDecorations pilot_backer_Ryia:Death Krusade
  pilotdecorationdef_can_drive_mech
-[18:39:51.599]PilotDef.GatherDependencies pilot_backer_Saada
-[18:39:51.599]PilotDecorationDefHelper.getDecorations pilot_backer_Saada:Spenthia
+[16:17:55.892]PilotDef.GatherDependencies pilot_backer_Saada
+[16:17:55.892]PilotDecorationDefHelper.getDecorations pilot_backer_Saada:Spenthia
  pilotdecorationdef_can_drive_mech
-[18:39:51.600]PilotDef.GatherDependencies pilot_backer_Sampson
-[18:39:51.600]PilotDecorationDefHelper.getDecorations pilot_backer_Sampson:Live Fire
+[16:17:55.892]PilotDef.GatherDependencies pilot_backer_Sampson
+[16:17:55.892]PilotDecorationDefHelper.getDecorations pilot_backer_Sampson:Live Fire
  pilotdecorationdef_can_drive_mech
-[18:39:51.600]PilotDef.GatherDependencies pilot_backer_Shields
-[18:39:51.600]PilotDecorationDefHelper.getDecorations pilot_backer_Shields:Bearclaw
+[16:17:55.893]PilotDef.GatherDependencies pilot_backer_Shields
+[16:17:55.893]PilotDecorationDefHelper.getDecorations pilot_backer_Shields:Bearclaw
  pilotdecorationdef_can_drive_mech
-[18:39:51.601]PilotDef.GatherDependencies pilot_backer_Shvartz
-[18:39:51.601]PilotDecorationDefHelper.getDecorations pilot_backer_Shvartz:Varangian
+[16:17:55.893]PilotDef.GatherDependencies pilot_backer_Shvartz
+[16:17:55.893]PilotDecorationDefHelper.getDecorations pilot_backer_Shvartz:Varangian
  pilotdecorationdef_can_drive_mech
-[18:39:51.601]PilotDef.GatherDependencies pilot_backer_Slipais
-[18:39:51.601]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline
+[16:17:55.894]PilotDef.GatherDependencies pilot_backer_Slipais
+[16:17:55.894]PilotDecorationDefHelper.getDecorations pilot_backer_Slipais:Adrenaline
  pilotdecorationdef_can_drive_mech
-[18:39:51.602]PilotDef.GatherDependencies pilot_backer_SwansonA
-[18:39:51.602]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonA:Coach
+[16:17:55.894]PilotDef.GatherDependencies pilot_backer_SwansonA
+[16:17:55.894]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonA:Coach
  pilotdecorationdef_can_drive_mech
-[18:39:51.602]PilotDef.GatherDependencies pilot_backer_SwansonK
-[18:39:51.602]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonK:Ulysses
+[16:17:55.895]PilotDef.GatherDependencies pilot_backer_SwansonK
+[16:17:55.895]PilotDecorationDefHelper.getDecorations pilot_backer_SwansonK:Ulysses
  pilotdecorationdef_can_drive_mech
-[18:39:51.603]PilotDef.GatherDependencies pilot_backer_Test9
-[18:39:51.603]PilotDecorationDefHelper.getDecorations pilot_backer_Test9:Test9
+[16:17:55.896]PilotDef.GatherDependencies pilot_backer_Test9
+[16:17:55.896]PilotDecorationDefHelper.getDecorations pilot_backer_Test9:Test9
  pilotdecorationdef_can_drive_mech
-[18:39:51.604]PilotDef.GatherDependencies pilot_backer_Thomas
-[18:39:51.604]PilotDecorationDefHelper.getDecorations pilot_backer_Thomas:Hacker
+[16:17:55.896]PilotDef.GatherDependencies pilot_backer_Thomas
+[16:17:55.896]PilotDecorationDefHelper.getDecorations pilot_backer_Thomas:Hacker
  pilotdecorationdef_can_drive_mech
-[18:39:51.605]PilotDef.GatherDependencies pilot_backer_Voyls
-[18:39:51.605]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV
+[16:17:55.897]PilotDef.GatherDependencies pilot_backer_Voyls
+[16:17:55.897]PilotDecorationDefHelper.getDecorations pilot_backer_Voyls:GV
  pilotdecorationdef_can_drive_mech
-[18:39:51.605]PilotDef.GatherDependencies pilot_backer_Woods
-[18:39:51.605]PilotDecorationDefHelper.getDecorations pilot_backer_Woods:Ice Trey
+[16:17:55.897]PilotDef.GatherDependencies pilot_backer_Woods
+[16:17:55.897]PilotDecorationDefHelper.getDecorations pilot_backer_Woods:Ice Trey
  pilotdecorationdef_can_drive_mech
-[18:39:51.605]PilotDef.GatherDependencies pilot_ronin_Apex
-[18:39:51.605]PilotDecorationDefHelper.getDecorations pilot_ronin_Apex:Apex
+[16:17:55.898]PilotDef.GatherDependencies pilot_ronin_Apex
+[16:17:55.898]PilotDecorationDefHelper.getDecorations pilot_ronin_Apex:Apex
  pilotdecorationdef_can_drive_mech
-[18:39:51.606]PilotDef.GatherDependencies pilot_ronin_Arclight
-[18:39:51.606]PilotDecorationDefHelper.getDecorations pilot_ronin_Arclight:Arclight
+[16:17:55.898]PilotDef.GatherDependencies pilot_ronin_Arclight
+[16:17:55.898]PilotDecorationDefHelper.getDecorations pilot_ronin_Arclight:Arclight
  pilotdecorationdef_can_drive_mech
-[18:39:51.606]PilotDef.GatherDependencies pilot_ronin_Blockade
-[18:39:51.606]PilotDecorationDefHelper.getDecorations pilot_ronin_Blockade:Blockade
+[16:17:55.899]PilotDef.GatherDependencies pilot_ronin_Blockade
+[16:17:55.899]PilotDecorationDefHelper.getDecorations pilot_ronin_Blockade:Blockade
  pilotdecorationdef_can_drive_mech
-[18:39:51.607]PilotDef.GatherDependencies pilot_ronin_Buckshot
-[18:39:51.607]PilotDecorationDefHelper.getDecorations pilot_ronin_Buckshot:Buckshot
+[16:17:55.899]PilotDef.GatherDependencies pilot_ronin_Buckshot
+[16:17:55.899]PilotDecorationDefHelper.getDecorations pilot_ronin_Buckshot:Buckshot
  pilotdecorationdef_can_drive_mech
-[18:39:51.607]PilotDef.GatherDependencies pilot_ronin_Kraken
-[18:39:51.607]PilotDecorationDefHelper.getDecorations pilot_ronin_Kraken:Kraken
+[16:17:55.900]PilotDef.GatherDependencies pilot_ronin_Kraken
+[16:17:55.900]PilotDecorationDefHelper.getDecorations pilot_ronin_Kraken:Kraken
  pilotdecorationdef_can_drive_mech
-[18:39:51.608]PilotDef.GatherDependencies pilot_ronin_Mockingbird
-[18:39:51.608]PilotDecorationDefHelper.getDecorations pilot_ronin_Mockingbird:Mockingbird
+[16:17:55.901]PilotDef.GatherDependencies pilot_ronin_Mockingbird
+[16:17:55.901]PilotDecorationDefHelper.getDecorations pilot_ronin_Mockingbird:Mockingbird
  pilotdecorationdef_can_drive_mech
-[18:39:51.609]PilotDef.GatherDependencies pilot_ronin_Ozone
-[18:39:51.609]PilotDecorationDefHelper.getDecorations pilot_ronin_Ozone:Ozone
+[16:17:55.901]PilotDef.GatherDependencies pilot_ronin_Ozone
+[16:17:55.901]PilotDecorationDefHelper.getDecorations pilot_ronin_Ozone:Ozone
  pilotdecorationdef_can_drive_mech
-[18:39:51.609]PilotDef.GatherDependencies pilot_ronin_Paradise
-[18:39:51.609]PilotDecorationDefHelper.getDecorations pilot_ronin_Paradise:Paradise
+[16:17:55.902]PilotDef.GatherDependencies pilot_ronin_Paradise
+[16:17:55.902]PilotDecorationDefHelper.getDecorations pilot_ronin_Paradise:Paradise
  pilotdecorationdef_can_drive_mech
-[18:39:51.610]PilotDef.GatherDependencies pilot_ronin_Showboat
-[18:39:51.610]PilotDecorationDefHelper.getDecorations pilot_ronin_Showboat:Showboat
+[16:17:55.902]PilotDef.GatherDependencies pilot_ronin_Showboat
+[16:17:55.902]PilotDecorationDefHelper.getDecorations pilot_ronin_Showboat:Showboat
  pilotdecorationdef_can_drive_mech
-[18:39:51.610]PilotDef.GatherDependencies pilot_ronin_Squire
-[18:39:51.610]PilotDecorationDefHelper.getDecorations pilot_ronin_Squire:Squire
+[16:17:55.903]PilotDef.GatherDependencies pilot_ronin_Squire
+[16:17:55.903]PilotDecorationDefHelper.getDecorations pilot_ronin_Squire:Squire
  pilotdecorationdef_can_drive_mech
-[18:39:51.611]PilotDef.GatherDependencies pilot_ronin_Sumo
-[18:39:51.611]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo
+[16:17:55.903]PilotDef.GatherDependencies pilot_ronin_Sumo
+[16:17:55.903]PilotDecorationDefHelper.getDecorations pilot_ronin_Sumo:Sumo
  pilotdecorationdef_can_drive_mech
-[18:39:51.611]PilotDef.GatherDependencies pilot_ronin_Wildfire
-[18:39:51.611]PilotDecorationDefHelper.getDecorations pilot_ronin_Wildfire:Wildfire
+[16:17:55.904]PilotDef.GatherDependencies pilot_ronin_Wildfire
+[16:17:55.904]PilotDecorationDefHelper.getDecorations pilot_ronin_Wildfire:Wildfire
  pilotdecorationdef_can_drive_mech
-[18:39:51.612]PilotDef.GatherDependencies pilot_ronin_Witness
-[18:39:51.612]PilotDecorationDefHelper.getDecorations pilot_ronin_Witness:Witness
+[16:17:55.904]PilotDef.GatherDependencies pilot_ronin_Witness
+[16:17:55.904]PilotDecorationDefHelper.getDecorations pilot_ronin_Witness:Witness
  pilotdecorationdef_can_drive_mech
-[18:39:51.613]PilotDef.GatherDependencies pilot_MrTex
-[18:39:51.613]PilotDecorationDefHelper.getDecorations pilot_MrTex:__/PILOT_MRTEX.DESCRIPTION.CALLSIGN/__
+[16:17:55.905]PilotDef.GatherDependencies pilot_MrTex
+[16:17:55.905]PilotDecorationDefHelper.getDecorations pilot_MrTex:__/PILOT_MRTEX.DESCRIPTION.CALLSIGN/__
  pilotdecorationdef_can_drive_mech
-[18:39:51.615]PilotDef.GatherDependencies pilot_ronin_Zombie
-[18:39:51.615]PilotDecorationDefHelper.getDecorations pilot_ronin_Zombie:__/PILOT_RONIN_ZOMBIE.DESCRIPTION.CALLSIGN/__
+[16:17:55.906]PilotDef.GatherDependencies pilot_ronin_Zombie
+[16:17:55.906]PilotDecorationDefHelper.getDecorations pilot_ronin_Zombie:__/PILOT_RONIN_ZOMBIE.DESCRIPTION.CALLSIGN/__
  pilotdecorationdef_can_drive_mech
-flush
 flush
 flush
 flush
-[18:40:35.607]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
-[18:40:35.609]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
+[16:18:28.962]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
+[16:18:28.964]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.612]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
-[18:40:35.612]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
+[16:18:28.967]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
+[16:18:28.967]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.622]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
-[18:40:35.622]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
+[16:18:28.977]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
+[16:18:28.977]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.623]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
-[18:40:35.623]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
+[16:18:28.978]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
+[16:18:28.978]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.631]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
-[18:40:35.631]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
+[16:18:28.985]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
+[16:18:28.985]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.631]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
-[18:40:35.631]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
+[16:18:28.986]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
+[16:18:28.986]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.643]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
-[18:40:35.643]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
+[16:18:28.996]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
+[16:18:28.996]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.643]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
-[18:40:35.643]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
+[16:18:28.996]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
+[16:18:28.996]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.654]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
-[18:40:35.654]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
+[16:18:29.007]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
+[16:18:29.007]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.655]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
-[18:40:35.655]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
+[16:18:29.008]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
+[16:18:29.008]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.707]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
-[18:40:35.707]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
+[16:18:29.071]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
+[16:18:29.071]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.707]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
-[18:40:35.707]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
+[16:18:29.071]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Ability
+[16:18:29.071]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.732]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
-[18:40:35.732]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
+[16:18:29.096]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
+[16:18:29.096]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.732]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
-[18:40:35.732]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
+[16:18:29.096]PilotDecorationDefHelper.getDecorations commander:Thunder type:Ability
+[16:18:29.096]PilotDecorationDefHelper.getDecorations commander:Thunder type:Shevron
  pilotdecorationdef_can_drive_mech
-[18:40:35.759]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
-[18:40:35.759]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
+[16:18:29.118]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
+[16:18:29.118]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
+ pilotdecorationdef_can_drive_mech
+[16:18:29.118]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
+[16:18:29.118]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
+ pilotdecorationdef_can_drive_mech
+[16:18:29.148]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
+[16:18:29.148]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.759]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
-[18:40:35.759]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
+[16:18:29.148]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Ability
+[16:18:29.148]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.785]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
-[18:40:35.785]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
+[16:18:29.177]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
+[16:18:29.177]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.785]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
-[18:40:35.785]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
+[16:18:29.177]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Ability
+[16:18:29.177]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter type:Shevron
  pilotdecorationdef_can_drive_vehicle
-[18:40:35.814]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
-[18:40:35.814]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
+flush
+flush
+[16:18:47.428]PilotDef.DependenciesLoaded PilotGen_SGRef_5
+[16:18:47.428]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership
  pilotdecorationdef_can_drive_mech
-[18:40:35.814]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Ability
-[18:40:35.814]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility type:Shevron
+[16:18:47.429]PilotDef.DependenciesLoaded commander
+[16:18:47.429]PilotDecorationDefHelper.getDecorations commander:Thunder
  pilotdecorationdef_can_drive_mech
-flush
-flush
-flush
-flush
-flush
-flush
-[18:41:39.767]PilotDef.DependenciesLoaded PilotGen_SGRef_5
-[18:41:39.767]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_5:Mothership
+[16:18:47.429]PilotDef.DependenciesLoaded PilotGen_SGRef_1
+[16:18:47.429]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility
  pilotdecorationdef_can_drive_mech
-[18:41:39.767]PilotDef.DependenciesLoaded PilotGen_SGRef_3
-[18:41:39.767]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot
+[16:18:47.429]PilotDef.DependenciesLoaded PilotGen_SGRef_3
+[16:18:47.429]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot
  pilotdecorationdef_can_drive_vehicle
-[18:41:39.767]PilotDef.DependenciesLoaded PilotGen_SGRef_7
-[18:41:39.767]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter
+[16:18:47.429]PilotDef.DependenciesLoaded PilotGen_SGRef_7
+[16:18:47.429]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter
  pilotdecorationdef_can_drive_vehicle
-[18:41:39.767]PilotDef.DependenciesLoaded commander
-[18:41:39.767]PilotDecorationDefHelper.getDecorations commander:Thunder
- pilotdecorationdef_can_drive_mech
-[18:41:39.767]PilotDef.DependenciesLoaded PilotGen_SGRef_1
-[18:41:39.767]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility
- pilotdecorationdef_can_drive_mech
-[18:41:39.896]PilotDef.GatherDependencies pilot_default
-[18:41:39.896]PilotDecorationDefHelper.getDecorations pilot_default:
- pilotdecorationdef_can_drive_mech
-[18:41:41.448]PilotDef.GatherDependencies pilot_d4_pilot
-[18:41:41.448]PilotDecorationDefHelper.getDecorations pilot_d4_pilot:Pilot
- pilotdecorationdef_can_drive_mech
-[18:41:41.475]PilotDef.GatherDependencies pilot_d4_defender
-[18:41:41.475]PilotDecorationDefHelper.getDecorations pilot_d4_defender:Defender
- pilotdecorationdef_can_drive_mech
-[18:41:41.495]PilotDef.GatherDependencies pilot_d2_recruit
-[18:41:41.495]PilotDecorationDefHelper.getDecorations pilot_d2_recruit:Recruit
+[16:18:47.550]PilotDef.GatherDependencies pilot_default
+[16:18:47.550]PilotDecorationDefHelper.getDecorations pilot_default:
  pilotdecorationdef_can_drive_mech
 flush
+[16:18:50.348]PilotDef.GatherDependencies pilot_d4_defender
+[16:18:50.348]PilotDecorationDefHelper.getDecorations pilot_d4_defender:Defender
+ pilotdecorationdef_can_drive_mech
+[16:18:50.354]PilotDef.GatherDependencies pilot_d4_pilot
+[16:18:50.354]PilotDecorationDefHelper.getDecorations pilot_d4_pilot:Pilot
+ pilotdecorationdef_can_drive_mech
+[16:18:50.360]PilotDef.GatherDependencies pilot_d2_recruit
+[16:18:50.360]PilotDecorationDefHelper.getDecorations pilot_d2_recruit:Recruit
+ pilotdecorationdef_can_drive_mech
 flush
-[18:41:56.070]PilotDef.GatherDependencies pilot_deploy_director
-[18:41:56.070]PilotDecorationDefHelper.getDecorations pilot_deploy_director:ROT IN HELL
+[16:19:03.399]PilotDef.GatherDependencies pilot_deploy_director
+[16:19:03.399]PilotDecorationDefHelper.getDecorations pilot_deploy_director:ROT IN HELL
  pilotdecorationdef_can_drive_mech
-[18:41:56.167]PilotDef.DependenciesLoaded pilot_deploy_director
-[18:41:56.167]PilotDecorationDefHelper.getDecorations pilot_deploy_director:ROT IN HELL
+[16:19:03.589]PilotDef.DependenciesLoaded pilot_deploy_director
+[16:19:03.589]PilotDecorationDefHelper.getDecorations pilot_deploy_director:ROT IN HELL
  pilotdecorationdef_can_drive_mech
-[18:41:57.738]PilotDef.DependenciesLoaded pilot_deploy_director
-[18:41:57.738]PilotDecorationDefHelper.getDecorations pilot_deploy_director:ROT IN HELL
+[16:19:05.791]PilotDef.DependenciesLoaded pilot_deploy_director
+[16:19:05.791]PilotDecorationDefHelper.getDecorations pilot_deploy_director:ROT IN HELL
  pilotdecorationdef_can_drive_mech
 flush
 flush
 flush
 flush
-[18:42:37.113]PilotDef.DependenciesLoaded commander
-[18:42:37.113]PilotDecorationDefHelper.getDecorations commander:Thunder
- pilotdecorationdef_can_drive_mech
-[18:42:37.229]PilotDef.DependenciesLoaded PilotGen_SGRef_1
-[18:42:37.229]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_1:Tranquility
- pilotdecorationdef_can_drive_mech
+flush
+flush
+flush
+flush
+flush
+[16:20:39.933]PilotDef.DependenciesLoaded PilotGen_SGRef_3
+[16:20:39.933]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot
+ pilotdecorationdef_can_drive_vehicle
+[16:20:39.934]PilotDef.DependenciesLoaded PilotGen_SGRef_3
+[16:20:39.934]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_3:Crackshot
+ pilotdecorationdef_can_drive_vehicle
+[16:20:40.026]PilotDef.DependenciesLoaded PilotGen_SGRef_7
+[16:20:40.026]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter
+ pilotdecorationdef_can_drive_vehicle
+[16:20:40.026]PilotDef.DependenciesLoaded PilotGen_SGRef_7
+[16:20:40.026]PilotDecorationDefHelper.getDecorations PilotGen_SGRef_7:Shutter
+ pilotdecorationdef_can_drive_vehicle
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
+flush
 flush
 flush
 flush
