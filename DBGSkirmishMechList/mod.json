@@ -13,6 +13,6 @@
   "Settings": {
     "debugLog":true,
     "skirmishMeches":["mechdef_sigrun_VLK-II-SIG"],
-    "skirmishMechesMods":["LTS-ValkyrieII","Custom Ammo Categories"]
+    "skirmishMechesMods":["LTS-ValkyrieII","CustomBundleDebugContent"]
   }
 }

@@ -1,7 +1,7 @@
 {
   "DebugMode": true,
-  "VersionCheck": true,
-  "DebugSkirmishMode": true,
+  "VersionCheck": false,
+  "DebugSkirmishMode": false,
   "DisableIfFlashpointContract": true,
   "RandomSpawns": {
     "Enable": true,
@@ -34,7 +34,7 @@
     "MatchAllyLanceCountToEnemy": false
   },
   "ExtendedLances": {
-    "Enable": true,
+    "Enable": false,
     "Autofill": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "LanceSizes": {

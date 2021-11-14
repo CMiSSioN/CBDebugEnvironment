@@ -5,6 +5,6 @@
     "Details": "Default layout description",
     "Icon": ""
   },
-	"OverallUnits": 4,
+	"OverallUnits": 6,
 	"DropLances": [ "default_default_lance1", "default_default_lance2" ]
 }

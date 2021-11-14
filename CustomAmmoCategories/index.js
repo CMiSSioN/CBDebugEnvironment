@@ -62,6 +62,25 @@ function updateItemsList(){
 	});
 }
 
+function updatePilotsList(){
+	$.ajax({
+	  dataType: "json",
+	  url: "/listpilots",
+	  success: function (data){
+		  $("#pilotsPlace").html("");
+		  if(data.hasOwnProperty("error")){
+			$("#pilotsPlace").html(data.error);
+		  }else{
+			$("#pilotsPlace").html("<select/>");
+  		    $.each( data, function( index, val ) {
+			  $("#pilotsPlace").children("select").append("<option pilotid='"+val+"'>"+val+"</option>");
+		    }); 
+			$("#pilotsPlace").append("<button type='button' onclick='addPilot();'>Add pilot to roster</button>");
+		  }
+	  }
+	});
+}
+
 function addItem(){
 	var data = {};
 	data.name = $("#itemsPlace").children("select").children("option:selected").attr("itmname")
@@ -82,6 +101,25 @@ function addItem(){
 	  }
 	});
 }
+
+function addPilot(){
+	var data = {};
+	data.pilotdef = $("#pilotsPlace").children("select").children("option:selected").attr("pilotid")
+	$.ajax({
+	  dataType: "json",
+	  data: JSON.stringify(data),
+	  method: "POST",
+	  url: "/addpilot",
+	  success: function (data){
+		  if(data.hasOwnProperty("error")){
+			alert(data.error);
+		  }else{
+			alert("Success");
+		  }
+	  }
+	});
+}
+
 
 function endContract(){
 	var data = {};

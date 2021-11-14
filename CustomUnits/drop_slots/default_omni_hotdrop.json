@@ -7,5 +7,6 @@
   },
 	"Tags": [ "can_drop_generic_mech", "can_drop_generic_vehicle" ],
 	"Decorations": [ "decoration_slot_mech", "decoration_slot_vehicle", "decoration_slot_hotdrop" ],
-	"HotDrop": true
+	"HotDrop": true,
+	"UseMaxUnits": false
 }
