@@ -6,7 +6,6 @@
   "DLL": "CustomLocalSettings.dll",
   "DLLEntryPoint": "CustomSettings.Core.Init",
   "Settings": {
-    "debugLog": true,
-		"useLocalSettings": false
+    "debugLog": true
   }
 }
