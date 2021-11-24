@@ -1,7 +1,0 @@
-attacker;weapon;ammo;mode;target;hit index;is applied;location;called shot location;hit roll;corrected roll;hit chance;damage;ap damage;heat;stability;is intecepted;intecepted by;is AoE;is frag separated;is frag pallet;frags pallets count;
-KingCrab-A - Copy;Acid Laser;;B;Atlas;0;True;(4)LeftTorso;(0)None;0.3162245;0.3558127;0.99;1;0;0;0;False;none;False;False;False;0;
-KingCrab-A - Copy;Acid Laser;;B;Atlas;0;True;(16)RightTorso;(0)None;0.929338;0.9030433;0.99;1.1;0;0;0;False;none;False;False;False;0;
-KingCrab-A - Copy;Ion Cannon(purple);;purple;Atlas;0;True;(8)CenterTorso;(0)None;0.5587045;0.5442355;0.99;73.2;0;0;100;False;none;False;False;False;0;
-KingCrab-A - Copy;Ion Cannon(purple);;purple;Atlas;1;True;(128)RightLeg;(0)None;0.3275402;0.3654027;0.99;73.2;0;0;100;False;none;False;False;False;0;
-CRITICALS
-attacker;weapon;ammo;mode;target;location id;location;struct id;struct;armor on hitstructure in hitcrit chance;component;

@@ -1,4 +1,0 @@
-attacker;weapon;ammo;mode;target;hit index;is applied;location;called shot location;hit roll;corrected roll;hit chance;damage;ap damage;heat;stability;is intecepted;intecepted by;is AoE;is frag separated;is frag pallet;frags pallets count;
-Javelin;M Laser;;B;Firestarter;0;True;(2)LeftArm;(0)None;0.08515348;0.1157575;0.175;20;0;0;0;False;none;False;False;False;0;
-CRITICALS
-attacker;weapon;ammo;mode;target;location id;location;struct id;struct;armor on hitstructure in hitcrit chance;component;
