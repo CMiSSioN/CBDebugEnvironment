@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "ghurka",
+        "Name" : "ghurka",
+        "Details" : "Random",
+        "Icon" : "ghurka"
+    },
+    "ID" : "ghurka",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 10,
+    "lightRig" : 0,
+    "cameraPosition" : 1,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        44.03674,
+        34.17538,
+        7.442044,
+        7.350972,
+        2.946881,
+        4.047989
+    ],
+    "browOffsetY" : 0.0002329034,
+    "browOffsetZ" : 0.006473558,
+    "noseBridgeScale" : -0.1567267,
+    "noseTipScale" : 0.2875589,
+    "chinScale" : 0.02084224,
+    "cheekOffsetY" : 0.001217927,
+    "eyeWidth" : -0.02843578,
+    "jawWidth" : 0.01102434,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "lothian",
+        "Name" : "lothian",
+        "Details" : "Random",
+        "Icon" : "lothian"
+    },
+    "ID" : "lothian",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 15,
+    "lightRig" : 3,
+    "cameraPosition" : 2,
+    "complexionTex" : 1,
+    "eyebrowTex" : 0,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        51.71286,
+        12.08127,
+        8.52438,
+        27.42935,
+        0.1183698,
+        0.1337738
+    ],
+    "browOffsetY" : 0.0004708778,
+    "browOffsetZ" : -0.006266886,
+    "noseBridgeScale" : -0.1649177,
+    "noseTipScale" : 0.0393386,
+    "chinScale" : -0.193937,
+    "cheekOffsetY" : -0.001244084,
+    "eyeWidth" : 0.01438889,
+    "jawWidth" : -0.08570721,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

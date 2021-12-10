@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "iwanthatarm",
+        "Name" : "iwanthatarm",
+        "Details" : "Random",
+        "Icon" : "iwanthatarm"
+    },
+    "ID" : "iwanthatarm",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 6,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 1,
+    "tattooTex" : 6,
+    "actualTattooTex" : 0,
+    "weights" : [
+        4.418533,
+        9.670929,
+        42.62727,
+        8.550854,
+        31.16579,
+        3.566621
+    ],
+    "browOffsetY" : -0.003538527,
+    "browOffsetZ" : 0.002026784,
+    "noseBridgeScale" : 0.05229554,
+    "noseTipScale" : -0.2618799,
+    "chinScale" : -0.1948697,
+    "cheekOffsetY" : 0.001519092,
+    "eyeWidth" : -0.00232926,
+    "jawWidth" : 0.07696383,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

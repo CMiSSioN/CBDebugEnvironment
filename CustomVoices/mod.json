@@ -44,6 +44,6 @@
 			"pilot_player_computer":"__/CV.pilot_player_computer/__"
     }      
 	},
-  "CustomResourceTypes": ["VoicePackDef"],
+  "CustomResourceTypes": [ "VoicePackDef", "AudioFile" ],
 	"Manifest": [  ]
 }

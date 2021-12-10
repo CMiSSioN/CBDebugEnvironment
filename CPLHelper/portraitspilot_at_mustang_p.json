@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_mustang_p",
+        "Name" : "pilot_at_mustang_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_mustang_p"
+    },
+    "ID" : "pilot_at_mustang_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 2,
+    "eyebrowTex" : 0,
+    "tattooTex" : 3,
+    "actualTattooTex" : 14,
+    "weights" : [
+        31.68319,
+        47.85338,
+        3.189631,
+        9.748116,
+        7.112466,
+        0.4132168
+    ],
+    "browOffsetY" : 0.005003097,
+    "browOffsetZ" : -0.0002379569,
+    "noseBridgeScale" : 0.06431522,
+    "noseTipScale" : -0.159231,
+    "chinScale" : -0.1813287,
+    "cheekOffsetY" : -0.003058174,
+    "eyeWidth" : -0.03887424,
+    "jawWidth" : 0.0873323,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

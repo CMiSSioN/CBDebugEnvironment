@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "RumiaPilot",
+        "Name" : "RumiaPilot",
+        "Details" : "Random",
+        "Icon" : "RumiaPilot"
+    },
+    "ID" : "RumiaPilot",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 3,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 10,
+    "actualTattooTex" : 3,
+    "weights" : [
+        25.4206,
+        40.88274,
+        7.392316,
+        2.087127,
+        23.76852,
+        0.448705
+    ],
+    "browOffsetY" : 0.00291971,
+    "browOffsetZ" : -0.00318136,
+    "noseBridgeScale" : -0.1460482,
+    "noseTipScale" : 0.01051472,
+    "chinScale" : -0.08590081,
+    "cheekOffsetY" : -0.001181613,
+    "eyeWidth" : -0.04270524,
+    "jawWidth" : 0.06740914,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_04",
+    "hairTipId" : "Hair_04",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

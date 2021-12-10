@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Shepard_utr",
+        "Name" : "guiTxrPort_Shepard_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Shepard_utr"
+    },
+    "ID" : "guiTxrPort_Shepard_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 1,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 10,
+    "actualTattooTex" : 8,
+    "weights" : [
+        10.50037,
+        21.08667,
+        54.19046,
+        4.685489,
+        9.535172,
+        0.001832271
+    ],
+    "browOffsetY" : -0.004692854,
+    "browOffsetZ" : -0.006302604,
+    "noseBridgeScale" : 0.08271494,
+    "noseTipScale" : -0.12967,
+    "chinScale" : -0.005098176,
+    "cheekOffsetY" : -0.001887601,
+    "eyeWidth" : -0.03153144,
+    "jawWidth" : 0.01519696,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

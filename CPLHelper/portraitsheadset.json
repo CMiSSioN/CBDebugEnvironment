@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "headset",
+        "Name" : "headset",
+        "Details" : "Random",
+        "Icon" : "headset"
+    },
+    "ID" : "headset",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 4,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 4,
+    "eyebrowTex" : 4,
+    "tattooTex" : 11,
+    "actualTattooTex" : 10,
+    "weights" : [
+        15.25186,
+        25.06989,
+        26.11554,
+        1.235429,
+        29.8269,
+        2.50037
+    ],
+    "browOffsetY" : 0.0002952679,
+    "browOffsetZ" : 0.006012828,
+    "noseBridgeScale" : 0.06508331,
+    "noseTipScale" : -0.1609765,
+    "chinScale" : -0.1638685,
+    "cheekOffsetY" : -0.004041632,
+    "eyeWidth" : -0.00847469,
+    "jawWidth" : -0.02260436,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_03",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_04",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

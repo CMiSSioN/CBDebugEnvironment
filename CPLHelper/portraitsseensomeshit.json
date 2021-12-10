@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "seensomeshit",
+        "Name" : "seensomeshit",
+        "Details" : "Random",
+        "Icon" : "seensomeshit"
+    },
+    "ID" : "seensomeshit",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 5,
+    "cameraPosition" : 1,
+    "complexionTex" : 3,
+    "eyebrowTex" : 4,
+    "tattooTex" : 2,
+    "actualTattooTex" : 0,
+    "weights" : [
+        43.5835,
+        22.13044,
+        29.23964,
+        0.4779725,
+        2.098737,
+        2.469716
+    ],
+    "browOffsetY" : -0.005395281,
+    "browOffsetZ" : -0.0007641689,
+    "noseBridgeScale" : 0.1961506,
+    "noseTipScale" : 0.2985535,
+    "chinScale" : -0.1503726,
+    "cheekOffsetY" : -0.002373324,
+    "eyeWidth" : -0.03772394,
+    "jawWidth" : -0.07330098,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

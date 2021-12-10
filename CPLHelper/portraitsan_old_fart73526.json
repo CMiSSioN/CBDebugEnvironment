@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "an_old_fart73526",
+        "Name" : "an_old_fart73526",
+        "Details" : "Random",
+        "Icon" : "an_old_fart73526"
+    },
+    "ID" : "an_old_fart73526",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 12,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 1,
+    "complexionTex" : 4,
+    "eyebrowTex" : 4,
+    "tattooTex" : 9,
+    "actualTattooTex" : 13,
+    "weights" : [
+        33.132,
+        27.75681,
+        35.40447,
+        3.176207,
+        0.529802,
+        0.0007077302
+    ],
+    "browOffsetY" : 0.0003072375,
+    "browOffsetZ" : 0.003662874,
+    "noseBridgeScale" : 0.1970159,
+    "noseTipScale" : -0.1664806,
+    "chinScale" : 0.07333254,
+    "cheekOffsetY" : -0.0006893617,
+    "eyeWidth" : -0.0380391,
+    "jawWidth" : -0.04624831,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "tortuga_edit",
+        "Name" : "tortuga_edit",
+        "Details" : "Random",
+        "Icon" : "tortuga_edit"
+    },
+    "ID" : "tortuga_edit",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 6,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 3,
+    "complexionTex" : 1,
+    "eyebrowTex" : 0,
+    "tattooTex" : 5,
+    "actualTattooTex" : 17,
+    "weights" : [
+        45.64032,
+        23.97767,
+        18.9508,
+        6.659008,
+        1.394221,
+        3.377986
+    ],
+    "browOffsetY" : -0.006505388,
+    "browOffsetZ" : -0.006890051,
+    "noseBridgeScale" : -0.01392658,
+    "noseTipScale" : 0.1715886,
+    "chinScale" : -0.09102567,
+    "cheekOffsetY" : -0.001130305,
+    "eyeWidth" : -0.008987242,
+    "jawWidth" : 0.07418718,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

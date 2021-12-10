@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_jkDoyle_utr",
+        "Name" : "guiTxrPort_jkDoyle_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_jkDoyle_utr"
+    },
+    "ID" : "guiTxrPort_jkDoyle_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 11,
+    "lightRig" : 2,
+    "cameraPosition" : 1,
+    "complexionTex" : 2,
+    "eyebrowTex" : 3,
+    "tattooTex" : 2,
+    "actualTattooTex" : 6,
+    "weights" : [
+        24.29041,
+        14.31855,
+        30.88466,
+        5.065936,
+        1.544316,
+        23.89612
+    ],
+    "browOffsetY" : -0.0063029,
+    "browOffsetZ" : -0.004270205,
+    "noseBridgeScale" : 0.004350162,
+    "noseTipScale" : -0.1894087,
+    "chinScale" : -0.03814027,
+    "cheekOffsetY" : -0.001501827,
+    "eyeWidth" : -0.0233213,
+    "jawWidth" : 0.09386589,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

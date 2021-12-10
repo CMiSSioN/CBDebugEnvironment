@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_poet_p",
+        "Name" : "pilot_at_poet_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_poet_p"
+    },
+    "ID" : "pilot_at_poet_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 5,
+    "eyebrowTex" : 5,
+    "tattooTex" : 2,
+    "actualTattooTex" : 16,
+    "weights" : [
+        35.09804,
+        4.283257,
+        31.23988,
+        23.36734,
+        1.706733,
+        4.304749
+    ],
+    "browOffsetY" : -0.003386081,
+    "browOffsetZ" : 0.005773856,
+    "noseBridgeScale" : 0.064433,
+    "noseTipScale" : 0.1314985,
+    "chinScale" : -0.06898163,
+    "cheekOffsetY" : 0.001405393,
+    "eyeWidth" : -0.04919241,
+    "jawWidth" : 0.05106762,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

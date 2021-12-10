@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_jkLordDakky_utr",
+        "Name" : "guiTxrPort_jkLordDakky_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_jkLordDakky_utr"
+    },
+    "ID" : "guiTxrPort_jkLordDakky_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 12,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 5,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 4,
+    "eyebrowTex" : 0,
+    "tattooTex" : 8,
+    "actualTattooTex" : 0,
+    "weights" : [
+        32.5077,
+        32.89755,
+        1.260182,
+        2.564533,
+        27.45086,
+        3.319176
+    ],
+    "browOffsetY" : -0.006160145,
+    "browOffsetZ" : -0.0008953785,
+    "noseBridgeScale" : -0.1303153,
+    "noseTipScale" : 0.1218538,
+    "chinScale" : 0.01500895,
+    "cheekOffsetY" : -0.004503725,
+    "eyeWidth" : 0.02373309,
+    "jawWidth" : 0.04224031,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

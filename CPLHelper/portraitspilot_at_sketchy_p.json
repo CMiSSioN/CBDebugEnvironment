@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_sketchy_p",
+        "Name" : "pilot_at_sketchy_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_sketchy_p"
+    },
+    "ID" : "pilot_at_sketchy_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 2,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 5,
+    "lightRig" : 5,
+    "cameraPosition" : 1,
+    "complexionTex" : 0,
+    "eyebrowTex" : 2,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        60.87206,
+        1.074811,
+        3.823419,
+        0.7471446,
+        33.3715,
+        0.1110728
+    ],
+    "browOffsetY" : 0.001877354,
+    "browOffsetZ" : -0.000314726,
+    "noseBridgeScale" : -0.05828064,
+    "noseTipScale" : 0.2090842,
+    "chinScale" : 0.00484755,
+    "cheekOffsetY" : -0.003072395,
+    "eyeWidth" : 0.00527243,
+    "jawWidth" : -0.008090818,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

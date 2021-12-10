@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_smirk_p",
+        "Name" : "pilot_at_smirk_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_smirk_p"
+    },
+    "ID" : "pilot_at_smirk_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 1,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        38.07852,
+        0.6118278,
+        25.76213,
+        6.94411,
+        1.002601,
+        27.60082
+    ],
+    "browOffsetY" : -0.006370174,
+    "browOffsetZ" : -0.001001744,
+    "noseBridgeScale" : -0.07957723,
+    "noseTipScale" : 0.04866053,
+    "chinScale" : 0.04082186,
+    "cheekOffsetY" : 0.004264643,
+    "eyeWidth" : 0.04348862,
+    "jawWidth" : 0.03918292,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

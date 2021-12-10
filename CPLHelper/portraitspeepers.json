@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "peepers",
+        "Name" : "peepers",
+        "Details" : "Random",
+        "Icon" : "peepers"
+    },
+    "ID" : "peepers",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 2,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 15,
+    "lightRig" : 2,
+    "cameraPosition" : 3,
+    "complexionTex" : 5,
+    "eyebrowTex" : 0,
+    "tattooTex" : 10,
+    "actualTattooTex" : 0,
+    "weights" : [
+        35.49025,
+        21.37114,
+        7.863122,
+        0.5178808,
+        9.838586,
+        24.91903
+    ],
+    "browOffsetY" : -0.003308419,
+    "browOffsetZ" : -0.006461438,
+    "noseBridgeScale" : 0.03148735,
+    "noseTipScale" : -0.06334852,
+    "chinScale" : 0.180731,
+    "cheekOffsetY" : -0.002766193,
+    "eyeWidth" : -0.02516152,
+    "jawWidth" : 0.004514706,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

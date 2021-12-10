@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Tex2",
+        "Name" : "Tex2",
+        "Details" : "Random",
+        "Icon" : "Tex2"
+    },
+    "ID" : "Tex2",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 10,
+    "lightRig" : 0,
+    "cameraPosition" : 4,
+    "complexionTex" : 1,
+    "eyebrowTex" : 1,
+    "tattooTex" : 5,
+    "actualTattooTex" : 4,
+    "weights" : [
+        27.28607,
+        49.89191,
+        14.31162,
+        3.640453,
+        4.639304,
+        0.2306313
+    ],
+    "browOffsetY" : -0.004497212,
+    "browOffsetZ" : -0.005480393,
+    "noseBridgeScale" : -0.01295416,
+    "noseTipScale" : -0.1899096,
+    "chinScale" : 0.1991955,
+    "cheekOffsetY" : -0.004299979,
+    "eyeWidth" : -0.02224737,
+    "jawWidth" : 0.09107697,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_04",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

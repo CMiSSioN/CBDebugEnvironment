@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_jkGarrisoned_utr",
+        "Name" : "guiTxrPort_jkGarrisoned_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_jkGarrisoned_utr"
+    },
+    "ID" : "guiTxrPort_jkGarrisoned_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 1,
+    "complexionTex" : 0,
+    "eyebrowTex" : 2,
+    "tattooTex" : 11,
+    "actualTattooTex" : 11,
+    "weights" : [
+        33.1462,
+        23.99693,
+        36.60405,
+        4.430954,
+        1.570035,
+        0.2518403
+    ],
+    "browOffsetY" : 0.002133068,
+    "browOffsetZ" : 0.006103721,
+    "noseBridgeScale" : 0.1143376,
+    "noseTipScale" : 0.002345574,
+    "chinScale" : -0.03577888,
+    "cheekOffsetY" : -0.002200975,
+    "eyeWidth" : -0.01186241,
+    "jawWidth" : 0.07088425,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

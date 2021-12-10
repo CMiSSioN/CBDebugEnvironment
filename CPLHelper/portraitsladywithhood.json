@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "ladywithhood",
+        "Name" : "ladywithhood",
+        "Details" : "Random",
+        "Icon" : "ladywithhood"
+    },
+    "ID" : "ladywithhood",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 7,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 8,
+    "actualTattooTex" : 8,
+    "weights" : [
+        28.30475,
+        60.9609,
+        2.292511,
+        7.266819,
+        0.4399716,
+        0.7350585
+    ],
+    "browOffsetY" : 0.006920155,
+    "browOffsetZ" : -0.004701555,
+    "noseBridgeScale" : 0.03414333,
+    "noseTipScale" : 0.240191,
+    "chinScale" : -0.1146327,
+    "cheekOffsetY" : 0.002515635,
+    "eyeWidth" : 0.01824685,
+    "jawWidth" : -0.04615592,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_02",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_04",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

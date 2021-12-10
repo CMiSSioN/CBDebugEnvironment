@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "smoke_jaguar",
+        "Name" : "smoke_jaguar",
+        "Details" : "Random",
+        "Icon" : "smoke_jaguar"
+    },
+    "ID" : "smoke_jaguar",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 12,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 14,
+    "lightRig" : 4,
+    "cameraPosition" : 3,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 7,
+    "actualTattooTex" : 10,
+    "weights" : [
+        64.31309,
+        30.12584,
+        3.600411,
+        0.05730896,
+        1.830276,
+        0.07308313
+    ],
+    "browOffsetY" : -0.001792458,
+    "browOffsetZ" : 0.002166411,
+    "noseBridgeScale" : -0.02717879,
+    "noseTipScale" : -0.07635688,
+    "chinScale" : 0.05808625,
+    "cheekOffsetY" : 0.004681593,
+    "eyeWidth" : 0.03977427,
+    "jawWidth" : -0.03063136,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

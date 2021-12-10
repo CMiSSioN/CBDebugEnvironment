@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Takeshi",
+        "Name" : "Takeshi",
+        "Details" : "Random",
+        "Icon" : "Takeshi"
+    },
+    "ID" : "Takeshi",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 3,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 7,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 2,
+    "eyebrowTex" : 4,
+    "tattooTex" : 6,
+    "actualTattooTex" : 0,
+    "weights" : [
+        6.184643,
+        17.91529,
+        36.03329,
+        18.80894,
+        20.73656,
+        0.3212607
+    ],
+    "browOffsetY" : -0.0005208322,
+    "browOffsetZ" : -0.006317344,
+    "noseBridgeScale" : 0.07796525,
+    "noseTipScale" : 0.1660198,
+    "chinScale" : -0.08542521,
+    "cheekOffsetY" : 0.002894411,
+    "eyeWidth" : -0.04029523,
+    "jawWidth" : 0.08839931,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "ghost_bear",
+        "Name" : "ghost_bear",
+        "Details" : "Random",
+        "Icon" : "ghost_bear"
+    },
+    "ID" : "ghost_bear",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 0,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 2,
+    "lightRig" : 3,
+    "cameraPosition" : 0,
+    "complexionTex" : 2,
+    "eyebrowTex" : 1,
+    "tattooTex" : 4,
+    "actualTattooTex" : 16,
+    "weights" : [
+        69.05533,
+        5.998694,
+        23.33319,
+        1.295486,
+        0.06527888,
+        0.252025
+    ],
+    "browOffsetY" : -0.001977586,
+    "browOffsetZ" : -0.001375802,
+    "noseBridgeScale" : -0.02640073,
+    "noseTipScale" : 0.2710098,
+    "chinScale" : 0.1664813,
+    "cheekOffsetY" : 0.004252283,
+    "eyeWidth" : 0.04706161,
+    "jawWidth" : -0.0563272,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_04",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

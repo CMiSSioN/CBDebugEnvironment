@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Yangs_Evil_Twin",
+        "Name" : "Yangs_Evil_Twin",
+        "Details" : "Random",
+        "Icon" : "Yangs_Evil_Twin"
+    },
+    "ID" : "Yangs_Evil_Twin",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 9,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 4,
+    "lightRig" : 0,
+    "cameraPosition" : 4,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 1,
+    "actualTattooTex" : 5,
+    "weights" : [
+        60.354,
+        6.811497,
+        2.27286,
+        0.2791479,
+        0.5920125,
+        29.69047
+    ],
+    "browOffsetY" : -0.006443946,
+    "browOffsetZ" : -0.001148517,
+    "noseBridgeScale" : 0.1760724,
+    "noseTipScale" : 0.2227348,
+    "chinScale" : 0.07591528,
+    "cheekOffsetY" : -0.002624272,
+    "eyeWidth" : 0.008734542,
+    "jawWidth" : -0.06995561,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

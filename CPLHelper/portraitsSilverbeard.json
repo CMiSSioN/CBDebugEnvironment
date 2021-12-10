@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Silverbeard",
+        "Name" : "Silverbeard",
+        "Details" : "Random",
+        "Icon" : "Silverbeard"
+    },
+    "ID" : "Silverbeard",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 8,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 0,
+    "complexionTex" : 4,
+    "eyebrowTex" : 0,
+    "tattooTex" : 5,
+    "actualTattooTex" : 12,
+    "weights" : [
+        35.3808,
+        22.90566,
+        33.39235,
+        4.589378,
+        1.789015,
+        1.942793
+    ],
+    "browOffsetY" : 0.0004929311,
+    "browOffsetZ" : 0.006870953,
+    "noseBridgeScale" : -0.1816623,
+    "noseTipScale" : -0.1310844,
+    "chinScale" : -0.113505,
+    "cheekOffsetY" : -0.002761367,
+    "eyeWidth" : -0.02826588,
+    "jawWidth" : -0.01802615,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Klyst_utr",
+        "Name" : "guiTxrPort_Klyst_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Klyst_utr"
+    },
+    "ID" : "guiTxrPort_Klyst_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 15,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 10,
+    "lightRig" : 2,
+    "cameraPosition" : 1,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 10,
+    "actualTattooTex" : 0,
+    "weights" : [
+        26.08637,
+        9.063979,
+        54.54085,
+        3.815367,
+        2.075859,
+        4.417583
+    ],
+    "browOffsetY" : 0.006306413,
+    "browOffsetZ" : -0.002550513,
+    "noseBridgeScale" : -0.02245991,
+    "noseTipScale" : -0.1858561,
+    "chinScale" : 0.1563572,
+    "cheekOffsetY" : -0.004081249,
+    "eyeWidth" : 0.02343936,
+    "jawWidth" : 0.07134366,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_04",
+    "hairTipId" : "Hair_04",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

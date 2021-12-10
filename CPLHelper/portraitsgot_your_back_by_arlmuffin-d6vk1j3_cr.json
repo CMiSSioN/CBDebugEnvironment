@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "got_your_back_by_arlmuffin-d6vk1j3_cr",
+        "Name" : "got_your_back_by_arlmuffin-d6vk1j3_cr",
+        "Details" : "Random",
+        "Icon" : "got_your_back_by_arlmuffin-d6vk1j3_cr"
+    },
+    "ID" : "got_your_back_by_arlmuffin-d6vk1j3_cr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 14,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 1,
+    "lightRig" : 0,
+    "cameraPosition" : 2,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 5,
+    "actualTattooTex" : 2,
+    "weights" : [
+        24.84249,
+        25.60096,
+        29.51079,
+        15.17474,
+        1.854716,
+        3.016287
+    ],
+    "browOffsetY" : -0.0007668458,
+    "browOffsetZ" : 0.002792808,
+    "noseBridgeScale" : 0.1945581,
+    "noseTipScale" : -0.05569865,
+    "chinScale" : 0.1923609,
+    "cheekOffsetY" : 0.001645107,
+    "eyeWidth" : 0.04510006,
+    "jawWidth" : -0.007703579,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

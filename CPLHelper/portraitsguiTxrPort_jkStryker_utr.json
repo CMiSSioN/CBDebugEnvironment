@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_jkStryker_utr",
+        "Name" : "guiTxrPort_jkStryker_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_jkStryker_utr"
+    },
+    "ID" : "guiTxrPort_jkStryker_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 12,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 15,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 3,
+    "eyebrowTex" : 2,
+    "tattooTex" : 0,
+    "actualTattooTex" : 14,
+    "weights" : [
+        2.657174,
+        23.44659,
+        28.67989,
+        27.82784,
+        9.13726,
+        8.251244
+    ],
+    "browOffsetY" : -0.005101742,
+    "browOffsetZ" : 0.003844467,
+    "noseBridgeScale" : 0.1854325,
+    "noseTipScale" : 0.2084745,
+    "chinScale" : 0.08113828,
+    "cheekOffsetY" : -0.0005931598,
+    "eyeWidth" : -0.03992726,
+    "jawWidth" : 0.06236115,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}
