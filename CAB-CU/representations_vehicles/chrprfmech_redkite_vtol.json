@@ -1,0 +1,63 @@
+{
+	"Id": "chrprfmech_redkite_vtol",
+	"PrefabBase": "curedkite",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "redkite_body","LF","RF", "front_turret" ],
+	"TwistAnimators": [ ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "redkite_destructable",
+			"wholeObj": "redkite_whole",
+			"destroyedObj": "redkite_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "attach_turret",
+		"Left": "attach_left",
+		"Right": "attach_right",
+		"Front": "attach_body",
+		"Rear": "attach_body"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "BodyAttach",
+			"visuals": "redkite_whole",
+			"attach": "attach_body",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": { }
+		}
+	],
+	"Particles":[
+		{ "object_name":"jet stream_LF_Inner", "location": "None" },
+		{ "object_name":"jet stream_LF_Outer", "location": "None" },
+		{ "object_name":"jet stream_RF_Inner", "location": "None" },
+		{ "object_name":"jet stream_RF_Outer", "location": "None" },
+		{ "object_name":"collision_light_wing_left", "location": "None" },
+		{ "object_name":"collision_light_wing_right", "location": "None" },
+		{ "object_name":"collision_light_tail_left", "location": "None" },
+		{ "object_name":"collision_light_tail_right", "location": "None" }
+	]
+}

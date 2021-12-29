@@ -1,5 +1,5 @@
 {
-  "ID": "hardpointdatadef_goliath",
+  "ID": "hardpointdatadef_cugoliath",
   "CustomHardpoints": {
     "prefabs": [
       {"prefab": "chrprfweap_goliath_center_turret_ac10_1", "attachOverride":"TAPMainCenter", "attachType": "Turret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },

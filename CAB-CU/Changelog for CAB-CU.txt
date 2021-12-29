@@ -1,6 +1,11 @@
 Changelog for CAB-CU
 
 -----------------------------------------------------
+
+1.1
+
+Red Kite VTOL
+
 1.01
 
 Update for new CU API

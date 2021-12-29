@@ -1,6 +1,6 @@
 {
   "Id": "chrprfmech_goliath",
-  "PrefabBase":"goliath",
+  "PrefabBase":"cugoliath",
   "SourcePrefabIdentifier":"chrPrfMech_atlasBase-001",
   "SourcePrefabBase":"atlas",
   "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
@@ -11,7 +11,9 @@
 		"FLegsPrefab": "chrPrfMech_atlasBase-001",
 		"BodyLength": 5.2,
 		"FLegsPrefabBase": "atlas",
-		"BodyPrefab": "jgoliathbody",
+		"RLegsPrefab": "chrPrfMech_atlasBase-001",
+		"RLegsPrefabBase": "atlas", 
+		"BodyPrefab": "goliath_body",
 		"BodyShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
 		"NotSuppressRenderers": [ "_left_leg_", "_right_leg_" ],
 		"Destructables": {

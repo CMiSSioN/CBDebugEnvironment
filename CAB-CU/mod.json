@@ -540,6 +540,8 @@
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_right_ppc_1.prefab", "AssetBundleName": "jgoliath_parts" },	
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_center_ppc_1.prefab", "AssetBundleName": "jgoliath_parts" },	
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_center_gauss_1.prefab", "AssetBundleName": "jgoliath_parts" },	
-		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_rac5_center.prefab", "AssetBundleName": "jgoliath_parts" }		
+		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_rac5_center.prefab", "AssetBundleName": "jgoliath_parts" },
+
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_redkite_vtol.prefab", "AssetBundleName": "chrprfmech_redkite-vtol" }
   ]
 }
