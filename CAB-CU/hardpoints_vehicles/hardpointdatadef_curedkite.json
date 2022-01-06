@@ -1,9 +1,58 @@
 {
   "ID": "hardpointdatadef_curedkite",
   "CustomHardpoints": {
-    "prefabs": [ 
+    "prefabs": [
+       { "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1", "attachType":"Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1" }
     ],
-    "aliases": {     
+    "aliases": {
+      "chrPrfWeap_curedkite_left_laser_eh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_ppc_eh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_flamer_eh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_lrm5_mh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_lrm10_mh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_srm2_mh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_srm4_mh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_srm6_mh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_ac2_bh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_ac5_bh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_ac10_bh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_lbx_bh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_mg_bh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_left_uac5_bh1": { "location": "left", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+
+      "chrPrfWeap_curedkite_right_laser_eh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_ppc_eh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_flamer_eh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_lrm5_mh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_lrm10_mh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_srm2_mh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_srm4_mh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_srm6_mh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_ac2_bh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_ac5_bh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_ac10_bh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_lbx_bh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_mg_bh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_right_uac5_bh1": { "location": "right", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+
+      "chrPrfWeap_curedkite_front_laser_eh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_ppc_eh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_flamer_eh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_lrm5_mh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_lrm10_mh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_lrm15_mh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_lrm20_mh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_srm2_mh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_srm4_mh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_srm4_1" },
+      "chrPrfWeap_curedkite_front_srm6_mh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_ac2_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_ac5_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_ac10_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_ac20_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_gauss_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_lbx_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_mg_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" },
+      "chrPrfWeap_curedkite_front_uac5_bh1": { "location": "front", "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1" }
     }
   },
   "HardpointData": [

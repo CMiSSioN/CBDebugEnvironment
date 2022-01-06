@@ -1,6 +1,6 @@
 {
   "Id": "chrprfmech_barghest",
-  "PrefabBase":"barghest",
+  "PrefabBase":"cubarghest",
   "SourcePrefabIdentifier":"chrPrfMech_cataphractBase-001",
   "SourcePrefabBase":"cataphract",
   "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
