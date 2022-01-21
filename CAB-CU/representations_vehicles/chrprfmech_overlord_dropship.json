@@ -1,0 +1,55 @@
+{
+	"Id": "chrprfmech_overlord_dropship",
+	"PrefabBase": "cuoverlord",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipMeshSource" : "chrprfmech_overlord_blips",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "body_antenna", "blinking", "mm_attach" ],
+	"TwistAnimators": [ ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "overlord_destructable",
+			"wholeObj": "overlord_whole",
+			"destroyedObj": "overlord_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "attach_turret",
+		"Left": "attach_left",
+		"Right": "attach_right",
+		"Front": "attach_body",
+		"Rear": "attach_body"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "BodyAttach",
+			"visuals": "overlord_whole",
+			"attach": "attach_body",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": { }
+		}
+	],
+	"Particles":[
+	]
+}

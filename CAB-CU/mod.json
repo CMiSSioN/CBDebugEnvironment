@@ -542,6 +542,30 @@
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_center_gauss_1.prefab", "AssetBundleName": "jgoliath_parts" },	
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/jgoliath_rac5_center.prefab", "AssetBundleName": "jgoliath_parts" },
 
-		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_redkite_vtol.prefab", "AssetBundleName": "chrprfmech_redkite-vtol" }
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_redkite_vtol.prefab", "AssetBundleName": "chrprfmech_redkite-vtol" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_overlord_dropship.prefab", "AssetBundleName": "chrprfmech_overlord-dropship" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_overlord_blips.prefab", "AssetBundleName": "chrprfmech_overlord-dropship" },
+		
+		{ "Type": "AssetBundle", "Path": "assetbundles_turrets" },
+		{ "Type": "HardpointDataDef", "Path": "hardpoints_turrets" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_top_energy.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_energy" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_top_energy/chrPrfWeap_overlord_turret_top_energy_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_energy" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_top_ballistic.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_ballistic" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_top_ballistic/chrPrfWeap_overlord_turret_top_ballistic_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_ballistic" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_mid_missile.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_missile" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_mid_missile/chrPrfWeap_overlord_turret_mid_missile_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_missile" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_mid_ballistic.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_ballistic" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_mid_ballistic/chrPrfWeap_overlord_turret_mid_ballistic_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_ballistic" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_belt_mixed.prefab", "AssetBundleName": "chrprftrt_overlord_turret_belt_mixed" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_belt_mixed/chrPrfWeap_overlord_turret_belt_mixed_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_belt_mixed" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_aft_mixed.prefab", "AssetBundleName": "chrprftrt_overlord_turret_aft_mixed" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_aft_mixed/chrPrfWeap_overlord_turret_aft_mixed_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_aft_mixed" }
   ]
 }

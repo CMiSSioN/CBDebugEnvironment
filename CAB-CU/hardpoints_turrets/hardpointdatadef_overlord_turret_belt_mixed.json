@@ -1,0 +1,19 @@
+{
+    "ID" : "hardpointdatadef_overlord_turret_belt_mixed",
+    "HardpointData" : [
+        {
+            "location" : "turret",
+            "weapons" : [
+                [
+                    "chrPrfWeap_overlord_turret_belt_mixed_turret_laser_eh1"
+                ]
+            ],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        }
+    ]
+}
