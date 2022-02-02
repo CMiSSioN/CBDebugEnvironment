@@ -1,0 +1,47 @@
+{
+	"Id": "chrprfmech_unnsvin_vtol",
+	"PrefabBase": "cuunnsvin",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "unnsvinn_propellers", "unnsvin_body_doors", "unnsvin_beacons" ],
+	"TwistAnimators": [ ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "unnsvin_destructable",
+			"wholeObj": "unnsvin_whole",
+			"destroyedObj": "unnsvin_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "unnsvin_attach_turret",
+		"Left": "unsvinn_turret_left_attach",
+		"Right": "unsvinn_turret_right_attach",
+		"Front": "unnsvin_attach_body",
+		"Rear": "unnsvin_attach_body"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+	],
+	"Particles":[
+	]
+}

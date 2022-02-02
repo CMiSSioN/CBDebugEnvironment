@@ -1,0 +1,47 @@
+{
+	"Id": "chrprfmech_dropship_ball_turret",
+	"PrefabBase": "cudropshipballturret",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ ],
+	"TwistAnimators": [ "j_Body" ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "drop_ball_turret_destructable",
+			"wholeObj": "drop_ball_turret_whole",
+			"destroyedObj": "drop_ball_turret_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "weapon_attach_center",
+		"Left": "drop_ball_turret_body",
+		"Right": "drop_ball_turret_body",
+		"Front": "drop_ball_turret_body",
+		"Rear": "drop_ball_turret_body"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+	],
+	"Particles":[
+	]
+}

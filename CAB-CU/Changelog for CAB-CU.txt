@@ -2,6 +2,14 @@ Changelog for CAB-CU
 
 -----------------------------------------------------
 
+1.3
+
+Added the dynamic CU-turret Dropship Ball Turret for the Overlord, for use with MonsterMashup
+
+1.2
+
+Added the Unnsvin airship.
+
 1.1
 
 Red Kite VTOL

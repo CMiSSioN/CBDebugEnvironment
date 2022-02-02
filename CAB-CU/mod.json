@@ -274,6 +274,21 @@
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_warrior_front_none_4x.prefab", "AssetBundleName": "chrprfmech_warrior-vtol" },
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_warrior_left_none_2x.prefab", "AssetBundleName": "chrprfmech_warrior-vtol" },
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_warrior_right_none_2x.prefab", "AssetBundleName": "chrprfmech_warrior-vtol" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_unnsvin_vtol.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_left_laser_1.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_left_laser_2.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_right_laser_1.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_right_laser_2.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_left_ac_1.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_left_ac_2.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_right_ac_1.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_right_ac_2.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },			
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_left_lrm_1.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_unnsvin_right_lrm_1.prefab", "AssetBundleName": "chrprfmech_unnsvin-vtol" },
+		
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_strix_vtol.prefab", "AssetBundleName": "chrprfmech_strix-vtol" },
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_strix_body_ams_1.prefab", "AssetBundleName": "chrprfmech_strix-vtol" },
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_strix_body_ams_2.prefab", "AssetBundleName": "chrprfmech_strix-vtol" },
@@ -402,6 +417,7 @@
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_strix_front_body_srm9_1.prefab", "AssetBundleName": "chrprfmech_strix-vtol" },
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_strix_front_body_srm9_2.prefab", "AssetBundleName": "chrprfmech_strix-vtol" },
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_strix_front_body_srm9_3.prefab", "AssetBundleName": "chrprfmech_strix-vtol" },
+		
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_urbiecopter_vtol.prefab", "AssetBundleName": "chrprfmech_urbiecopter-vtol" },		
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_perikirov_vtol.prefab", "AssetBundleName": "chrprfmech_kirov-vtol" },		
 		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_rakirov_vtol.prefab", "AssetBundleName": "chrprfmech_kirov-vtol" },		
@@ -549,23 +565,63 @@
 		
 		{ "Type": "AssetBundle", "Path": "assetbundles_turrets" },
 		{ "Type": "HardpointDataDef", "Path": "hardpoints_turrets" },
+		{ "Type": "CustomMechRepresentationDef", "Path": "representations_turrets" },
 		
 		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_top_energy.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_energy" },
-        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_top_energy/chrPrfWeap_overlord_turret_top_energy_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_energy" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_top_energy/chrPrfWeap_overlord_turret_top_energy_turret_generic_mh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_energy" },
 		
 		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_top_ballistic.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_ballistic" },
-        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_top_ballistic/chrPrfWeap_overlord_turret_top_ballistic_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_ballistic" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_top_ballistic/chrPrfWeap_overlord_turret_top_ballistic_turret_generic_mh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_top_ballistic" },
 		
 		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_mid_missile.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_missile" },
-        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_mid_missile/chrPrfWeap_overlord_turret_mid_missile_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_missile" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_mid_missile/chrPrfWeap_overlord_turret_mid_missile_turret_generic_mh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_missile" },
 		
 		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_mid_ballistic.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_ballistic" },
-        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_mid_ballistic/chrPrfWeap_overlord_turret_mid_ballistic_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_ballistic" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_mid_ballistic/chrPrfWeap_overlord_turret_mid_ballistic_turret_generic_mh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_mid_ballistic" },
 		
 		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_belt_mixed.prefab", "AssetBundleName": "chrprftrt_overlord_turret_belt_mixed" },
-        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_belt_mixed/chrPrfWeap_overlord_turret_belt_mixed_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_belt_mixed" },
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_belt_mixed/chrPrfWeap_overlord_turret_belt_mixed_turret_generic_mh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_belt_mixed" },
 		
 		{ "Type": "Prefab", "Path": "assets/character/turrets/prefabs/chrprftrt_overlord_turret_aft_mixed.prefab", "AssetBundleName": "chrprftrt_overlord_turret_aft_mixed" },
-        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_aft_mixed/chrPrfWeap_overlord_turret_aft_mixed_turret_laser_eh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_aft_mixed" }
+        { "Type": "Prefab", "Path": "assets/character/turrets/prefabs/weapons/overlord_turret_aft_mixed/chrPrfWeap_overlord_turret_aft_mixed_turret_generic_mh1.prefab", "AssetBundleName": "chrprftrt_overlord_turret_aft_mixed" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfmech_dropship_ball_turret.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+				
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_mlas_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_mlas_2.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_mlas_3.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_mlas_4.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_mlas_5.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_mlas_6.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_llas_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_llas_2.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_llas_3.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_llas_4.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ppc_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ppc_2.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ppc_3.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ppc_4.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ac5_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ac5_2.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ac5_3.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ac5_4.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ac5_5.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },		
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_ac20_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },		
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_gauss_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },	
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_gauss_2.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_gauss_3.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },	
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_gauss_4.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },	
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_arrow4_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },	
+
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_artillery_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" },	
+		
+		{ "Type": "Prefab", "Path": "assets/character/vehicle/prefabs/chrprfweap_dropballturret_lrm20_1.prefab", "AssetBundleName": "chrprfmech_dropship_ball-turret" }	
+
   ]
 }

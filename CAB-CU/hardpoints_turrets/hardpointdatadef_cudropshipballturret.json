@@ -1,0 +1,118 @@
+{
+  "ID": "hardpointdatadef_cudropshipballturret",
+  "CustomHardpoints": {
+    "prefabs": [ 
+		
+      { "prefab": "chrprfweap_dropballturret_mlas_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_mlas_2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_mlas_3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_mlas_4", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_mlas_5", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_mlas_6", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+	  { "prefab": "chrprfweap_dropballturret_llas_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },	  
+	  { "prefab": "chrprfweap_dropballturret_llas_2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },	  
+	  { "prefab": "chrprfweap_dropballturret_llas_3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },	  
+	  { "prefab": "chrprfweap_dropballturret_llas_4", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },	  
+	
+	  { "prefab": "chrprfweap_dropballturret_ppc_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+	  { "prefab": "chrprfweap_dropballturret_ppc_2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+	  { "prefab": "chrprfweap_dropballturret_ppc_3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+	  { "prefab": "chrprfweap_dropballturret_ppc_4", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },				  
+	  
+      { "prefab": "chrprfweap_dropballturret_ac5_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+      { "prefab": "chrprfweap_dropballturret_ac5_2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+      { "prefab": "chrprfweap_dropballturret_ac5_3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+      { "prefab": "chrprfweap_dropballturret_ac5_4", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+      { "prefab": "chrprfweap_dropballturret_ac5_5", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+	  
+	  { "prefab": "chrprfweap_dropballturret_ac20_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+	  
+	  { "prefab": "chrprfweap_dropballturret_gauss_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_gauss_2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_gauss_3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_dropballturret_gauss_4", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+	  { "prefab": "chrprfweap_dropballturret_artillery_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+	  { "prefab": "chrprfweap_dropballturret_arrow4_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5" ] },
+	  
+      { "prefab": "chrprfweap_dropballturret_lrm20_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1","fire2","fire3","fire4","fire5","fire6","fire7","fire8","fire9","fire10","fire11","fire12","fire13","fire14","fire15","fire16","fire17","fire18","fire19","fire20" ] },
+      
+    ],
+    "aliases": {     
+      "chrPrfWeap_cudropshipballturret_body_laser_eh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_llas_1" },
+      "chrPrfWeap_cudropshipballturret_body_laser_eh2": { "location": "turret", "prefab": "chrprfweap_dropballturret_llas_2" },
+      "chrPrfWeap_cudropshipballturret_body_laser_eh3": { "location": "turret", "prefab": "chrprfweap_dropballturret_llas_3" },
+      "chrPrfWeap_cudropshipballturret_body_laser_eh4": { "location": "turret", "prefab": "chrprfweap_dropballturret_llas_4" },
+      "chrPrfWeap_cudropshipballturret_body_laser_eh5": { "location": "turret", "prefab": "chrprfweap_dropballturret_mlas_5" },
+      "chrPrfWeap_cudropshipballturret_body_laser_eh6": { "location": "turret", "prefab": "chrprfweap_dropballturret_mlas_6" },
+	  
+      "chrPrfWeap_cudropshipballturret_body_ppc_eh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_ppc_1" },	  
+      "chrPrfWeap_cudropshipballturret_body_ppc_eh2": { "location": "turret", "prefab": "chrprfweap_dropballturret_ppc_2" },	  
+      "chrPrfWeap_cudropshipballturret_body_ppc_eh3": { "location": "turret", "prefab": "chrprfweap_dropballturret_ppc_3" },	  
+      "chrPrfWeap_cudropshipballturret_body_ppc_eh4": { "location": "turret", "prefab": "chrprfweap_dropballturret_ppc_4" },	  	  
+	  
+      "chrPrfWeap_cudropshipballturret_body_ac5_bh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_ac5_1" },
+      "chrPrfWeap_cudropshipballturret_body_ac5_bh2": { "location": "turret", "prefab": "chrprfweap_dropballturret_ac5_2" },
+      "chrPrfWeap_cudropshipballturret_body_ac5_bh3": { "location": "turret", "prefab": "chrprfweap_dropballturret_ac5_3" },
+      "chrPrfWeap_cudropshipballturret_body_ac5_bh4": { "location": "turret", "prefab": "chrprfweap_dropballturret_ac5_4" },
+	  "chrPrfWeap_cudropshipballturret_body_ac5_bh5": { "location": "turret", "prefab": "chrprfweap_dropballturret_ac5_5" },
+	  
+      "chrPrfWeap_cudropshipballturret_body_ac20_bh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_ac20_1" },
+	  
+      "chrPrfWeap_cudropshipballturret_body_gauss_bh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_gauss_1" },
+	  "chrPrfWeap_cudropshipballturret_body_gauss_bh2": { "location": "turret", "prefab": "chrprfweap_dropballturret_gauss_2" },
+      "chrPrfWeap_cudropshipballturret_body_gauss_bh3": { "location": "turret", "prefab": "chrprfweap_dropballturret_gauss_3" },
+      "chrPrfWeap_cudropshipballturret_body_gauss_bh4": { "location": "turret", "prefab": "chrprfweap_dropballturret_gauss_4" },
+
+	  "chrPrfWeap_cudropshipballturret_body_artillery_bh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_artillery_1" },
+	  
+	  "chrPrfWeap_cudropshipballturret_body_arrow_mh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_arrow4_1" },
+	  
+	  "chrPrfWeap_cudropshipballturret_body_lrm20_mh1": { "location": "turret", "prefab": "chrprfweap_dropballturret_lrm20_1" }      
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "front",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "right",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "left",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rear",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "turret",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }	
+  ]
+}
