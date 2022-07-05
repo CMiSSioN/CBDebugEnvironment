@@ -1,0 +1,93 @@
+{
+  "ID": "hardpointdatadef_cukarr",
+  "CustomHardpoints": {
+	"prefabs": [ 
+      { "prefab": "chrprfweap_karr_center_lrm20_mh1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", "fire_c3_r1", "fire_c3_r2", "fire_c3_r3",
+	  "fire_c4_r1", "fire_c4_r2", "fire_c4_r3", "fire_c5_r1", "fire_c5_r2", "fire_c5_r3", "fire_c6_r1", "fire_c6_r2", "fire_c6_r3",
+	  "fire_c7_r1", "fire_c7_r2" ] 
+	  },
+      { "prefab": "chrprfweap_karr_center_lrm20_mh2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", "fire_c3_r1", "fire_c3_r2", "fire_c3_r3",
+	  "fire_c4_r1", "fire_c4_r2", "fire_c4_r3", "fire_c5_r1", "fire_c5_r2", "fire_c5_r3", "fire_c6_r1", "fire_c6_r2", "fire_c6_r3",
+	  "fire_c7_r1", "fire_c7_r2" ] 
+	  },
+      { "prefab": "chrprfweap_karr_center_lrm20_mh3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", "fire_c3_r1", "fire_c3_r2", "fire_c3_r3",
+	  "fire_c4_r1", "fire_c4_r2", "fire_c4_r3", "fire_c5_r1", "fire_c5_r2", "fire_c5_r3", "fire_c6_r1", "fire_c6_r2", "fire_c6_r3",
+	  "fire_c7_r1", "fire_c7_r2" ] 
+	  },
+      { "prefab": "chrprfweap_karr_center_lrm20_mh4", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", "fire_c3_r1", "fire_c3_r2", "fire_c3_r3",
+	  "fire_c4_r1", "fire_c4_r2", "fire_c4_r3", "fire_c5_r1", "fire_c5_r2", "fire_c5_r3", "fire_c6_r1", "fire_c6_r2", "fire_c6_r3",
+	  "fire_c7_r1", "fire_c7_r2" ] 
+	  },	  
+	        
+      { "prefab": "chrprfweap_karr_left_lrm10_mh1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c1_r4",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", 
+	  "fire_c3_r1", "fire_c3_r2", "fire_c4_r1" ]
+	  },
+      { "prefab": "chrprfweap_karr_left_lrm10_mh2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c1_r4",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", 
+	  "fire_c3_r1", "fire_c3_r2", "fire_c4_r1" ]
+	  },
+      { "prefab": "chrprfweap_karr_left_lrm10_mh3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c1_r4",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", 
+	  "fire_c3_r1", "fire_c3_r2", "fire_c4_r1" ]
+	  },
+		
+      { "prefab": "chrprfweap_karr_right_lrm10_mh1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c1_r4",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", 
+	  "fire_c3_r1", "fire_c3_r2", "fire_c4_r1" ]
+	  },
+      { "prefab": "chrprfweap_karr_right_lrm10_mh2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c1_r4",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", 
+	  "fire_c3_r1", "fire_c3_r2", "fire_c4_r1" ]
+	  },
+      { "prefab": "chrprfweap_karr_right_lrm10_mh3", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c1_r4",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", 
+	  "fire_c3_r1", "fire_c3_r2", "fire_c4_r1" ]
+	  }
+    ],
+    "aliases": {
+      "chrPrfWeap_cukarr_center_lrm20_mh1": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh1" },
+      "chrPrfWeap_cukarr_center_lrm20_mh2": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh2" },
+      "chrPrfWeap_cukarr_center_lrm20_mh3": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh3" },
+      "chrPrfWeap_cukarr_center_lrm20_mh4": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh4" },
+	  
+	  "chrPrfWeap_cukarr_left_lrm10_mh1": { "location": "left", "prefab": "chrprfweap_karr_left_lrm10_mh1" },
+	  "chrPrfWeap_cukarr_left_lrm10_mh2": { "location": "left", "prefab": "chrprfweap_karr_left_lrm10_mh2" },
+	  "chrPrfWeap_cukarr_left_lrm10_mh3": { "location": "left", "prefab": "chrprfweap_karr_left_lrm10_mh3" },
+	  
+	  "chrPrfWeap_cukarr_right_lrm10_mh1": { "location": "right", "prefab": "chrprfweap_karr_right_lrm10_mh1" },
+	  "chrPrfWeap_cukarr_right_lrm10_mh2": { "location": "right", "prefab": "chrprfweap_karr_right_lrm10_mh2" },
+	  "chrPrfWeap_cukarr_right_lrm10_mh3": { "location": "right", "prefab": "chrprfweap_karr_right_lrm10_mh3" }
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "front",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "right",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "left",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

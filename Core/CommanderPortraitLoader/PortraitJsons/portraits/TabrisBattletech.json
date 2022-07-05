@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "TabrisBattletech",
+        "Name" : "TabrisBattletech",
+        "Details" : "Random",
+        "Icon" : "TabrisBattletech"
+    },
+    "ID" : "TabrisBattletech",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 2,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 6,
+    "lightRig" : 4,
+    "cameraPosition" : 2,
+    "complexionTex" : 5,
+    "eyebrowTex" : 5,
+    "tattooTex" : 10,
+    "actualTattooTex" : 1,
+    "weights" : [
+        9.02891,
+        50.896,
+        26.22089,
+        7.463536,
+        1.812548,
+        4.57812
+    ],
+    "browOffsetY" : 0.006004365,
+    "browOffsetZ" : -0.002869362,
+    "noseBridgeScale" : 0.000966382,
+    "noseTipScale" : -0.172133,
+    "chinScale" : -0.1896143,
+    "cheekOffsetY" : 0.00206804,
+    "eyeWidth" : -0.04895396,
+    "jawWidth" : 0.05834606,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

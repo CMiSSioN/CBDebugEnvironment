@@ -29,14 +29,28 @@ License
 Creative Commons, Non-commercial
 
 Models:
-Red Kite
+Red Kite VTOL
+Kamakiri VTOL
+Karr VTOL
 
 FrostRaptor
 License
 Creative Commons, Non-commercial
 
 Models:
-Overlord
+Overlord Dropship
 Overlord Turrets (all six)
 Dropship Ball Turret
 Unnsvin airship
+Rifleman III
+Horskr
+Union Dropship
+Sirocco
+Urbdentified Flying Object
+
+FrostRaptor and Tex of the Black Pants Legion
+License
+Creative Commons, Non-commercial
+
+Content:
+Unsinkable Sam & Van Zandt images on the Union Dropship

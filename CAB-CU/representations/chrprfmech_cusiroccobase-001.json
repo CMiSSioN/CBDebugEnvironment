@@ -1,0 +1,154 @@
+{
+  "Id": "chrprfmech_cusiroccobase-001",
+  "PrefabBase":"cusirocco",
+  "SourcePrefabIdentifier":"chrPrfMech_battlemasterBase-001",
+  "SourcePrefabBase":"battlemaster",
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+  "ApplyType": "None",
+  "SupressAllMeshes": false,
+	"quadVisualInfo":{
+		"UseQuadVisuals": true,
+		
+		"FLegsPrefab": "chrprfmech_cusirocco_front",
+		"FLegsPrefabBase": "cusirocco_front",
+		
+		"RLegsPrefab": "chrprfmech_cusirocco_rear",
+		"RLegsPrefabBase": "cusirocco_rear", 
+		
+		"BodyLength": 6.4,
+		"BodyPrefab": "sirocco_body",
+		"BodyShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+		
+		"NotSuppressRenderers": [ "_left_leg_", "_right_leg_" ],
+		"Destructables":{
+			"Head":{
+				"Name": "head_destructable",
+				"wholeObj":"head",
+				"destroyedObj":"head_damaged"
+			},
+			"LeftTorso":{
+				"Name": "left_torso_destructable",
+				"wholeObj":"left_torso",
+				"destroyedObj":"left_torso_damaged"
+			},
+			"RightTorso":{
+				"Name": "right_torso_destructable",
+				"wholeObj":"right_torso",
+				"destroyedObj":"right_torso_damaged"
+			},
+			"CenterTorso":{
+				"Name": "centre_torso_destructable",
+				"wholeObj":"centre_torso",
+				"destroyedObj":"centre_torso_damaged"
+			}
+		},
+		"JumpJets": [ "jumpjet_rear", "jumpjet_front", "jumpjet_left", "jumpjet_right" ],
+		"HeadLights": [ "headlight_left", "headlight_right" ],
+		"WeaponsAttachPoints": [
+			
+			{
+				"Name": "WeaponMountLeft_Top",
+				"visuals": "",
+				"Animators": { },
+				"attach": "WeaponAttachL_T",
+				"location": "LeftTorso",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name": "WeaponMountLeft_Bottom",
+				"visuals": "",
+				"Animators": { },
+				"attach": "WeaponAttachL_B",
+				"location": "LeftTorso",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			{
+				"Name": "WeaponMountLeft_Front",
+				"visuals": "",
+				"Animators": { },
+				"attach": "WeaponAttachL_F",
+				"location": "LeftTorso",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+						{
+				"Name": "WeaponMountLeft_Rear",
+				"visuals": "",
+				"Animators": { },
+				"attach": "WeaponAttachL_R",
+				"location": "LeftTorso",
+				"type": "Turret",
+				"hideIfEmpty": false,
+				"noRecoil": false
+			},
+			
+			{
+				"Name": "WeaponMountRight_Top",
+				"visuals": "",
+				"Animators": {  },
+				"attach": "WeaponAttachR_T",
+				"location": "RightTorso",
+				"type": "Turret",
+				"hideIfEmpty": true,
+				"noRecoil": false
+			},
+			{
+				"Name": "WeaponMountRight_Bottom",
+				"visuals": "",
+				"Animators": {  },
+				"attach": "WeaponAttachR_B",
+				"location": "RightTorso",
+				"type": "Turret",
+				"hideIfEmpty": true,
+				"noRecoil": false
+			},
+			{
+				"Name": "WeaponMountRight_Front",
+				"visuals": "",
+				"Animators": {  },
+				"attach": "WeaponAttachR_F",
+				"location": "RightTorso",
+				"type": "Turret",
+				"hideIfEmpty": true,
+				"noRecoil": false
+			},
+			{
+				"Name": "WeaponMountRight_Rear",
+				"visuals": "",
+				"Animators": {  },
+				"attach": "WeaponAttachR_R",
+				"location": "RightTorso",
+				"type": "Turret",
+				"hideIfEmpty": true,
+				"noRecoil": false
+			},
+			{
+				"Name": "WeaponMountCenter_Bottom",
+				"visuals": "",
+				"Animators": {  },
+				"attach": "WeaponAttachC_B",
+				"location": "CenterTorso",
+				"type": "Turret",
+				"hideIfEmpty": true,
+				"noRecoil": false
+			},
+			{
+				"Name": "WeaponMountHead_Top",
+				"visuals": "",
+				"Animators": {  },
+				"attach": "WeaponAttachH_T",
+				"location": "Head",
+				"type": "Turret",
+				"hideIfEmpty": true,
+				"noRecoil": false
+			}		
+		],
+		"Animators": [ ],
+		"TwistAnimators": [ "turret_anim" ]
+	}
+}

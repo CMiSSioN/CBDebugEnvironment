@@ -37,7 +37,7 @@
 	  
 	  { "prefab": "chrprfweap_dropballturret_arrow4_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5" ] },
 	  
-      { "prefab": "chrprfweap_dropballturret_lrm20_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1","fire2","fire3","fire4","fire5","fire6","fire7","fire8","fire9","fire10","fire11","fire12","fire13","fire14","fire15","fire16","fire17","fire18","fire19","fire20" ] },
+      { "prefab": "chrprfweap_dropballturret_lrm20_1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1","fire2","fire3","fire4","fire5","fire6","fire7","fire8","fire9","fire10","fire11","fire12","fire13","fire14","fire15","fire16","fire17","fire18","fire19","fire20" ] }
       
     ],
     "aliases": {     

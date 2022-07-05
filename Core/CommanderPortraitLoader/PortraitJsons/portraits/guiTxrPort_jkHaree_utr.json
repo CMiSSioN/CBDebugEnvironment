@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_jkHaree_utr",
+        "Name" : "guiTxrPort_jkHaree_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_jkHaree_utr"
+    },
+    "ID" : "guiTxrPort_jkHaree_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 14,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 4,
+    "complexionTex" : 5,
+    "eyebrowTex" : 1,
+    "tattooTex" : 9,
+    "actualTattooTex" : 0,
+    "weights" : [
+        27.91981,
+        63.50754,
+        2.579304,
+        4.848291,
+        0.7945288,
+        0.3505154
+    ],
+    "browOffsetY" : -0.0051518,
+    "browOffsetZ" : 0.001904902,
+    "noseBridgeScale" : 0.1293785,
+    "noseTipScale" : 0.2921926,
+    "chinScale" : 0.01485131,
+    "cheekOffsetY" : -0.004667524,
+    "eyeWidth" : 0.0422275,
+    "jawWidth" : 0.05274062,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

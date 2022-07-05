@@ -2,6 +2,34 @@ Changelog for CAB-CU
 
 -----------------------------------------------------
 
+1.9
+
+Added the Urbidentified Flying Object
+
+1.8
+
+Added the Sirocco 
+
+1.7
+
+Added the Union Dropship
+
+1.6
+
+Added the Horskr
+
+1.5
+
+Added the Karr VTOL  
+
+1.4
+
+Added the Rifleman III
+
+1.3.1
+
+Added the Kamakiri VTOL
+
 1.3
 
 Added the dynamic CU-turret Dropship Ball Turret for the Overlord, for use with MonsterMashup

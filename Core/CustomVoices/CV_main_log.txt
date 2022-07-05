@@ -1,0 +1,5 @@
+[13:57:18.106]Initing... /home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomVoices version: 0.0.0.8
+
+[13:57:18.661]Found AudioListeners:1
+ Camera_Portrait:False
+[13:57:18.662]Found AkAudioListeners:0

@@ -1,0 +1,59 @@
+{
+	"Id": "chrprfmech_karr_vtol",
+	"PrefabBase": "cukarr",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "karr_body" ],
+	"TwistAnimators": [ ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "karr_destructable",
+			"wholeObj": "karr_whole",
+			"destroyedObj": "karr_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "karr_attach_body",
+		"Left": "attach_left",
+		"Right": "attach_right",
+		"Front": "karr_attach_body",
+		"Rear": "karr_attach_body"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "BodyAttach",
+			"visuals": "karr_whole",
+			"attach": "attach_body",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": { }
+		}
+	],
+	"Particles":[
+		{ "object_name":"col_light_bea_f_t_left", "location": "None" },
+		{ "object_name":"col_light_bea_f_t_right", "location": "None" },
+		{ "object_name":"col_light_bea_r_b_left", "location": "None" },
+		{ "object_name":"col_light_bea_r_b_right", "location": "None" }
+	]
+}

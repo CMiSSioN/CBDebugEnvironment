@@ -1,0 +1,35 @@
+{
+  "ID": "hardpointdatadef_cuunion",
+  "CustomHardpoints": {
+    "prefabs": [ 
+    ],
+    "aliases": {     
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "front",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "right",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "left",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

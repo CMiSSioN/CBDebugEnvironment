@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "bubblehelmet",
+        "Name" : "bubblehelmet",
+        "Details" : "Random",
+        "Icon" : "bubblehelmet"
+    },
+    "ID" : "bubblehelmet",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 5,
+    "lightRig" : 4,
+    "cameraPosition" : 3,
+    "complexionTex" : 0,
+    "eyebrowTex" : 1,
+    "tattooTex" : 7,
+    "actualTattooTex" : 13,
+    "weights" : [
+        53.49109,
+        6.098564,
+        28.26538,
+        10.42732,
+        0.1897061,
+        1.527934
+    ],
+    "browOffsetY" : -0.005603903,
+    "browOffsetZ" : 0.003992126,
+    "noseBridgeScale" : -0.02346909,
+    "noseTipScale" : 0.01293815,
+    "chinScale" : 0.1633941,
+    "cheekOffsetY" : -0.004345357,
+    "eyeWidth" : 0.04103652,
+    "jawWidth" : -0.01207248,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

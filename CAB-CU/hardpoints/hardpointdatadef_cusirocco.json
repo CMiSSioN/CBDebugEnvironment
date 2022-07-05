@@ -1,0 +1,158 @@
+{
+  "ID": "hardpointdatadef_cusirocco",
+  "CustomHardpoints": {
+    "prefabs": [      	
+		{"prefab": "chrprfweap_cusirocco_laser_center_1", "attachOverride":"WeaponMountCenter_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_center_2", "attachOverride":"WeaponMountCenter_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_center_3", "attachOverride":"WeaponMountCenter_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },		
+	
+		{"prefab": "chrprfweap_cusirocco_artillery_left_1", "attachOverride":"WeaponMountLeft_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_ac10_left_1", "attachOverride":"WeaponMountLeft_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_ac20_left_1", "attachOverride":"WeaponMountLeft_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+			
+		{"prefab": "chrprfweap_cusirocco_lrm10_left_1", "attachOverride":"WeaponMountLeft_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10" ] },
+		{"prefab": "chrprfweap_cusirocco_lrm20_left_1", "attachOverride":"WeaponMountLeft_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10",
+			"fire11", "fire12", "fire13", "fire14", "fire15", "fire16", "fire17", "fire18", "fire19", "fire20"] },			
+		{"prefab": "chrprfweap_cusirocco_srm6_left_1", "attachOverride":"WeaponMountLeft_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6"] },
+			
+		{"prefab": "chrprfweap_cusirocco_lrm10_left_2", "attachOverride":"WeaponMountLeft_Rear", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10" ] },
+		{"prefab": "chrprfweap_cusirocco_lrm20_left_2", "attachOverride":"WeaponMountLeft_Rear", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10",
+			"fire11", "fire12", "fire13", "fire14", "fire15", "fire16", "fire17", "fire18", "fire19", "fire20"] },			
+		{"prefab": "chrprfweap_cusirocco_srm6_left_2", "attachOverride":"WeaponMountLeft_Rear", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6"] },			
+	
+		{"prefab": "chrprfweap_cusirocco_laser_left_1", "attachOverride":"WeaponMountLeft_Front", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_left_2", "attachOverride":"WeaponMountLeft_Front", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_left_3", "attachOverride":"WeaponMountLeft_Front", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	
+		{"prefab": "chrprfweap_cusirocco_artillery_right_1", "attachOverride":"WeaponMountRight_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_ac10_right_1", "attachOverride":"WeaponMountRight_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_ac20_right_1", "attachOverride":"WeaponMountRight_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },	
+
+		{"prefab": "chrprfweap_cusirocco_lrm10_right_1", "attachOverride":"WeaponMountRight_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10" ] },
+		{"prefab": "chrprfweap_cusirocco_lrm20_right_1", "attachOverride":"WeaponMountRight_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10",
+			"fire11", "fire12", "fire13", "fire14", "fire15", "fire16", "fire17", "fire18", "fire19", "fire20"] },			
+		{"prefab": "chrprfweap_cusirocco_srm6_right_1", "attachOverride":"WeaponMountRight_Bottom", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6"] },
+			
+		{"prefab": "chrprfweap_cusirocco_lrm10_right_2", "attachOverride":"WeaponMountRight_Rear", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10" ] },
+		{"prefab": "chrprfweap_cusirocco_lrm20_right_2", "attachOverride":"WeaponMountRight_Rear", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [
+			"fire01", "fire02", "fire03", "fire04", "fire05", "fire06", "fire07", "fire08", "fire09", "fire10",
+			"fire11", "fire12", "fire13", "fire14", "fire15", "fire16", "fire17", "fire18", "fire19", "fire20"] },			
+		{"prefab": "chrprfweap_cusirocco_srm6_right_2", "attachOverride":"WeaponMountRight_Rear", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6"] },			
+	
+		{"prefab": "chrprfweap_cusirocco_laser_right_1", "attachOverride":"WeaponMountRight_Front", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_right_2", "attachOverride":"WeaponMountRight_Front", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_right_3", "attachOverride":"WeaponMountRight_Front", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },	
+
+		{"prefab": "chrprfweap_cusirocco_laser_head_1", "attachOverride":"WeaponMountHead_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_head_2", "attachOverride":"WeaponMountHead_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cusirocco_laser_head_3", "attachOverride":"WeaponMountHead_Top", "attachType": "Turret", 
+			"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] }
+			
+    ],
+    "aliases": {    
+		"chrPrfWeap_cusirocco_centertorso_laser_eh1": { "location": "centertorso", "prefab": "chrprfweap_cusirocco_laser_center_1" },
+		"chrPrfWeap_cusirocco_centertorso_laser_eh2": { "location": "centertorso", "prefab": "chrprfweap_cusirocco_laser_center_2" },
+		"chrPrfWeap_cusirocco_centertorso_laser_eh3": { "location": "centertorso", "prefab": "chrprfweap_cusirocco_laser_center_3" },		
+
+		"chrPrfWeap_cusirocco_lefttorso_artillery_bh1": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_artillery_left_1" },
+		"chrPrfWeap_cusirocco_lefttorso_ac10_bh1": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_ac10_left_1" },
+		"chrPrfWeap_cusirocco_lefttorso_ac20_bh1": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_ac20_left_1" },	
+		"chrPrfWeap_cusirocco_lefttorso_lrm10_mh2": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_lrm10_left_1" },
+		"chrPrfWeap_cusirocco_lefttorso_lrm20_mh2": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_lrm20_left_1" },
+		"chrPrfWeap_cusirocco_lefttorso_srm6_mh2": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_srm6_left_1" },	
+		"chrPrfWeap_cusirocco_lefttorso_lrm10_mh3": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_lrm10_left_2" },
+		"chrPrfWeap_cusirocco_lefttorso_lrm20_mh3": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_lrm20_left_2" },
+		"chrPrfWeap_cusirocco_lefttorso_srm6_mh3": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_srm6_left_2" },
+		"chrPrfWeap_cusirocco_lefttorso_laser_eh4": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_laser_left_1" },
+		"chrPrfWeap_cusirocco_lefttorso_laser_eh5": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_laser_left_2" },
+		"chrPrfWeap_cusirocco_lefttorso_laser_eh6": { "location": "lefttorso", "prefab": "chrprfweap_cusirocco_laser_left_3" },
+		
+		"chrPrfWeap_cusirocco_righttorso_artillery_bh1": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_artillery_right_1" },
+		"chrPrfWeap_cusirocco_righttorso_ac10_bh1": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_ac10_right_1" },
+		"chrPrfWeap_cusirocco_righttorso_ac20_bh1": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_ac20_right_1" },	
+		"chrPrfWeap_cusirocco_righttorso_lrm10_mh2": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_lrm10_right_1" },
+		"chrPrfWeap_cusirocco_righttorso_lrm20_mh2": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_lrm20_right_1" },
+		"chrPrfWeap_cusirocco_righttorso_srm6_mh2": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_srm6_right_1" },
+		"chrPrfWeap_cusirocco_righttorso_lrm10_mh3": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_lrm10_right_2" },
+		"chrPrfWeap_cusirocco_righttorso_lrm20_mh3": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_lrm20_right_2" },
+		"chrPrfWeap_cusirocco_righttorso_srm6_mh3": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_srm6_right_2" },
+		"chrPrfWeap_cusirocco_righttorso_laser_eh4": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_laser_right_1" },
+		"chrPrfWeap_cusirocco_righttorso_laser_eh5": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_laser_right_2" },
+		"chrPrfWeap_cusirocco_righttorso_laser_eh6": { "location": "righttorso", "prefab": "chrprfweap_cusirocco_laser_right_3" },
+		
+		"chrPrfWeap_cusirocco_head_laser_eh1": { "location": "head", "prefab": "chrprfweap_cusirocco_laser_head_1" },
+		"chrPrfWeap_cusirocco_head_laser_eh2": { "location": "head", "prefab": "chrprfweap_cusirocco_laser_head_2" },
+		"chrPrfWeap_cusirocco_head_laser_eh3": { "location": "head", "prefab": "chrprfweap_cusirocco_laser_head_3" }
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "centertorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },  
+    {
+      "location": "lefttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "head",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }	
+  ]
+}

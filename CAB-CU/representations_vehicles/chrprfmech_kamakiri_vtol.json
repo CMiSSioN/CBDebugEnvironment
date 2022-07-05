@@ -1,0 +1,52 @@
+{
+	"Id": "chrprfmech_kamakiri_vtol",
+	"PrefabBase": "cukamakiri",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "kamakiri_body" ],
+	"TwistAnimators": [ "kamakiri_body" ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "kamakiri_destructable",
+			"wholeObj": "kamakiri_whole",
+			"destroyedObj": "kamakiri_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "kamakiri_attach_turret",
+		"Left": "kamakiri_attach_left",
+		"Right": "kamakiri_attach_right",
+		"Front": "kamakiri_attach_body",
+		"Rear": "kamakiri_attach_body"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+	],
+	"Particles":[
+		{ "object_name":"jet col_light_bea_f_t_left", "location": "None" },
+		{ "object_name":"jet col_light_bea_f_t_right", "location": "None" },
+		{ "object_name":"jet col_light_bea_r_b_left", "location": "None" },
+		{ "object_name":"jet col_light_bea_r_b_right", "location": "None" },
+		{ "object_name":"jet col_light_bea_r_top", "location": "None" }
+	]
+}

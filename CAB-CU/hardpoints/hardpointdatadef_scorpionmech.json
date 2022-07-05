@@ -1,0 +1,67 @@
+{
+  "ID": "hardpointdatadef_scorpionmech",
+  "CustomHardpoints": {
+    "prefabs": [
+      {"prefab": "chrprfweap_scorpionmech_ac2", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_scorpionmech_ac5", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_scorpionmech_gauss", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_scorpionmech_large_laser", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_scorpionmech_lrm10", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1","fire2","fire3","fire4","fire5","fire6","fire7","fire8","fire9","fire10","fire11" ] },
+      {"prefab": "chrprfweap_scorpionmech_medium_laser", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_scorpionmech_ppc", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+      {"prefab": "chrprfweap_scorpionmech_srm6", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1","fire2","fire3","fire4","fire5","fire6" ] }
+    ],
+    "aliases": {
+      "chrPrfWeap_scorpionmech_righttorso_laser_eh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_large_laser" },
+      "chrPrfWeap_scorpionmech_righttorso_mlaser_eh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_medium_laser" },
+      "chrPrfWeap_scorpionmech_righttorso_ppc_eh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ppc" },
+      "chrPrfWeap_scorpionmech_righttorso_lrm20_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_lrm10" },
+      "chrPrfWeap_scorpionmech_righttorso_lrm15_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_lrm10" },
+      "chrPrfWeap_scorpionmech_righttorso_lrm10_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_lrm10" },
+      "chrPrfWeap_scorpionmech_righttorso_lrm5_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_srm6" },
+      "chrPrfWeap_scorpionmech_righttorso_srm6_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_srm6" },
+      "chrPrfWeap_scorpionmech_righttorso_srm4_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_srm6" },
+      "chrPrfWeap_scorpionmech_righttorso_srm2_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_srm6" },
+      "chrPrfWeap_scorpionmech_righttorso_ac5_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ac5" },
+      "chrPrfWeap_scorpionmech_righttorso_ac2_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ac2" },
+      "chrPrfWeap_scorpionmech_righttorso_ac10_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ac5" },
+      "chrPrfWeap_scorpionmech_righttorso_gauss_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_gauss" },			
+      "chrPrfWeap_scorpionmech_lefttorso_lrm10_mh1": { "location": "lefttorso", "prefab": "chrprfweap_scorpionmech_lrm10" },
+      "chrPrfWeap_scorpionmech_lefttorso_lrm5_mh1": { "location": "lefttorso", "prefab": "chrprfweap_scorpionmech_lrm10" }
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "lefttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_mongrel_p",
+        "Name" : "pilot_at_mongrel_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_mongrel_p"
+    },
+    "ID" : "pilot_at_mongrel_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 0,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 1,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 5,
+    "actualTattooTex" : 0,
+    "weights" : [
+        35.37444,
+        31.34577,
+        25.13716,
+        2.942995,
+        3.001092,
+        2.198558
+    ],
+    "browOffsetY" : -0.002151228,
+    "browOffsetZ" : -0.004519768,
+    "noseBridgeScale" : -0.04610527,
+    "noseTipScale" : 0.01344119,
+    "chinScale" : 0.0349674,
+    "cheekOffsetY" : -0.001551812,
+    "eyeWidth" : 0.04936246,
+    "jawWidth" : 0.03097138,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_09",
+    "hairTipId" : "Hair_09",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

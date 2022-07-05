@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_brick_p",
+        "Name" : "pilot_at_brick_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_brick_p"
+    },
+    "ID" : "pilot_at_brick_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 10,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 2,
+    "actualTattooTex" : 13,
+    "weights" : [
+        20.3441,
+        18.38278,
+        16.66447,
+        40.9522,
+        3.272249,
+        0.3842033
+    ],
+    "browOffsetY" : -0.0003479411,
+    "browOffsetZ" : 0.004527088,
+    "noseBridgeScale" : -0.1627699,
+    "noseTipScale" : 0.2983235,
+    "chinScale" : 0.1288807,
+    "cheekOffsetY" : -0.003133439,
+    "eyeWidth" : 0.04918368,
+    "jawWidth" : 0.04841563,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_01",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_04",
+    "hairTipId" : "Hair_04",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

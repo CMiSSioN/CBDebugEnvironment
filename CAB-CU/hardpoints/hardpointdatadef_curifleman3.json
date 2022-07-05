@@ -1,0 +1,114 @@
+{
+  "ID": "hardpointdatadef_curifleman3",
+  "CustomHardpoints": {
+    "prefabs": [
+		{"prefab": "chrprfweap_curifleman3_leftarm_gauss_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_leftarm_ac20_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_leftarm_ac10_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_leftarm_ac2_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_leftarm_ac2_bh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_leftarm_laser_eh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_leftarm_laser_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		
+		{"prefab": "chrprfweap_curifleman3_lefttorso_gauss_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_ac20_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_ac10_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_ac2_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_ac2_bh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_ac2_bh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_laser_eh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_laser_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_lefttorso_laser_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		
+		{"prefab": "chrprfweap_curifleman3_rightarm_gauss_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_rightarm_ac20_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_rightarm_ac10_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_rightarm_ac2_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_rightarm_ac2_bh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_rightarm_laser_eh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_rightarm_laser_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },		
+		
+		{"prefab": "chrprfweap_curifleman3_righttorso_gauss_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_ac20_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_ac10_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_ac2_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_ac2_bh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_ac2_bh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_laser_eh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_laser_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] },
+		{"prefab": "chrprfweap_curifleman3_righttorso_laser_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [  ] }
+    ],
+    "aliases": {
+		"chrPrfWeap_curifleman3_leftarm_gauss_bh1": { "location": "leftarm", "prefab": "chrprfweap_curifleman3_leftarm_gauss_bh1" },
+		"chrPrfWeap_curifleman3_leftarm_ac20_bh1": { "location": "leftarm", "prefab": "chrprfweap_curifleman3_leftarm_ac20_bh1" },
+		"chrPrfWeap_curifleman3_leftarm_ac10_bh1": { "location": "leftarm", "prefab": "chrprfweap_curifleman3_leftarm_ac10_bh1" },
+		"chrPrfWeap_curifleman3_leftarm_ac2_bh1": { "location": "leftarm", "prefab": "chrprfweap_curifleman3_leftarm_ac2_bh1" },
+		"chrPrfWeap_curifleman3_leftarm_ac2_bh2": { "location": "leftarm", "prefab": "chrprfweap_curifleman3_leftarm_ac2_bh2" },
+		"chrPrfWeap_curifleman3_leftarm_laser_eh1": { "location": "leftarm", "prefab": "chrprfweap_curifleman3_leftarm_laser_eh1" },
+		"chrPrfWeap_curifleman3_leftarm_laser_eh2": { "location": "leftarm", "prefab": "chrprfweap_curifleman3_leftarm_laser_eh2" },
+		
+		"chrPrfWeap_curifleman3_lefttorso_gauss_bh1": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_gauss_bh1" },
+		"chrPrfWeap_curifleman3_lefttorso_ac2_bh1": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_ac20_bh1" },
+		"chrPrfWeap_curifleman3_lefttorso_ac10_bh1": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_ac10_bh1" },
+		"chrPrfWeap_curifleman3_lefttorso_ac1_bh1": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_ac2_bh1" },
+		"chrPrfWeap_curifleman3_lefttorso_ac2_bh2": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_ac2_bh2" },
+		"chrPrfWeap_curifleman3_lefttorso_ac2_bh3": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_ac2_bh3" },
+		"chrPrfWeap_curifleman3_lefttorso_laser_eh1": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_laser_eh1" },
+		"chrPrfWeap_curifleman3_lefttorso_laser_eh2": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_laser_eh2" },
+		"chrPrfWeap_curifleman3_lefttorso_laser_eh3": { "location": "lefttorso", "prefab": "chrprfweap_curifleman3_lefttorso_laser_eh3" },
+				
+		"chrPrfWeap_curifleman3_rightarm_gauss_bh1": { "location": "rightarm", "prefab": "chrprfweap_curifleman3_rightarm_gauss_bh1" },
+		"chrPrfWeap_curifleman3_rightarm_ac20_bh1": { "location": "rightarm", "prefab": "chrprfweap_curifleman3_rightarm_ac20_bh1" },
+		"chrPrfWeap_curifleman3_rightarm_ac10_bh1": { "location": "rightarm", "prefab": "chrprfweap_curifleman3_rightarm_ac10_bh1" },
+		"chrPrfWeap_curifleman3_rightarm_ac2_bh1": { "location": "rightarm", "prefab": "chrprfweap_curifleman3_rightarm_ac2_bh1" },
+		"chrPrfWeap_curifleman3_rightarm_ac2_bh2": { "location": "rightarm", "prefab": "chrprfweap_curifleman3_rightarm_ac2_bh2" },
+		"chrPrfWeap_curifleman3_rightarm_laser_eh1": { "location": "rightarm", "prefab": "chrprfweap_curifleman3_rightarm_laser_eh1" },
+		"chrPrfWeap_curifleman3_rightarm_laser_eh2": { "location": "rightarm", "prefab": "chrprfweap_curifleman3_rightarm_laser_eh2" },
+		
+		"chrPrfWeap_curifleman3_righttorso_gauss_bh1": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_gauss_bh1" },
+		"chrPrfWeap_curifleman3_righttorso_ac2_bh1": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_ac20_bh1" },
+		"chrPrfWeap_curifleman3_righttorso_ac10_bh1": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_ac10_bh1" },
+		"chrPrfWeap_curifleman3_righttorso_ac1_bh1": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_ac2_bh1" },
+		"chrPrfWeap_curifleman3_righttorso_ac2_bh2": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_ac2_bh2" },
+		"chrPrfWeap_curifleman3_righttorso_ac2_bh3": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_ac2_bh3" },
+		"chrPrfWeap_curifleman3_righttorso_laser_eh1": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_laser_eh1" },
+		"chrPrfWeap_curifleman3_righttorso_laser_eh2": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_laser_eh2" },
+		"chrPrfWeap_curifleman3_righttorso_laser_eh3": { "location": "righttorso", "prefab": "chrprfweap_curifleman3_righttorso_laser_eh3" }
+    }
+  },
+  
+  "HardpointData": [
+    {
+      "location": "lefttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

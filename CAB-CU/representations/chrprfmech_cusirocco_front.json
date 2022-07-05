@@ -1,0 +1,21 @@
+{
+  "Id": "chrprfmech_cusirocco_front",
+  "PrefabBase":"cusirocco_front",
+  "SourcePrefabIdentifier":"chrPrfMech_battlemasterBase-001",
+  "SourcePrefabBase":"battlemaster",
+  "ApplyType": "MoveBone",
+  "SupressAllMeshes": true,
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+	"Destructibles": {
+		"LeftLeg": {
+			"Name": "mesh_LLeg",
+			"wholeObj": "LLeg_whole",
+			"destroyedObj": "LLeg_dmg"
+		},
+		"RightLeg": {
+			"Name": "mesh_RLeg",
+			"wholeObj": "RLeg_whole",
+			"destroyedObj": "RLeg_dmg"
+		}
+	}
+}

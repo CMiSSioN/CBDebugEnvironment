@@ -1,0 +1,61 @@
+{
+  "Id": "chrprfmech_cuurbifobase-001",
+  "PrefabBase":"cuurbifo",
+  "SourcePrefabIdentifier":"chrPrfMech_urbanmechBase-001",
+  "SourcePrefabBase":"urbanmech",
+  "ApplyType": "MoveBone",
+  "SupressAllMeshes": true,
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+	"Destructibles": {
+		"Head": {
+			"Name": "mesh_Head",
+			"wholeObj": "Head_whole",
+			"destroyedObj": "Head_dmg"
+		},
+		"LeftArm": {
+			"Name": "mesh_LArm",
+			"wholeObj": "LArm_whole",
+			"destroyedObj": "LArm_dmg"
+		},
+		"RightArm": {
+			"Name": "mesh_RArm",
+			"wholeObj": "RArm_whole",
+			"destroyedObj": "RArm_dmg"
+		},
+		"LeftLeg": {
+			"Name": "mesh_LLeg",
+			"wholeObj": "LLeg_whole",
+			"destroyedObj": "LLeg_dmg"
+		},
+		"RightLeg": {
+			"Name": "mesh_RLeg",
+			"wholeObj": "RLeg_whole",
+			"destroyedObj": "RLeg_dmg"
+		},
+		"LeftTorso": {
+			"Name": "mesh_LTorso",
+			"wholeObj": "LTorso_whole",
+			"destroyedObj": "LTorso_dmg"
+		},
+		"RightTorso": {
+			"Name": "mesh_RTorso",
+			"wholeObj": "RTorso_whole",
+			"destroyedObj": "RTorso_dmg"
+		},
+		"CenterTorso": {
+			"Name": "mesh_CTorso",
+			"wholeObj": "Torso_whole",
+			"destroyedObj": "Torso_dmg"
+		}
+	},
+	"Animators": [],
+	"TwistAnimators": [],
+	"HeadLights": [],
+	"WeaponAttachPoints": [],
+	"Particles":[ 
+		{ "object_name":"j_engine_part_front", "location": "None" },
+		{ "object_name":"j_engine_part_rear", "location": "None" },
+		{ "object_name":"j_engine_part_left", "location": "None" },
+		{ "object_name":"j_engine_part_right", "location": "None" }
+	]
+}

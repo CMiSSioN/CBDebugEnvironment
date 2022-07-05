@@ -1,0 +1,51 @@
+{
+  "ID": "hardpointdatadef_cukamakiri",
+  "CustomHardpoints": {
+    "prefabs": [ 
+	
+	
+      { "prefab": "chrprfweap_kamakiri_left_ppc", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire2" ] },
+      { "prefab": "chrprfweap_kamakiri_left_tbolt", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2" ] },
+
+      { "prefab": "chrprfweap_kamakiri_center_gauss", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+
+      { "prefab": "chrprfweap_kamakiri_right_ppc", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire2" ] },
+      { "prefab": "chrprfweap_kamakiri_right_tbolt", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2" ] }      
+    ],
+    "aliases": {
+      "chrPrfWeap_cukamakiri_left_ppc_eh1": { "location": "left", "prefab": "chrprfweap_kamakiri_left_ppc" },
+      "chrPrfWeap_cukamakiri_left_arrow_mh1": { "location": "left", "prefab": "chrprfweap_kamakiri_left_tbolt" },
+	  
+      "chrPrfWeap_cukamakiri_front_gauss_bh1": { "location": "front", "prefab": "chrprfweap_kamakiri_center_gauss" },
+	  
+      "chrPrfWeap_cukamakiri_right_ppc_eh1": { "location": "right", "prefab": "chrprfweap_kamakiri_right_ppc" },
+      "chrPrfWeap_cukamakiri_right_arrow_mh1": { "location": "right", "prefab": "chrprfweap_kamakiri_right_tbolt" }
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "front",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "right",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "left",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

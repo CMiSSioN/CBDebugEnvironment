@@ -1,0 +1,32 @@
+[13:57:18.079]Initing... /home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomPrewarm version: 0.0.0.3
+ game dlls dir:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/Managed
+ self dll nameCustomPrewarm.dll
+[13:57:31.034]FinishedLoading
+[13:57:38.605]SaveManager:/home/konstantin/.config/unity3d/Harebrained Schemes/BATTLETECH/S0
+[13:57:46.090]MetadataDatabase.WriteInMemoryDBToDisk 
+   at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomPrewarm.MetadataDatabase_WriteInMemoryDBToDisk.Prefix (BattleTech.Data.MetadataDatabase __instance, System.String filePath) [0x00000] in <ce31805b363342a89860f1ceaad1fef6>:0 
+  at BattleTech.Data.MetadataDatabase.WriteInMemoryDBToDisk_Patch1 (System.Object , System.String ) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at MissionControl.DataManager.WriteMDDToDisk () [0x00000] in <fb5c753ded2046869cde1a58a385ef4b>:0 
+  at System.Threading.ThreadHelper.ThreadStart_Context (System.Object state) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Threading.ThreadHelper.ThreadStart () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+[13:57:48.871]MainMenu.EnableCareerLoadIfCareerSaves
+[13:57:48.871]SaveGameStructure.GetAllCareerSlots gameType:0
+[13:58:02.335]MetadataDatabase.WriteInMemoryDBToDisk /home/konstantin/GOG Games/BATTLETECH/game/Mods/.modtek/Database/MetadataDatabase.db
+   at System.Environment.get_StackTrace () [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at CustomPrewarm.MetadataDatabase_WriteInMemoryDBToDisk.Prefix (BattleTech.Data.MetadataDatabase __instance, System.String filePath) [0x00000] in <ce31805b363342a89860f1ceaad1fef6>:0 
+  at BattleTech.Data.MetadataDatabase.WriteInMemoryDBToDisk_Patch1 (System.Object , System.String ) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at BattleTech.Data.MetadataDatabase.SaveMDDToPath_Patch2 (System.String ) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at ModTek.Features.Manifest.MDD.MDDBCache.Save () [0x00000] in <b1edc3d8612c46a09e9c021c9db2fb3b>:0 
+  at ModTek.Features.Manifest.ModsManifest.SaveCaches () [0x00000] in <b1edc3d8612c46a09e9c021c9db2fb3b>:0 
+  at ModTek.Features.Manifest.ModsManifestPreloader.PreloadFinished () [0x00000] in <b1edc3d8612c46a09e9c021c9db2fb3b>:0 
+  at ModTek.Features.Manifest.ModsManifestPreloader+<>c.<PreloadResources>b__6_0 (BattleTech.Data.LoadRequest _) [0x00000] in <b1edc3d8612c46a09e9c021c9db2fb3b>:0 
+  at BattleTech.Data.LoadRequest.Finish () [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at BattleTech.Data.LoadRequest.FlushCompleteRequests (System.Single deltaTime) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at BattleTech.Data.DataManager.CheckRequestsComplete (System.Single deltaTime) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at BattleTech.Data.DataManager.Update (System.Single deltaTime) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at BattleTech.GameInstance.Update (System.Single deltaTime) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 
+  at BattleTech.UnityGameInstance.Update_Patch3 (System.Object ) [0x00000] in <1a492b01dc4142479b77fcfea5a4a4b7>:0 

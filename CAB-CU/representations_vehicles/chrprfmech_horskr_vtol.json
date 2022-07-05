@@ -1,0 +1,55 @@
+{
+	"Id": "chrprfmech_horskr_vtol",
+	"PrefabBase": "cuhorskr",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "horskr_body" ],
+	"TwistAnimators": [ "horskr_body" ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "horskr_destructable",
+			"wholeObj": "horskr_whole",
+			"destroyedObj": "horskr_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "horskr_attach_body",
+		"Left": "attach_left",
+		"Right": "attach_right",
+		"Front": "horskr_attach_cockpit",
+		"Rear": "horskr_attach_body"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxRotorTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "BodyAttach",
+			"visuals": "horskr_whole",
+			"attach": "attach_body",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": { }
+		}
+	],
+	"Particles":[
+	]
+}

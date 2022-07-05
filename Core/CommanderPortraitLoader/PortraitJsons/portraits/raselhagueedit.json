@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "raselhagueedit",
+        "Name" : "raselhagueedit",
+        "Details" : "Random",
+        "Icon" : "raselhagueedit"
+    },
+    "ID" : "raselhagueedit",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 14,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 1,
+    "complexionTex" : 5,
+    "eyebrowTex" : 3,
+    "tattooTex" : 6,
+    "actualTattooTex" : 6,
+    "weights" : [
+        47.90175,
+        29.46519,
+        7.859191,
+        14.29376,
+        0.4363959,
+        0.04371389
+    ],
+    "browOffsetY" : -0.00435638,
+    "browOffsetZ" : -0.00255935,
+    "noseBridgeScale" : 0.1794283,
+    "noseTipScale" : 0.08848321,
+    "chinScale" : -0.03067591,
+    "cheekOffsetY" : -0.002256098,
+    "eyeWidth" : -0.005222255,
+    "jawWidth" : 0.09387498,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

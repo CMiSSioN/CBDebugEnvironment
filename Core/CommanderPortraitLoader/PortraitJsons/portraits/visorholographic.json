@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "visorholographic",
+        "Name" : "visorholographic",
+        "Details" : "Random",
+        "Icon" : "visorholographic"
+    },
+    "ID" : "visorholographic",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 8,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 0,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 0,
+    "actualTattooTex" : 0,
+    "weights" : [
+        39.56548,
+        8.284213,
+        30.83718,
+        17.54364,
+        2.136105,
+        1.633376
+    ],
+    "browOffsetY" : 0.004583239,
+    "browOffsetZ" : -0.001209915,
+    "noseBridgeScale" : 0.03771622,
+    "noseTipScale" : 0.2325422,
+    "chinScale" : -0.1967435,
+    "cheekOffsetY" : 0.0007514018,
+    "eyeWidth" : -0.02194395,
+    "jawWidth" : -0.04073471,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

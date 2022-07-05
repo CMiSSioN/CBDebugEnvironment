@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "happy",
+        "Name" : "happy",
+        "Details" : "Random",
+        "Icon" : "happy"
+    },
+    "ID" : "happy",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 0,
+    "complexionTex" : 0,
+    "eyebrowTex" : 5,
+    "tattooTex" : 8,
+    "actualTattooTex" : 0,
+    "weights" : [
+        25.86122,
+        16.26325,
+        31.22227,
+        15.16636,
+        7.11692,
+        4.369984
+    ],
+    "browOffsetY" : 0.002924621,
+    "browOffsetZ" : -0.003051738,
+    "noseBridgeScale" : -0.04922254,
+    "noseTipScale" : -0.07966143,
+    "chinScale" : -0.147494,
+    "cheekOffsetY" : -0.003458987,
+    "eyeWidth" : -0.02356513,
+    "jawWidth" : -0.02342902,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_14",
+    "hairTipId" : "Hair_14",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

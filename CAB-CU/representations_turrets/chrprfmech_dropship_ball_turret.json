@@ -9,8 +9,8 @@
 	"SupressAllMeshes": true,
 	"persistentAudioStart": "",
 	"persistentAudioStop": "",
-	"Animators": [ ],
-	"TwistAnimators": [ "j_Body" ],
+	"Animators": [ "normal_h" ],
+	"TwistAnimators": [ "j_Body", "normal_h" ],
 	"OnDestroy": {
 		"SuppressCombinedMesh": true,
 		"SuppressWeaponRepresentations": true,
