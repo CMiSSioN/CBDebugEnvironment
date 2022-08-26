@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Cara_Dune-_Advanced_Graphics",
+        "Name" : "Cara_Dune-_Advanced_Graphics",
+        "Details" : "Random",
+        "Icon" : "Cara_Dune-_Advanced_Graphics"
+    },
+    "ID" : "Cara_Dune-_Advanced_Graphics",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 3,
+    "lightRig" : 4,
+    "cameraPosition" : 0,
+    "complexionTex" : 0,
+    "eyebrowTex" : 3,
+    "tattooTex" : 7,
+    "actualTattooTex" : 11,
+    "weights" : [
+        11.95523,
+        0.2119172,
+        26.04452,
+        23.47416,
+        37.44688,
+        0.8672864
+    ],
+    "browOffsetY" : 0.00424606,
+    "browOffsetZ" : -0.004775539,
+    "noseBridgeScale" : -0.1507561,
+    "noseTipScale" : -0.1216819,
+    "chinScale" : 0.08135752,
+    "cheekOffsetY" : 0.00424818,
+    "eyeWidth" : 0.01463266,
+    "jawWidth" : 0.0634434,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_03",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

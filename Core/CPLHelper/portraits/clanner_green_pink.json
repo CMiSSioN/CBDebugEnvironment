@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "clanner_green_pink",
+        "Name" : "clanner_green_pink",
+        "Details" : "Random",
+        "Icon" : "clanner_green_pink"
+    },
+    "ID" : "clanner_green_pink",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 3,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 3,
+    "lightRig" : 5,
+    "cameraPosition" : 3,
+    "complexionTex" : 2,
+    "eyebrowTex" : 2,
+    "tattooTex" : 8,
+    "actualTattooTex" : 0,
+    "weights" : [
+        7.254453,
+        43.39973,
+        21.48944,
+        23.74384,
+        2.576151,
+        1.536382
+    ],
+    "browOffsetY" : -0.003398889,
+    "browOffsetZ" : -0.006039472,
+    "noseBridgeScale" : 0.1046232,
+    "noseTipScale" : 0.2493678,
+    "chinScale" : -0.06937864,
+    "cheekOffsetY" : 1.508415E-05,
+    "eyeWidth" : 0.04277061,
+    "jawWidth" : 0.00951339,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_dustball_p",
+        "Name" : "pilot_at_dustball_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_dustball_p"
+    },
+    "ID" : "pilot_at_dustball_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 9,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 9,
+    "lightRig" : 1,
+    "cameraPosition" : 0,
+    "complexionTex" : 3,
+    "eyebrowTex" : 0,
+    "tattooTex" : 10,
+    "actualTattooTex" : 17,
+    "weights" : [
+        58.26522,
+        7.613749,
+        0.3274693,
+        2.958672,
+        3.969087,
+        26.86581
+    ],
+    "browOffsetY" : -0.002361736,
+    "browOffsetZ" : -0.003523197,
+    "noseBridgeScale" : 0.02340529,
+    "noseTipScale" : 0.2425892,
+    "chinScale" : 0.1195806,
+    "cheekOffsetY" : 0.003984171,
+    "eyeWidth" : -0.03491273,
+    "jawWidth" : -0.09979508,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

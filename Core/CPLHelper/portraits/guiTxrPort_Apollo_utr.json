@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Apollo_utr",
+        "Name" : "guiTxrPort_Apollo_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Apollo_utr"
+    },
+    "ID" : "guiTxrPort_Apollo_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 1,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 2,
+    "complexionTex" : 2,
+    "eyebrowTex" : 3,
+    "tattooTex" : 3,
+    "actualTattooTex" : 3,
+    "weights" : [
+        0.4100797,
+        20.68941,
+        1.078989,
+        77.09167,
+        0.4034773,
+        0.3263724
+    ],
+    "browOffsetY" : 0.003624087,
+    "browOffsetZ" : 0.004062131,
+    "noseBridgeScale" : -0.1640692,
+    "noseTipScale" : -0.2324924,
+    "chinScale" : 0.1557867,
+    "cheekOffsetY" : -0.004830183,
+    "eyeWidth" : -0.0244878,
+    "jawWidth" : 0.01938235,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_01",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

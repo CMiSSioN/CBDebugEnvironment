@@ -1,7 +1,7 @@
-[13:57:27.509]BiggerDrop log inited... /home/konstantin/GOG Games/BATTLETECH/game/Mods/BiggerDrops version: 0.0.0.2
-[13:57:31.605]FinishedLoading
-[13:57:31.606]CustomUnitsAPI.CustomUnitsDetected
- CustomUnits, Version=0.0.0.91, Culture=neutral, PublicKeyToken=null
+[21:29:01.838]BiggerDrop log inited... D:\Games\BATTLETECH\Mods\Core\BiggerDrops version: 0.0.0.2
+[21:29:07.993]FinishedLoading
+[21:29:07.994]CustomUnitsAPI.CustomUnitsDetected
+ CustomUnits, Version=0.0.0.115, Culture=neutral, PublicKeyToken=null
   setLancesCount found
   setLanceData found
   setOverallDeployCount found
@@ -9,8 +9,8 @@
   BaysCount not found
   PushDropLayout found
  CU API detected:True CU API v2 detected:True
-[13:57:31.606]customResource:DropSlotDef
- Path:/home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomUnits/drop_slots/default_mech_slot.json
+[21:29:07.994]customResource:DropSlotDef
+ Path:D:\Games\BATTLETECH\Mods\Core\CustomUnits\drop_slots\default_mech_slot.json
  id:default_mech_slot
  {
   "Description": {
@@ -27,7 +27,7 @@
   "SeparateLance": false,
   "HotDrop": false
 }
- Path:/home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomUnits/drop_slots/default_omni_hotdrop.json
+ Path:D:\Games\BATTLETECH\Mods\Core\CustomUnits\drop_slots\default_omni_hotdrop.json
  id:default_omni_hotdrop
  {
   "Description": {
@@ -44,7 +44,7 @@
   "SeparateLance": false,
   "HotDrop": true
 }
- Path:/home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomUnits/drop_slots/default_omni_slot.json
+ Path:D:\Games\BATTLETECH\Mods\Core\CustomUnits\drop_slots\default_omni_slot.json
  id:default_omni_slot
  {
   "Description": {
@@ -61,7 +61,7 @@
   "SeparateLance": false,
   "HotDrop": false
 }
- Path:/home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomUnits/drop_slots/default_vehicle_slot.json
+ Path:D:\Games\BATTLETECH\Mods\Core\CustomUnits\drop_slots\default_vehicle_slot.json
  id:default_vehicle_slot
  {
   "Description": {
@@ -78,10 +78,4 @@
   "SeparateLance": false,
   "HotDrop": false
 }
-Log flushing
-Log flushing
-Log flushing
-Log flushing
-Log flushing
-Log flushing
 Log flushing

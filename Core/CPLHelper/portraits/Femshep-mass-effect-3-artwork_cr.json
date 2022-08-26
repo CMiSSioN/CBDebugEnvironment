@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Femshep-mass-effect-3-artwork_cr",
+        "Name" : "Femshep-mass-effect-3-artwork_cr",
+        "Details" : "Random",
+        "Icon" : "Femshep-mass-effect-3-artwork_cr"
+    },
+    "ID" : "Femshep-mass-effect-3-artwork_cr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 2,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 1,
+    "eyebrowTex" : 4,
+    "tattooTex" : 8,
+    "actualTattooTex" : 17,
+    "weights" : [
+        55.58954,
+        27.70532,
+        12.99762,
+        0.5449991,
+        2.78768,
+        0.3748454
+    ],
+    "browOffsetY" : -0.001856484,
+    "browOffsetZ" : 0.005647501,
+    "noseBridgeScale" : 0.1992446,
+    "noseTipScale" : 0.1935921,
+    "chinScale" : -0.07814725,
+    "cheekOffsetY" : -0.002486767,
+    "eyeWidth" : -0.006283277,
+    "jawWidth" : 0.0415602,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

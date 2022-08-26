@@ -396,6 +396,12 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 @Description:not documented yet
 Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_DirectFireModifier_Mod
 
+@Name:Disabeld
+@Type:boolean
+@AppliedTo:WeaponMode
+@Default:false
+@Description:not documented yet
+
 @Name:DisableClustering
 @Type:boolean
 @AppliedTo:WeaponDef
@@ -639,7 +645,7 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Name:isDamageVariation
 @Type:boolean
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
-@Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
+@Default:AmmunitionDef=NotSet,WeaponDef=True,WeaponMode=NotSet
 @Description:not documented yet
 
 @Name:isHeatVariation

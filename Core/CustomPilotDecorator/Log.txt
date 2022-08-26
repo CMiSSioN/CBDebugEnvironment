@@ -1,7 +1,7 @@
-[13:57:28.444]Initing... /home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomPilotDecorator version: 0.0.0.2
-[13:57:31.624]FinishedLoading
-[13:57:31.624]customResource:PilotDecorationDef
- /home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomPilotDecorator/pilot_decorations/pilotdecorationdef_can_drive_mech.json
+[21:29:02.270]Initing... D:\Games\BATTLETECH\Mods\Core\CustomPilotDecorator version: 0.0.0.2
+[21:29:08.011]FinishedLoading
+[21:29:08.011]customResource:PilotDecorationDef
+ D:\Games\BATTLETECH\Mods\Core\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_mech.json
  id:pilotdecorationdef_can_drive_mech
  {
   "Description": {
@@ -18,7 +18,7 @@
   ],
   "shouldNotHaveTags": []
 }
- /home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomPilotDecorator/pilot_decorations/pilotdecorationdef_can_drive_vehicle.json
+ D:\Games\BATTLETECH\Mods\Core\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_can_drive_vehicle.json
  id:pilotdecorationdef_can_drive_vehicle
  {
   "Description": {
@@ -35,7 +35,7 @@
   ],
   "shouldNotHaveTags": []
 }
- /home/konstantin/GOG Games/BATTLETECH/game/Mods/CustomPilotDecorator/pilot_decorations/pilotdecorationdef_test.json
+ D:\Games\BATTLETECH\Mods\Core\CustomPilotDecorator\pilot_decorations\pilotdecorationdef_test.json
  id:pilotdecorationdef_test
  {
   "Description": {
@@ -53,39 +53,10 @@
   "shouldNotHaveTags": []
 }
 flush
-[13:57:46.513]PilotDef.GatherDependencies pilot_default
-[13:57:46.513]PilotDecorationDefHelper.getDecorations pilot_default:
+[21:29:19.171]PilotDef.GatherDependencies pilot_default
+[21:29:19.171]PilotDecorationDefHelper.getDecorations pilot_default:
  tags: BLACKLISTED sample pilot_bracket_low pilot_bracket_mid pilot_bracket_high can_pilot_generic_mech
  pilotdecorationdef_can_drive_mech
-flush
-flush
-[13:58:01.712]PilotDef.GatherDependencies pilot_deploy_director
-[13:58:01.712]PilotDecorationDefHelper.getDecorations pilot_deploy_director:ROT IN HELL
- tags: BLACKLISTED can_pilot_generic_mech
- pilotdecorationdef_can_drive_mech
-[13:58:02.078]DataManager.SpriteLoadRequest.SpriteFromDisk:guiTxrPort_Darius_default_utr:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/Portraits/guiTxrPort_Darius_default_utr.png isGIF:False
-[13:58:02.220]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_atlas:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_atlas.dds isGIF:False
-[13:58:02.224]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_javelin:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_javelin.dds isGIF:False
-[13:58:02.231]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_kingcrab:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_kingcrab.dds isGIF:False
-[13:58:02.238]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_urbanmech:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_urbanmech.dds isGIF:False
-[13:58:02.239]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_awesome:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_awesome.dds isGIF:False
-[13:58:02.282]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_battlemaster:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_battlemaster.dds isGIF:False
-[13:58:02.298]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_panther:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_panther.dds isGIF:False
-[13:58:02.302]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_shadowhawk:/home/konstantin/GOG Games/BATTLETECH/game/BattleTech_Data/StreamingAssets/sprites/MechPortraits/uixTxrIcon_shadowhawk.dds isGIF:False
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
-flush
+[21:29:19.299]DataManager.SpriteLoadRequest.SpriteFromDisk:uixTxrIcon_spider:D:/Games/BATTLETECH/BattleTech_Data/StreamingAssets\sprites/MechPortraits/uixTxrIcon_spider.dds isGIF:False
 flush
 flush

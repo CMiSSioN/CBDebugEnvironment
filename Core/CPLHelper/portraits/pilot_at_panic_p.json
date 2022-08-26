@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_panic_p",
+        "Name" : "pilot_at_panic_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_panic_p"
+    },
+    "ID" : "pilot_at_panic_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 15,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 0,
+    "eyebrowTex" : 5,
+    "tattooTex" : 6,
+    "actualTattooTex" : 4,
+    "weights" : [
+        42.78109,
+        11.91011,
+        6.037958,
+        10.27008,
+        4.093604,
+        24.90715
+    ],
+    "browOffsetY" : 0.001794143,
+    "browOffsetZ" : -0.0008499486,
+    "noseBridgeScale" : -0.01023462,
+    "noseTipScale" : 0.1567826,
+    "chinScale" : 0.07007975,
+    "cheekOffsetY" : -0.003306891,
+    "eyeWidth" : 0.04904542,
+    "jawWidth" : -0.05218902,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

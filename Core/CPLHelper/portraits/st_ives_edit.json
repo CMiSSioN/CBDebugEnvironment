@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "st_ives_edit",
+        "Name" : "st_ives_edit",
+        "Details" : "Random",
+        "Icon" : "st_ives_edit"
+    },
+    "ID" : "st_ives_edit",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 1,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 3,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 2,
+    "actualTattooTex" : 1,
+    "weights" : [
+        70.03185,
+        0.4293325,
+        25.88233,
+        0.0200954,
+        0.2164571,
+        3.419941
+    ],
+    "browOffsetY" : -0.002378368,
+    "browOffsetZ" : 0.006133714,
+    "noseBridgeScale" : -0.0647084,
+    "noseTipScale" : 0.2378334,
+    "chinScale" : -0.1457311,
+    "cheekOffsetY" : -0.00334629,
+    "eyeWidth" : 0.04780857,
+    "jawWidth" : -0.000867188,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

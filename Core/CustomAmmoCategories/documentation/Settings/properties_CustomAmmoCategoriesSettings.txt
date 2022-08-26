@@ -64,6 +64,12 @@
 @Default:false
 @Description:not documented yet
 
+@Name:AoECanCrit
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
 @Name:APMinCritChance
 @Type:float
 @AppliedTo:Settings
