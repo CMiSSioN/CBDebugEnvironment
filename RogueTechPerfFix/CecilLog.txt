@@ -1,0 +1,13 @@
+[10.08.2022 10:05:05] Start injecting...
+[10.08.2022 10:05:05] Loading Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed from D:\Games\BATTLETECH\BattleTech_Data\Managed\Newtonsoft.Json.dll
+[10.08.2022 10:05:05] Injected I_CombatAuraReticle
+
+[10.08.2022 10:05:05] Loading UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null from D:\Games\BATTLETECH\BattleTech_Data\Managed\UnityEngine.CoreModule.dll
+[10.08.2022 10:05:05] Injected I_BTLight
+
+[10.08.2022 10:05:05] Injected I_BTLightController
+
+[10.08.2022 10:05:05] Injected I_StringDataLoadRequest
+
+[10.08.2022 10:05:06] DOTween is up to date.
+[10.08.2022 10:05:06] All good here.

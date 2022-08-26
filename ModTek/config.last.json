@@ -99,7 +99,7 @@
     "LogExceptionInitializations": false,
     "LogExceptionInitializations_Description": "Logs out any exceptions being initialized, even before they are thrown or ignored.",
     "LogSqlQueryInitializations": false,
-    "LogSqlQueries_Description": "Logs out any sql queries being initialized, even before they are executed or ignored.",
+    "LogSqlQueryInitializations_Description": "Logs out any sql queries being initialized, even before they are executed or ignored.",
     "LogThreadStarts": false,
     "LogThreadStarts_Description": "Logs who starts threads.",
     "IgnoreLoggerLogLevel": false,
