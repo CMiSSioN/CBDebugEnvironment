@@ -269,6 +269,12 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
+@Name:CausesSympatheticDetonation
+@Type:boolean
+@AppliedTo:MineFieldDef
+@Default:false
+@Description:not documented yet
+
 @Name:Chance
 @Type:float
 @AppliedTo:MineFieldDef
@@ -389,6 +395,12 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 @Default:WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
+@Name:DetonateAllMinesInStackChance
+@Type:float
+@AppliedTo:MineFieldDef
+@Default:0
+@Description:not documented yet
+
 @Name:DirectFireModifier
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -436,6 +448,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Type:EvasivePipsMods structure
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Description:not documented yet
+
+@Name:ExposedStructureEndMove
+@Type:boolean
+@AppliedTo:MineFieldDef
+@Default:true
 @Description:not documented yet
 
 @Name:FireAnimationSpeedMod
@@ -739,6 +757,12 @@ Can be accessed via statistic value CAC_MaxMissRadius and modifier CAC_MaxMissRa
 @Default:empty
 @Description:not documented yet
 
+@Name:MinefieldDefID
+@Type:string
+@AppliedTo:MineFieldDef
+@Default:empty
+@Description:not documented yet
+
 @Name:MinMissRadius
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -756,6 +780,12 @@ Can be accessed via statistic value CAC_MinMissRadius and modifier CAC_MinMissRa
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=30,WeaponDef=30,WeaponMode=30
+@Description:not documented yet
+
+@Name:MisfireOnDeployChance
+@Type:float
+@AppliedTo:MineFieldDef
+@Default:0
 @Description:not documented yet
 
 @Name:MissileExplosionScale
@@ -793,6 +823,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:dictionary of string => WeaponMode
 @AppliedTo:WeaponDef
 @Default:empty
+@Description:not documented yet
+
+@Name:MoveCostFactor
+@Type:float
+@AppliedTo:MineFieldDef
+@Default:0
 @Description:not documented yet
 
 @Name:Name
@@ -891,6 +927,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Default:AmmunitionDef=1,WeaponMode=1
 @Description:not documented yet
 
+@Name:ShouldAddToExistingFields
+@Type:boolean
+@AppliedTo:MineFieldDef
+@Default:false
+@Description:not documented yet
+
 @Name:SpreadRange
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -920,6 +962,12 @@ Can be accessed via statistic value CAC_SpreadRange and modifier CAC_SpreadRange
 @Type:boolean
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=NotSet,WeaponDef=false,WeaponMode=NotSet
+@Description:not documented yet
+
+@Name:SubjectToSympatheticDetonationChance
+@Type:float
+@AppliedTo:MineFieldDef
+@Default:0
 @Description:not documented yet
 
 @Name:SurfaceBecomeDangerousOnImpact
