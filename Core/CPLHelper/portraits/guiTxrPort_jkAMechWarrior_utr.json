@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_jkAMechWarrior_utr",
+        "Name" : "guiTxrPort_jkAMechWarrior_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_jkAMechWarrior_utr"
+    },
+    "ID" : "guiTxrPort_jkAMechWarrior_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 11,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 5,
+    "cameraPosition" : 0,
+    "complexionTex" : 2,
+    "eyebrowTex" : 3,
+    "tattooTex" : 10,
+    "actualTattooTex" : 2,
+    "weights" : [
+        30.37512,
+        30.78967,
+        10.94925,
+        0.545105,
+        27.22225,
+        0.1186083
+    ],
+    "browOffsetY" : -0.006253531,
+    "browOffsetZ" : -0.001149224,
+    "noseBridgeScale" : -0.1362823,
+    "noseTipScale" : 0.1909719,
+    "chinScale" : -0.1930538,
+    "cheekOffsetY" : 0.0009636038,
+    "eyeWidth" : -0.01429465,
+    "jawWidth" : 0.07153745,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

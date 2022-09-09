@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Kara_utr",
+        "Name" : "guiTxrPort_Kara_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Kara_utr"
+    },
+    "ID" : "guiTxrPort_Kara_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 0,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 3,
+    "actualTattooTex" : 10,
+    "weights" : [
+        9.475772,
+        41.41956,
+        2.436526,
+        22.90092,
+        16.87626,
+        6.890972
+    ],
+    "browOffsetY" : 0.0008339218,
+    "browOffsetZ" : 0.002059081,
+    "noseBridgeScale" : -0.1491493,
+    "noseTipScale" : -0.08600876,
+    "chinScale" : -0.08648064,
+    "cheekOffsetY" : 0.002010667,
+    "eyeWidth" : 0.01037508,
+    "jawWidth" : 0.05837772,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

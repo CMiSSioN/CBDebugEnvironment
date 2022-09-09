@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "D181D0BCD0B5D188D0BDD18BD0B5-D0BAD0B0D180D182D0B8D0BDD0BAD0B8-D18FD189D0B5D180D0B8D186D0B0-D0B1D0BED",
+        "Name" : "D181D0BCD0B5D188D0BDD18BD0B5-D0BAD0B0D180D182D0B8D0BDD0BAD0B8-D18FD189D0B5D180D0B8D186D0B0-D0B1D0BED",
+        "Details" : "Random",
+        "Icon" : "D181D0BCD0B5D188D0BDD18BD0B5-D0BAD0B0D180D182D0B8D0BDD0BAD0B8-D18FD189D0B5D180D0B8D186D0B0-D0B1D0BED"
+    },
+    "ID" : "D181D0BCD0B5D188D0BDD18BD0B5-D0BAD0B0D180D182D0B8D0BDD0BAD0B8-D18FD189D0B5D180D0B8D186D0B0-D0B1D0BED",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 8,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 4,
+    "eyebrowTex" : 3,
+    "tattooTex" : 0,
+    "actualTattooTex" : 9,
+    "weights" : [
+        32.8199,
+        3.923986,
+        23.26085,
+        6.099274,
+        0.4081559,
+        33.48782
+    ],
+    "browOffsetY" : 0.006117161,
+    "browOffsetZ" : -0.006971603,
+    "noseBridgeScale" : 0.01420209,
+    "noseTipScale" : -0.1654453,
+    "chinScale" : 0.1997241,
+    "cheekOffsetY" : -0.002141817,
+    "eyeWidth" : -0.04964144,
+    "jawWidth" : 0.01521794,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_02",
+    "eyeColorId" : "Eye_02",
+    "hairRootId" : "Hair_04",
+    "hairTipId" : "Hair_04",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

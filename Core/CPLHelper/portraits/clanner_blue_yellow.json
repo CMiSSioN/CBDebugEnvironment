@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "clanner_blue_yellow",
+        "Name" : "clanner_blue_yellow",
+        "Details" : "Random",
+        "Icon" : "clanner_blue_yellow"
+    },
+    "ID" : "clanner_blue_yellow",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 8,
+    "lightRig" : 5,
+    "cameraPosition" : 4,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 10,
+    "actualTattooTex" : 8,
+    "weights" : [
+        45.88372,
+        0.0467921,
+        0.5222986,
+        21.35589,
+        6.114095,
+        26.07721
+    ],
+    "browOffsetY" : -0.001588385,
+    "browOffsetZ" : 0.002505284,
+    "noseBridgeScale" : 0.1741164,
+    "noseTipScale" : -0.1551483,
+    "chinScale" : 0.1634837,
+    "cheekOffsetY" : -0.0002290052,
+    "eyeWidth" : 0.03717989,
+    "jawWidth" : 0.0162655,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

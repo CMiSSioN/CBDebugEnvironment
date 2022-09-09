@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_capricorn_p",
+        "Name" : "pilot_at_capricorn_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_capricorn_p"
+    },
+    "ID" : "pilot_at_capricorn_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 2,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 4,
+    "complexionTex" : 3,
+    "eyebrowTex" : 2,
+    "tattooTex" : 2,
+    "actualTattooTex" : 0,
+    "weights" : [
+        14.70976,
+        50.3103,
+        3.32775,
+        31.47266,
+        0.107851,
+        0.07168552
+    ],
+    "browOffsetY" : 0.004727873,
+    "browOffsetZ" : 0.001604257,
+    "noseBridgeScale" : 0.187636,
+    "noseTipScale" : 0.09817042,
+    "chinScale" : -0.1856483,
+    "cheekOffsetY" : 0.002475925,
+    "eyeWidth" : -0.03934728,
+    "jawWidth" : 0.07309099,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

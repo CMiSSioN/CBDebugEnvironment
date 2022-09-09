@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "captain_woofers",
+        "Name" : "captain_woofers",
+        "Details" : "Random",
+        "Icon" : "captain_woofers"
+    },
+    "ID" : "captain_woofers",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 16,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 4,
+    "lightRig" : 1,
+    "cameraPosition" : 3,
+    "complexionTex" : 2,
+    "eyebrowTex" : 1,
+    "tattooTex" : 1,
+    "actualTattooTex" : 2,
+    "weights" : [
+        13.20634,
+        25.45589,
+        21.54956,
+        37.50144,
+        2.196781,
+        0.08999041
+    ],
+    "browOffsetY" : 0.002302557,
+    "browOffsetZ" : 0.002849357,
+    "noseBridgeScale" : 0.09711751,
+    "noseTipScale" : 0.00111047,
+    "chinScale" : 0.04366891,
+    "cheekOffsetY" : 9.254396E-05,
+    "eyeWidth" : 0.03130883,
+    "jawWidth" : -0.02152296,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_01",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_09",
+    "hairTipId" : "Hair_09",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

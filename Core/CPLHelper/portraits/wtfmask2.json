@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "wtfmask2",
+        "Name" : "wtfmask2",
+        "Details" : "Random",
+        "Icon" : "wtfmask2"
+    },
+    "ID" : "wtfmask2",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 15,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 1,
+    "complexionTex" : 0,
+    "eyebrowTex" : 5,
+    "tattooTex" : 3,
+    "actualTattooTex" : 15,
+    "weights" : [
+        1.238762,
+        14.49614,
+        51.28279,
+        30.73285,
+        0.3401524,
+        1.909307
+    ],
+    "browOffsetY" : 0.0001428629,
+    "browOffsetZ" : 0.00642099,
+    "noseBridgeScale" : -0.1024045,
+    "noseTipScale" : -0.03976132,
+    "chinScale" : 0.1231617,
+    "cheekOffsetY" : 0.004791491,
+    "eyeWidth" : -0.02769302,
+    "jawWidth" : -0.004571212,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_02",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

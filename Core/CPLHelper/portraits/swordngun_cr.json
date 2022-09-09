@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "swordngun_cr",
+        "Name" : "swordngun_cr",
+        "Details" : "Random",
+        "Icon" : "swordngun_cr"
+    },
+    "ID" : "swordngun_cr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 16,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 11,
+    "lightRig" : 3,
+    "cameraPosition" : 2,
+    "complexionTex" : 3,
+    "eyebrowTex" : 3,
+    "tattooTex" : 5,
+    "actualTattooTex" : 5,
+    "weights" : [
+        55.5466,
+        0.4752542,
+        16.31948,
+        2.866911,
+        0.1189714,
+        24.67278
+    ],
+    "browOffsetY" : 0.002910649,
+    "browOffsetZ" : 0.0007196368,
+    "noseBridgeScale" : 0.07198457,
+    "noseTipScale" : 0.1724663,
+    "chinScale" : 0.141534,
+    "cheekOffsetY" : 0.004789606,
+    "eyeWidth" : 0.01876495,
+    "jawWidth" : -0.05570302,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_14",
+    "hairTipId" : "Hair_14",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

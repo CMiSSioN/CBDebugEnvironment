@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "serbeardian_w_visor",
+        "Name" : "serbeardian_w_visor",
+        "Details" : "Random",
+        "Icon" : "serbeardian_w_visor"
+    },
+    "ID" : "serbeardian_w_visor",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 10,
+    "actualTattooTex" : 0,
+    "weights" : [
+        45.85614,
+        23.74179,
+        7.746038,
+        1.300942,
+        0.07471278,
+        21.28038
+    ],
+    "browOffsetY" : 0.00441135,
+    "browOffsetZ" : 0.002931606,
+    "noseBridgeScale" : -0.017219,
+    "noseTipScale" : 0.04853207,
+    "chinScale" : 0.1823723,
+    "cheekOffsetY" : -0.0008069378,
+    "eyeWidth" : 0.0259853,
+    "jawWidth" : -0.08678641,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_04",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

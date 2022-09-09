@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_ridgeline_p",
+        "Name" : "pilot_at_ridgeline_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_ridgeline_p"
+    },
+    "ID" : "pilot_at_ridgeline_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 11,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 2,
+    "complexionTex" : 5,
+    "eyebrowTex" : 4,
+    "tattooTex" : 5,
+    "actualTattooTex" : 0,
+    "weights" : [
+        12.53259,
+        31.73262,
+        16.82142,
+        16.20172,
+        22.33819,
+        0.3734775
+    ],
+    "browOffsetY" : -0.006058799,
+    "browOffsetZ" : 0.005342058,
+    "noseBridgeScale" : -0.01879938,
+    "noseTipScale" : 0.281305,
+    "chinScale" : -0.1677289,
+    "cheekOffsetY" : 0.00444768,
+    "eyeWidth" : -0.02632695,
+    "jawWidth" : -0.02371486,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

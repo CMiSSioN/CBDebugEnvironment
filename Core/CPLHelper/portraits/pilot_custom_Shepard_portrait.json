@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_custom_Shepard_portrait",
+        "Name" : "pilot_custom_Shepard_portrait",
+        "Details" : "Random",
+        "Icon" : "pilot_custom_Shepard_portrait"
+    },
+    "ID" : "pilot_custom_Shepard_portrait",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 10,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 1,
+    "complexionTex" : 4,
+    "eyebrowTex" : 1,
+    "tattooTex" : 11,
+    "actualTattooTex" : 1,
+    "weights" : [
+        67.0034,
+        8.705006,
+        20.27306,
+        2.866878,
+        0.1537609,
+        0.9978967
+    ],
+    "browOffsetY" : 0.003129788,
+    "browOffsetZ" : 0.003703182,
+    "noseBridgeScale" : -0.01724789,
+    "noseTipScale" : 0.2223745,
+    "chinScale" : 0.1569328,
+    "cheekOffsetY" : -0.001427637,
+    "eyeWidth" : -0.03690025,
+    "jawWidth" : 0.06753004,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_glam_p",
+        "Name" : "pilot_at_glam_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_glam_p"
+    },
+    "ID" : "pilot_at_glam_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 16,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 3,
+    "complexionTex" : 5,
+    "eyebrowTex" : 5,
+    "tattooTex" : 8,
+    "actualTattooTex" : 12,
+    "weights" : [
+        60.88318,
+        13.139,
+        20.34091,
+        3.372367,
+        2.011581,
+        0.2529532
+    ],
+    "browOffsetY" : 0.005820405,
+    "browOffsetZ" : -0.004834927,
+    "noseBridgeScale" : -0.07384236,
+    "noseTipScale" : -0.11302,
+    "chinScale" : 0.104885,
+    "cheekOffsetY" : 0.003680438,
+    "eyeWidth" : -0.02132445,
+    "jawWidth" : -0.03633925,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,7 +1,7 @@
 @Name:AAMSAICoeff
 @Type:float
 @AppliedTo:Settings
-@Default:0,2
+@Default:0.2
 @Description:not documented yet
 
 @Name:AdditinalAssets
@@ -16,10 +16,64 @@
 @Default:true
 @Description:not documented yet
 
+@Name:AIMinefieldAware
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:AIMinefieldAwareAllMines
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
+@Name:AIMinefieldAwareAllMinesCritical
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:AIMinefieldDamageTreshold
+@Type:float
+@AppliedTo:Settings
+@Default:0.1
+@Description:not documented yet
+
+@Name:AIMinefieldIgnoreMoveDistance
+@Type:float
+@AppliedTo:Settings
+@Default:36
+@Description:not documented yet
+
+@Name:AIMinefieldIgnorePosDelta
+@Type:float
+@AppliedTo:Settings
+@Default:5
+@Description:not documented yet
+
 @Name:AIMStandalone
 @Type:string
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:AIPathingMultithread
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
+@Name:AIPathingOptimization
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:AIPathingSamplesLimit
+@Type:integer
+@AppliedTo:Settings
+@Default:120
 @Description:not documented yet
 
 @Name:AIPeerToPeerFirewallPierceThrough
@@ -73,7 +127,7 @@
 @Name:APMinCritChance
 @Type:float
 @AppliedTo:Settings
-@Default:0,1
+@Default:0.1
 @Description:not documented yet
 
 @Name:ApplyHeatSinkActorStat
@@ -169,7 +223,7 @@
 @Name:BurningForestBaseExpandChance
 @Type:float
 @AppliedTo:Settings
-@Default:0,5
+@Default:0.5
 @Description:not documented yet
 
 @Name:BurningForestCellRadius
@@ -247,7 +301,7 @@
 @Name:ClusterAIMult
 @Type:float
 @AppliedTo:Settings
-@Default:0,2
+@Default:0.2
 @Description:not documented yet
 
 @Name:CritLocationTransfer
@@ -326,6 +380,12 @@
 @Type:list of strings
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:EnableMinimap
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
 @Description:not documented yet
 
 @Name:EvasiveNumberFontSize
@@ -442,6 +502,24 @@
 @Default:empty
 @Description:not documented yet
 
+@Name:MinimapBurnedTerrainColor
+@Type:string
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:MinimapBurnigTerrainColor
+@Type:string
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:MinimapTerrainColors
+@Type:Dictionary`2
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
 @Name:modHTTPListen
 @Type:string
 @AppliedTo:Settings
@@ -478,6 +556,12 @@
 @Default:true
 @Description:not documented yet
 
+@Name:ObjectiveBlackBackgroundOnEnter
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
 @Name:OnlineServerDataPort
 @Type:integer
 @AppliedTo:Settings
@@ -499,13 +583,13 @@
 @Name:OrderButtonPaddingScale
 @Type:float
 @AppliedTo:Settings
-@Default:0,3
+@Default:0.3
 @Description:not documented yet
 
 @Name:OrderButtonWidthScale
 @Type:float
 @AppliedTo:Settings
-@Default:0,5
+@Default:0.5
 @Description:not documented yet
 
 @Name:OverrallShootsCountWeaponStat
@@ -523,7 +607,7 @@
 @Name:PenetrateAIMult
 @Type:float
 @AppliedTo:Settings
-@Default:0,4
+@Default:0.4
 @Description:not documented yet
 
 @Name:RemoveFromCritRollStatName
@@ -703,7 +787,7 @@
 @Name:WeaponPanelBackWidthScale
 @Type:float
 @AppliedTo:Settings
-@Default:1,1
+@Default:1.1
 @Description:not documented yet
 
 @Name:WeaponPanelHeightScale

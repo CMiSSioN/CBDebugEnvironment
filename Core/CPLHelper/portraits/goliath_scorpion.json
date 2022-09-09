@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "goliath_scorpion",
+        "Name" : "goliath_scorpion",
+        "Details" : "Random",
+        "Icon" : "goliath_scorpion"
+    },
+    "ID" : "goliath_scorpion",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 12,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 2,
+    "complexionTex" : 0,
+    "eyebrowTex" : 0,
+    "tattooTex" : 9,
+    "actualTattooTex" : 0,
+    "weights" : [
+        35.68827,
+        29.30317,
+        1.461965,
+        13.88868,
+        5.460055,
+        14.19786
+    ],
+    "browOffsetY" : 5.49053E-05,
+    "browOffsetZ" : 0.001110525,
+    "noseBridgeScale" : 0.03211076,
+    "noseTipScale" : 0.1889336,
+    "chinScale" : 0.1190256,
+    "cheekOffsetY" : -0.004346784,
+    "eyeWidth" : 0.02571696,
+    "jawWidth" : -0.05169561,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

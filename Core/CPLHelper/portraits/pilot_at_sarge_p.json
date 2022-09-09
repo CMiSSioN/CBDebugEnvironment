@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_sarge_p",
+        "Name" : "pilot_at_sarge_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_sarge_p"
+    },
+    "ID" : "pilot_at_sarge_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 3,
+    "complexionTex" : 1,
+    "eyebrowTex" : 1,
+    "tattooTex" : 3,
+    "actualTattooTex" : 0,
+    "weights" : [
+        44.25372,
+        13.43428,
+        13.65038,
+        0.2466788,
+        28.41254,
+        0.002420642
+    ],
+    "browOffsetY" : 0.003936307,
+    "browOffsetZ" : 0.003474807,
+    "noseBridgeScale" : -0.1842455,
+    "noseTipScale" : -0.2987057,
+    "chinScale" : -0.1763719,
+    "cheekOffsetY" : 0.000699144,
+    "eyeWidth" : -2.055764E-05,
+    "jawWidth" : -0.009240592,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

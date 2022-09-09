@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "dekkerareyouok",
+        "Name" : "dekkerareyouok",
+        "Details" : "Random",
+        "Icon" : "dekkerareyouok"
+    },
+    "ID" : "dekkerareyouok",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 12,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 4,
+    "eyebrowTex" : 1,
+    "tattooTex" : 5,
+    "actualTattooTex" : 0,
+    "weights" : [
+        8.388342,
+        24.52177,
+        29.0075,
+        24.28143,
+        10.51057,
+        3.290387
+    ],
+    "browOffsetY" : 0.004205883,
+    "browOffsetZ" : 0.002991766,
+    "noseBridgeScale" : -0.05900652,
+    "noseTipScale" : 0.05941519,
+    "chinScale" : -0.1692644,
+    "cheekOffsetY" : -0.0003817171,
+    "eyeWidth" : -0.04987058,
+    "jawWidth" : 0.04900586,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

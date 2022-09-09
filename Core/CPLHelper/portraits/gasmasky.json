@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "gasmasky",
+        "Name" : "gasmasky",
+        "Details" : "Random",
+        "Icon" : "gasmasky"
+    },
+    "ID" : "gasmasky",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 13,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 2,
+    "eyebrowTex" : 4,
+    "tattooTex" : 11,
+    "actualTattooTex" : 0,
+    "weights" : [
+        32.70967,
+        29.23727,
+        9.145266,
+        17.94584,
+        9.616396,
+        1.345565
+    ],
+    "browOffsetY" : -0.0006678716,
+    "browOffsetZ" : 0.003449803,
+    "noseBridgeScale" : 0.1981832,
+    "noseTipScale" : -0.1841368,
+    "chinScale" : 0.1070092,
+    "cheekOffsetY" : 0.0007572395,
+    "eyeWidth" : 0.01964776,
+    "jawWidth" : 0.07471247,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

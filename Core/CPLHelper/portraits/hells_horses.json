@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "hells_horses",
+        "Name" : "hells_horses",
+        "Details" : "Random",
+        "Icon" : "hells_horses"
+    },
+    "ID" : "hells_horses",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 14,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 4,
+    "eyebrowTex" : 4,
+    "tattooTex" : 3,
+    "actualTattooTex" : 0,
+    "weights" : [
+        32.30092,
+        20.64596,
+        15.07982,
+        27.25609,
+        1.769181,
+        2.94803
+    ],
+    "browOffsetY" : -0.002626278,
+    "browOffsetZ" : 0.003198242,
+    "noseBridgeScale" : 0.1038396,
+    "noseTipScale" : -0.1696238,
+    "chinScale" : -0.0765692,
+    "cheekOffsetY" : 0.004790626,
+    "eyeWidth" : -0.004611296,
+    "jawWidth" : 0.03047831,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_02",
+    "hairRootId" : "Hair_09",
+    "hairTipId" : "Hair_09",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

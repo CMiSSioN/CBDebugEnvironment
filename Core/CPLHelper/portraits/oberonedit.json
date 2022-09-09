@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "oberonedit",
+        "Name" : "oberonedit",
+        "Details" : "Random",
+        "Icon" : "oberonedit"
+    },
+    "ID" : "oberonedit",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 11,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 5,
+    "cameraPosition" : 2,
+    "complexionTex" : 2,
+    "eyebrowTex" : 3,
+    "tattooTex" : 11,
+    "actualTattooTex" : 0,
+    "weights" : [
+        76.73087,
+        1.289833,
+        0.1801012,
+        21.60462,
+        0.1834302,
+        0.01116106
+    ],
+    "browOffsetY" : 0.002460407,
+    "browOffsetZ" : 0.003941138,
+    "noseBridgeScale" : -0.1028156,
+    "noseTipScale" : -0.0171111,
+    "chinScale" : 0.1813137,
+    "cheekOffsetY" : -0.002215732,
+    "eyeWidth" : 0.002093583,
+    "jawWidth" : 4.422665E-06,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_04",
+    "hairTipId" : "Hair_04",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

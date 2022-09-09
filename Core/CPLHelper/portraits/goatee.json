@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "goatee",
+        "Name" : "goatee",
+        "Details" : "Random",
+        "Icon" : "goatee"
+    },
+    "ID" : "goatee",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 2,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 11,
+    "actualTattooTex" : 13,
+    "weights" : [
+        66.61403,
+        2.752065,
+        30.18391,
+        0.2913588,
+        0.1506228,
+        0.008007926
+    ],
+    "browOffsetY" : -0.004717282,
+    "browOffsetZ" : 0.005972802,
+    "noseBridgeScale" : 0.1923992,
+    "noseTipScale" : -0.1771127,
+    "chinScale" : 0.0139621,
+    "cheekOffsetY" : -0.002859108,
+    "eyeWidth" : 0.03180004,
+    "jawWidth" : 0.09125102,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

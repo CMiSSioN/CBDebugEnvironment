@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Hellion",
+        "Name" : "Hellion",
+        "Details" : "Random",
+        "Icon" : "Hellion"
+    },
+    "ID" : "Hellion",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 3,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 1,
+    "complexionTex" : 5,
+    "eyebrowTex" : 4,
+    "tattooTex" : 4,
+    "actualTattooTex" : 0,
+    "weights" : [
+        22.11344,
+        22.96379,
+        8.094759,
+        35.14515,
+        8.552463,
+        3.130398
+    ],
+    "browOffsetY" : -0.006272453,
+    "browOffsetZ" : 0.001409417,
+    "noseBridgeScale" : -0.132128,
+    "noseTipScale" : -0.2236218,
+    "chinScale" : 0.1728267,
+    "cheekOffsetY" : 0.00466988,
+    "eyeWidth" : -0.04215501,
+    "jawWidth" : -0.07866845,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_01",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_09",
+    "hairTipId" : "Hair_09",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

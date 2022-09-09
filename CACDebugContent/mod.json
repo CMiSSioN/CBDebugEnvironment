@@ -79,7 +79,7 @@
     }, 
     {
       "Type": "PilotDef",
-      "Path": "pilot\\"
+      "Path": "pilot"
     },
     {
       "Type": "FactionDef",

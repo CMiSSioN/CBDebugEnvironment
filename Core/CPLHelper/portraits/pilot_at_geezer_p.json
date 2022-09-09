@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_geezer_p",
+        "Name" : "pilot_at_geezer_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_geezer_p"
+    },
+    "ID" : "pilot_at_geezer_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 0,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 4,
+    "cameraPosition" : 2,
+    "complexionTex" : 2,
+    "eyebrowTex" : 0,
+    "tattooTex" : 3,
+    "actualTattooTex" : 0,
+    "weights" : [
+        33.15572,
+        28.16878,
+        19.81701,
+        16.74858,
+        1.973876,
+        0.1360383
+    ],
+    "browOffsetY" : -0.006546282,
+    "browOffsetZ" : 0.00427179,
+    "noseBridgeScale" : -0.1825973,
+    "noseTipScale" : -0.1695666,
+    "chinScale" : -0.001695991,
+    "cheekOffsetY" : -0.0004251152,
+    "eyeWidth" : 0.02821075,
+    "jawWidth" : -0.007870114,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

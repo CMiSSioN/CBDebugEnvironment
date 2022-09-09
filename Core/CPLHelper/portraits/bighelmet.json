@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "bighelmet",
+        "Name" : "bighelmet",
+        "Details" : "Random",
+        "Icon" : "bighelmet"
+    },
+    "ID" : "bighelmet",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 10,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 3,
+    "complexionTex" : 2,
+    "eyebrowTex" : 5,
+    "tattooTex" : 11,
+    "actualTattooTex" : 4,
+    "weights" : [
+        16.67087,
+        10.29956,
+        30.74903,
+        3.869074,
+        3.927665,
+        34.48381
+    ],
+    "browOffsetY" : -0.004293795,
+    "browOffsetZ" : -0.003232855,
+    "noseBridgeScale" : -0.119304,
+    "noseTipScale" : -0.1322756,
+    "chinScale" : -0.1575458,
+    "cheekOffsetY" : -0.00297361,
+    "eyeWidth" : -0.01851507,
+    "jawWidth" : -0.08361828,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_02",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_14",
+    "hairTipId" : "Hair_14",
+    "tattooColorId" : "Tattoo_04",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

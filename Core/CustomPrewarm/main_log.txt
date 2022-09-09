@@ -1,8 +1,0 @@
-[12:23:11.754]Initing... D:\Games\BATTLETECH\Mods\Core\CustomPrewarm version: 0.0.0.7
- game dlls dir:D:\Games\BATTLETECH\BattleTech_Data\Managed
- self dll nameCustomPrewarm.dll
-[12:23:23.492]FinishedLoading
-[12:23:25.604]Reading local settings
-[12:23:25.615]SaveManager:C:/Users/Konstantin/AppData/LocalLow/Harebrained Schemes/BATTLETECH\S0
-[12:23:31.281]MainMenu.EnableCareerLoadIfCareerSaves
-[12:23:31.281]SaveGameStructure.GetAllCareerSlots gameType:6

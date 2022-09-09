@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Aaeris_utr",
+        "Name" : "guiTxrPort_Aaeris_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Aaeris_utr"
+    },
+    "ID" : "guiTxrPort_Aaeris_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 14,
+    "lightRig" : 0,
+    "cameraPosition" : 4,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        36.90643,
+        17.26386,
+        27.70273,
+        7.804666,
+        1.204499,
+        9.117813
+    ],
+    "browOffsetY" : -0.005077324,
+    "browOffsetZ" : 0.005205797,
+    "noseBridgeScale" : -0.185829,
+    "noseTipScale" : -0.2329323,
+    "chinScale" : 0.1271939,
+    "cheekOffsetY" : -0.001927591,
+    "eyeWidth" : -0.006179482,
+    "jawWidth" : 0.09749506,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_07",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

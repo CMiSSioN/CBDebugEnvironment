@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_ningyo_p",
+        "Name" : "pilot_at_ningyo_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_ningyo_p"
+    },
+    "ID" : "pilot_at_ningyo_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 5,
+    "lightRig" : 0,
+    "cameraPosition" : 0,
+    "complexionTex" : 0,
+    "eyebrowTex" : 1,
+    "tattooTex" : 11,
+    "actualTattooTex" : 15,
+    "weights" : [
+        77.5434,
+        22.33556,
+        0.08917391,
+        0.01949136,
+        0.003166903,
+        0.009210866
+    ],
+    "browOffsetY" : 0.006129299,
+    "browOffsetZ" : -0.005967588,
+    "noseBridgeScale" : 0.1888226,
+    "noseTipScale" : -0.2970303,
+    "chinScale" : -0.1125392,
+    "cheekOffsetY" : 0.003905118,
+    "eyeWidth" : 0.002515072,
+    "jawWidth" : -0.02021297,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

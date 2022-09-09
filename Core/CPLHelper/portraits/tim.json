@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "tim",
+        "Name" : "tim",
+        "Details" : "Random",
+        "Icon" : "tim"
+    },
+    "ID" : "tim",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 5,
+    "cameraPosition" : 4,
+    "complexionTex" : 4,
+    "eyebrowTex" : 2,
+    "tattooTex" : 1,
+    "actualTattooTex" : 14,
+    "weights" : [
+        15.70247,
+        13.04018,
+        12.42284,
+        25.37351,
+        29.38654,
+        4.074449
+    ],
+    "browOffsetY" : -0.002889495,
+    "browOffsetZ" : 0.006549369,
+    "noseBridgeScale" : -0.02802856,
+    "noseTipScale" : 0.1298549,
+    "chinScale" : 0.1947529,
+    "cheekOffsetY" : 0.004597658,
+    "eyeWidth" : -0.04849888,
+    "jawWidth" : 0.06082864,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_03",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

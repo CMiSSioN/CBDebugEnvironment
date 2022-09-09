@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Morphyum_utr",
+        "Name" : "guiTxrPort_Morphyum_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Morphyum_utr"
+    },
+    "ID" : "guiTxrPort_Morphyum_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 4,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 4,
+    "lightRig" : 0,
+    "cameraPosition" : 3,
+    "complexionTex" : 0,
+    "eyebrowTex" : 5,
+    "tattooTex" : 3,
+    "actualTattooTex" : 0,
+    "weights" : [
+        36.64458,
+        1.663128,
+        16.70942,
+        0.4945976,
+        24.98569,
+        19.50258
+    ],
+    "browOffsetY" : 0.003769035,
+    "browOffsetZ" : -2.798879E-05,
+    "noseBridgeScale" : 0.04241621,
+    "noseTipScale" : 0.2768659,
+    "chinScale" : -0.1182439,
+    "cheekOffsetY" : -0.004947135,
+    "eyeWidth" : -0.02103496,
+    "jawWidth" : -0.05088327,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

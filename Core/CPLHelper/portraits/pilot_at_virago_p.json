@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "pilot_at_virago_p",
+        "Name" : "pilot_at_virago_p",
+        "Details" : "Random",
+        "Icon" : "pilot_at_virago_p"
+    },
+    "ID" : "pilot_at_virago_p",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 15,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 3,
+    "lightRig" : 0,
+    "cameraPosition" : 2,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 3,
+    "actualTattooTex" : 2,
+    "weights" : [
+        73.7986,
+        0.7342212,
+        0.05779577,
+        0.08752859,
+        25.18486,
+        0.1369835
+    ],
+    "browOffsetY" : -0.000713834,
+    "browOffsetZ" : -0.001056646,
+    "noseBridgeScale" : -0.02611525,
+    "noseTipScale" : -0.0974379,
+    "chinScale" : -0.1644194,
+    "cheekOffsetY" : 0.003350617,
+    "eyeWidth" : 0.04279378,
+    "jawWidth" : -0.05265176,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}
