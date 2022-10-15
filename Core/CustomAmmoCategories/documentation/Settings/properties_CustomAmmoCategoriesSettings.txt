@@ -1,7 +1,7 @@
 @Name:AAMSAICoeff
 @Type:float
 @AppliedTo:Settings
-@Default:0.2
+@Default:0,2
 @Description:not documented yet
 
 @Name:AdditinalAssets
@@ -37,7 +37,7 @@
 @Name:AIMinefieldDamageTreshold
 @Type:float
 @AppliedTo:Settings
-@Default:0.1
+@Default:0,1
 @Description:not documented yet
 
 @Name:AIMinefieldIgnoreMoveDistance
@@ -127,7 +127,7 @@
 @Name:APMinCritChance
 @Type:float
 @AppliedTo:Settings
-@Default:0.1
+@Default:0,1
 @Description:not documented yet
 
 @Name:ApplyHeatSinkActorStat
@@ -223,7 +223,7 @@
 @Name:BurningForestBaseExpandChance
 @Type:float
 @AppliedTo:Settings
-@Default:0.5
+@Default:0,5
 @Description:not documented yet
 
 @Name:BurningForestCellRadius
@@ -301,7 +301,7 @@
 @Name:ClusterAIMult
 @Type:float
 @AppliedTo:Settings
-@Default:0.2
+@Default:0,2
 @Description:not documented yet
 
 @Name:CritLocationTransfer
@@ -514,6 +514,18 @@
 @Default:empty
 @Description:not documented yet
 
+@Name:MinimapShowObjectives
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:MinimapShowRegions
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
 @Name:MinimapTerrainColors
 @Type:Dictionary`2
 @AppliedTo:Settings
@@ -583,13 +595,13 @@
 @Name:OrderButtonPaddingScale
 @Type:float
 @AppliedTo:Settings
-@Default:0.3
+@Default:0,3
 @Description:not documented yet
 
 @Name:OrderButtonWidthScale
 @Type:float
 @AppliedTo:Settings
-@Default:0.5
+@Default:0,5
 @Description:not documented yet
 
 @Name:OverrallShootsCountWeaponStat
@@ -607,7 +619,13 @@
 @Name:PenetrateAIMult
 @Type:float
 @AppliedTo:Settings
-@Default:0.4
+@Default:0,4
+@Description:not documented yet
+
+@Name:PlayerAlwaysHit
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
 @Description:not documented yet
 
 @Name:RemoveFromCritRollStatName
@@ -692,6 +710,66 @@
 @Type:boolean
 @AppliedTo:Settings
 @Default:false
+@Description:not documented yet
+
+@Name:SpawnProtectionAffectsAOE
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:SpawnProtectionAffectsBurningTerrain
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:SpawnProtectionAffectsCanFire
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:SpawnProtectionAffectsDesignMasks
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:SpawnProtectionAffectsMinelayers
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:StatisticOnResultScreenBattleArmorSprite
+@Type:string
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:StatisticOnResultScreenEnabled
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:StatisticOnResultScreenRealIcons
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
+@Name:StatisticOnResultScreenRealIconsScale
+@Type:float
+@AppliedTo:Settings
+@Default:1,5
+@Description:not documented yet
+
+@Name:StatisticOnResultScreenTurretSprite
+@Type:string
+@AppliedTo:Settings
+@Default:empty
 @Description:not documented yet
 
 @Name:TagAoEDamageMult
@@ -787,7 +865,7 @@
 @Name:WeaponPanelBackWidthScale
 @Type:float
 @AppliedTo:Settings
-@Default:1.1
+@Default:1,1
 @Description:not documented yet
 
 @Name:WeaponPanelHeightScale

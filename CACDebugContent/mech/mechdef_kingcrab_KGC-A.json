@@ -22,7 +22,7 @@
   "inventory": [
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Gauss_IGauss",
+      "ComponentDefID": "Weapon_Gauss_DGauss",
       "SimGameUID": "",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,

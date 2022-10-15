@@ -1,0 +1,13 @@
+{
+  "_Description": "When changing any of the listed settings, copy the relevant parts into `BATTLETECH/Mods/ModTek/ModTekPreloader.config.json`.",
+  "AssembliesToMakePublic_Description": "All listed will be copied to `BATTLETECH/Mods/.modtek/AssembliesPublicized`. The copies will have all their members (classes, methods, properties and fields) made public. It should be used to compile against, see the README for more information.",
+  "AssembliesToMakePublic": [
+    "Assembly-CSharp",
+    "Assembly-CSharp-firstpass",
+    "BattleTech.Common"
+  ],
+  "TypesToNotMakePublic_Description": "Add full names of types not to make public, in case you want to subclass these types and visibility changes would throw errors or crash the game.",
+  "TypesToNotMakePublic": [],
+  "Harmony12XEnabled_Description": "Enables Harmony X and its shims for Harmony 1 and 2, does work pretty well but not perfectly and some mods might need to be updated.",
+  "Harmony12XEnabled": false
+}

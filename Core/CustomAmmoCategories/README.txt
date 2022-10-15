@@ -545,6 +545,8 @@ new fields
                               For lasers projectileSpeed controls beam duration, so improved laser fire sequence looks like: beam (projectileSpeed duration) -> delay (projectileSpeed*FireDelayMultiplier) -> next beam
                               For PPC projectileSpeed it is projectile speed, so improved PPC fire sequence looks like: 
                                 pulse start -> pulse fly (duration distance/projectileSpeed) -> pulse hit -> delay ((distance/projectileSpeed)*FireDelayMultiplier) -> next pulse start
+  "prefireDurationMainEffect": 0 - prefire duration, if 0 original value is used, can be set for weapon, ammo, mode. Mode have priority, than ammo, than weapon.
+  "prefireDurationSubEffect": 0 - prefire duration, if 0 original value is used, can be set for weapon, ammo, mode. Mode have priority, than ammo, than weapon.
   "CantHitUnaffecedByPathing": false, - if true this weapon can't hit targets unaffected by pathing. 
                                         If user tries to perform DFA attack having this weapon enabled he/she will receive blocking popup message.
                                         can be set per weapon/ammo/mode mode have priority than ammo than weapon

@@ -70,6 +70,12 @@
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
+@Name:alwaysMiss
+@Type:boolean
+@AppliedTo:WeaponDef
+@Default:false
+@Description:not documented yet
+
 @Name:AmmoCategory
 @Type:string, id from BattleTech.AmmoCategoryEnumeration or CustomAmmo
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -480,6 +486,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
+@Name:fireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Description:not documented yet
+
 @Name:FireTerrainCellRadius
 @Type:integer
 @AppliedTo:MineFieldDef,AmmunitionDef,WeaponDef,WeaponMode
@@ -496,6 +508,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Type:integer
 @AppliedTo:MineFieldDef,AmmunitionDef,WeaponDef,WeaponMode
 @Default:MineFieldDef=0,AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+
+@Name:firstFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
 @Description:not documented yet
 
 @Name:FlatJammingChance
@@ -678,10 +696,22 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
+@Name:lastFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Description:not documented yet
+
 @Name:Lock
 @Type:ModeLockSettings
 @AppliedTo:WeaponMode
 @Default:empty
+@Description:not documented yet
+
+@Name:longFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
 @Description:not documented yet
 
 @Name:LongRange
@@ -847,6 +877,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=1,WeaponDef=1,WeaponMode=1
+@Description:not documented yet
+
+@Name:prefireDuration
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:preFireSFX

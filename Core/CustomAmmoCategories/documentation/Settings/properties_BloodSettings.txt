@@ -13,6 +13,6 @@
 @Name:DrawBloodChance
 @Type:float
 @AppliedTo:BloodSettings
-@Default:0.7
+@Default:0,7
 @Description:not documented yet
 
