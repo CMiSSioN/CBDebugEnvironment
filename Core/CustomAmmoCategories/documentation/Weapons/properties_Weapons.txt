@@ -389,6 +389,18 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 @Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
 @Description:not documented yet
 
+@Name:delayedSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:delayedSFXDelay
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+
 @Name:Description
 @Type:string
 @AppliedTo:WeaponMode
@@ -489,7 +501,7 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Name:fireSFX
 @Type:string
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
-@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
 @Description:not documented yet
 
 @Name:FireTerrainCellRadius
@@ -510,10 +522,28 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Default:MineFieldDef=0,AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
+@Name:firingStartSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:firingStopSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
 @Name:firstFireSFX
 @Type:string
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
-@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:firstPreFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
 @Description:not documented yet
 
 @Name:FlatJammingChance
@@ -699,7 +729,13 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Name:lastFireSFX
 @Type:string
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
-@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:lastPreFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
 @Description:not documented yet
 
 @Name:Lock
@@ -710,8 +746,14 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 
 @Name:longFireSFX
 @Type:string
-@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
-@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@AppliedTo:AmmunitionDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:longPreFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponMode=undefined
 @Description:not documented yet
 
 @Name:LongRange
@@ -888,13 +930,43 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Name:preFireSFX
 @Type:string
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
-@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:preFireStartSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:preFireStopSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:projectileFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
+@Description:not documented yet
+
+@Name:projectilePreFireSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
 @Description:not documented yet
 
 @Name:ProjectileScale
 @Type:Vector
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef={ "x": 1.0,"y":1.0, "z":1.0 },WeaponDef={ "x": 1.0,"y":1.0, "z":1.0 },WeaponMode={ "x": 1.0,"y":1.0, "z":1.0 }
+@Description:not documented yet
+
+@Name:ProjectileSpeed
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:ProjectileSpeedMultiplier
@@ -907,6 +979,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:integer
 @AppliedTo:AmmunitionDef,WeaponMode
 @Default:AmmunitionDef=0,WeaponMode=0
+@Description:not documented yet
+
+@Name:projectileStopSFX
+@Type:string
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=undefined,WeaponDef=undefined,WeaponMode=undefined
 @Description:not documented yet
 
 @Name:QuadDamageModifier
@@ -943,6 +1021,12 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Type:float
 @AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponMode
 @Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponMode=0
+@Description:not documented yet
+
+@Name:shotDelay
+@Type:float
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:ShotsPerAmmo

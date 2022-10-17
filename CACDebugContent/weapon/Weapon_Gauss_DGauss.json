@@ -148,7 +148,10 @@
         "z": 10
       },
       "ProjectileSpeedMultiplier": 0.1,
-      "ShotsWhenFired": 1
+      "ShotsWhenFired": 2,
+			"firstPreFireSFX":"vo_first",
+			"preFireSFX":"vo_middle",
+			"lastPreFireSFX":"vo_last"
     },
     {
       "Id": "Bx3",
@@ -186,7 +189,11 @@
       "isBaseMode": false,
       "FireDelayMultiplier": 1,
       "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Large",
-      "ShotsWhenFired": 2
+      "ShotsWhenFired": 2,
+			"preFireDelay": 2,
+			"ProjectileSpeed": 3,
+			"shotDelay": 6,
+      "ProjectilesPerShot": 5
     },
     {
       "Id": "Px1",

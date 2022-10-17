@@ -12,6 +12,7 @@
 	"Author": "KMiSSioN",
     "Website": "https://github.com/BattletechModders/CustomBundle",
   "Settings": {
+		"DeployAutoSpawnProtection": false,
     "debugLog": true,
     "fixWaterHeight": true,
     "maxWaterSteppiness": 29,
