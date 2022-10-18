@@ -442,6 +442,12 @@
 @Default:empty
 @Description:not documented yet
 
+@Name:hidableRegionsList
+@Type:list of strings
+@AppliedTo:Settings
+@Default:{"regionDef_HostileDropZone"}
+@Description:not documented yet
+
 @Name:ImprovedBallisticByDefault
 @Type:boolean
 @AppliedTo:Settings

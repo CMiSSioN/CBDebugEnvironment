@@ -483,7 +483,7 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Name:FireDelayMultiplier
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
-@Default:AmmunitionDef=1,WeaponDef=10,WeaponMode=1
+@Default:AmmunitionDef=1,WeaponDef=1,WeaponMode=1
 @Description:not documented yet
 
 @Name:FireDurationWithoutForest

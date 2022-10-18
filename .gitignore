@@ -56,5 +56,5 @@ Core/MechEditorMod/MechEditor_main_log.txt
 Core/CustomPrewarm/main_log.txt
 BTDebug/modstate.json
 Core/AdminTools/modstate.json
-ModSaves/BiggerDrops/non_campaign_instance_d95f8b54-c173-4696-8d89-3390718181ed-1666008385.json
-ModSaves/BiggerDrops/non_campaign_instance_d95f8b54-c173-4696-8d89-3390718181ed-1666010213.json
+ModSaves/
+Core/CPLHelper/
