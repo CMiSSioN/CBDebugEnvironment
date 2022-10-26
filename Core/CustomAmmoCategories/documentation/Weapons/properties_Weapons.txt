@@ -892,7 +892,7 @@ Can be accessed via statistic value CAC_MissileHealth and modifier CAC_MissileHe
 @Description:not documented yet
 
 @Name:Modes
-@Type:dictionary of string => WeaponMode
+@Type:list of WeaponMode objects
 @AppliedTo:WeaponDef
 @Default:empty
 @Description:not documented yet

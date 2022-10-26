@@ -173,7 +173,11 @@
       "UIName": "Lx1",
       "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Large",
       "isBaseMode": false,
-      "FireDelayMultiplier": 0.2
+      "FireDelayMultiplier": 1,
+			"preFireStartSFX":"vo_piu_piu",
+			"preFireStopSFX":"",
+			"delayedSFX": "",
+			"delayedSFXDelay": -1
     },
     {
       "Id": "Lx2",
