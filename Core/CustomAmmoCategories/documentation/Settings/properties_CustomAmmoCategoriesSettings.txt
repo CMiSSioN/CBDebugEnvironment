@@ -628,6 +628,18 @@
 @Default:0,4
 @Description:not documented yet
 
+@Name:PlayerAlwaysCalledShot
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
+@Name:PlayerAlwaysCalledShotDirection
+@Type:enum. Possible values: None, FromFront, FromLeft, FromRight, FromBack, FromTop, ToProne, FromArtillery
+@AppliedTo:Settings
+@Default:None
+@Description:not documented yet
+
 @Name:PlayerAlwaysHit
 @Type:boolean
 @AppliedTo:Settings
