@@ -90,6 +90,7 @@
         "modValue": "-10",
         "modType": "System.Single",
 				"Location": "{onlyone}",
+				"ShouldHaveTags": "overload_mode_unlockable",
         "targetCollection": "Weapon"
       }
     },
@@ -115,6 +116,7 @@
         "modValue": "1.0",
         "modType": "System.Single",
 				"Location": "{onlyone}",
+				"ShouldHaveTags": "overload_mode_unlockable",
         "targetCollection": "Weapon"
       }
     }
