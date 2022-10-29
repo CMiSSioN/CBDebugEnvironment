@@ -89,7 +89,7 @@
         "operation": "Float_Add",
         "modValue": "-10",
         "modType": "System.Single",
-				"Location": "{above}",
+				"Location": "{onlyone}",
         "targetCollection": "Weapon"
       }
     },
@@ -114,7 +114,7 @@
         "operation": "Set",
         "modValue": "1.0",
         "modType": "System.Single",
-				"Location": "{above}",
+				"Location": "{onlyone}",
         "targetCollection": "Weapon"
       }
     }
