@@ -149,6 +149,13 @@
     {
       "Id": "overload",
       "UIName": "purple",
+			"Lock":{
+				"StatValueLevel":{
+					"Low": 0.9,
+					"High": 9999,
+					"Stat": "overload_mode_unlock"
+				}
+			},
       "isBaseMode": false,
       "DamagePerShot": 10,
       "FireDelayMultiplier": 1,

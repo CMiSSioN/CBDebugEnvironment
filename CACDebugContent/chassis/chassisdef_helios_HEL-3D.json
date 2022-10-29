@@ -14,7 +14,7 @@
     "MovementCapDefID": "movedef_battlemaster_BLR-1G",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_cuhelios",
-    "PrefabIdentifier": "chrprfmech_heliosbase-001",
+    "PrefabIdentifier": "chrprfmech_cuheliosbase-001",
     "PrefabBase": "cuhelios",
     "Tonnage": 85,
     "InitialTonnage": 42.5,
