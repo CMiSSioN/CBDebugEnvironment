@@ -91,7 +91,7 @@
     {
       "Id": "base",
       "UIName": "original",
-      "isBaseMode": true,
+      "isBaseMode": false,
 			"statusEffects": [
 				{
 					"durationData": {
@@ -156,7 +156,7 @@
 					"Stat": "overload_mode_unlock"
 				}
 			},
-      "isBaseMode": false,
+      "isBaseMode": true,
       "DamagePerShot": 10,
       "FireDelayMultiplier": 1,
       "WeaponEffectID": "WeaponEffect-Weapon_PPC",
