@@ -173,5 +173,54 @@
     "Localization": {
       "CULTURE_EN_US": "FAIL%"
     }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TARGET.ERROR",
+    "Localization": {
+      "CULTURE_EN_US": "ERROR"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TARGET.HELP",
+    "Localization": {
+      "CULTURE_EN_US": "HELP"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.USAGE.TARGETS.DETAILS",
+    "Localization": {
+      "CULTURE_EN_US": "You can select target for this component"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.LIST",
+    "Localization": {
+      "CULTURE_EN_US": "LIST OF SUITABLE WEAPONS"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.CLOSE",
+    "Localization": {
+      "CULTURE_EN_US": "Close"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.USAGE",
+    "Localization": {
+      "CULTURE_EN_US": "Information"
+    }
+  },
+  {
+    "FileName": "",
+    "Name": "CAE.TRG.TARGETS",
+    "Localization": {
+      "CULTURE_EN_US": "Weapons"
+    }
   }
 ]

@@ -58,6 +58,10 @@
       "Path": "weapon"
     },
     {
+      "Type": "WeaponAddonDef",
+      "Path": "weaponAddons"
+    },
+    {
       "Type": "WeaponDef",
       "Path": "weapons"
     },

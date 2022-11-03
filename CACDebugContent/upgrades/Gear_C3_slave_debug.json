@@ -1,5 +1,6 @@
 {
 	"Custom": {
+		"AddonReference":{ "WeaponAddonId":"ppc_capacitor" },
 		"ActivatableComponent": {
 			"ButtonName": "C3 slave",
 			"CanNotBeActivatedManualy": false,

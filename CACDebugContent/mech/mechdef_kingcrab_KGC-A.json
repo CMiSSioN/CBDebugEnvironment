@@ -29,7 +29,9 @@
       "GUID": null,
       "DamageLevel": "Functional",
       "prefabName": null,
-      "hasPrefabName": false
+      "hasPrefabName": false,
+			"LocalGUID":"testLocalGUID0",
+			"TargetComponentGUID":"testLocalGUID1"
     },
     {
       "MountedLocation": "LeftArm",
@@ -40,7 +42,8 @@
       "GUID": null,
       "DamageLevel": "Functional",
       "prefabName": null,
-      "hasPrefabName": false
+      "hasPrefabName": false,
+			"LocalGUID":"testLocalGUID1"
     },
     {
       "MountedLocation": "LeftArm",
@@ -51,7 +54,8 @@
       "GUID": null,
       "DamageLevel": "Functional",
       "prefabName": null,
-      "hasPrefabName": false
+      "hasPrefabName": false,
+			"LocalGUID":"testLocalGUID2"
     },
     {
       "MountedLocation": "LeftArm",

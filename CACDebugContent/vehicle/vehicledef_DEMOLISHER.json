@@ -61,7 +61,8 @@
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+			"LocalGUID":"testLocalGUID0"
     },
     {
       "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
@@ -75,7 +76,9 @@
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional"
+      "DamageLevel": "Functional",
+			"LocalGUID":"testLocalGUID1",
+			"TargetComponentGUID":"testLocalGUID0"
     },
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
