@@ -245,6 +245,12 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 @Default:empty
 @Description:not documented yet
 
+@Name:BreachingShot
+@Type:boolean
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
+@Description:not documented yet
+
 @Name:BuildingsDamageModifier
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -646,6 +652,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Type:integer
 @AppliedTo:MineFieldDef
 @Default:1
+@Description:not documented yet
+
+@Name:IgnoreCover
+@Type:boolean
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=NotSet
 @Description:not documented yet
 
 @Name:ImprovedBallistic

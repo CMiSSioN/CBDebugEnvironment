@@ -115,17 +115,20 @@ AI related mod settings
 	2. Add AddonReference to UpgradeDef custom section
 
 	"Custom": {
-		"AddonReference":{ "WeaponAddonId":"ppc_capacitor" },
+		"AddonReference":{ 
+			"installedLocationOnly":true,     - if true user can only select weapons from same location as target for this addon
+			"autoTarget":true,     - target for this component will be selected automatically on component add to mech configuration. 
+				                     If false addon will be have no target unless user set it implicitly 
+			"WeaponAddonIds": [ "ppc_capacitor", "ppc_capacitor2" ] - list of addons. If component have multiply addons 
+			                                                          only suitable (detected by targetComponentTags) will be actually applied
+		},
 
 WeaponAddonDef example
 
 {
 	"Id":"ppc_capacitor",  - ID should same as file name
-	"autoTarget":true,     - target for this component will be selected automatically on component add to mech configuration. 
-	                         If false addon will be have no target unless user set it implicitly 
 	"addonType":"ppc_capacitor_type", - string used to track addons of the same type. If ommited Id is used. 
 	                                    Only one addon of certain type can be attached to weapon
-	"installedLocationOnly":true,     - if true user can only select weapons from same location as target for this addon
 	"targetComponentTags":["overload_mode_unlockable"], - set of tags weapon should have to be able to be target for an addon
 	"modes":[                                           - list of modes this addon adding to weapon. 
 	                                                      If isBaseMode is true this mode will be forced to be default for this weapon
@@ -161,6 +164,10 @@ WeaponAddonDef example
 	                     Affection is tracked by effect id. 
     if ComponentRefInjector is installed (ModTek 3.0+ Mods/ModTek/Injectors/ComponentRefInjector.dll)
 	Location:"{target}" means effect will be applied only component been selected as target for this weapon addon. Refer WeaponAddonDef section. 
+
+	also Location is processed if target is not only component but unit. If unit is target for the effect, effect becomes location specific
+	!NOTE! not all unit statistic effects can be specific for location. Even more you should count every effect to be not location specific unless 
+	its locational nature mentioned explicitly. If you set non statistic value not processed by location - effect changes nothing.
 
     if StatisticEffectDataInjector is installed (ModTek 3.0+ Mods/ModTek/Injectors/StatisticEffectDataInjector.dll)
 	you can define ShouldHaveTags and ShouldNotHaveTags fields in statisticData. 

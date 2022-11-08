@@ -39,6 +39,37 @@
 						"modType": "System.Single"
 					},
 					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "Creator",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "CACAPProtection_current",
+						"Name": "AP pretection",
+						"Details": "PASSIVE: AP protection",
+						"Icon": ""
+					},
+					"statisticData": {
+						"statName": "CACAPDamageMult",
+						"operation": "Float_Add",
+						"Location":"{current}",
+						"modValue": "1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
 				}
 			]
 		}
