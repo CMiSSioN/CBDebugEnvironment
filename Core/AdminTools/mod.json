@@ -13,8 +13,8 @@
 	"CustomResourceTypes": [],
 	"Manifest": [],
 	"Settings": {
-		"DEBUGEnabler": false,
-		"DEBUGEnablerValue": false,
+		"DEBUGEnabler": true,
+		"DEBUGEnablerValue": true,
 		"TagSetLogger": false,
 		"ActorGenInfo": false,
 		"ModifyStatLogging": false,

@@ -1,0 +1,131 @@
+{
+    "Description" : {
+        "Id" : "event_co_misjump_travelTest",
+        "Name" : "Wearthafuqawe. . .",
+        "Details" : "Sitting in your command chair, you feel a vibration signaling the firing of the <i>Argo's</i> engines, \"Why are we under thrust?!\"\r\n\r\n\"Commander! The Kerby-Fucheatah Console is sending data to the nearest Jumpship and it has activated our drive thrusters,\" Sumire calls out.\r\n\r\nYou look over to her, \"What?  The Console is moving us to that Jumpship?\"\r\n\r\nSumire punches buttons on the console, \"Yes, Commander.  That Jumpship is scheduled to jump out of system, and we appear to moving towards it to dock with a vacant collar on its starboard side.\"\r\n\r\nYou turn towards Darius, \"Contact that Jumpship, we need to alert them to our situation.  Let them know a system malfunction has initiated our docking procedure and we are attempting to rectify the situation.\"\r\n\r\nDarius responds, \"The Captain of the Jumpship has emergency crews standing by, and would also like to inform you if we do attempt to dock, they will report the incident to the <i>Mercenary Review Board</i> as well as the <i>Commercial Jumpship Travel Authority</i>!\" \r\n\r\nYou jump out of your command chair and rush over to the console.  The data displayed makes no real sense to you.  You look at Sumire, \"Well, you're the navigator, how do we stop this?\"\r\n\r\nSumire's hands run over the keyboard, pressing various buttons before she looks at you, \"I do not think we can avoid this, Commander.  When I try to deactivate the console, it displays a timer for shutdown, but we will be docked by the time it actually shuts off. My gut tells me we are leaving [[TGT_SYSTEM,{TGT_SYSTEM.Name}]] on that Jumpship.  What should we do Commander?\"",
+        "Icon" : "uixTxrSpot_KFCMisjump"
+    },
+    "Scope" : "Company",
+    "Weight" : 500,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "",
+            "items" : []
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/CompanyTags",
+            "items" : []
+        },
+        "RequirementComparisons" : [
+            {
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 2,
+                "valueConstant" : "2"
+            }
+        ]
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Deactivate that damned KF Console!",
+                "Details" : "Deactivate the Kerby-Fucheatah Console.",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "Tags/CompanyTags",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "...Geronimo!",
+                        "Details" : "You look at Sumire, \"Turn that damned console off!\"\r\n\r\nSumire quickly flicks a couple switches and the console dims and shuts down, \"Commander, the Console appears to be offline, but I am locked out of the NavCom and cannot abort the docking sequence.  The jumpship also appears to be about to jump.  It doesn't look like they could abort their jump sequence either.\"   Moments later, the rumble of the <i>Argo</i> docking with the jumpship echos through the ship, followed by the quesy feeling as the jumpship's KF Drive activates.\r\n\r\nAs your vision returns post jump, Darius calls out, \"The Captain of the jumpship is furious and is going to file a report with the MRB and CJSTA as soon as they figure out where we are.\"\r\n\r\nYou look out the viewport, seeing a totally different system than the one you expected, \"Where the F...\"\r\n\r\nSumire interupts your outburst, \"Commander, it appears we are now in the [[TGT_SYSTEM,{TGT_SYSTEM.Name}]] system.  All stations are reporting operational as well, so we did not suffer any damage from the [[DM.BaseDescriptionDefs[LoreMisjump],misjump]].",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : [
+                                    "KFC_Inactive"
+                                ]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : [
+                                    "KFC_Active"
+                                ]
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Single",
+                                    "name" : "DriveTravelMultiplier",
+                                    "value" : "0.1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MisjumpCount",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : [
+                                {
+                                    "Type" : "Company_TravelTo",
+                                    "value" : "starsystemdef_Peratallada",
+                                    "valueConstant" : null,
+                                    "additionalValues" : null
+                                }
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "ExclusionTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : false,
+    "Tags" : {
+        "tagSetSourceFile" : "tags/EventTags",
+        "items" : []
+    }
+}

@@ -110,6 +110,10 @@
       "Path": "icons"
     },
     {
+      "Type": "SimGameEventDef",
+      "Path": "events"
+    },
+    {
       "Type": "VoicePackDef",
       "Path": "voicepacks",
       "ShouldMergeJSON": false
