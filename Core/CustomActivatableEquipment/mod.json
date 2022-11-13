@@ -88,5 +88,5 @@
       ]
     }
   },
-	"Manifest": [ { "Type": "SVGAsset", "Path": "icons" } ]
+	"Manifest": [ { "Type": "SVGAsset", "Path": "icons" }, { "Type": "Texture2D", "Path": "textures" } ]
 }
