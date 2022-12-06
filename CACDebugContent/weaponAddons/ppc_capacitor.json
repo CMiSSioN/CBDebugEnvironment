@@ -6,7 +6,7 @@
 	"targetComponentTags":["overload_mode_unlockable"],
 	"modes":[
     {
-      "Id": "overload",
+      "Id": "purple",
       "UIName": "purple",
       "isBaseMode": true,
       "DamagePerShot": 10,

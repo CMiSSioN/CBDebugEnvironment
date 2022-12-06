@@ -60,3 +60,6 @@ ModSaves/
 Core/CPLHelper/
 Core/TravelInfoTooltips/main_log.txt
 Core/TravelInfoTooltips/modstate.json
+Core/BTMemoryCleaner/modstate.json
+Core/BTMemoryCleaner/main_log.txt
+Core/BTMemoryCleaner/cleaner_process_log.txt

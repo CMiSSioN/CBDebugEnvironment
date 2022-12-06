@@ -121,8 +121,8 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 
 @Name:AOEDamage
 @Type:float
-@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef
-@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0
+@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef,WeaponMode
+@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:AoEDmgFalloffType
@@ -145,8 +145,8 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 
 @Name:AOEHeatDamage
 @Type:float
-@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef
-@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0
+@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef,WeaponMode
+@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:AoEInstability
@@ -157,8 +157,8 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 
 @Name:AOEInstability
 @Type:float
-@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef
-@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0
+@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef,WeaponMode
+@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:AoERange
@@ -169,8 +169,8 @@ Can be accessed via statistic value CAC_AMSDamage and modifier CAC_AMSDamage_Mod
 
 @Name:AOERange
 @Type:float
-@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef
-@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0
+@AppliedTo:EvasivePipsMods,AmmunitionDef,WeaponDef,WeaponMode
+@Default:EvasivePipsMods=0,AmmunitionDef=0,WeaponDef=0,WeaponMode=0
 @Description:not documented yet
 
 @Name:APArmorShardsMod
@@ -724,6 +724,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Type:boolean
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
 @Default:AmmunitionDef=NotSet,WeaponDef=True,WeaponMode=NotSet
+@Description:not documented yet
+
+@Name:isFromJson
+@Type:boolean
+@AppliedTo:WeaponMode
+@Default:false
 @Description:not documented yet
 
 @Name:isHeatVariation

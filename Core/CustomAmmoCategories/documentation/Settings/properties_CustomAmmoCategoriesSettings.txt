@@ -862,12 +862,6 @@
 @Default:8
 @Description:not documented yet
 
-@Name:UseFastPreloading
-@Type:boolean
-@AppliedTo:Settings
-@Default:false
-@Description:not documented yet
-
 @Name:WeaponBurningDurationBiomeMult
 @Type:dictionary { "<string>":<float>}
 @AppliedTo:Settings
