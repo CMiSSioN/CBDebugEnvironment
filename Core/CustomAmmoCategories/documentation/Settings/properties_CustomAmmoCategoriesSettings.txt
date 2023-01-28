@@ -424,6 +424,18 @@
 @Default:true
 @Description:not documented yet
 
+@Name:FleeMaxTonage
+@Type:float
+@AppliedTo:Settings
+@Default:3
+@Description:not documented yet
+
+@Name:FleeStartTonage
+@Type:float
+@AppliedTo:Settings
+@Default:2
+@Description:not documented yet
+
 @Name:forbiddenRangeEnable
 @Type:boolean
 @AppliedTo:Settings
@@ -440,6 +452,12 @@
 @Type:dictionary { "<string>":<float>}
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:HexSizeForMods
+@Type:float
+@AppliedTo:Settings
+@Default:30
 @Description:not documented yet
 
 @Name:hidableRegionsList
@@ -662,6 +680,12 @@
 @Type:string
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:RestoreEjectedWeapons
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
 @Description:not documented yet
 
 @Name:screamsIds

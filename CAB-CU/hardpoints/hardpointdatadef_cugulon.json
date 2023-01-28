@@ -1,0 +1,126 @@
+{
+  "ID": "hardpointdatadef_cugulon",
+  "CustomHardpoints": {
+    "prefabs": [
+
+      {"prefab": "chrprfweap_gulon_torso_flamer_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_flamer_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_flamer_eh4", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+      {"prefab": "chrprfweap_gulon_torso_fluid_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_fluid_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_fluid_eh4", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+
+      {"prefab": "chrprfweap_gulon_torso_laser_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_laser_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_laser_eh4", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+
+      {"prefab": "chrprfweap_gulon_torso_mg_bh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_mg_bh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_torso_mg_bh4", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+	  {"prefab": "chrprfweap_gulon_shoulder_ac5", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_shoulder_rac2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4" ] },
+	  {"prefab": "chrprfweap_gulon_shoulder_gauss", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_shoulder_lrm5", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5" ] },
+	  {"prefab": "chrprfweap_gulon_shoulder_srm4", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4" ] },
+
+	  {"prefab": "chrprfweap_gulon_leftarm_flamer_eh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_flamer_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_flamer_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+	  {"prefab": "chrprfweap_gulon_leftarm_fluid_eh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_fluid_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_fluid_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+	  {"prefab": "chrprfweap_gulon_leftarm_laser_eh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_laser_eh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_laser_eh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+	  {"prefab": "chrprfweap_gulon_leftarm_mg_bh1", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_mg_bh2", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  {"prefab": "chrprfweap_gulon_leftarm_mg_bh3", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+
+	  {"prefab": "chrprfweap_gulon_rightarm_rl10", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8" ] },
+	  {"prefab": "chrprfweap_gulon_rightarm_drill", "attachType": "Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] }
+		
+    ],
+    "aliases": {
+		"chrPrfWeap_culon_lefttorso_flamer_eh2": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_flamer_eh2" },
+		"chrPrfWeap_culon_lefttorso_flamer_eh3": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_flamer_eh3" },
+		"chrPrfWeap_culon_lefttorso_flamer_eh4": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_flamer_eh4" },
+
+		"chrPrfWeap_culon_lefttorso_fluid_eh2": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_fluid_eh2" },
+		"chrPrfWeap_culon_lefttorso_fluid_eh3": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_fluid_eh3" },
+		"chrPrfWeap_culon_lefttorso_fluid_eh4": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_fluid_eh4" },
+	
+		"chrPrfWeap_culon_lefttorso_laser_eh2": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_laser_eh2" },
+		"chrPrfWeap_culon_lefttorso_laser_eh3": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_laser_eh3" },
+		"chrPrfWeap_culon_lefttorso_laser_eh4": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_laser_eh4" },
+		
+		"chrPrfWeap_culon_lefttorso_mg_bh2": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_mg_bh2" },
+		"chrPrfWeap_culon_lefttorso_mg_bh3": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_mg_bh3" },
+		"chrPrfWeap_culon_lefttorso_mg_bh4": { "location": "lefttorso", "prefab": "chrprfweap_gulon_torso_mg_bh4" },
+      
+		"chrPrfWeap_culon_lefttorso_ac5_bh1": { "location": "lefttorso", "prefab": "chrprfweap_gulon_shoulder_ac5" },
+		"chrPrfWeap_culon_lefttorso_rac2_bh1": { "location": "lefttorso", "prefab": "chrprfweap_gulon_shoulder_rac2" },
+		"chrPrfWeap_culon_lefttorso_gauss_bh1": { "location": "lefttorso", "prefab": "chrprfweap_gulon_shoulder_gauss" },
+		"chrPrfWeap_culon_lefttorso_lrm5_mh1": { "location": "lefttorso", "prefab": "chrprfweap_gulon_shoulder_lrm5" },
+		"chrPrfWeap_culon_lefttorso_srm4_mh1": { "location": "lefttorso", "prefab": "chrprfweap_gulon_shoulder_srm4" },
+
+		"chrPrfWeap_culon_leftarm_flamer_eh1": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_flamer_eh1" },
+		"chrPrfWeap_culon_leftarm_flamer_eh2": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_flamer_eh2" },
+		"chrPrfWeap_culon_leftarm_flamer_eh3": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_flamer_eh3" },
+
+		"chrPrfWeap_culon_leftarm_fluid_eh1": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_fluid_eh1" },
+		"chrPrfWeap_culon_leftarm_fluid_eh2": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_fluid_eh2" },
+		"chrPrfWeap_culon_leftarm_fluid_eh3": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_fluid_eh3" },
+
+		"chrPrfWeap_culon_leftarm_laser_eh1": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_laser_eh1" },
+		"chrPrfWeap_culon_leftarm_laser_eh2": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_laser_eh2" },
+		"chrPrfWeap_culon_leftarm_laser_eh3": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_laser_eh3" },
+
+		"chrPrfWeap_culon_leftarm_mg_bh1": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_mg_bh1" },
+		"chrPrfWeap_culon_leftarm_mg_bh2": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_mg_bh2" },
+		"chrPrfWeap_culon_leftarm_mg_bh3": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_mg_bh3" },
+
+		"chrPrfWeap_culon_rightarm_srm6_mh1": { "location": "rightarm", "prefab": "chrprfweap_gulon_rightarm_rl10" },
+		"chrPrfWeap_culon_rightarm_drill_bh1": { "location": "rightarm", "prefab": "chrprfweap_gulon_rightarm_drill" }
+	
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "lefttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "rightarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

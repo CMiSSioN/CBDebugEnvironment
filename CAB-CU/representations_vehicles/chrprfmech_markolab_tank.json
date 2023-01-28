@@ -1,0 +1,75 @@
+{
+	"Id": "chrprfmech_markolab_tank",
+	"PrefabBase": "cumarkolab",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [  ],
+	"TwistAnimators": [ ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "markolab_destructible",
+			"wholeObj": "markolab_whole",
+			"destroyedObj": "markolab_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "markolab_attach_turret",
+		"Left": "markolab_attach_sideturret_left",
+		"Right": "markolab_attach_sideturret_right",
+		"Front": "markolab_attach_front",
+		"Rear": "markolab_attach_rear"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxTurretTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "BodyAttach",
+			"visuals": "markolab_whole",
+			"attach": "markolab_attach_turret",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": { }
+		},
+		{
+			"Name": "LeftAttach",
+			"visuals": "markolab_side_turret_box_left",
+			"attach": "markolab_attach_sideturret_left_pivot",
+			"type": "Turret",
+			"hideIfEmpty": true,
+			"Animators": {
+				"left_stationary": 1
+			}
+		},
+		{
+			"Name": "RightAttach",
+			"visuals": "markolab_side_turret_box_right",
+			"attach": "markolab_attach_sideturret_right_pivot",
+			"type": "Turret",
+			"hideIfEmpty": true,
+			"Animators": {
+				"right_stationary": 1
+			}
+		}		
+	],
+	"Particles":[
+	]
+}

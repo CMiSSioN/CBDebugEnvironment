@@ -2,6 +2,18 @@ Changelog for CAB-CU
 
 -----------------------------------------------------
 
+2.2
+
+Added the Markolab Tank
+
+2.1
+
+Added the Flashman 
+
+2.0
+
+Added the Ishtar
+
 1.9
 
 Added the Urbidentified Flying Object

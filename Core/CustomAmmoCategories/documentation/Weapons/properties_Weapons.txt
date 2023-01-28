@@ -82,6 +82,12 @@
 @Default:AmmunitionDef=NotSet,WeaponDef=NotSet,WeaponMode=empty
 @Description:not documented yet
 
+@Name:AMSActivationsPerTurn
+@Type:integer
+@AppliedTo:WeaponDef,WeaponMode
+@Default:WeaponDef=0,WeaponMode=0
+@Description:not documented yet
+
 @Name:AMSDamage
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
@@ -616,6 +622,12 @@ Can be accessed via statistic value CAC_DirectFireModifier and modifier CAC_Dire
 @Type:float
 @AppliedTo:AmmunitionDef,WeaponMode
 @Default:AmmunitionDef=1,WeaponMode=1
+@Description:not documented yet
+
+@Name:hexesMovedMod
+@Type:EvasivePipsMods structure
+@AppliedTo:AmmunitionDef,WeaponDef,WeaponMode
+@Default:AmmunitionDef=empty,WeaponDef=empty,WeaponMode=empty
 @Description:not documented yet
 
 @Name:HideIfOnlyVariant

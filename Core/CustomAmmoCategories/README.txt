@@ -49,6 +49,8 @@ CriticalHitChanceReceivedMultiplier can be locational
 
 {
 "debugLog":true, - enable debug log 
+"RestoreEjectedWeapons": true, - ejected weapon will not be counted as destroyed at the end of the battle
+"HexSizeForMods": 30 - hex size used for moved hexes modifiers calculations
 "SpawnProtectionAffectsCanFire": true - if true weapon can't fire if its owner under spawn protection
 "SpawnProtectionAffectsBurningTerrain": true, - if true spawn protection also prevent burning terrain of any kind.
 "SpawnProtectionAffectsDesignMasks": true, - if true spawn protection also prevent weapon from changing terrain.
@@ -439,6 +441,33 @@ new fields
       "DamageVariance":0,
       "CriticalChanceMultiplier":0
   },
+  "hexesMovedMod": {  - list of modifiers for values by moved hexes.
+						  moved hexes = (<DistMovedThisRound>/<HexSizeForMods>) rounded to lower integer
+						  Additive per weapon/ammo/mode. 
+                          Overall formula value = [base value] * ([moved hexes]^[mod value]). Example base damage = 35, moved hexes = 7, mod value = -1
+                          damage = 35 * (7^-1) = 35 * 0.142857(142857) = 5.
+                          NOTE: if DistMovedThisRound < HexSizeForMods, value will not been altered. If mod value = 0 same behavior.
+      "Damage":0,
+      "APDamage":0,
+      "Heat":0,
+      "Instablility":0,
+      "GeneratedHeat":0,
+      "FlatJammingChance":0,
+      "MinRange":0,
+      "ShortRange":0,
+      "MediumRange":0,
+      "LongRange":0,
+      "MaxRange":0,
+      "AOERange":0,
+      "AOEDamage":0,
+      "AOEHeatDamage":0,
+      "AOEInstability":0,
+      "RefireModifier":0,
+      "APCriticalChanceMultiplier":0,
+      "AccuracyModifier":0,
+      "DamageVariance":0,
+      "CriticalChanceMultiplier":0
+  },
   "deferredEffect":{                                   - deferred effect !!!CAN!!! be set per mode, ammo, weapon. Mode have priority than ammo and than weapon.
     "id":"LOIC",                                       - id used in logs 
     "rounds":2,                                        - rounds to effects apply
@@ -695,8 +724,14 @@ new fields
 						NOTE! Every weapon effect can be used as visuals for AMS fire (missile, machine gun, ballistic, laser, gauss) you can experiment,
 						      but some effects is more suitable.
   "AMSShootsEveryAttack": false, - if true AMS will not share AMS.ShootsWhenFired between all missile attacks this round. 
-                                       Every missile attack will cause AMS.ShootsWhenFired shoots. 
+                                       Every missile attack will cause AMS.ShotsWhenFired shoots. 
 								   if false AMS will shoot AMS.ShootsWhenFired per round
+  "AMSActivationsPerTurn": 0, - if VALUE > 0 AMS will not share AMS.ShotsWhenFired between all missile attacks this round.
+									First VALUE missile attacks will cause up to AMS.ShotsWhenFired shoots.
+									All next attacks AMS will not fire. 
+									If AMS had not shoot during attack, attack counter will not be increased
+									if VALUE > 0 - AMSShotsEveryAttack is ignored.
+									Can be set for weapon and mode (additive).
   "AMSImmune": false - if true, weapon missiles is immune to AMS and none AMS will try to intercept them. Can be set for mode ammo and weapon
   "MissileHealth": 1, - health of missile. Used while AMS working. If missile health become 0 missile counted as intercepted. Additive for ammo, mode, weapon.
   "AMSDamage": 1, - damage AMS inflicting to missiles subtracting from missile health on success hit. Used while AMS working. If missile health become 0 missile counted as intercepted. Additive for ammo, mode, weapon.

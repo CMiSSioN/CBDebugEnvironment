@@ -1,0 +1,87 @@
+{
+  "ID": "hardpointdatadef_cuishtar",
+  "CustomHardpoints": {
+    "prefabs": [ 
+
+	  { "prefab": "chrprfweap_ishtar_center_ams", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  
+      { "prefab": "chrprfweap_ishtar_left_laser_eh1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_ishtar_left_laser_eh2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_ishtar_left_lrm15", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", 
+		"emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8", "fire9", "fire10", "fire11", "fire12", "fire13", "fire14", "fire15" ] },
+
+      { "prefab": "chrprfweap_ishtar_right_laser_eh1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_ishtar_right_laser_eh2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_ishtar_right_lrm15", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", 
+		"emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8", "fire9", "fire10", "fire11", "fire12", "fire13", "fire14", "fire15" ] },
+
+	  { "prefab": "chrprfweap_ishtar_turret_ac10_left", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5" ] },
+	  { "prefab": "chrprfweap_ishtar_turret_ac20_left", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_ishtar_turret_lrm15_left", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", 
+		"emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8", "fire9", "fire10", "fire11", "fire12", "fire13", "fire14", "fire15" ] },
+	  { "prefab": "chrprfweap_ishtar_turret_ams_left", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },	  
+		
+	  { "prefab": "chrprfweap_ishtar_turret_ac10_right", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5" ] },
+	  { "prefab": "chrprfweap_ishtar_turret_ac20_right", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	  { "prefab": "chrprfweap_ishtar_turret_lrm15_right", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", 
+		"emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8", "fire9", "fire10", "fire11", "fire12", "fire13", "fire14", "fire15" ] },
+	  { "prefab": "chrprfweap_ishtar_turret_ams_right", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] }
+    ],
+    "aliases": {
+      "chrPrfWeap_cuishtar_front_ams_ah1": { "location": "front", "prefab": "chrprfweap_ishtar_center_ams" },
+	  
+      "chrPrfWeap_cuishtar_left_laser_eh2": { "location": "left", "prefab": "chrprfweap_ishtar_left_laser_eh1" },
+	  "chrPrfWeap_cuishtar_left_laser_eh3": { "location": "left", "prefab": "chrprfweap_ishtar_left_laser_eh2" },
+	  "chrPrfWeap_cuishtar_left_lrm15_mh1": { "location": "left", "prefab": "chrprfweap_ishtar_left_lrm15" },
+	  
+      "chrPrfWeap_cuishtar_right_laser_eh2": { "location": "right", "prefab": "chrprfweap_ishtar_right_laser_eh1" },
+	  "chrPrfWeap_cuishtar_right_laser_eh3": { "location": "right", "prefab": "chrprfweap_ishtar_right_laser_eh2" },
+	  "chrPrfWeap_cuishtar_right_lrm15_mh1": { "location": "right", "prefab": "chrprfweap_ishtar_right_lrm15" },	  
+
+      "chrPrfWeap_cuishtar_turret_ac10_bh1" : { "location": "turret", "prefab": "chrprfweap_ishtar_turret_ac10_left" },
+	  "chrPrfWeap_cuishtar_turret_ac20_bh1": { "location": "turret", "prefab": "chrprfweap_ishtar_turret_ac20_left" },
+	  "chrPrfWeap_cuishtar_turret_lrm15_mh1": { "location": "turret", "prefab": "chrprfweap_ishtar_turret_lrm15_left" },
+	  
+      "chrPrfWeap_cuishtar_turret_ac10_bh2" : { "location": "turret", "prefab": "chrprfweap_ishtar_turret_ac10_right" },
+	  "chrPrfWeap_cuishtar_turret_ac20_bh2": { "location": "turret", "prefab": "chrprfweap_ishtar_turret_ac20_right" },
+	  "chrPrfWeap_cuishtar_turret_lrm15_mh2": { "location": "turret", "prefab": "chrprfweap_ishtar_turret_lrm15_right" },
+
+	  "chrPrfWeap_cuishtar_turret_ams_ah3": { "location": "turret", "prefab": "chrprfweap_ishtar_turret_ams_left" },
+	  "chrPrfWeap_cuishtar_turret_ams_ah4": { "location": "turret", "prefab": "chrprfweap_ishtar_turret_ams_right" }
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "front",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "right",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "left",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "turret",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }	
+  ]
+}
