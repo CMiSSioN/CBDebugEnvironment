@@ -7,13 +7,18 @@
   "DLLEntryPoint": "CustomTranslation.Core.Init",
   "DependsOn": [],
   "ConflictsWith": [],
+  "OptionallyDependsOn": [ "NewSaveFolder" ],
   "Description": "CustomLocalization",
   "Author": "KMiSSioN",
   "Website": "https://www.nexusmods.com/battletech/mods/XXX",
   "Settings": {
-    "debugLog": true,
+    "debugLog": false,
     "procSettings": {
-      "MoodSettings": { "type": "MoodSettings", "useName": true, "procs": [] },
+      "MoodSettings": {
+        "type": "MoodSettings",
+        "useName": true,
+        "procs": []
+      },
       "AbilityDef": {
         "type": "AbilityDef",
         "useName": true,
@@ -88,7 +93,7 @@
       "SimGameEventDef": {
         "type": "SimGameEventDef",
         "useName": true,
-        "procs": [ "Options.Description.Name", "Options.Description.Details", "Options.ResultSets.Description.Name", "Options.ResultSets.Description.Details"]
+        "procs": [ "Options.Description.Name", "Options.Description.Details", "Options.ResultSets.Description.Name", "Options.ResultSets.Description.Details" ]
       },
       "FactionDef": {
         "type": "FactionDef",
@@ -380,17 +385,8 @@
         ]
       }
     },
-    "localizationProcType": "Key",
-    "fontsReplacementTable": {
-      "CULTURE_RU_RU": {
-        "UnitedSansSemiExt-Medium SDF": "Kairos Sans W1G Ext SDF RU",
-        "UnitedSansSemiExt-Bold SDF": "Kairos Sans W1G Ext Medium SDF RU",
-        "UnitedSansReg-Medium SDF": "Kairos Sans W1G SDF RU",
-        "UnitedSansReg-Thin SDF": "GOST_R",
-        "UnitedSansReg-Black SDF": "GOST_type_A_Bold",
-        "UnitedSansCond-Medium SDF": "Kairos Sans W1G Cn SDF RU"
-      }
-    },
+    "localizationProcType": "Content",
+    "fontsReplacementTable": { },
     "metaEvaluators": [
       {
         "Name": "{location}",
