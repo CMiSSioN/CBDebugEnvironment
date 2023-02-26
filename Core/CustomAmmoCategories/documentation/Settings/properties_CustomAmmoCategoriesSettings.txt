@@ -76,6 +76,12 @@
 @Default:120
 @Description:not documented yet
 
+@Name:AIPathingSamplesTreshold
+@Type:integer
+@AppliedTo:Settings
+@Default:200
+@Description:not documented yet
+
 @Name:AIPeerToPeerFirewallPierceThrough
 @Type:boolean
 @AppliedTo:Settings
@@ -164,6 +170,42 @@
 @Type:BloodSettings structure
 @AppliedTo:Settings
 @Default:empty
+@Description:not documented yet
+
+@Name:BuildinBurningFX
+@Type:string
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:BuildinBurningFXDisableSmoke
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
+@Name:BuildinBurningFXSmokeObjects
+@Type:HashSet`1
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:BuildinBurningScaleX
+@Type:float
+@AppliedTo:Settings
+@Default:1,2
+@Description:not documented yet
+
+@Name:BuildinBurningScaleY
+@Type:float
+@AppliedTo:Settings
+@Default:1,2
+@Description:not documented yet
+
+@Name:BuildinBurningScaleZ
+@Type:float
+@AppliedTo:Settings
+@Default:1,2
 @Description:not documented yet
 
 @Name:BurnedForestDesignMask
@@ -442,6 +484,12 @@
 @Default:true
 @Description:not documented yet
 
+@Name:ForceBuildinBurningFX
+@Type:boolean
+@AppliedTo:Settings
+@Default:false
+@Description:not documented yet
+
 @Name:ForestBurningDurationBiomeMult
 @Type:dictionary { "<string>":<float>}
 @AppliedTo:Settings
@@ -498,6 +546,18 @@
 
 @Name:LitFireChanceBiomeMult
 @Type:dictionary { "<string>":<float>}
+@AppliedTo:Settings
+@Default:empty
+@Description:not documented yet
+
+@Name:MapOnlineClientDrawWidget
+@Type:boolean
+@AppliedTo:Settings
+@Default:true
+@Description:not documented yet
+
+@Name:MapOnlineClientLink
+@Type:string
 @AppliedTo:Settings
 @Default:empty
 @Description:not documented yet
