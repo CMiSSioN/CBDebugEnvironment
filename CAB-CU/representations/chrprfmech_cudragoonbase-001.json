@@ -1,0 +1,65 @@
+{
+  "Id": "chrprfmech_cudragoonbase-001",
+  "PrefabBase":"cudragoon",
+  "SourcePrefabIdentifier":"chrPrfMech_blackjackBase-001",
+  "SourcePrefabBase":"blackjack",
+  "ApplyType": "MoveBone",
+  "SupressAllMeshes": true,
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+  "Destructibles": {
+	  "Head": {
+			"Name": "mesh_Head",
+			"wholeObj": "Head_whole",
+			"destroyedObj": "Head_dmg"
+		},
+		"LeftArm": {
+			"Name": "mesh_LArm",
+			"wholeObj": "LArm_whole",
+			"destroyedObj": "LArm_dmg"
+		},
+		"RightArm": {
+			"Name": "mesh_RArm",
+			"wholeObj": "RArm_whole",
+			"destroyedObj": "RArm_dmg"
+		},
+		"LeftLeg": {
+			"Name": "mesh_LLeg",
+			"wholeObj": "LLeg_whole",
+			"destroyedObj": "LLeg_dmg"
+		},
+		"RightLeg": {
+			"Name": "mesh_RLeg",
+			"wholeObj": "RLeg_whole",
+			"destroyedObj": "RLeg_dmg"
+		},
+		"LeftTorso": {
+			"Name": "mesh_LTorso",
+			"wholeObj": "LTorso_whole",
+			"destroyedObj": "LTorso_dmg"
+		},
+		"RightTorso": {
+			"Name": "mesh_RTorso",
+			"wholeObj": "RTorso_whole",
+			"destroyedObj": "RTorso_dmg"
+		},
+		"CenterTorso": {
+			"Name": "mesh_CTorso",
+			"wholeObj": "Torso_whole",
+			"destroyedObj": "Torso_dmg"
+		}
+	},
+	"WeaponsAttachPoints":[
+		{
+			"Name": "WeaponMount_Center",
+			"visuals": "",
+			"Animators": { },
+			"attach": "cudragoon_weapon_attach_center",
+			"location": "CenterTorso",
+			"type": "Body",
+			"hideIfEmpty": false,
+			"noRecoil": false
+		}
+	],	
+	"HeadLights" : [ ],
+    "KeepRandomIdleAnimation" : true
+}

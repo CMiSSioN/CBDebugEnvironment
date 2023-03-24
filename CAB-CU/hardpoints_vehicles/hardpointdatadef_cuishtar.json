@@ -1,6 +1,7 @@
 {
   "ID": "hardpointdatadef_cuishtar",
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
     "prefabs": [ 
 
 	  { "prefab": "chrprfweap_ishtar_center_ams", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },

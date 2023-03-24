@@ -2,6 +2,7 @@
   "ID": "hardpointdatadef_cuwarriorvtol",
   "IsVehicleStyleLocations": true,
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
     "prefabs": [
       { "prefab": "chrprfweap_warrior_body_ams_1", "attachType":"None", "attachOverride":"BodyAttach", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "body" ] },
       { "prefab": "chrprfweap_warrior_body_ams_2", "attachType":"None", "attachOverride":"BodyAttach", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "body" ] },

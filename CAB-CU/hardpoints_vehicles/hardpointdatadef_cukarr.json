@@ -1,6 +1,7 @@
 {
   "ID": "hardpointdatadef_cukarr",
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
 	"prefabs": [ 
       { "prefab": "chrprfweap_karr_center_lrm20_mh1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ 
 	  "fire_c1_r1", "fire_c1_r2", "fire_c1_r3",  "fire_c2_r1", "fire_c2_r2", "fire_c2_r3", "fire_c3_r1", "fire_c3_r2", "fire_c3_r3",
@@ -50,10 +51,10 @@
 	  }
     ],
     "aliases": {
-      "chrPrfWeap_cukarr_center_lrm20_mh1": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh1" },
-      "chrPrfWeap_cukarr_center_lrm20_mh2": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh2" },
-      "chrPrfWeap_cukarr_center_lrm20_mh3": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh3" },
-      "chrPrfWeap_cukarr_center_lrm20_mh4": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh4" },
+      "chrPrfWeap_cukarr_front_lrm20_mh1": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh1" },
+      "chrPrfWeap_cukarr_front_lrm20_mh2": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh2" },
+      "chrPrfWeap_cukarr_front_lrm20_mh3": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh3" },
+      "chrPrfWeap_cukarr_front_lrm20_mh4": { "location": "front", "prefab": "chrprfweap_karr_center_lrm20_mh4" },
 	  
 	  "chrPrfWeap_cukarr_left_lrm10_mh1": { "location": "left", "prefab": "chrprfweap_karr_left_lrm10_mh1" },
 	  "chrPrfWeap_cukarr_left_lrm10_mh2": { "location": "left", "prefab": "chrprfweap_karr_left_lrm10_mh2" },

@@ -1,6 +1,7 @@
 {
   "ID": "hardpointdatadef_curedkite",
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
     "prefabs": [
        { "prefab": "chrprfweap_ac2carrierbase_turret_generic_mh1", "attachType":"Body", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1" }
     ],

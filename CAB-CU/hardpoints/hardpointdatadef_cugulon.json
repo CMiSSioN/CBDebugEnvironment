@@ -85,7 +85,7 @@
 		"chrPrfWeap_culon_leftarm_mg_bh3": { "location": "leftarm", "prefab": "chrprfweap_gulon_leftarm_mg_bh3" },
 
 		"chrPrfWeap_culon_rightarm_srm6_mh1": { "location": "rightarm", "prefab": "chrprfweap_gulon_rightarm_rl10" },
-		"chrPrfWeap_culon_rightarm_drill_bh1": { "location": "rightarm", "prefab": "chrprfweap_gulon_rightarm_drill" }
+		"chrPrfWeap_culon_lefttorso_drill_bh1": { "location": "rightarm", "prefab": "chrprfweap_gulon_rightarm_drill" }
 	
     }
   },

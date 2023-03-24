@@ -1,42 +1,27 @@
 Attributions for CAB-CU
 
-This document will detail the various contributors to this collection of community assets for BattleTech by Harebrained Schemes. Each asset will have its listed author (the person or organization that made the model) and the license under which that author releases their model.
+This document will detail the various contributors to this collection of community assets for BattleTech by Harebrained Schemes. Each asset will have its listed author (the person or organization that made the model).
 
 JuodasVarnas
-License: 
-Creative Commons, Non-commercial
-
 Models:
 Goliath Body
 
 Ion Raptor
-License: 
-Creative Commons, Non-commercial
-
 Models:
 Barghest Body
 
 KMISSION
-License
-Creative Commons, Non-commercial
-
 Models:
 Quad Turret
 Quad Misc
 
 SirMortimer, imported by FrostRaptor
-License
-Creative Commons, Non-commercial
-
 Models:
 Red Kite VTOL
 Kamakiri VTOL
 Karr VTOL
 
 FrostRaptor
-License
-Creative Commons, Non-commercial
-
 Models:
 Overlord Dropship
 Overlord Turrets (all six)
@@ -51,10 +36,24 @@ Ishtar
 Flashman
 Markolab Tank
 Gulon
+Tarantula
 
 FrostRaptor and Tex of the Black Pants Legion
-License
-Creative Commons, Non-commercial
-
 Content:
 Unsinkable Sam & Van Zandt images on the Union Dropship
+
+FrostRaptor and LtShade
+Models:
+Dragoon (Frost import, Shade model and textures)
+Great Turtle (Frost import and model, Shade textures)
+Kiso Constructionmech (Frost import/textures/animations, Shade model)
+
+Lukkar on DeviantArt
+Assets:
+https://www.deviantart.com/lukkar/art/Skywind-fresco-470893972 
+
+License:
+Used under Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License
+
+Fair Use Provisions:
+Various Bob the Builder line-art on the Kiso. All rights reserved to the original rights holders.

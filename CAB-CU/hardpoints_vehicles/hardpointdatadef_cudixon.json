@@ -1,6 +1,7 @@
 {
   "ID": "hardpointdatadef_cudixon",
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
     "prefabs": [ 
       { "prefab": "chrprfweap_yellowjacket_front_body_ac10_1", "attachType":"Body", "attachOverride":"MainRails",  "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1"] },
       { "prefab": "chrprfweap_yellowjacket_front_body_ac10_2", "attachType":"Body", "attachOverride":"MainRails", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1"] },

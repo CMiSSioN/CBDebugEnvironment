@@ -1,6 +1,7 @@
 {
   "ID": "hardpointdatadef_custrix",
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
     "prefabs": [ 
       { "prefab": "chrprfweap_strix_body_ams_1", "attachType":"None", "attachOverride":"BodyAttach",  "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "body" ] },
       { "prefab": "chrprfweap_strix_body_ams_2", "attachType":"None", "attachOverride":"BodyAttach", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "body" ] },

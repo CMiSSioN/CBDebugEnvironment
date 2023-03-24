@@ -1,6 +1,7 @@
 {
   "ID": "hardpointdatadef_cukamakiri",
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
     "prefabs": [ 
 	
 	

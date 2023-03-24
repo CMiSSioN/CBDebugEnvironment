@@ -1,0 +1,10 @@
+Content within this repository follows a modified [CC BY-NC-ND 4.0] Attribution-NonCommercial-NoDerivatives 4.0 International (https://creativecommons.org/licenses/by-nc-nd/4.0/) license. 
+Only software modifications (mods) of the HBS BattleTech 2018 game are allowed to integrate with this repository.
+
+Rights to use the content contained within has been granted by individual rights holders for use as a combined whole.
+All integration must use the entire repository as-is, and content may not be extracted from the repository for re-use elsewhere. 
+You may not separate, repackage, or extract any content from the repository and must use the repository as-is.
+
+If you wish to use individual content from the repository, please reach out to the content creators in the attributions file. 
+They often grant more permissive licenses. You must obtain those licenses directly from the content creator. 
+Any licenses listed in the attribution document apply ONLY to the CAB, not to individual use.

@@ -1,0 +1,79 @@
+{
+  "ID": "hardpointdatadef_cutarantula",
+  "CustomHardpoints": {
+    "prefabs": [
+		{"prefab": "chrprfweap_cutarantula_flamer_left", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cutarantula_flamer_right", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+	
+		{"prefab": "chrprfweap_cutarantula_laser_left", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cutarantula_laser_right", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+
+		{"prefab": "chrprfweap_cutarantula_gauss_left", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cutarantula_gauss_right", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+
+		{"prefab": "chrprfweap_cutarantula_ppc_left", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+		{"prefab": "chrprfweap_cutarantula_ppc_right", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
+
+		{"prefab": "chrprfweap_cutarantula_srm2", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2" ] },
+		{"prefab": "chrprfweap_cutarantula_lrm5", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1", "fire2", "fire3", "fire4", "fire5" ] }
+    ],
+    "aliases": {
+
+		"chrPrfWeap_cutarantula_lefttorso_flamer_eh1": { "location": "lefttorso", "prefab": "chrprfweap_cutarantula_flamer_right" },  
+		"chrPrfWeap_cutarantula_lefttorso_laser_eh1": { "location": "lefttorso", "prefab": "chrprfweap_cutarantula_laser_right" },  
+		"chrPrfWeap_cutarantula_lefttorso_ppc_eh1": { "location": "lefttorso", "prefab": "chrprfweap_cutarantula_ppc_right" },  
+		"chrPrfWeap_cutarantula_lefttorso_gauss_bh1": { "location": "lefttorso", "prefab": "chrprfweap_cutarantula_gauss_right" },  
+
+		"chrPrfWeap_cutarantula_righttorso_flamer_eh1": { "location": "righttorso", "prefab": "chrprfweap_cutarantula_flamer_left" },
+		"chrPrfWeap_cutarantula_righttorso_laser_eh1": { "location": "righttorso", "prefab": "chrprfweap_cutarantula_laser_left" },
+		"chrPrfWeap_cutarantula_righttorso_ppc_eh1": { "location": "righttorso", "prefab": "chrprfweap_cutarantula_ppc_left" },
+		"chrPrfWeap_cutarantula_righttorso_gauss_bh1": { "location": "righttorso", "prefab": "chrprfweap_cutarantula_gauss_left" },
+
+		"chrprfweap_cutarantula_centertorso_srm2_mh1": { "location": "centertorso", "prefab": "chrprfweap_cutarantula_srm2" },
+		"chrprfweap_cutarantula_centertorso_lrm5_mh1": { "location": "centertorso", "prefab": "chrprfweap_cutarantula_lrm5" }		
+
+    }
+  },
+  "HardpointData": [
+    {
+      "location": "lefttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "righttorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "centertorso",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },	
+    {
+      "location": "rightarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    },
+    {
+      "location": "leftarm",
+      "weapons": [
+        []
+      ],
+      "blanks": [],
+      "mountingPoints": []
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "Id": "chrprfmech_cugreatturtlebase-001",
+  "PrefabBase":"cugreatturtle",
+  "SourcePrefabIdentifier":"chrPrfMech_battlemasterBase-001",
+  "SourcePrefabBase":"battlemaster",
+  "ApplyType": "MoveBone",
+  "SupressAllMeshes": true,
+  "ShaderSource":"chrPrfWeap_atlas_centertorso_laser_eh1",
+	"Destructibles": {
+		"Head": {
+			"Name": "mesh_Head",
+			"wholeObj": "Head_whole",
+			"destroyedObj": "Head_dmg"
+		},
+		"LeftArm": {
+			"Name": "mesh_LArm",
+			"wholeObj": "LArm_whole",
+			"destroyedObj": "LArm_dmg"
+		},
+		"RightArm": {
+			"Name": "mesh_RArm",
+			"wholeObj": "RArm_whole",
+			"destroyedObj": "RArm_dmg"
+		},
+		"LeftLeg": {
+			"Name": "mesh_LLeg",
+			"wholeObj": "LLeg_whole",
+			"destroyedObj": "LLeg_dmg"
+		},
+		"RightLeg": {
+			"Name": "mesh_RLeg",
+			"wholeObj": "RLeg_whole",
+			"destroyedObj": "RLeg_dmg"
+		},
+		"LeftTorso": {
+			"Name": "mesh_LTorso",
+			"wholeObj": "LTorso_whole",
+			"destroyedObj": "LTorso_dmg"
+		},
+		"RightTorso": {
+			"Name": "mesh_RTorso",
+			"wholeObj": "RTorso_whole",
+			"destroyedObj": "RTorso_dmg"
+		},
+		"CenterTorso": {
+			"Name": "mesh_CTorso",
+			"wholeObj": "Torso_whole",
+			"destroyedObj": "Torso_dmg"
+		}
+	},
+	"Attaches": {
+		"LeftArm" : "j_greatturtle_turret_weapon_attach",
+		"RightArm" : "j_greatturtle_turret_weapon_attach",
+		"TorsoAttach" : "j_greatturtle_turret_weapon_attach",
+		"LeftLeg" : "j_greatturtle_turret_weapon_attach",
+		"RightLeg" : "j_greatturtle_turret_weapon_attach"
+	},
+	"vfxTransforms":{
+		"CenterTorso": "j_GreatTurtleCT_vfx",
+		"LeftTorso": "j_GreatTurtleLT_vfx",
+		"RightTorso": "j_GreatTurtleRT_vfx",
+		"Head": "j_GreatTurtleHead_vfx",
+		"LeftArm": "j_FLCalf_mesh",
+		"RightArm": "j_FRCalf_mesh",
+		"LeftLeg": "j_RLCalf_mesh",
+		"RightLeg": "j_RRCalf_mesh",
+		"LeftArm": "j_FLCalf_mesh",
+		"LeftShoulder": "j_FLThigh_mesh",
+		"RightShoulder": "j_FRThigh_mesh"
+	},
+	"HeadLights": [ "headlight_center1", "headlight_center2" ],
+	"TwistAnimators" : [ "turret_anim" ],
+	"KeepRandomIdleAnimation" : true, 
+	"WeaponsAttachPoints": [
+		{
+			"Name": "MainTurret",
+			"visuals": "ft_tarantula_turret",
+			"Animators": { },
+			"attach": "j_greatturtle_turret_weapon_attach",
+			"location": "CenterTorso",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"noRecoil": false
+		}
+	],
+	"JetStreamsAttaches": [ "j_GreatTurtleJet1", "j_GreatTurtleJet2", "j_GreatTurtleJet3", "j_GreatTurtleJet4" ],
+	"Animators": [],
+	"animationEvents" : {
+		"atlas_moveCoreIdleFlavor1" : [ 
+			{ "time" : 0.37840003, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_start" },
+			{ "time" : 1.28480005, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_stop" },
+			{ "time" : 3.14599991, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_start" },
+			{ "time" : 4.08760023, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_stop" }
+		],
+		"atlas_moveCoreIdleFlavor2" : [ 
+			{ "time" : 0.43119999, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_start" },
+			{ "time" : 1.21880007, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_stop" },
+			{ "time" : 3.12840009, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_start" },
+			{ "time" : 4.07000017, "functionName": "OnAudioEvent", "stringParameter" : "torso_rotate_stop" }
+		],
+		"atlas_moveCoreIdleFlavor3" : [ 
+			{ "time" : 1.15500009, "functionName": "OnAudioEvent", "stringParameter" : "move_mechanical" },
+			{ "time" : 1.22850001, "functionName": "OnAudioEvent", "stringParameter" : "foley_short" },
+			{ "time" : 4.05299997, "functionName": "OnAudioEvent", "stringParameter" : "move_mechanical_short" },
+			{ "time" : 4.15799999, "functionName": "OnAudioEvent", "stringParameter" : "foley_short" }
+		],
+		"atlas_shutdownPwroff" : [ 
+			{ "time" : 0, "functionName": "OnAudioEvent", "stringParameter" : "mech_engine_powerdown" }
+		],
+		"atlas_shutdownPwron" : [ 
+			{ "time" : 0, "functionName": "OnAudioEvent", "stringParameter" : "mech_engine_powerup" }
+		],
+		"atlas_deathKnockdown" : [ 
+			{ "time" : 0, "functionName": "OnAudioEvent", "stringParameter" : "mech_impact01" },
+			{ "time" : 0.074999995, "functionName": "OnAudioEvent", "stringParameter" : "foley_short" },
+			{ "time" : 0.625, "functionName": "OnAudioEvent", "stringParameter" : "foley_long" },
+			{ "time" : 1.03749995, "functionName": "OnAudioEvent", "stringParameter" : "mech_metal_squeal" },
+			{ "time" : 1.52083337, "functionName": "OnAudioEvent", "stringParameter" : "foley_medium" },
+			{ "time" : 2.32500005, "functionName": "OnAudioEvent", "stringParameter" : "whoosh_long_mix" },
+			{ "time" : 2.52499986, "functionName": "OnAudioEvent", "stringParameter" : "mech_impact03" },
+			{ "time" : 2.7208333, "functionName": "OnGroundImpact" },
+			{ "time" : 2.9083333, "functionName": "OnAudioEvent", "stringParameter" : "mech_bodyfall_medium" },
+			{ "time" : 3.20416641, "functionName": "OnAudioEvent", "stringParameter" : "mech_bodyfall_light" },
+			{ "time" : 3.60416651, "functionName": "OnDeath" }
+		],
+		"atlas_deathKnockdown2" : [ 
+			{ "time" : 0, "functionName": "OnAudioEvent", "stringParameter" : "mech_impact01" },
+			{ "time" : 0.0663000047, "functionName": "OnAudioEvent", "stringParameter" : "foley_short" },
+			{ "time" : 0.300300002, "functionName": "OnAudioEvent", "stringParameter" : "foley_medium" },
+			{ "time" : 0.499200046, "functionName": "OnFootFall", "intParameter" : 0 },
+			{ "time" : 1.29870009, "functionName": "OnAudioEvent", "stringParameter" : "foley_medium" },
+			{ "time" : 1.66530001, "functionName": "OnAudioEvent", "stringParameter" : "mech_bodyfall_light" },
+			{ "time" : 1.83300006, "functionName": "OnAudioEvent", "stringParameter" : "mech_metal_squeal" },
+			{ "time" : 2.36730003, "functionName": "OnAudioEvent", "stringParameter" : "whoosh_long_mix" },
+			{ "time" : 2.86650014, "functionName": "OnAudioEvent", "stringParameter" : "mech_impact03" },
+			{ "time" : 2.99909997, "functionName": "OnGroundImpact" },
+			{ "time" : 3.53340006, "functionName": "OnAudioEvent", "stringParameter" : "mech_bodyfall_medium" },
+			{ "time" : 3.59969997, "functionName": "OnDeath" }
+		],
+		"atlas_deathKnockdown3" : [ 
+			{ "time" : 0, "functionName": "OnAudioEvent", "stringParameter" : "mech_impact01" },
+			{ "time" : 0.0657333359, "functionName": "OnAudioEvent", "stringParameter" : "foley_short" },
+			{ "time" : 0.599333346, "functionName": "OnAudioEvent", "stringParameter" : "foley_long" },
+			{ "time" : 0.634133339, "functionName": "OnAudioEvent", "stringParameter" : "mech_metal_squeal" },
+			{ "time" : 1.03239989, "functionName": "OnAudioEvent", "stringParameter" : "whoosh_long_mix" },
+			{ "time" : 1.6317333, "functionName": "OnAudioEvent", "stringParameter" : "foley_medium" },
+			{ "time" : 1.73226666, "functionName": "OnAudioEvent", "stringParameter" : "mech_impact03" },
+			{ "time" : 2.03386664, "functionName": "OnGroundImpact" },
+			{ "time" : 2.53266644, "functionName": "OnAudioEvent", "stringParameter" : "mech_bodyfall_medium" },
+			{ "time" : 3.00053334, "functionName": "OnAudioEvent", "stringParameter" : "mech_bodyfall_light" },
+			{ "time" : 3.59986663, "functionName": "OnDeath" }
+		],
+		"atlas_hitReactKnockdownInpl":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"mech_impact01" },
+			{ "time": 0.5,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" },
+			{ "time": 0.8124999,"functionName": "OnFootFall", "intParameter" : 0 },
+			{ "time": 1.083333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" },
+			{ "time": 1.175,"functionName": "OnAudioEvent" ,"stringParameter":"mech_metal_squeal" },
+			{ "time": 1.395833,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" },
+			{ "time": 1.733333,"functionName": "OnFootFall", "intParameter" : 1 },
+			{ "time": 1.808333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" },
+			{ "time": 2.2,"functionName": "OnFootFall", "intParameter" : 0 },
+			{ "time": 2.5125,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" },
+			{ "time": 2.908333,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" },
+			{ "time": 3.35,"functionName": "OnAudioEvent" ,"stringParameter":"mech_impact03" },
+			{ "time": 3.508333,"functionName": "OnGroundImpact" },
+			{ "time": 3.608333,"functionName": "OnAudioEvent" ,"stringParameter":"mech_bodyfall_medium" },
+			{ "time": 3.858333,"functionName": "OnAudioEvent" ,"stringParameter":"mech_bodyfall_light" }
+		],
+		"atlas_moveCoreMeleeInTransition":[
+			{ "time": 0.2333333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 1.134,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+		],
+		"atlas_attackMeleeDfaLand":[
+			{ "time": 0,"functionName": "OnJumpLand" }
+			,{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" }
+			,{ "time": 0.3575,"functionName": "OnMeleeImpact" }
+			,{ "time": 0.737,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical" }
+			,{ "time": 1.54,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 2.519,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 3.135,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+		],
+		"atlas_attackMeleePush":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 0.378,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 0.588,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" }
+			,{ "time": 0.665,"functionName": "OnMeleeImpact" }
+			,{ "time": 0.7315,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 1.3265,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical" }
+			,{ "time": 1.722,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 2.3695,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 3.0345,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+		],
+		"atlas_attackMeleeKick":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 0.9669333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 1.386267,"functionName": "OnAudioEvent" ,"stringParameter":"foley_short" }
+			,{ "time": 1.460267,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" }
+			,{ "time": 1.667467,"functionName": "OnMeleeImpact" }
+			,{ "time": 2.654133,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical" }
+			,{ "time": 2.747867,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 3.704933,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 4.370933,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+		],
+		"atlas_attackMeleePunch":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 0.2376667,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical_short" }
+			,{ "time": 1.012667,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 1.498333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 1.519,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" }
+			,{ "time": 1.849667,"functionName": "OnMeleeImpact" }
+			,{ "time": 2.970833,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 3.8905,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical" }
+			,{ "time": 4.241833,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+		],
+		"atlas_attackMeleeStompMed":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 0.6666667,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 0.8266667,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 1.333333,"functionName": "OnFootFall" ,"intParameter":0 }
+			,{ "time": 1.8,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 2.593333,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" }
+			,{ "time": 2.766667,"functionName": "OnMeleeImpact" }
+			,{ "time": 3.053333,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical" }
+			,{ "time": 3.72,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 4.513333,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 4.833333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 5.28,"functionName": "OnFootFall" ,"intParameter":0 }
+			,{ "time": 5.553333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 6.213333,"functionName": "OnFootFall" ,"intParameter":1 }
+		],
+		"atlas_deathKnockdown":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"mech_impact01" }
+			,{ "time": 0.075,"functionName": "OnAudioEvent" ,"stringParameter":"foley_short" }
+			,{ "time": 0.625,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 1.0375,"functionName": "OnAudioEvent" ,"stringParameter":"mech_metal_squeal" }
+			,{ "time": 1.520833,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 2.325,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" }
+			,{ "time": 2.525,"functionName": "OnAudioEvent" ,"stringParameter":"mech_impact03" }
+			,{ "time": 2.720833,"functionName": "OnGroundImpact" }
+			,{ "time": 2.908333,"functionName": "OnAudioEvent" ,"stringParameter":"mech_bodyfall_medium" }
+			,{ "time": 3.204166,"functionName": "OnAudioEvent" ,"stringParameter":"mech_bodyfall_light" }
+			,{ "time": 3.604167,"functionName": "OnDeath" }
+		],
+		"atlas_downedGetup":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical" }
+			,{ "time": 0.7093334,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 1.260333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 1.691,"functionName": "OnFootFall" ,"intParameter":0 }
+			,{ "time": 1.893667,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 2.964,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 3.033667,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_short_lo" }
+			,{ "time": 3.464333,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 3.553,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical_short" }
+			,{ "time": 4.059667,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 4.629667,"functionName": "OnFootFall" ,"intParameter":0 }
+			,{ "time": 5.244,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 5.313667,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical_short" }
+		],
+		"atlas_attackMeleePush":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"foley_long" }
+			,{ "time": 0.378,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 0.567,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 0.588,"functionName": "OnAudioEvent" ,"stringParameter":"whoosh_long_mix" }
+			,{ "time": 0.665,"functionName": "OnMeleeImpact" }
+			,{ "time": 0.7315,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 0.8085001,"functionName": "OnFootFall" ,"intParameter":0 }
+			,{ "time": 1.3265,"functionName": "OnAudioEvent" ,"stringParameter":"move_mechanical" }
+			,{ "time": 1.722,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 2.163,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 2.3695,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 2.821,"functionName": "OnFootFall" ,"intParameter":0 }
+			,{ "time": 3.0345,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 3.395,"functionName": "OnFootFall" ,"intParameter":1 }
+		],
+		"atlas_moveCoreMeleeOutTransition":[
+			{ "time": 0.4993333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 1.066333,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 1.633333,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 2.067333,"functionName": "OnFootFall" ,"intParameter":0 }
+		],
+		"atlas_attackMeleeIdleUnsteady":[
+			{ "time": 0,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 0.4666667,"functionName": "OnFootFall" ,"intParameter":1 }
+			,{ "time": 2.2,"functionName": "OnAudioEvent" ,"stringParameter":"foley_medium" }
+			,{ "time": 2.766667,"functionName": "OnFootFall" ,"intParameter":1 }
+		]
+	 },
+	"MoveAnimations" : true
+}

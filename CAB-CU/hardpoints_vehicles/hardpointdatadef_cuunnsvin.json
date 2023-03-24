@@ -1,6 +1,7 @@
 {
   "ID": "hardpointdatadef_cuunnsvin",
   "CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
     "prefabs": [ 
 	
 	
