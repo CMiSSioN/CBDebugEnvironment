@@ -1,0 +1,55 @@
+{
+	"Id": "chrprfmech_harpagos_tank",
+	"PrefabBase": "cuharpagostank",
+	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+	"SourcePrefabBase": "battlemaster",
+	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
+	"BlipSource": "chrPrfVhcl_striker",
+	"ApplyType": "MoveBone",
+	"SupressAllMeshes": true,
+	"persistentAudioStart": "",
+	"persistentAudioStop": "",
+	"Animators": [ "harpagos_body_root" ],
+	"TwistAnimators": [ "harpagos_body_root" ],
+	"OnDestroy": {
+		"SuppressCombinedMesh": true,
+		"SuppressWeaponRepresentations": true,
+		"CollapseAllDestructables": true
+	},
+	"Destructibles": {
+		"Turret": {
+			"Name": "harpagos_destructible",
+			"wholeObj": "harpagos_whole",
+			"destroyedObj": "harpagos_destroyed"
+		}
+	},
+	"CustomMouseReceiver": [ "normal_h" ],
+	"Attaches": {
+		"Turret": "harpagos_attach_weapons",
+		"Left": "harpagos_attach_weapons",
+		"Right": "harpagos_attach_weapons",
+		"Front": "harpagos_attach_weapons",
+		"Rear": "harpagos_attach_weapons"
+	},
+	"vfxTransforms": {
+		"Turret": "vfxTurretTransform",
+		"Front": "vfxFrontTransform",
+		"Rear": "vfxRearTransform",
+		"Left": "vfxLeftTransform",
+		"Right": "vfxRightTransform"
+	},
+	"HeadLights": [
+	],
+	"WeaponAttachPoints": [
+		{
+			"Name": "TurretAttach",
+			"visuals": "harpagos_whole",
+			"attach": "harpagos_attach_weapons",
+			"type": "Turret",
+			"hideIfEmpty": false,
+			"Animators": { }
+		}
+	],
+	"Particles":[
+	]
+}

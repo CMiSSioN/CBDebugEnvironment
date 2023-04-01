@@ -25,6 +25,7 @@
 			"destroyedObj": "dixon_destroyed"
 		}
 	},
+	"NestedPrefabs": [ "chrprfmech_yellowjacket_vtol" ],
 	"CustomMouseReceiver": [
 		"normal_h"
 	],

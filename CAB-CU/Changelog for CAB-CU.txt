@@ -2,6 +2,10 @@ Changelog for CAB-CU
 
 -----------------------------------------------------
 
+2.7
+
+Added the Harpagos Quad and Harpagos Tank
+
 2.6
 
 Added the Kiso ContructionMech

@@ -1,7 +1,7 @@
 {
   "ID": "hardpointdatadef_cuhorskr",
   "CustomHardpoints": {
-		"IsVehicleStyleLocations":true,
+			"IsVehicleStyleLocations":true,
 	"prefabs": [ 
       { "prefab": "chrprfweap_horskr_center_lrm5_mh1", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire_1", "fire_2", "fire_3", "fire_4", "fire_5" ] },
       { "prefab": "chrprfweap_horskr_center_lrm5_mh2", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire_1", "fire_2", "fire_3", "fire_4", "fire_5" ] },

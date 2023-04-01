@@ -157,7 +157,9 @@
       "chrPrfWeap_cudixon_front_ac10_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_ac10_1" },
       "chrPrfWeap_cudixon_front_ac20_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_ac20_1" },
       "chrPrfWeap_cudixon_front_gauss_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_gauss_1" },
-      "chrPrfWeap_cudixon_front_lbx_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_lbx10_1" },
+      "chrPrfWeap_cudixon_front_lbx5_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_lbx5_1" },
+      "chrPrfWeap_cudixon_front_lbx10_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_lbx10_1" },
+      "chrPrfWeap_cudixon_front_lbx20_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_lbx20_1" },
       "chrPrfWeap_cudixon_front_mg_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_mg_1" },
       "chrPrfWeap_cudixon_front_uac5_bh1": { "location": "front", "prefab": "chrprfweap_yellowjacket_front_body_ac5_1" }
     }

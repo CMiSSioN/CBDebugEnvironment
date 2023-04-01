@@ -1,6 +1,7 @@
 {
 	"ID": "hardpointdatadef_cumarkolab",
 	"CustomHardpoints": {
+		"IsVehicleStyleLocations":true,
 		"prefabs": [
 
 			{

@@ -23,6 +23,7 @@
       "destroyedObj":"warrior_body_destroyed"
     }
   },
+	"NestedPrefabs": [ "chrprfmech_yellowjacket_vtol" ],
   "CustomMouseReceiver": [ "normal_h" ],
   "Attaches":{
     "Turret": "turret_hardpoint",
