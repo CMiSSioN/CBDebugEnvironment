@@ -1,260 +1,366 @@
 {
 	"ID": "hardpointdatadef_cumarkolab",
 	"CustomHardpoints": {
-		"IsVehicleStyleLocations":true,
+		"IsVehicleStyleLocations": true,
 		"prefabs": [
-
 			{
 				"prefab": "chrprfweap_markolab_maingun_laser",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_maingun_missile",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2"]
+				"emitters": [
+					"fire1",
+					"fire2"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_maingun_ppc",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_maingun_railgun",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_left_ams_ah1",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_ams_ah2",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_ams_ah3",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_ams_ah4",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_left_laser_eh1",
 				"attachType": "Turret",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_laser_eh2",
 				"attachType": "Turret",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_laser_eh3",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_laser_eh4",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_left_mg_bh1",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_mg_bh2",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_mg_bh3",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_mg_bh4",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_left_srm4_mh1",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_srm4_mh2",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_srm4_mh3",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_left_srm4_mh4",
 				"attachType": "Body",
 				"attachOverride": "LeftBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_right_ams_ah1",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_ams_ah2",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_ams_ah3",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_ams_ah4",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_right_laser_eh1",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_laser_eh2",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_laser_eh3",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_laser_eh4",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_right_mg_bh1",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_mg_bh2",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_mg_bh3",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_mg_bh4",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1"]
+				"emitters": [
+					"fire1"
+				]
 			},
-
 			{
 				"prefab": "chrprfweap_markolab_st_right_srm4_mh1",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_srm4_mh2",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_srm4_mh3",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			},
 			{
 				"prefab": "chrprfweap_markolab_st_right_srm4_mh4",
 				"attachType": "Body",
 				"attachOverride": "RightBallTurret",
 				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
-				"emitters": ["fire1", "fire2", "fire3", "fire4"]
+				"emitters": [
+					"fire1",
+					"fire2",
+					"fire3",
+					"fire4"
+				]
 			}
 		],
 		"aliases": {
@@ -274,7 +380,6 @@
 				"location": "left",
 				"prefab": "chrprfweap_markolab_st_left_ams_ah4"
 			},
-
 			"chrPrfWeap_cumarkolab_left_laser_eh1": {
 				"location": "left",
 				"prefab": "chrprfweap_markolab_st_left_laser_eh1"
@@ -291,7 +396,6 @@
 				"location": "left",
 				"prefab": "chrprfweap_markolab_st_left_laser_eh4"
 			},
-
 			"chrPrfWeap_cumarkolab_left_mg_bh1": {
 				"location": "left",
 				"prefab": "chrprfweap_markolab_st_left_mg_bh1"
@@ -308,7 +412,6 @@
 				"location": "left",
 				"prefab": "chrprfweap_markolab_st_left_mg_bh4"
 			},
-
 			"chrPrfWeap_cumarkolab_left_srm4_mh1": {
 				"location": "left",
 				"prefab": "chrprfweap_markolab_st_left_srm4_mh1"
@@ -325,7 +428,6 @@
 				"location": "left",
 				"prefab": "chrprfweap_markolab_st_left_srm4_mh4"
 			},
-
 			"chrPrfWeap_cumarkolab_right_ams_ah1": {
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_ams_ah1"
@@ -342,7 +444,6 @@
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_ams_ah4"
 			},
-
 			"chrPrfWeap_cumarkolab_right_laser_eh1": {
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_laser_eh1"
@@ -359,7 +460,6 @@
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_laser_eh4"
 			},
-
 			"chrPrfWeap_cumarkolab_right_mg_bh1": {
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_mg_bh1"
@@ -376,7 +476,6 @@
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_mg_bh4"
 			},
-
 			"chrPrfWeap_cumarkolab_right_srm4_mh1": {
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_srm4_mh1"
@@ -393,7 +492,6 @@
 				"location": "right",
 				"prefab": "chrprfweap_markolab_st_right_srm4_mh4"
 			},
-
 			"chrPrfWeap_cumarkolab_turret_laser_eh1": {
 				"location": "turret",
 				"prefab": "chrprfweap_markolab_maingun_laser"
@@ -410,10 +508,10 @@
 				"location": "turret",
 				"prefab": "chrprfweap_markolab_maingun_railgun"
 			}
-
 		}
 	},
-	"HardpointData": [{
+	"HardpointData": [
+		{
 			"location": "front",
 			"weapons": [
 				[]
