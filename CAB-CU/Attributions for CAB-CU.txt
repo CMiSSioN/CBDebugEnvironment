@@ -21,6 +21,7 @@ Red Kite VTOL
 Kamakiri VTOL
 Karr VTOL
 Harpagos Quad
+Harpagos Quad Tank
 Harpagos Tank
 
 FrostRaptor

@@ -3,6 +3,7 @@
 	"PrefabBase": "cuharpagostank",
 	"SourcePrefabIdentifier": "chrPrfMech_battlemasterBase-001",
 	"SourcePrefabBase": "battlemaster",
+    "NestedPrefabs": ["chrprfmech_cuharpagosquadbase-001"], 	
 	"ShaderSource": "chrPrfWeap_atlas_centertorso_laser_eh1",
 	"BlipSource": "chrPrfVhcl_striker",
 	"ApplyType": "MoveBone",

@@ -2,6 +2,10 @@ Changelog for CAB-CU
 
 -----------------------------------------------------
 
+2.8
+
+Completely updated the Harpagos, old files are gone, new files override them
+
 2.7
 
 Added the Harpagos Quad and Harpagos Tank

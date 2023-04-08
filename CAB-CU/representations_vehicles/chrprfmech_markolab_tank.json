@@ -9,8 +9,8 @@
 	"SupressAllMeshes": true,
 	"persistentAudioStart": "",
 	"persistentAudioStop": "",
-	"Animators": [],
-	"TwistAnimators": [],
+	"Animators": ["markolab_body_root"],
+	"TwistAnimators": ["markolab_body_root"],
 	"OnDestroy": {
 		"SuppressCombinedMesh": true,
 		"SuppressWeaponRepresentations": true,

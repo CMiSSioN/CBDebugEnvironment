@@ -1,0 +1,341 @@
+{
+	"ID": "hardpointdatadef_cuharpagosquadtank",
+	"CustomHardpoints": {
+		"prefabs": [{
+				"prefab": "chrprfweap_harpagos_centertorso_srm6_mh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4", "fire5", "fire6"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_centertorso_lrm10_mh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8", "fire9", "fire10"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_centertorso_laser_eh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_centertorso_laser_eh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_centertorso_mg_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_centertorso_mg_bh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2"]
+			},
+
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_laser_eh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_laser_eh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_laser_eh3",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_ppc_eh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_ac10_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_gauss_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_rac5_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4"],
+				"preFireAnimation": "prefire"
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_mg_bh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_mg_bh3",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_srm6_mh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4", "fire5", "fire6"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_lrm10_mh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8", "fire9", "fire10"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_lefttorso_artillery_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"],
+				"fireEmitterAnimation": ["fire1"]
+			},
+
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_laser_eh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_laser_eh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_laser_eh3",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_ppc_eh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_ac10_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_gauss_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_rac5_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4"],
+				"preFireAnimation": "prefire"
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_mg_bh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_mg_bh3",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_srm6_mh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4", "fire5", "fire6"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_lrm10_mh2",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1", "fire2", "fire3", "fire4", "fire5", "fire6", "fire7", "fire8", "fire9", "fire10"]
+			},
+			{
+				"prefab": "chrprfweap_harpagos_righttorso_artillery_bh1",
+				"attachType": "Body",
+				"shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1",
+				"emitters": ["fire1"],
+				"fireEmitterAnimation": ["fire1"]
+			}
+		],
+		"aliases": {
+			"chrPrfWeap_cuharpagosquadtank_centertorso_mg_bh2": {
+				"location": "centertorso",
+				"prefab": "chrprfweap_harpagos_centertorso_mg_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_centertorso_mg_bh3": {
+				"location": "centertorso",
+				"prefab": "chrprfweap_harpagos_centertorso_mg_bh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_centertorso_laser_eh2": {
+				"location": "centertorso",
+				"prefab": "chrprfweap_harpagos_centertorso_laser_eh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_centertorso_laser_eh3": {
+				"location": "centertorso",
+				"prefab": "chrprfweap_harpagos_centertorso_laser_eh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_centertorso_srm6_mh1": {
+				"location": "centertorso",
+				"prefab": "chrprfweap_harpagos_centertorso_srm6_mh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_centertorso_lrm10_mh1": {
+				"location": "centertorso",
+				"prefab": "chrprfweap_harpagos_centertorso_lrm10_mh1"
+			},
+
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_laser_eh1": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_laser_eh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_laser_eh2": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_laser_eh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_laser_eh3": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_laser_eh3"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_ppc_eh1": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_ppc_eh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_ac10_bh1": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_ac10_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_gauss_bh1": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_gauss_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_rac5_bh1": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_rac5_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_artillery_bh1": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_artillery_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_mg_bh2": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_mg_bh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_mg_bh3": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_mg_bh3"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_srm6_mh2": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_srm6_mh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_lefttorso_lrm10_mh2": {
+				"location": "lefttorso",
+				"prefab": "chrprfweap_harpagos_lefttorso_lrm10_mh2"
+			},
+
+			"chrPrfWeap_cuharpagosquadtank_righttorso_laser_eh1": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_laser_eh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_laser_eh2": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_laser_eh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_laser_eh3": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_laser_eh3"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_ppc_eh1": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_ppc_eh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_ac10_bh1": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_ac10_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_gauss_bh1": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_gauss_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_rac5_bh1": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_rac5_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_artillery_bh1": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_artillery_bh1"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_mg_bh2": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_mg_bh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_mg_bh3": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_mg_bh3"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_srm6_mh2": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_srm6_mh2"
+			},
+			"chrPrfWeap_cuharpagosquadtank_righttorso_lrm10_mh2": {
+				"location": "righttorso",
+				"prefab": "chrprfweap_harpagos_righttorso_lrm10_mh2"
+			}
+		}
+	},
+	"HardpointData": [{
+			"location": "lefttorso",
+			"weapons": [
+				[]
+			],
+			"blanks": [],
+			"mountingPoints": []
+		},
+		{
+			"location": "righttorso",
+			"weapons": [
+				[]
+			],
+			"blanks": [],
+			"mountingPoints": []
+		},
+		{
+			"location": "centertorso",
+			"weapons": [
+				[]
+			],
+			"blanks": [],
+			"mountingPoints": []
+		}
+	]
+}
