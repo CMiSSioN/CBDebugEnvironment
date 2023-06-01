@@ -2,7 +2,6 @@
   "ID": "hardpointdatadef_scorpionmech",
   "CustomHardpoints": {
     "prefabs": [
-      {"prefab": "chrprfweap_scorpionmech_ac2", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
       {"prefab": "chrprfweap_scorpionmech_ac5", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
       {"prefab": "chrprfweap_scorpionmech_gauss", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
       {"prefab": "chrprfweap_scorpionmech_large_laser", "attachType": "Turret", "attachOverride":"MainTurret", "shaderSrc": "chrPrfWeap_atlas_centertorso_laser_eh1", "emitters": [ "fire1" ] },
@@ -23,7 +22,7 @@
       "chrPrfWeap_scorpionmech_righttorso_srm4_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_srm6" },
       "chrPrfWeap_scorpionmech_righttorso_srm2_mh2": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_srm6" },
       "chrPrfWeap_scorpionmech_righttorso_ac5_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ac5" },
-      "chrPrfWeap_scorpionmech_righttorso_ac2_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ac2" },
+      "chrPrfWeap_scorpionmech_righttorso_ac2_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ac5" },
       "chrPrfWeap_scorpionmech_righttorso_ac10_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_ac5" },
       "chrPrfWeap_scorpionmech_righttorso_gauss_bh1": { "location": "righttorso", "prefab": "chrprfweap_scorpionmech_gauss" },			
       "chrPrfWeap_scorpionmech_lefttorso_lrm10_mh1": { "location": "lefttorso", "prefab": "chrprfweap_scorpionmech_lrm10" },

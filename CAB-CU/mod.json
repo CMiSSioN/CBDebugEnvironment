@@ -14,7 +14,6 @@
 		{ "Type": "CustomPrefabDef", "Path": "prefabs" },
 		
 	  { "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/chrprfmech_scorpionmechbase-001.prefab", "AssetBundleName": "chrprfmech_scorpion-001" },
-		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/chrprfweap_scorpionmech_ac2.prefab", "AssetBundleName": "chrprfmech_scorpion-001" },
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/chrprfweap_scorpionmech_ac5.prefab", "AssetBundleName": "chrprfmech_scorpion-001" },
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/chrprfweap_scorpionmech_gauss.prefab", "AssetBundleName": "chrprfmech_scorpion-001" },
 		{ "Type": "Prefab", "Path": "assets/character/mechs/components/prefabs/chrprfweap_scorpionmech_large_laser.prefab", "AssetBundleName": "chrprfmech_scorpion-001" },
@@ -1301,7 +1300,49 @@
 		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/chrprfweap_harpagos/chrprfweap_harpagos_righttorso_mg_bh2.prefab", "AssetBundleName": "chrprfmech_cuharpagosquadbase-001" },
 		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/chrprfweap_harpagos/chrprfweap_harpagos_righttorso_mg_bh3.prefab", "AssetBundleName": "chrprfmech_cuharpagosquadbase-001" },		
 		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/chrprfweap_harpagos/chrprfweap_harpagos_righttorso_srm6_mh2.prefab", "AssetBundleName": "chrprfmech_cuharpagosquadbase-001" },
-		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/chrprfweap_harpagos/chrprfweap_harpagos_righttorso_lrm10_mh2.prefab", "AssetBundleName": "chrprfmech_cuharpagosquadbase-001" }
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/chrprfweap_harpagos/chrprfweap_harpagos_righttorso_lrm10_mh2.prefab", "AssetBundleName": "chrprfmech_cuharpagosquadbase-001" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/chrprfmech_cuironcladbase-001.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_leftarm_ac20_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_leftarm_uac5_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_leftarm_gauss_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_leftarm_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_leftarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_srm6_mh4.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_laser_eh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_flamer_eh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_ppc_eh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_ppc_eh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_mg_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_mg_bh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_lefttorso_mg_bh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_rightarm_ac20_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_rightarm_uac5_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_rightarm_gauss_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_rightarm_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_rightarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_srm6_mh4.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_laser_eh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_flamer_eh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_ppc_eh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_ppc_eh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_mg_bh1.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_mg_bh2.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" },
+		{ "Type": "Prefab", "Path": "assets/character/mech/prefabs/ironclad/chrprfweap_ironclad_righttorso_mg_bh3.prefab", "AssetBundleName": "chrprfmech_cuironcladbase-001" }
 
   ]
 }
