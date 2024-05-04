@@ -5,6 +5,16 @@ this mod allows you next things
 4. Add custom animated hardpoints
 
 main settings in mod.json
+	"PreserveJsonUnitCost": true - if true unit's Description.Cost for units from DataManager will not be recalculated and preserve same as it is set in json
+	"VehcilesPartialEditable": false - if true vehicles are allowed to be edited partially, 
+	"CloseRangeFiringArc": 90.0
+	"CloseRangeFiringArcDistance": 40.0 - if distance form attacker to target is less than CloseRangeFiringArcDistance, its firing arc will be expanded to CloseRangeFiringArc
+	"VehicleComponentOneAllowed": "vehicle_one_allowed" - if component have this tag only one instance in not destroyed state allowed to be installed on vehicle in limited refit mode
+	"VehicleComponentForbiddenTag": "vehicle_forbidden" - if component have this tag can't be installed on vehicle in limited refit mode
+	"VehicleComponentCategoryTagPrefix": "vehicle_component_category_" - if component have this tags with this prefix it can only be replaced with component having at least one equal tag
+	                                                                   example: weapon having tags "vehicle_component_category_cat1" and "vehicle_component_category_cat2"
+																	            can only be replaced by weapon having either "vehicle_component_category_cat1" either "vehicle_component_category_cat2"
+																				tag
 	"SortBy": {
 		"orderByCbillValue":false,
 		"orderByNickname":false,
@@ -76,6 +86,8 @@ main settings in mod.json
     "ShowPassiveAbilitiesIcon": "ram",
     "HideActiveAbilitiesIcon": "futuristic",
     "HidePassiveAbilitiesIcon": "ram",
+	"globalGameRepresenationAudioEventsSupress": [], - list of audio events names to suppress. I'm using value [ "hatchet_latch" ] 
+	                                                   to suppress annoying hatchetman's clicking sound
 	"PlayerControlConvoyTag": "convoy_player_control" - tag added to lance's spawnEffects to turn on player controllable convoy to mechanic
 example from contract override definition:
 .............
@@ -743,6 +755,46 @@ Custom hit table
 		}
 	},
 }
+
+Animator Replacer
+you can create component can be used to replace animation from one mech model to another
+for example you can create component which gives hatchetman style melee animation to any other mech you want
+to do it you should add AnimatorReplacer custom component to Custom section of component you want
+"Custom": {
+	"AnimatorReplacer":{
+		"AnimationSource":"chrPrfMech_hatchetmanBase-001" - prefab used as source of animation clips
+	}
+},
+in example - if chrPrfMech_hatchetmanBase-001 is exists in player manifest (eg. DLC bought) 
+any mech having this component get hatchetman animation
+if AnimationSource prefab is absent is manifest - animations remains intact
+NOTE! this only works for "normal" mechs, trying to use this mechanic for vehicles, quads, troopers 
+can lead to unpredictable behavior.
+
+PilotingClassDef
+{
+  "Description": {
+    "Id": "QuadVeeClass",                         - unique id
+    "Name": "Mechs and Vehicles",                 - name
+    "Details": "Mechs and Vehicles"               - description
+  },
+  "UnitTags": [                                   - list of tags chassis should have to require this expertise from pilot
+    "QuadVee"
+  ],
+  "PilotTags": [                                  - list of tags pilot should have to be able to pilot this unit class
+    "can_pilot_generic_mech",
+    "can_pilot_generic_vehicle"
+  ],
+  "ExcludeClasses": [],                           - used in expertises auto-generation process. If this expertise generated for this pilot, 
+                                                    expertises from this list will not be generated for this pilot further
+  "expertiseGenerationChance": 0,                 - raw chance to generate this expertise 
+  "expertiseGenerationMinCount": 0,               - after 1-stage random expertises generation, on 2-stage algorithm ensures there are 
+                                                    at least <expertiseGenerationMinCount> pilots with this expertise in list
+  "additionalExpertisesCount": 0,                 - if this expertise been rolled for this pilot, algorithm will try to add up to <additionalExpertisesCount>
+													form <AdditionalClasses> list. 
+  "AdditionalClasses": [],                        - list of additional expertises fro this class
+}
+
 
 appendix A. Game's build-in audio events names in format '<name>':<id>
 id - just for info purposes
